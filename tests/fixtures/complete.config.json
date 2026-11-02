@@ -1,0 +1,198 @@
+{
+  "brandName": "保育士リトリート",
+  "canonicalOrigin": "https://hoiku-retreat.jp",
+  "contentUpdatedAt": "2026-11-01",
+  "operator": {
+    "type": "labor_union",
+    "legalName": "保育士リトリート労働組合",
+    "address": "東京都千代田区丸の内1-1-1",
+    "responsiblePerson": "山田花子",
+    "contact": "support@hoiku-retreat.jp",
+    "contactUrl": "https://hoiku-retreat.jp/contact/",
+    "hours": "平日 10:00-18:00",
+    "invoiceRegistrationNumber": "T1234567890123"
+  },
+  "channels": {
+    "ai": {
+      "url": "https://ai.hoiku-retreat.jp/",
+      "provider": "AI提供事業者A",
+      "feeDisclosure": "1回無料、以降は料金表のとおり",
+      "hoursDisclosure": "平日 9:00-18:00",
+      "requiresAccount": false,
+      "verified": true
+    },
+    "line": {
+      "id": "@AbCdEfG",
+      "url": "https://lin.ee/AbCdEfG",
+      "accountName": "保育士リトリート公式",
+      "feeDisclosure": "相談料は料金表のとおり",
+      "acceptanceHours": "平日 9:00-18:00",
+      "replyHours": "平日 10:00-18:00",
+      "formerChildcareWorkerProcess": "元保育士スタッフが返信",
+      "verified": true
+    },
+    "phone": {
+      "requestViaLine": false,
+      "requestUrl": null,
+      "number": "03-9876-5432",
+      "consultationFeeDisclosure": "30分 5,000円",
+      "callChargeDisclosure": "通話料は利用者負担",
+      "hours": "平日 10:00-18:00",
+      "reservationRequired": false,
+      "formerChildcareWorkerProcess": "元保育士スタッフが対応",
+      "verified": true
+    }
+  },
+  "service": {
+    "audience": "保育士",
+    "staffing": "元保育士スタッフがLINE・電話を担当",
+    "scope": {
+      "verified": true,
+      "consultation": [
+        "園への伝え方の整理",
+        "担任・年度途中の不安",
+        "退職までの進め方の整理"
+      ],
+      "unionSupport": [
+        "園への連絡",
+        "退職日や関連事項の調整"
+      ],
+      "individualReview": [
+        "有期契約",
+        "特別な雇用形態",
+        "公立施設勤務"
+      ],
+      "outOfScope": [
+        "保育士以外の職種への退職代行"
+      ]
+    },
+    "membershipConditions": "組合規約に基づき加入",
+    "cancellationRefundPolicy": "支援開始前は全額返金",
+    "contactPolicy": "本人への説明と同意なく勤務先へ連絡しません。",
+    "contactPolicyApproved": true,
+    "acceptsUndecided": true,
+    "consultationRelationNote": "相談料は支援料に含まれません"
+  },
+  "pricing": {
+    "items": [
+      {
+        "id": "ai-fee",
+        "group": "consultation",
+        "label": "保育特化AIチャット",
+        "amount": 0,
+        "unit": "",
+        "note": "税込",
+        "verified": true
+      },
+      {
+        "id": "line-fee",
+        "group": "consultation",
+        "label": "LINE相談",
+        "amount": 0,
+        "unit": "",
+        "note": "税込",
+        "verified": true
+      },
+      {
+        "id": "phone-fee",
+        "group": "consultation",
+        "label": "電話相談（相談料）",
+        "amount": 5000,
+        "unit": "（30分）",
+        "note": "税込",
+        "verified": true
+      },
+      {
+        "id": "support-fee",
+        "group": "support",
+        "label": "退職代行の支援料",
+        "amount": 30000,
+        "unit": "",
+        "note": "税込",
+        "verified": true
+      },
+      {
+        "id": "union-enrollment",
+        "group": "support",
+        "label": "組合加入金",
+        "amount": 5000,
+        "unit": "",
+        "note": "税込",
+        "verified": true
+      },
+      {
+        "id": "union-monthly",
+        "group": "support",
+        "label": "組合費（初回分）",
+        "amount": 1000,
+        "unit": "",
+        "note": "税込",
+        "verified": true
+      },
+      {
+        "id": "additional-costs",
+        "group": "support",
+        "label": "追加費用",
+        "amount": 0,
+        "unit": "",
+        "note": "通常は発生しません",
+        "verified": true
+      }
+    ],
+    "total": {
+      "componentIds": [
+        "support-fee",
+        "union-enrollment",
+        "union-monthly",
+        "additional-costs"
+      ],
+      "note": "支援料・加入金・初月会費の合計",
+      "verified": true
+    },
+    "taxStatus": "included",
+    "taxNote": "表示は税込",
+    "paymentMethods": "銀行振込",
+    "paymentTiming": "正式依頼時"
+  },
+  "staff": [
+    {
+      "name": "山田花子",
+      "role": "元保育士スタッフ",
+      "experience": "保育士として12年、担任・乳児クラスを経験",
+      "message": "現場の事情を伺いながら整理します",
+      "updatedAt": "2026-11-01",
+      "channels": ["line", "phone"],
+      "approved": true
+    }
+  ],
+  "legal": {
+    "privacyEffectiveDate": "2026-11-01",
+    "termsEffectiveDate": "2026-11-01",
+    "privacyContact": "privacy@hoiku-retreat.jp",
+    "retentionPeriod": "相談終了後3年",
+    "aiProvider": "AI提供事業者A",
+    "lineProvider": "LINEヤフー株式会社",
+    "analyticsProvider": null,
+    "hostingProvider": "静的ホスティング事業者",
+    "deletionMethod": "問い合わせ窓口への依頼により削除"
+  },
+  "claims": {
+    "freeConsultation": false,
+    "available24Hours": false,
+    "sameDayService": false,
+    "noAdditionalFees": false,
+    "anonymousConsultation": false
+  },
+  "analytics": {
+    "enabled": false,
+    "privacyApproved": false,
+    "provider": null
+  },
+  "publication": {
+    "businessApproved": true,
+    "privacyApproved": true,
+    "contentApproved": true,
+    "technicalVerified": true
+  },
+  "guides": []
+}

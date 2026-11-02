@@ -1,0 +1,188 @@
+{
+  "brandName": "保育士リトリート",
+  "canonicalOrigin": null,
+  "contentUpdatedAt": null,
+  "operator": {
+    "type": "labor_union",
+    "legalName": null,
+    "address": null,
+    "responsiblePerson": null,
+    "contact": null,
+    "contactUrl": null,
+    "hours": null,
+    "invoiceRegistrationNumber": null
+  },
+  "channels": {
+    "ai": {
+      "url": null,
+      "provider": "OpenAI API",
+      "feeDisclosure": "相談料無料",
+      "hoursDisclosure": null,
+      "requiresAccount": false,
+      "verified": false
+    },
+    "line": {
+      "id": "@897zpkws",
+      "url": "https://line.me/R/ti/p/%40897zpkws",
+      "accountName": null,
+      "feeDisclosure": "相談料無料",
+      "acceptanceHours": null,
+      "replyHours": null,
+      "formerChildcareWorkerProcess": null,
+      "verified": false
+    },
+    "phone": {
+      "requestViaLine": true,
+      "requestUrl": "https://line.me/R/oaMessage/%40897zpkws/?%E9%9B%BB%E8%A9%B1%E7%9B%B8%E8%AB%87%E5%B8%8C%E6%9C%9B",
+      "number": null,
+      "consultationFeeDisclosure": "相談料無料",
+      "callChargeDisclosure": null,
+      "hours": null,
+      "reservationRequired": null,
+      "formerChildcareWorkerProcess": "元保育士スタッフが担当します。",
+      "verified": false
+    }
+  },
+  "service": {
+    "audience": null,
+    "staffing": null,
+    "scope": {
+      "verified": false,
+      "consultation": [
+        "園への伝え方の整理",
+        "担任・年度途中の不安",
+        "退職までの進め方の整理"
+      ],
+      "unionSupport": [
+        "園への連絡",
+        "退職日や関連事項の調整"
+      ],
+      "individualReview": [
+        "有期契約",
+        "特別な雇用形態",
+        "公立施設勤務"
+      ],
+      "outOfScope": []
+    },
+    "membershipConditions": null,
+    "cancellationRefundPolicy": null,
+    "contactPolicy": "本人への説明と同意なく勤務先へ連絡しません。",
+    "contactPolicyApproved": false,
+    "acceptsUndecided": null,
+    "consultationRelationNote": "AI・LINE・電話の相談料は無料です。退職支援の総額とは別です。"
+  },
+  "pricing": {
+    "items": [
+      {
+        "id": "ai-fee",
+        "group": "consultation",
+        "label": "保育特化AIチャット",
+        "amount": 0,
+        "unit": "",
+        "note": "相談料無料",
+        "verified": true
+      },
+      {
+        "id": "line-fee",
+        "group": "consultation",
+        "label": "LINE相談",
+        "amount": 0,
+        "unit": "",
+        "note": "相談料無料",
+        "verified": true
+      },
+      {
+        "id": "phone-fee",
+        "group": "consultation",
+        "label": "電話相談（相談料）",
+        "amount": 0,
+        "unit": "",
+        "note": "相談料無料。通話料等の通信費は別途確認中",
+        "verified": true
+      },
+      {
+        "id": "support-fee",
+        "group": "support",
+        "label": "退職代行の支援料",
+        "amount": null,
+        "unit": "",
+        "note": null,
+        "verified": false
+      },
+      {
+        "id": "union-enrollment",
+        "group": "support",
+        "label": "組合加入金",
+        "amount": null,
+        "unit": "",
+        "note": null,
+        "verified": false
+      },
+      {
+        "id": "union-monthly",
+        "group": "support",
+        "label": "組合費（初回分）",
+        "amount": null,
+        "unit": "",
+        "note": null,
+        "verified": false
+      },
+      {
+        "id": "additional-costs",
+        "group": "support",
+        "label": "追加費用",
+        "amount": null,
+        "unit": "",
+        "note": null,
+        "verified": false
+      }
+    ],
+    "total": {
+      "fixedAmount": 24800,
+      "condition": "就業から6年以内",
+      "componentIds": [
+        "support-fee",
+        "union-enrollment",
+        "union-monthly",
+        "additional-costs"
+      ],
+      "note": "「就業から6年以内」の場合の退職支援の税込総額です。相談料は無料です。内訳とその他の適用条件は確認中です。",
+      "verified": true
+    },
+    "taxStatus": "included",
+    "taxNote": "退職支援の総額は税込（「就業から6年以内」の場合）",
+    "paymentMethods": null,
+    "paymentTiming": null
+  },
+  "staff": [],
+  "legal": {
+    "privacyEffectiveDate": null,
+    "termsEffectiveDate": null,
+    "privacyContact": null,
+    "retentionPeriod": null,
+    "aiProvider": "OpenAI API",
+    "lineProvider": null,
+    "analyticsProvider": null,
+    "hostingProvider": null,
+    "deletionMethod": null
+  },
+  "claims": {
+    "freeConsultation": false,
+    "available24Hours": false,
+    "sameDayService": false,
+    "noAdditionalFees": false,
+    "anonymousConsultation": false
+  },
+  "analytics": {
+    "enabled": false,
+    "privacyApproved": false,
+    "provider": null
+  },
+  "publication": {
+    "businessApproved": false,
+    "privacyApproved": false,
+    "contentApproved": false,
+    "technicalVerified": false
+  },
+  "guides": []
+}

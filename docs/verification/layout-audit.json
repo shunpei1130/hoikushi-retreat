@@ -1,0 +1,1895 @@
+{
+  "generatedAt": "2026-11-02T10:29:53.874Z",
+  "baseUrl": "http://127.0.0.1:4174/",
+  "widths": [
+    {
+      "width": 360,
+      "screenshot": "screenshots/preview/width-360.png",
+      "documentHeight": 15551,
+      "viewport": {
+        "width": 360,
+        "height": 844
+      },
+      "title": "保育士の退職代行｜元保育士にLINE・電話相談｜リトリート",
+      "lang": "ja",
+      "h1Count": 1,
+      "headings": [
+        {
+          "level": 1,
+          "text": "保育士の退職代行。保育の悩みから、相談できる。"
+        },
+        {
+          "level": 2,
+          "text": "相談方法を選ぶ"
+        },
+        {
+          "level": 2,
+          "text": "あなたに合う、3つの相談方法"
+        },
+        {
+          "level": 3,
+          "text": "保育の悩みを、チャットで整理する"
+        },
+        {
+          "level": 3,
+          "text": "保育特化AIにチャットで聞く"
+        },
+        {
+          "level": 3,
+          "text": "元保育士にLINEで相談する"
+        },
+        {
+          "level": 3,
+          "text": "元保育士に電話で相談する"
+        },
+        {
+          "level": 3,
+          "text": "人に相談したいときは、LINEから。"
+        },
+        {
+          "level": 2,
+          "text": "こんなことも、相談できます"
+        },
+        {
+          "level": 2,
+          "text": "費用と対応範囲を、先に確認。"
+        },
+        {
+          "level": 2,
+          "text": "保育の現場を経験したスタッフが、お話を伺います"
+        },
+        {
+          "level": 3,
+          "text": "スタッフ情報は公開前に確定します"
+        },
+        {
+          "level": 2,
+          "text": "退職支援は、運営する労働組合が担当します"
+        },
+        {
+          "level": 2,
+          "text": "ご相談から、退職に向けた支援まで"
+        },
+        {
+          "level": 3,
+          "text": "相談できること"
+        },
+        {
+          "level": 3,
+          "text": "組合が担当する支援"
+        },
+        {
+          "level": 3,
+          "text": "個別確認が必要なこと"
+        },
+        {
+          "level": 3,
+          "text": "現在の体制で扱わないこと"
+        },
+        {
+          "level": 2,
+          "text": "ご利用の流れ"
+        },
+        {
+          "level": 3,
+          "text": "相談する"
+        },
+        {
+          "level": 3,
+          "text": "状況と希望を確認"
+        },
+        {
+          "level": 3,
+          "text": "正式依頼と必要な組合加入"
+        },
+        {
+          "level": 3,
+          "text": "連絡内容・希望の確認"
+        },
+        {
+          "level": 3,
+          "text": "組合による連絡・調整"
+        },
+        {
+          "level": 3,
+          "text": "後続手続きの案内"
+        },
+        {
+          "level": 2,
+          "text": "料金と組合加入について"
+        },
+        {
+          "level": 3,
+          "text": "相談"
+        },
+        {
+          "level": 3,
+          "text": "退職支援"
+        },
+        {
+          "level": 3,
+          "text": "支払い・条件"
+        },
+        {
+          "level": 2,
+          "text": "よくあるご質問"
+        },
+        {
+          "level": 2,
+          "text": "話しやすい方法から、始めてください。"
+        },
+        {
+          "level": 2,
+          "text": "相談方法"
+        },
+        {
+          "level": 2,
+          "text": "運営情報"
+        },
+        {
+          "level": 2,
+          "text": "お問い合わせ"
+        },
+        {
+          "level": 2,
+          "text": "公開前に確認する項目"
+        }
+      ],
+      "duplicateIds": [],
+      "horizontalOverflow": 0,
+      "overflowElements": [
+        {
+          "tag": "div",
+          "className": "hero__wash",
+          "id": "",
+          "right": 396,
+          "width": 420
+        }
+      ],
+      "smallControls": [],
+      "heroMethods": [
+        {
+          "channel": "ai",
+          "top": 417,
+          "bottom": 552,
+          "inFirstScreen": true,
+          "fullyInFirstScreen": true
+        },
+        {
+          "channel": "line",
+          "top": 561,
+          "bottom": 696,
+          "inFirstScreen": true,
+          "fullyInFirstScreen": true
+        },
+        {
+          "channel": "phone",
+          "top": 705,
+          "bottom": 840,
+          "inFirstScreen": true,
+          "fullyInFirstScreen": true
+        }
+      ],
+      "heroTitleBottom": 235,
+      "bodyHeight": 15551,
+      "mainTextLength": 11532,
+      "internalLinks": 11,
+      "telLinks": 0
+    },
+    {
+      "width": 390,
+      "screenshot": "screenshots/preview/width-390.png",
+      "documentHeight": 15035,
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "title": "保育士の退職代行｜元保育士にLINE・電話相談｜リトリート",
+      "lang": "ja",
+      "h1Count": 1,
+      "headings": [
+        {
+          "level": 1,
+          "text": "保育士の退職代行。保育の悩みから、相談できる。"
+        },
+        {
+          "level": 2,
+          "text": "相談方法を選ぶ"
+        },
+        {
+          "level": 2,
+          "text": "あなたに合う、3つの相談方法"
+        },
+        {
+          "level": 3,
+          "text": "保育の悩みを、チャットで整理する"
+        },
+        {
+          "level": 3,
+          "text": "保育特化AIにチャットで聞く"
+        },
+        {
+          "level": 3,
+          "text": "元保育士にLINEで相談する"
+        },
+        {
+          "level": 3,
+          "text": "元保育士に電話で相談する"
+        },
+        {
+          "level": 3,
+          "text": "人に相談したいときは、LINEから。"
+        },
+        {
+          "level": 2,
+          "text": "こんなことも、相談できます"
+        },
+        {
+          "level": 2,
+          "text": "費用と対応範囲を、先に確認。"
+        },
+        {
+          "level": 2,
+          "text": "保育の現場を経験したスタッフが、お話を伺います"
+        },
+        {
+          "level": 3,
+          "text": "スタッフ情報は公開前に確定します"
+        },
+        {
+          "level": 2,
+          "text": "退職支援は、運営する労働組合が担当します"
+        },
+        {
+          "level": 2,
+          "text": "ご相談から、退職に向けた支援まで"
+        },
+        {
+          "level": 3,
+          "text": "相談できること"
+        },
+        {
+          "level": 3,
+          "text": "組合が担当する支援"
+        },
+        {
+          "level": 3,
+          "text": "個別確認が必要なこと"
+        },
+        {
+          "level": 3,
+          "text": "現在の体制で扱わないこと"
+        },
+        {
+          "level": 2,
+          "text": "ご利用の流れ"
+        },
+        {
+          "level": 3,
+          "text": "相談する"
+        },
+        {
+          "level": 3,
+          "text": "状況と希望を確認"
+        },
+        {
+          "level": 3,
+          "text": "正式依頼と必要な組合加入"
+        },
+        {
+          "level": 3,
+          "text": "連絡内容・希望の確認"
+        },
+        {
+          "level": 3,
+          "text": "組合による連絡・調整"
+        },
+        {
+          "level": 3,
+          "text": "後続手続きの案内"
+        },
+        {
+          "level": 2,
+          "text": "料金と組合加入について"
+        },
+        {
+          "level": 3,
+          "text": "相談"
+        },
+        {
+          "level": 3,
+          "text": "退職支援"
+        },
+        {
+          "level": 3,
+          "text": "支払い・条件"
+        },
+        {
+          "level": 2,
+          "text": "よくあるご質問"
+        },
+        {
+          "level": 2,
+          "text": "話しやすい方法から、始めてください。"
+        },
+        {
+          "level": 2,
+          "text": "相談方法"
+        },
+        {
+          "level": 2,
+          "text": "運営情報"
+        },
+        {
+          "level": 2,
+          "text": "お問い合わせ"
+        },
+        {
+          "level": 2,
+          "text": "公開前に確認する項目"
+        }
+      ],
+      "duplicateIds": [],
+      "horizontalOverflow": 0,
+      "overflowElements": [
+        {
+          "tag": "div",
+          "className": "hero__wash",
+          "id": "",
+          "right": 429,
+          "width": 420
+        }
+      ],
+      "smallControls": [],
+      "heroMethods": [
+        {
+          "channel": "ai",
+          "top": 420,
+          "bottom": 555,
+          "inFirstScreen": true,
+          "fullyInFirstScreen": true
+        },
+        {
+          "channel": "line",
+          "top": 564,
+          "bottom": 699,
+          "inFirstScreen": true,
+          "fullyInFirstScreen": true
+        },
+        {
+          "channel": "phone",
+          "top": 708,
+          "bottom": 843,
+          "inFirstScreen": true,
+          "fullyInFirstScreen": true
+        }
+      ],
+      "heroTitleBottom": 238,
+      "bodyHeight": 15035,
+      "mainTextLength": 11532,
+      "internalLinks": 11,
+      "telLinks": 0
+    },
+    {
+      "width": 430,
+      "screenshot": "screenshots/preview/width-430.png",
+      "documentHeight": 14836,
+      "viewport": {
+        "width": 430,
+        "height": 844
+      },
+      "title": "保育士の退職代行｜元保育士にLINE・電話相談｜リトリート",
+      "lang": "ja",
+      "h1Count": 1,
+      "headings": [
+        {
+          "level": 1,
+          "text": "保育士の退職代行。保育の悩みから、相談できる。"
+        },
+        {
+          "level": 2,
+          "text": "相談方法を選ぶ"
+        },
+        {
+          "level": 2,
+          "text": "あなたに合う、3つの相談方法"
+        },
+        {
+          "level": 3,
+          "text": "保育の悩みを、チャットで整理する"
+        },
+        {
+          "level": 3,
+          "text": "保育特化AIにチャットで聞く"
+        },
+        {
+          "level": 3,
+          "text": "元保育士にLINEで相談する"
+        },
+        {
+          "level": 3,
+          "text": "元保育士に電話で相談する"
+        },
+        {
+          "level": 3,
+          "text": "人に相談したいときは、LINEから。"
+        },
+        {
+          "level": 2,
+          "text": "こんなことも、相談できます"
+        },
+        {
+          "level": 2,
+          "text": "費用と対応範囲を、先に確認。"
+        },
+        {
+          "level": 2,
+          "text": "保育の現場を経験したスタッフが、お話を伺います"
+        },
+        {
+          "level": 3,
+          "text": "スタッフ情報は公開前に確定します"
+        },
+        {
+          "level": 2,
+          "text": "退職支援は、運営する労働組合が担当します"
+        },
+        {
+          "level": 2,
+          "text": "ご相談から、退職に向けた支援まで"
+        },
+        {
+          "level": 3,
+          "text": "相談できること"
+        },
+        {
+          "level": 3,
+          "text": "組合が担当する支援"
+        },
+        {
+          "level": 3,
+          "text": "個別確認が必要なこと"
+        },
+        {
+          "level": 3,
+          "text": "現在の体制で扱わないこと"
+        },
+        {
+          "level": 2,
+          "text": "ご利用の流れ"
+        },
+        {
+          "level": 3,
+          "text": "相談する"
+        },
+        {
+          "level": 3,
+          "text": "状況と希望を確認"
+        },
+        {
+          "level": 3,
+          "text": "正式依頼と必要な組合加入"
+        },
+        {
+          "level": 3,
+          "text": "連絡内容・希望の確認"
+        },
+        {
+          "level": 3,
+          "text": "組合による連絡・調整"
+        },
+        {
+          "level": 3,
+          "text": "後続手続きの案内"
+        },
+        {
+          "level": 2,
+          "text": "料金と組合加入について"
+        },
+        {
+          "level": 3,
+          "text": "相談"
+        },
+        {
+          "level": 3,
+          "text": "退職支援"
+        },
+        {
+          "level": 3,
+          "text": "支払い・条件"
+        },
+        {
+          "level": 2,
+          "text": "よくあるご質問"
+        },
+        {
+          "level": 2,
+          "text": "話しやすい方法から、始めてください。"
+        },
+        {
+          "level": 2,
+          "text": "相談方法"
+        },
+        {
+          "level": 2,
+          "text": "運営情報"
+        },
+        {
+          "level": 2,
+          "text": "お問い合わせ"
+        },
+        {
+          "level": 2,
+          "text": "公開前に確認する項目"
+        }
+      ],
+      "duplicateIds": [],
+      "horizontalOverflow": 0,
+      "overflowElements": [
+        {
+          "tag": "div",
+          "className": "hero__wash",
+          "id": "",
+          "right": 473,
+          "width": 420
+        }
+      ],
+      "smallControls": [],
+      "heroMethods": [
+        {
+          "channel": "ai",
+          "top": 421,
+          "bottom": 555,
+          "inFirstScreen": true,
+          "fullyInFirstScreen": true
+        },
+        {
+          "channel": "line",
+          "top": 564,
+          "bottom": 699,
+          "inFirstScreen": true,
+          "fullyInFirstScreen": true
+        },
+        {
+          "channel": "phone",
+          "top": 708,
+          "bottom": 843,
+          "inFirstScreen": true,
+          "fullyInFirstScreen": true
+        }
+      ],
+      "heroTitleBottom": 238,
+      "bodyHeight": 14836,
+      "mainTextLength": 11532,
+      "internalLinks": 11,
+      "telLinks": 0
+    },
+    {
+      "width": 768,
+      "screenshot": "screenshots/preview/width-768.png",
+      "documentHeight": 12763,
+      "viewport": {
+        "width": 768,
+        "height": 900
+      },
+      "title": "保育士の退職代行｜元保育士にLINE・電話相談｜リトリート",
+      "lang": "ja",
+      "h1Count": 1,
+      "headings": [
+        {
+          "level": 1,
+          "text": "保育士の退職代行。保育の悩みから、相談できる。"
+        },
+        {
+          "level": 2,
+          "text": "相談方法を選ぶ"
+        },
+        {
+          "level": 2,
+          "text": "あなたに合う、3つの相談方法"
+        },
+        {
+          "level": 3,
+          "text": "保育の悩みを、チャットで整理する"
+        },
+        {
+          "level": 3,
+          "text": "保育特化AIにチャットで聞く"
+        },
+        {
+          "level": 3,
+          "text": "元保育士にLINEで相談する"
+        },
+        {
+          "level": 3,
+          "text": "元保育士に電話で相談する"
+        },
+        {
+          "level": 3,
+          "text": "人に相談したいときは、LINEから。"
+        },
+        {
+          "level": 2,
+          "text": "こんなことも、相談できます"
+        },
+        {
+          "level": 2,
+          "text": "費用と対応範囲を、先に確認。"
+        },
+        {
+          "level": 2,
+          "text": "保育の現場を経験したスタッフが、お話を伺います"
+        },
+        {
+          "level": 3,
+          "text": "スタッフ情報は公開前に確定します"
+        },
+        {
+          "level": 2,
+          "text": "退職支援は、運営する労働組合が担当します"
+        },
+        {
+          "level": 2,
+          "text": "ご相談から、退職に向けた支援まで"
+        },
+        {
+          "level": 3,
+          "text": "相談できること"
+        },
+        {
+          "level": 3,
+          "text": "組合が担当する支援"
+        },
+        {
+          "level": 3,
+          "text": "個別確認が必要なこと"
+        },
+        {
+          "level": 3,
+          "text": "現在の体制で扱わないこと"
+        },
+        {
+          "level": 2,
+          "text": "ご利用の流れ"
+        },
+        {
+          "level": 3,
+          "text": "相談する"
+        },
+        {
+          "level": 3,
+          "text": "状況と希望を確認"
+        },
+        {
+          "level": 3,
+          "text": "正式依頼と必要な組合加入"
+        },
+        {
+          "level": 3,
+          "text": "連絡内容・希望の確認"
+        },
+        {
+          "level": 3,
+          "text": "組合による連絡・調整"
+        },
+        {
+          "level": 3,
+          "text": "後続手続きの案内"
+        },
+        {
+          "level": 2,
+          "text": "料金と組合加入について"
+        },
+        {
+          "level": 3,
+          "text": "相談"
+        },
+        {
+          "level": 3,
+          "text": "退職支援"
+        },
+        {
+          "level": 3,
+          "text": "支払い・条件"
+        },
+        {
+          "level": 2,
+          "text": "よくあるご質問"
+        },
+        {
+          "level": 2,
+          "text": "話しやすい方法から、始めてください。"
+        },
+        {
+          "level": 2,
+          "text": "相談方法"
+        },
+        {
+          "level": 2,
+          "text": "運営情報"
+        },
+        {
+          "level": 2,
+          "text": "お問い合わせ"
+        },
+        {
+          "level": 2,
+          "text": "公開前に確認する項目"
+        }
+      ],
+      "duplicateIds": [],
+      "horizontalOverflow": 0,
+      "overflowElements": [
+        {
+          "tag": "div",
+          "className": "hero__wash",
+          "id": "",
+          "right": 845,
+          "width": 420
+        }
+      ],
+      "smallControls": [],
+      "heroMethods": [
+        {
+          "channel": "ai",
+          "top": 522,
+          "bottom": 672,
+          "inFirstScreen": true,
+          "fullyInFirstScreen": true
+        },
+        {
+          "channel": "line",
+          "top": 681,
+          "bottom": 832,
+          "inFirstScreen": true,
+          "fullyInFirstScreen": true
+        },
+        {
+          "channel": "phone",
+          "top": 841,
+          "bottom": 991,
+          "inFirstScreen": true,
+          "fullyInFirstScreen": false
+        }
+      ],
+      "heroTitleBottom": 312,
+      "bodyHeight": 12763,
+      "mainTextLength": 11532,
+      "internalLinks": 11,
+      "telLinks": 0
+    },
+    {
+      "width": 1280,
+      "screenshot": "screenshots/preview/width-1280.png",
+      "documentHeight": 10778,
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "title": "保育士の退職代行｜元保育士にLINE・電話相談｜リトリート",
+      "lang": "ja",
+      "h1Count": 1,
+      "headings": [
+        {
+          "level": 1,
+          "text": "保育士の退職代行。保育の悩みから、相談できる。"
+        },
+        {
+          "level": 2,
+          "text": "相談方法を選ぶ"
+        },
+        {
+          "level": 2,
+          "text": "あなたに合う、3つの相談方法"
+        },
+        {
+          "level": 3,
+          "text": "保育の悩みを、チャットで整理する"
+        },
+        {
+          "level": 3,
+          "text": "保育特化AIにチャットで聞く"
+        },
+        {
+          "level": 3,
+          "text": "元保育士にLINEで相談する"
+        },
+        {
+          "level": 3,
+          "text": "元保育士に電話で相談する"
+        },
+        {
+          "level": 3,
+          "text": "人に相談したいときは、LINEから。"
+        },
+        {
+          "level": 2,
+          "text": "こんなことも、相談できます"
+        },
+        {
+          "level": 2,
+          "text": "費用と対応範囲を、先に確認。"
+        },
+        {
+          "level": 2,
+          "text": "保育の現場を経験したスタッフが、お話を伺います"
+        },
+        {
+          "level": 3,
+          "text": "スタッフ情報は公開前に確定します"
+        },
+        {
+          "level": 2,
+          "text": "退職支援は、運営する労働組合が担当します"
+        },
+        {
+          "level": 2,
+          "text": "ご相談から、退職に向けた支援まで"
+        },
+        {
+          "level": 3,
+          "text": "相談できること"
+        },
+        {
+          "level": 3,
+          "text": "組合が担当する支援"
+        },
+        {
+          "level": 3,
+          "text": "個別確認が必要なこと"
+        },
+        {
+          "level": 3,
+          "text": "現在の体制で扱わないこと"
+        },
+        {
+          "level": 2,
+          "text": "ご利用の流れ"
+        },
+        {
+          "level": 3,
+          "text": "相談する"
+        },
+        {
+          "level": 3,
+          "text": "状況と希望を確認"
+        },
+        {
+          "level": 3,
+          "text": "正式依頼と必要な組合加入"
+        },
+        {
+          "level": 3,
+          "text": "連絡内容・希望の確認"
+        },
+        {
+          "level": 3,
+          "text": "組合による連絡・調整"
+        },
+        {
+          "level": 3,
+          "text": "後続手続きの案内"
+        },
+        {
+          "level": 2,
+          "text": "料金と組合加入について"
+        },
+        {
+          "level": 3,
+          "text": "相談"
+        },
+        {
+          "level": 3,
+          "text": "退職支援"
+        },
+        {
+          "level": 3,
+          "text": "支払い・条件"
+        },
+        {
+          "level": 2,
+          "text": "よくあるご質問"
+        },
+        {
+          "level": 2,
+          "text": "話しやすい方法から、始めてください。"
+        },
+        {
+          "level": 2,
+          "text": "相談方法"
+        },
+        {
+          "level": 2,
+          "text": "運営情報"
+        },
+        {
+          "level": 2,
+          "text": "お問い合わせ"
+        },
+        {
+          "level": 2,
+          "text": "公開前に確認する項目"
+        }
+      ],
+      "duplicateIds": [],
+      "horizontalOverflow": 0,
+      "overflowElements": [
+        {
+          "tag": "div",
+          "className": "hero__wash",
+          "id": "",
+          "right": 1408,
+          "width": 691
+        }
+      ],
+      "smallControls": [],
+      "heroMethods": [
+        {
+          "channel": "ai",
+          "top": 298,
+          "bottom": 448,
+          "inFirstScreen": true,
+          "fullyInFirstScreen": true
+        },
+        {
+          "channel": "line",
+          "top": 457,
+          "bottom": 608,
+          "inFirstScreen": true,
+          "fullyInFirstScreen": true
+        },
+        {
+          "channel": "phone",
+          "top": 617,
+          "bottom": 767,
+          "inFirstScreen": true,
+          "fullyInFirstScreen": true
+        }
+      ],
+      "heroTitleBottom": 493,
+      "bodyHeight": 10778,
+      "mainTextLength": 11532,
+      "internalLinks": 11,
+      "telLinks": 0
+    },
+    {
+      "width": 1440,
+      "screenshot": "screenshots/preview/width-1440.png",
+      "documentHeight": 10862,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "title": "保育士の退職代行｜元保育士にLINE・電話相談｜リトリート",
+      "lang": "ja",
+      "h1Count": 1,
+      "headings": [
+        {
+          "level": 1,
+          "text": "保育士の退職代行。保育の悩みから、相談できる。"
+        },
+        {
+          "level": 2,
+          "text": "相談方法を選ぶ"
+        },
+        {
+          "level": 2,
+          "text": "あなたに合う、3つの相談方法"
+        },
+        {
+          "level": 3,
+          "text": "保育の悩みを、チャットで整理する"
+        },
+        {
+          "level": 3,
+          "text": "保育特化AIにチャットで聞く"
+        },
+        {
+          "level": 3,
+          "text": "元保育士にLINEで相談する"
+        },
+        {
+          "level": 3,
+          "text": "元保育士に電話で相談する"
+        },
+        {
+          "level": 3,
+          "text": "人に相談したいときは、LINEから。"
+        },
+        {
+          "level": 2,
+          "text": "こんなことも、相談できます"
+        },
+        {
+          "level": 2,
+          "text": "費用と対応範囲を、先に確認。"
+        },
+        {
+          "level": 2,
+          "text": "保育の現場を経験したスタッフが、お話を伺います"
+        },
+        {
+          "level": 3,
+          "text": "スタッフ情報は公開前に確定します"
+        },
+        {
+          "level": 2,
+          "text": "退職支援は、運営する労働組合が担当します"
+        },
+        {
+          "level": 2,
+          "text": "ご相談から、退職に向けた支援まで"
+        },
+        {
+          "level": 3,
+          "text": "相談できること"
+        },
+        {
+          "level": 3,
+          "text": "組合が担当する支援"
+        },
+        {
+          "level": 3,
+          "text": "個別確認が必要なこと"
+        },
+        {
+          "level": 3,
+          "text": "現在の体制で扱わないこと"
+        },
+        {
+          "level": 2,
+          "text": "ご利用の流れ"
+        },
+        {
+          "level": 3,
+          "text": "相談する"
+        },
+        {
+          "level": 3,
+          "text": "状況と希望を確認"
+        },
+        {
+          "level": 3,
+          "text": "正式依頼と必要な組合加入"
+        },
+        {
+          "level": 3,
+          "text": "連絡内容・希望の確認"
+        },
+        {
+          "level": 3,
+          "text": "組合による連絡・調整"
+        },
+        {
+          "level": 3,
+          "text": "後続手続きの案内"
+        },
+        {
+          "level": 2,
+          "text": "料金と組合加入について"
+        },
+        {
+          "level": 3,
+          "text": "相談"
+        },
+        {
+          "level": 3,
+          "text": "退職支援"
+        },
+        {
+          "level": 3,
+          "text": "支払い・条件"
+        },
+        {
+          "level": 2,
+          "text": "よくあるご質問"
+        },
+        {
+          "level": 2,
+          "text": "話しやすい方法から、始めてください。"
+        },
+        {
+          "level": 2,
+          "text": "相談方法"
+        },
+        {
+          "level": 2,
+          "text": "運営情報"
+        },
+        {
+          "level": 2,
+          "text": "お問い合わせ"
+        },
+        {
+          "level": 2,
+          "text": "公開前に確認する項目"
+        }
+      ],
+      "duplicateIds": [],
+      "horizontalOverflow": 0,
+      "overflowElements": [
+        {
+          "tag": "div",
+          "className": "hero__wash",
+          "id": "",
+          "right": 1584,
+          "width": 778
+        }
+      ],
+      "smallControls": [],
+      "heroMethods": [
+        {
+          "channel": "ai",
+          "top": 298,
+          "bottom": 448,
+          "inFirstScreen": true,
+          "fullyInFirstScreen": true
+        },
+        {
+          "channel": "line",
+          "top": 457,
+          "bottom": 608,
+          "inFirstScreen": true,
+          "fullyInFirstScreen": true
+        },
+        {
+          "channel": "phone",
+          "top": 617,
+          "bottom": 767,
+          "inFirstScreen": true,
+          "fullyInFirstScreen": true
+        }
+      ],
+      "heroTitleBottom": 497,
+      "bodyHeight": 10862,
+      "mainTextLength": 11532,
+      "internalLinks": 11,
+      "telLinks": 0
+    }
+  ],
+  "innerPages": [
+    {
+      "route": "/about/",
+      "width": 390,
+      "screenshot": "screenshots/preview/page-about-390.png",
+      "documentHeight": 4449,
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "title": "運営情報・労働組合について｜保育士リトリート",
+      "lang": "ja",
+      "h1Count": 1,
+      "headings": [
+        {
+          "level": 1,
+          "text": "運営する労働組合と、相談体制について。"
+        },
+        {
+          "level": 2,
+          "text": "運営組織"
+        },
+        {
+          "level": 2,
+          "text": "サービスとの関係"
+        },
+        {
+          "level": 2,
+          "text": "相談体制"
+        },
+        {
+          "level": 3,
+          "text": "スタッフ情報は公開前に確定します"
+        },
+        {
+          "level": 2,
+          "text": "対応範囲"
+        },
+        {
+          "level": 2,
+          "text": "開示情報・問い合わせ"
+        },
+        {
+          "level": 2,
+          "text": "相談方法"
+        },
+        {
+          "level": 2,
+          "text": "運営情報"
+        },
+        {
+          "level": 2,
+          "text": "お問い合わせ"
+        },
+        {
+          "level": 2,
+          "text": "公開前に確認する項目"
+        }
+      ],
+      "duplicateIds": [],
+      "horizontalOverflow": 0,
+      "overflowElements": [],
+      "smallControls": [],
+      "heroMethods": [],
+      "heroTitleBottom": 288,
+      "bodyHeight": 4449,
+      "mainTextLength": 2570,
+      "internalLinks": 21,
+      "telLinks": 0
+    },
+    {
+      "route": "/about/",
+      "width": 1440,
+      "screenshot": "screenshots/preview/page-about-1440.png",
+      "documentHeight": 3324,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "title": "運営情報・労働組合について｜保育士リトリート",
+      "lang": "ja",
+      "h1Count": 1,
+      "headings": [
+        {
+          "level": 1,
+          "text": "運営する労働組合と、相談体制について。"
+        },
+        {
+          "level": 2,
+          "text": "運営組織"
+        },
+        {
+          "level": 2,
+          "text": "サービスとの関係"
+        },
+        {
+          "level": 2,
+          "text": "相談体制"
+        },
+        {
+          "level": 3,
+          "text": "スタッフ情報は公開前に確定します"
+        },
+        {
+          "level": 2,
+          "text": "対応範囲"
+        },
+        {
+          "level": 2,
+          "text": "開示情報・問い合わせ"
+        },
+        {
+          "level": 2,
+          "text": "相談方法"
+        },
+        {
+          "level": 2,
+          "text": "運営情報"
+        },
+        {
+          "level": 2,
+          "text": "お問い合わせ"
+        },
+        {
+          "level": 2,
+          "text": "公開前に確認する項目"
+        }
+      ],
+      "duplicateIds": [],
+      "horizontalOverflow": 0,
+      "overflowElements": [],
+      "smallControls": [],
+      "heroMethods": [],
+      "heroTitleBottom": 379,
+      "bodyHeight": 3324,
+      "mainTextLength": 2570,
+      "internalLinks": 21,
+      "telLinks": 0
+    },
+    {
+      "route": "/privacy/",
+      "width": 390,
+      "screenshot": "screenshots/preview/page-privacy-390.png",
+      "documentHeight": 6303,
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "title": "個人情報・相談情報の取扱い｜保育士リトリート",
+      "lang": "ja",
+      "h1Count": 1,
+      "headings": [
+        {
+          "level": 1,
+          "text": "個人情報と、相談情報の取扱い。"
+        },
+        {
+          "level": 2,
+          "text": "基本方針"
+        },
+        {
+          "level": 2,
+          "text": "取得する情報"
+        },
+        {
+          "level": 2,
+          "text": "利用目的"
+        },
+        {
+          "level": 2,
+          "text": "AIチャット"
+        },
+        {
+          "level": 2,
+          "text": "LINE・電話相談"
+        },
+        {
+          "level": 2,
+          "text": "アクセス解析・Cookie"
+        },
+        {
+          "level": 2,
+          "text": "第三者提供・委託"
+        },
+        {
+          "level": 2,
+          "text": "保存期間・削除"
+        },
+        {
+          "level": 2,
+          "text": "開示等の請求"
+        },
+        {
+          "level": 2,
+          "text": "お問い合わせ・改定"
+        },
+        {
+          "level": 2,
+          "text": "相談方法"
+        },
+        {
+          "level": 2,
+          "text": "運営情報"
+        },
+        {
+          "level": 2,
+          "text": "お問い合わせ"
+        },
+        {
+          "level": 2,
+          "text": "公開前に確認する項目"
+        }
+      ],
+      "duplicateIds": [],
+      "horizontalOverflow": 0,
+      "overflowElements": [],
+      "smallControls": [],
+      "heroMethods": [],
+      "heroTitleBottom": 288,
+      "bodyHeight": 6303,
+      "mainTextLength": 4316,
+      "internalLinks": 17,
+      "telLinks": 0
+    },
+    {
+      "route": "/privacy/",
+      "width": 1440,
+      "screenshot": "screenshots/preview/page-privacy-1440.png",
+      "documentHeight": 4807,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "title": "個人情報・相談情報の取扱い｜保育士リトリート",
+      "lang": "ja",
+      "h1Count": 1,
+      "headings": [
+        {
+          "level": 1,
+          "text": "個人情報と、相談情報の取扱い。"
+        },
+        {
+          "level": 2,
+          "text": "基本方針"
+        },
+        {
+          "level": 2,
+          "text": "取得する情報"
+        },
+        {
+          "level": 2,
+          "text": "利用目的"
+        },
+        {
+          "level": 2,
+          "text": "AIチャット"
+        },
+        {
+          "level": 2,
+          "text": "LINE・電話相談"
+        },
+        {
+          "level": 2,
+          "text": "アクセス解析・Cookie"
+        },
+        {
+          "level": 2,
+          "text": "第三者提供・委託"
+        },
+        {
+          "level": 2,
+          "text": "保存期間・削除"
+        },
+        {
+          "level": 2,
+          "text": "開示等の請求"
+        },
+        {
+          "level": 2,
+          "text": "お問い合わせ・改定"
+        },
+        {
+          "level": 2,
+          "text": "相談方法"
+        },
+        {
+          "level": 2,
+          "text": "運営情報"
+        },
+        {
+          "level": 2,
+          "text": "お問い合わせ"
+        },
+        {
+          "level": 2,
+          "text": "公開前に確認する項目"
+        }
+      ],
+      "duplicateIds": [],
+      "horizontalOverflow": 0,
+      "overflowElements": [],
+      "smallControls": [],
+      "heroMethods": [],
+      "heroTitleBottom": 379,
+      "bodyHeight": 4807,
+      "mainTextLength": 4316,
+      "internalLinks": 17,
+      "telLinks": 0
+    },
+    {
+      "route": "/terms/",
+      "width": 390,
+      "screenshot": "screenshots/preview/page-terms-390.png",
+      "documentHeight": 5477,
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "title": "利用条件｜保育士リトリート",
+      "lang": "ja",
+      "h1Count": 1,
+      "headings": [
+        {
+          "level": 1,
+          "text": "サービスの利用条件。"
+        },
+        {
+          "level": 2,
+          "text": "適用"
+        },
+        {
+          "level": 2,
+          "text": "定義"
+        },
+        {
+          "level": 2,
+          "text": "相談と正式依頼"
+        },
+        {
+          "level": 2,
+          "text": "組合加入"
+        },
+        {
+          "level": 2,
+          "text": "料金・支払い"
+        },
+        {
+          "level": 2,
+          "text": "取消・返金"
+        },
+        {
+          "level": 2,
+          "text": "勤務先への連絡"
+        },
+        {
+          "level": 2,
+          "text": "禁止事項"
+        },
+        {
+          "level": 2,
+          "text": "変更・停止・免責"
+        },
+        {
+          "level": 2,
+          "text": "準拠法・お問い合わせ"
+        },
+        {
+          "level": 2,
+          "text": "相談方法"
+        },
+        {
+          "level": 2,
+          "text": "運営情報"
+        },
+        {
+          "level": 2,
+          "text": "お問い合わせ"
+        },
+        {
+          "level": 2,
+          "text": "公開前に確認する項目"
+        }
+      ],
+      "duplicateIds": [],
+      "horizontalOverflow": 0,
+      "overflowElements": [],
+      "smallControls": [],
+      "heroMethods": [],
+      "heroTitleBottom": 288,
+      "bodyHeight": 5477,
+      "mainTextLength": 3397,
+      "internalLinks": 20,
+      "telLinks": 0
+    },
+    {
+      "route": "/terms/",
+      "width": 1440,
+      "screenshot": "screenshots/preview/page-terms-1440.png",
+      "documentHeight": 4325,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "title": "利用条件｜保育士リトリート",
+      "lang": "ja",
+      "h1Count": 1,
+      "headings": [
+        {
+          "level": 1,
+          "text": "サービスの利用条件。"
+        },
+        {
+          "level": 2,
+          "text": "適用"
+        },
+        {
+          "level": 2,
+          "text": "定義"
+        },
+        {
+          "level": 2,
+          "text": "相談と正式依頼"
+        },
+        {
+          "level": 2,
+          "text": "組合加入"
+        },
+        {
+          "level": 2,
+          "text": "料金・支払い"
+        },
+        {
+          "level": 2,
+          "text": "取消・返金"
+        },
+        {
+          "level": 2,
+          "text": "勤務先への連絡"
+        },
+        {
+          "level": 2,
+          "text": "禁止事項"
+        },
+        {
+          "level": 2,
+          "text": "変更・停止・免責"
+        },
+        {
+          "level": 2,
+          "text": "準拠法・お問い合わせ"
+        },
+        {
+          "level": 2,
+          "text": "相談方法"
+        },
+        {
+          "level": 2,
+          "text": "運営情報"
+        },
+        {
+          "level": 2,
+          "text": "お問い合わせ"
+        },
+        {
+          "level": 2,
+          "text": "公開前に確認する項目"
+        }
+      ],
+      "duplicateIds": [],
+      "horizontalOverflow": 0,
+      "overflowElements": [],
+      "smallControls": [],
+      "heroMethods": [],
+      "heroTitleBottom": 379,
+      "bodyHeight": 4325,
+      "mainTextLength": 3397,
+      "internalLinks": 20,
+      "telLinks": 0
+    },
+    {
+      "route": "/disclosures/",
+      "width": 390,
+      "screenshot": "screenshots/preview/page-disclosures-390.png",
+      "documentHeight": 4791,
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "title": "取引条件・事業者情報｜保育士リトリート",
+      "lang": "ja",
+      "h1Count": 1,
+      "headings": [
+        {
+          "level": 1,
+          "text": "取引条件と、事業者情報。"
+        },
+        {
+          "level": 2,
+          "text": "事業者情報"
+        },
+        {
+          "level": 2,
+          "text": "サービス内容"
+        },
+        {
+          "level": 2,
+          "text": "料金"
+        },
+        {
+          "level": 2,
+          "text": "支払い方法・時期"
+        },
+        {
+          "level": 2,
+          "text": "提供時期"
+        },
+        {
+          "level": 2,
+          "text": "取消・返金"
+        },
+        {
+          "level": 2,
+          "text": "組合加入"
+        },
+        {
+          "level": 2,
+          "text": "お問い合わせ"
+        },
+        {
+          "level": 2,
+          "text": "相談方法"
+        },
+        {
+          "level": 2,
+          "text": "運営情報"
+        },
+        {
+          "level": 2,
+          "text": "お問い合わせ"
+        },
+        {
+          "level": 2,
+          "text": "公開前に確認する項目"
+        }
+      ],
+      "duplicateIds": [],
+      "horizontalOverflow": 0,
+      "overflowElements": [],
+      "smallControls": [],
+      "heroMethods": [],
+      "heroTitleBottom": 288,
+      "bodyHeight": 4791,
+      "mainTextLength": 2726,
+      "internalLinks": 22,
+      "telLinks": 0
+    },
+    {
+      "route": "/disclosures/",
+      "width": 1440,
+      "screenshot": "screenshots/preview/page-disclosures-1440.png",
+      "documentHeight": 3849,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "title": "取引条件・事業者情報｜保育士リトリート",
+      "lang": "ja",
+      "h1Count": 1,
+      "headings": [
+        {
+          "level": 1,
+          "text": "取引条件と、事業者情報。"
+        },
+        {
+          "level": 2,
+          "text": "事業者情報"
+        },
+        {
+          "level": 2,
+          "text": "サービス内容"
+        },
+        {
+          "level": 2,
+          "text": "料金"
+        },
+        {
+          "level": 2,
+          "text": "支払い方法・時期"
+        },
+        {
+          "level": 2,
+          "text": "提供時期"
+        },
+        {
+          "level": 2,
+          "text": "取消・返金"
+        },
+        {
+          "level": 2,
+          "text": "組合加入"
+        },
+        {
+          "level": 2,
+          "text": "お問い合わせ"
+        },
+        {
+          "level": 2,
+          "text": "相談方法"
+        },
+        {
+          "level": 2,
+          "text": "運営情報"
+        },
+        {
+          "level": 2,
+          "text": "お問い合わせ"
+        },
+        {
+          "level": 2,
+          "text": "公開前に確認する項目"
+        }
+      ],
+      "duplicateIds": [],
+      "horizontalOverflow": 0,
+      "overflowElements": [],
+      "smallControls": [],
+      "heroMethods": [],
+      "heroTitleBottom": 379,
+      "bodyHeight": 3849,
+      "mainTextLength": 2726,
+      "internalLinks": 22,
+      "telLinks": 0
+    },
+    {
+      "route": "/404.html",
+      "width": 390,
+      "screenshot": "screenshots/preview/page-404-390.png",
+      "documentHeight": 1673,
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "title": "ページが見つかりません｜保育士リトリート",
+      "lang": "ja",
+      "h1Count": 1,
+      "headings": [
+        {
+          "level": 1,
+          "text": "ページが見つかりません。"
+        },
+        {
+          "level": 2,
+          "text": "相談方法"
+        },
+        {
+          "level": 2,
+          "text": "運営情報"
+        },
+        {
+          "level": 2,
+          "text": "お問い合わせ"
+        },
+        {
+          "level": 2,
+          "text": "公開前に確認する項目"
+        }
+      ],
+      "duplicateIds": [],
+      "horizontalOverflow": 0,
+      "overflowElements": [],
+      "smallControls": [],
+      "heroMethods": [],
+      "heroTitleBottom": 319,
+      "bodyHeight": 1673,
+      "mainTextLength": 210,
+      "internalLinks": 21,
+      "telLinks": 0
+    },
+    {
+      "route": "/404.html",
+      "width": 1440,
+      "screenshot": "screenshots/preview/page-404-1440.png",
+      "documentHeight": 1199,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "title": "ページが見つかりません｜保育士リトリート",
+      "lang": "ja",
+      "h1Count": 1,
+      "headings": [
+        {
+          "level": 1,
+          "text": "ページが見つかりません。"
+        },
+        {
+          "level": 2,
+          "text": "相談方法"
+        },
+        {
+          "level": 2,
+          "text": "運営情報"
+        },
+        {
+          "level": 2,
+          "text": "お問い合わせ"
+        },
+        {
+          "level": 2,
+          "text": "公開前に確認する項目"
+        }
+      ],
+      "duplicateIds": [],
+      "horizontalOverflow": 0,
+      "overflowElements": [],
+      "smallControls": [],
+      "heroMethods": [],
+      "heroTitleBottom": 376,
+      "bodyHeight": 1199,
+      "mainTextLength": 210,
+      "internalLinks": 21,
+      "telLinks": 0
+    }
+  ],
+  "consoleLogs": []
+}
