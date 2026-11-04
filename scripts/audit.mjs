@@ -17,6 +17,7 @@ const REQUIRED_HTML = [
 
 const REQUIRED_ASSETS = [
   "assets/styles.css",
+  "assets/fonts/kiwi-maru.css",
   "assets/app.js",
   "assets/favicon.svg",
   "assets/og-image.png",

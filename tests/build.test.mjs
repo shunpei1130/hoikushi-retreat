@@ -46,6 +46,12 @@ test("preview build is noindex and marked as review-only", async () => {
   assert.doesNotMatch(html, /rel="canonical"/);
   assert.match(await read("dist/test-preview/robots.txt"), /Disallow: \//);
   assert.equal(await exists(path.join(PREVIEW_OUT, "sitemap.xml")), false);
+  assert.match(html, /<link rel="stylesheet" href="\/assets\/fonts\/kiwi-maru\.css">/);
+  const fontCss = await read("dist/test-preview/assets/fonts/kiwi-maru.css");
+  assert.match(fontCss, /font-family: 'Kiwi Maru'/);
+  const fontFile = fontCss.match(/url\(\.\/kiwi-maru\/([^)]+)\)/)[1];
+  assert.equal(await exists(path.join(PREVIEW_OUT, "assets", "fonts", "kiwi-maru", fontFile)), true);
+  assert.match(await read("dist/test-preview/assets/styles.css"), /--font-sans: "Kiwi Maru"/);
 
   await rm(PREVIEW_OUT, { recursive: true, force: true });
 });

@@ -1,4 +1,4 @@
-import { mkdir, readFile, rm, writeFile, copyFile, access } from "node:fs/promises";
+import { mkdir, readFile, rm, writeFile, copyFile, cp, access } from "node:fs/promises";
 import { constants as fsConstants } from "node:fs";
 import { fileURLToPath } from "node:url";
 import path from "node:path";
@@ -288,6 +288,12 @@ async function main() {
     } else {
       console.warn(`Asset missing: src/assets/${name} (OGP / Apple touch icon)`);
     }
+  }
+  const fontsSource = path.join(assetSource, "fonts");
+  if (await exists(fontsSource)) {
+    await cp(fontsSource, path.join(assetTarget, "fonts"), { recursive: true });
+  } else {
+    console.warn("Asset missing: src/assets/fonts");
   }
   if (await exists(lineQrSource)) {
     await copyFile(lineQrSource, path.join(assetTarget, "line-qr.png"));

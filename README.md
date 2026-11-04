@@ -5,13 +5,14 @@
 ## 納品物
 
 - `src/` — 6ページのHTML生成元、CSS、必要最小限のJavaScript、アイコン類
+- `src/assets/fonts/` — Kiwi Maru（SIL Open Font License 1.1）をセルフホスト。Google Fonts CDNへは接続しません
 - `api/chat.js` — Vercelの同一オリジン `/api/chat` Function
 - `vercel.json` / `scripts/vercel-build.mjs` — VercelのPreview/Productionビルド設定
 - `docs/HANDOFF.md` — 他のAI／実装者へ引き継ぐための現状と停止条件
 - `dist/preview/` — `noindex` と確認中表示を含むレビュー用静的出力
 - `site.config.json` — 運営・相談窓口・料金・法務・承認情報の一元設定。未確認値は `null` または未承認フラグ
 - `.env.example` — OpenAI APIキーの入力例。実キーはローカルの `.env` のみ
-- `screenshots/preview/` — 38枚の画面キャプチャ
+- `screenshots/preview/` — 30枚の画面キャプチャ
 - `docs/PRELAUNCH.md` — ビルド時に自動生成される全ブロッカー一覧
 - `docs/LAUNCH-CHECKLIST.md` — 公開前の実務チェック
 - `docs/EVIDENCE-LEDGER.md` — 表示内容の根拠と承認状態

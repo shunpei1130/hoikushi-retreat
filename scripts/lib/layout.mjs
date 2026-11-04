@@ -164,6 +164,7 @@ export function layout({
   ${page.metaTags}
   <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+  <link rel="stylesheet" href="/assets/fonts/kiwi-maru.css">
   <link rel="stylesheet" href="/assets/styles.css">
   <script type="application/ld+json">${jsonLdText}</script>
 </head>
