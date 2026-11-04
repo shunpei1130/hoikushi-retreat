@@ -3196,33 +3196,48 @@ a.method-card--line:hover {
 
   .hero h1 {
     order: 2;
-    margin-bottom: 16px;
-  }
-
-  .hero__lead {
-    order: 3;
-    margin-bottom: 20px;
-  }
-
-  .hero-panel {
-    order: 4;
-    width: 100%;
-    max-width: none;
-    margin-bottom: 20px;
+    margin-bottom: 14px;
   }
 
   .hero__quote {
+    order: 3;
+    margin-bottom: 16px;
+  }
+
+  .hero__illustration-wrapper {
+    order: 4;
+    margin: 0 0 16px;
+    max-width: 100%;
+    border-radius: 16px;
+    max-height: 240px;
+  }
+
+  .hero__lead {
     order: 5;
     margin-bottom: 18px;
   }
 
-  .hero__actions {
+  .hero__illustration-wrapper {
+    max-height: 200px;
+    margin-bottom: 14px;
+    border-radius: 14px;
+    box-shadow: 0 10px 24px -12px rgba(40, 114, 102, 0.2);
+  }
+
+  .hero-panel {
     order: 6;
+    width: 100%;
+    max-width: none;
+    margin-bottom: 18px;
+  }
+
+  .hero__actions {
+    order: 7;
     margin-bottom: 14px;
   }
 
   .hero__note {
-    order: 7;
+    order: 8;
   }
 
   .hero__foot {
@@ -3378,7 +3393,7 @@ a.method-card--line:hover {
   }
 
   body.page-home {
-    padding-bottom: 70px;
+    padding-bottom: calc(78px + env(safe-area-inset-bottom));
   }
 }
 
@@ -3666,6 +3681,13 @@ a.method-card--line:hover {
     margin-bottom: 17px;
   }
 
+  .hero__illustration-wrapper {
+    max-height: 200px;
+    margin-bottom: 14px;
+    border-radius: 14px;
+    box-shadow: 0 10px 24px -12px rgba(40, 114, 102, 0.2);
+  }
+
   .hero-panel {
     padding: 13px;
     border-radius: 18px;
@@ -3905,12 +3927,16 @@ a.method-card--line:hover {
 
   .button--sticky,
   .button--sticky-primary {
-    font-size: 9.5px;
+    font-size: 10.5px;
+    min-height: 46px;
+    padding: 7px 4px;
+    border-radius: 12px;
   }
 
   .button--sticky .button__label,
   .button--sticky-primary .button__label {
-    font-size: 9.5px;
+    font-size: 10.5px;
+    font-weight: 700;
   }
 
   .footer-main {
@@ -3983,8 +4009,10 @@ a.method-card--line:hover {
 
   .button--sticky,
   .button--sticky-primary {
-    font-size: 9px;
-    padding-inline: 3px;
+    font-size: 10px;
+    font-weight: 700;
+    min-height: 44px;
+    padding-inline: 4px;
   }
 }
 
@@ -4092,8 +4120,8 @@ a.method-card--line:hover {
   background: var(--color-surface);
   color: var(--color-text);
   font: inherit;
-  font-size: 13px;
-  line-height: 1.7;
+  font-size: 16px;
+  line-height: 1.65;
   resize: vertical;
 }
 

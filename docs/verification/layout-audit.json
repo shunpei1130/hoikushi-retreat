@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-04T05:26:05.063Z",
+  "generatedAt": "2026-11-04T05:42:13.183Z",
   "baseUrl": "http://127.0.0.1:4174/",
   "widths": [
     {
@@ -178,28 +178,28 @@
       "heroMethods": [
         {
           "channel": "ai",
-          "top": 684,
-          "bottom": 796,
+          "top": 767,
+          "bottom": 880,
           "inFirstScreen": true,
-          "fullyInFirstScreen": true
+          "fullyInFirstScreen": false
         },
         {
           "channel": "line",
-          "top": 805,
-          "bottom": 918,
-          "inFirstScreen": true,
+          "top": 889,
+          "bottom": 1001,
+          "inFirstScreen": false,
           "fullyInFirstScreen": false
         },
         {
           "channel": "phone",
-          "top": 927,
-          "bottom": 1039,
+          "top": 1010,
+          "bottom": 1123,
           "inFirstScreen": false,
           "fullyInFirstScreen": false
         }
       ],
-      "heroTitleBottom": 502,
-      "bodyHeight": 17155,
+      "heroTitleBottom": 273,
+      "bodyHeight": 17169,
       "mainTextLength": 11701,
       "internalLinks": 11,
       "telLinks": 0
@@ -380,28 +380,28 @@
       "heroMethods": [
         {
           "channel": "ai",
-          "top": 707,
-          "bottom": 820,
+          "top": 772,
+          "bottom": 885,
           "inFirstScreen": true,
-          "fullyInFirstScreen": true
+          "fullyInFirstScreen": false
         },
         {
           "channel": "line",
-          "top": 829,
-          "bottom": 941,
-          "inFirstScreen": true,
+          "top": 894,
+          "bottom": 1006,
+          "inFirstScreen": false,
           "fullyInFirstScreen": false
         },
         {
           "channel": "phone",
-          "top": 950,
-          "bottom": 1063,
+          "top": 1015,
+          "bottom": 1127,
           "inFirstScreen": false,
           "fullyInFirstScreen": false
         }
       ],
-      "heroTitleBottom": 525,
-      "bodyHeight": 16538,
+      "heroTitleBottom": 278,
+      "bodyHeight": 16533,
       "mainTextLength": 11701,
       "internalLinks": 11,
       "telLinks": 0
@@ -582,28 +582,28 @@
       "heroMethods": [
         {
           "channel": "ai",
-          "top": 693,
-          "bottom": 805,
+          "top": 733,
+          "bottom": 845,
           "inFirstScreen": true,
-          "fullyInFirstScreen": true
+          "fullyInFirstScreen": false
         },
         {
           "channel": "line",
-          "top": 814,
-          "bottom": 927,
-          "inFirstScreen": true,
+          "top": 854,
+          "bottom": 967,
+          "inFirstScreen": false,
           "fullyInFirstScreen": false
         },
         {
           "channel": "phone",
-          "top": 936,
-          "bottom": 1048,
+          "top": 976,
+          "bottom": 1088,
           "inFirstScreen": false,
           "fullyInFirstScreen": false
         }
       ],
-      "heroTitleBottom": 511,
-      "bodyHeight": 16399,
+      "heroTitleBottom": 238,
+      "bodyHeight": 16369,
       "mainTextLength": 11701,
       "internalLinks": 11,
       "telLinks": 0
@@ -611,7 +611,7 @@
     {
       "width": 768,
       "screenshot": "screenshots/preview/width-768.png",
-      "documentHeight": 14598,
+      "documentHeight": 14484,
       "viewport": {
         "width": 768,
         "height": 900
@@ -784,28 +784,28 @@
       "heroMethods": [
         {
           "channel": "ai",
-          "top": 873,
-          "bottom": 997,
+          "top": 814,
+          "bottom": 938,
           "inFirstScreen": true,
           "fullyInFirstScreen": false
         },
         {
           "channel": "line",
-          "top": 1006,
-          "bottom": 1130,
+          "top": 947,
+          "bottom": 1071,
           "inFirstScreen": false,
           "fullyInFirstScreen": false
         },
         {
           "channel": "phone",
-          "top": 1139,
-          "bottom": 1263,
+          "top": 1080,
+          "bottom": 1205,
           "inFirstScreen": false,
           "fullyInFirstScreen": false
         }
       ],
-      "heroTitleBottom": 663,
-      "bodyHeight": 14598,
+      "heroTitleBottom": 312,
+      "bodyHeight": 14484,
       "mainTextLength": 11701,
       "internalLinks": 11,
       "telLinks": 0
@@ -813,7 +813,7 @@
     {
       "width": 1280,
       "screenshot": "screenshots/preview/width-1280.png",
-      "documentHeight": 11817,
+      "documentHeight": 11830,
       "viewport": {
         "width": 1280,
         "height": 900
@@ -1007,7 +1007,7 @@
         }
       ],
       "heroTitleBottom": 468,
-      "bodyHeight": 11817,
+      "bodyHeight": 11830,
       "mainTextLength": 11701,
       "internalLinks": 11,
       "telLinks": 0
@@ -1015,7 +1015,7 @@
     {
       "width": 1440,
       "screenshot": "screenshots/preview/width-1440.png",
-      "documentHeight": 11909,
+      "documentHeight": 11922,
       "viewport": {
         "width": 1440,
         "height": 900
@@ -1209,7 +1209,7 @@
         }
       ],
       "heroTitleBottom": 476,
-      "bodyHeight": 11909,
+      "bodyHeight": 11922,
       "mainTextLength": 11701,
       "internalLinks": 11,
       "telLinks": 0
