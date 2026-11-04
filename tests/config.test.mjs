@@ -19,11 +19,17 @@ test("current config is preview-only and reports blockers", async () => {
 
   assert.equal(productionReady(config), false);
   assert.ok(issues.blockers.length > 0);
-  assert.ok(issues.missing.some((entry) => entry.path === "operator.legalName"));
+  assert.equal(config.operator.legalName, "保育士リトリート");
+  assert.ok(issues.missing.some((entry) => entry.path === "publication.businessApproved"));
   assert.ok(issues.missing.some((entry) => entry.path === "canonicalOrigin"));
   assert.ok(issues.missing.some((entry) => entry.path === "channels.phone.verified"));
   assert.ok(issues.missing.some((entry) => entry.path === "staff"));
   assert.equal(computeTotal(config).amount, 24800);
+  assert.equal(config.pricing.total.includesAllSupportCosts, true);
+  assert.equal(
+    issues.blockers.some((entry) => ["support-fee", "union-enrollment", "union-monthly"].some((id) => entry.path === `pricing.items.${id}.amount`)),
+    false,
+  );
 });
 
 test("complete fixture has no production blockers", async () => {

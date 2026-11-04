@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T10:30:26.760Z",
+  "generatedAt": "2026-11-04T04:15:38.574Z",
   "target": "dist/preview",
   "mode": "preview",
   "summary": {
@@ -26,7 +26,7 @@
       "dataMode": "preview",
       "errors": [],
       "warnings": [],
-      "textLength": 812,
+      "textLength": 817,
       "internalLinks": 23,
       "jsonLdTypes": [
         "WebPage"
@@ -40,7 +40,7 @@
       "dataMode": "preview",
       "errors": [],
       "warnings": [],
-      "textLength": 2467,
+      "textLength": 2364,
       "internalLinks": 28,
       "jsonLdTypes": [
         "WebPage"
@@ -54,7 +54,7 @@
       "dataMode": "preview",
       "errors": [],
       "warnings": [],
-      "textLength": 2558,
+      "textLength": 2569,
       "internalLinks": 32,
       "jsonLdTypes": [
         "WebPage"
@@ -68,7 +68,7 @@
       "dataMode": "preview",
       "errors": [],
       "warnings": [],
-      "textLength": 7386,
+      "textLength": 7382,
       "internalLinks": 44,
       "jsonLdTypes": [
         "WebPage"
@@ -82,7 +82,7 @@
       "dataMode": "preview",
       "errors": [],
       "warnings": [],
-      "textLength": 4178,
+      "textLength": 4204,
       "internalLinks": 29,
       "jsonLdTypes": [
         "WebPage"
@@ -96,7 +96,7 @@
       "dataMode": "preview",
       "errors": [],
       "warnings": [],
-      "textLength": 3377,
+      "textLength": 3382,
       "internalLinks": 32,
       "jsonLdTypes": [
         "WebPage"

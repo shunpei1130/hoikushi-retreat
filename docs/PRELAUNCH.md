@@ -3,10 +3,10 @@
 > このファイルは `scripts/build.mjs` により自動生成されています。手動編集はビルドで上書きされます。
 >
 > - モード: **preview**
-> - 生成: 2026-11-02 10:49:41 UTC
+> - 生成: 2026-11-04 04:15:34 UTC
 > - 設定ファイル: `site.config.json`
 > - 公開ドメイン: 未設定
-> - 公開ブロッカー: **50件**（未設定 48 / 不整合 2）
+> - 公開ブロッカー: **12件**（未設定 12 / 不整合 0）
 > - 警告: **3件**
 
 ## 公開ブロッカー
@@ -15,35 +15,7 @@
   <thead><tr><th>区分</th><th>設定キー</th><th>項目</th><th>状態</th></tr></thead>
   <tbody>
     <tr><td>公開設定</td><td><code>canonicalOrigin</code></td><td>公開ドメイン（https）</td><td>未設定</td></tr>
-    <tr><td>公開設定</td><td><code>contentUpdatedAt</code></td><td>コンテンツ更新日</td><td>未設定</td></tr>
-    <tr><td>運営者</td><td><code>operator.legalName</code></td><td>労働組合の正式名称</td><td>未設定</td></tr>
     <tr><td>運営者</td><td><code>operator.address</code></td><td>所在地</td><td>未設定</td></tr>
-    <tr><td>運営者</td><td><code>operator.responsiblePerson</code></td><td>責任者</td><td>未設定</td></tr>
-    <tr><td>運営者</td><td><code>operator.contact</code></td><td>問い合わせ先</td><td>未設定</td></tr>
-    <tr><td>運営者</td><td><code>operator.hours</code></td><td>受付時間</td><td>未設定</td></tr>
-    <tr><td>AIチャット</td><td><code>channels.ai.hoursDisclosure</code></td><td>AIの利用可能時間</td><td>未設定</td></tr>
-    <tr><td>LINE相談</td><td><code>channels.line.accountName</code></td><td>LINE公式アカウント名</td><td>未設定</td></tr>
-    <tr><td>LINE相談</td><td><code>channels.line.acceptanceHours</code></td><td>LINEの送信受付時間</td><td>未設定</td></tr>
-    <tr><td>LINE相談</td><td><code>channels.line.replyHours</code></td><td>LINEの有人返信時間</td><td>未設定</td></tr>
-    <tr><td>LINE相談</td><td><code>channels.line.formerChildcareWorkerProcess</code></td><td>LINEの元保育士担当体制</td><td>未設定</td></tr>
-    <tr><td>電話相談</td><td><code>channels.phone.callChargeDisclosure</code></td><td>通話料の表示</td><td>未設定</td></tr>
-    <tr><td>電話相談</td><td><code>channels.phone.hours</code></td><td>電話の受付時間</td><td>未設定</td></tr>
-    <tr><td>電話相談</td><td><code>channels.phone.reservationRequired</code></td><td>電話の予約要否</td><td>未設定</td></tr>
-    <tr><td>サービス</td><td><code>service.audience</code></td><td>対象者</td><td>未設定</td></tr>
-    <tr><td>サービス</td><td><code>service.staffing</code></td><td>相談担当体制</td><td>未設定</td></tr>
-    <tr><td>サービス</td><td><code>service.membershipConditions</code></td><td>組合加入の条件</td><td>未設定</td></tr>
-    <tr><td>サービス</td><td><code>service.cancellationRefundPolicy</code></td><td>取消・返金の条件</td><td>未設定</td></tr>
-    <tr><td>サービス</td><td><code>service.acceptsUndecided</code></td><td>退職未決定の相談受付</td><td>未設定</td></tr>
-    <tr><td>対応範囲</td><td><code>service.scope.outOfScope</code></td><td>対象外の業務</td><td>未設定</td></tr>
-    <tr><td>料金</td><td><code>pricing.paymentMethods</code></td><td>支払い方法</td><td>未設定</td></tr>
-    <tr><td>料金</td><td><code>pricing.paymentTiming</code></td><td>支払い時点</td><td>未設定</td></tr>
-    <tr><td>法務</td><td><code>legal.privacyEffectiveDate</code></td><td>プライバシーポリシー施行日</td><td>未設定</td></tr>
-    <tr><td>法務</td><td><code>legal.termsEffectiveDate</code></td><td>利用条件施行日</td><td>未設定</td></tr>
-    <tr><td>法務</td><td><code>legal.privacyContact</code></td><td>個人情報に関する問い合わせ先</td><td>未設定</td></tr>
-    <tr><td>法務</td><td><code>legal.retentionPeriod</code></td><td>相談情報の保存期間</td><td>未設定</td></tr>
-    <tr><td>法務</td><td><code>legal.lineProvider</code></td><td>LINE外部サービスの提供事業者</td><td>未設定</td></tr>
-    <tr><td>法務</td><td><code>legal.hostingProvider</code></td><td>ホスティング事業者</td><td>未設定</td></tr>
-    <tr><td>法務</td><td><code>legal.deletionMethod</code></td><td>保存情報の削除方法</td><td>未設定</td></tr>
     <tr><td>AIチャット</td><td><code>channels.ai.verified</code></td><td>AIチャット接続の確認</td><td>承認・確認が true ではありません</td></tr>
     <tr><td>LINE相談</td><td><code>channels.line.verified</code></td><td>LINE公式アカウントの確認</td><td>承認・確認が true ではありません</td></tr>
     <tr><td>電話相談</td><td><code>channels.phone.verified</code></td><td>LINE経由の電話相談フロー確認</td><td>承認・確認が true ではありません</td></tr>
@@ -53,17 +25,7 @@
     <tr><td>公開承認</td><td><code>publication.privacyApproved</code></td><td>個人情報面の公開承認</td><td>承認・確認が true ではありません</td></tr>
     <tr><td>公開承認</td><td><code>publication.contentApproved</code></td><td>コンテンツの公開承認</td><td>承認・確認が true ではありません</td></tr>
     <tr><td>公開承認</td><td><code>publication.technicalVerified</code></td><td>技術検証の完了</td><td>承認・確認が true ではありません</td></tr>
-    <tr><td>料金</td><td><code>pricing.items.support-fee.amount</code></td><td>退職代行の支援料</td><td>金額が未設定です</td></tr>
-    <tr><td>料金</td><td><code>pricing.items.support-fee.verified</code></td><td>退職代行の支援料</td><td>料金の確認が true ではありません</td></tr>
-    <tr><td>料金</td><td><code>pricing.items.union-enrollment.amount</code></td><td>組合加入金</td><td>金額が未設定です</td></tr>
-    <tr><td>料金</td><td><code>pricing.items.union-enrollment.verified</code></td><td>組合加入金</td><td>料金の確認が true ではありません</td></tr>
-    <tr><td>料金</td><td><code>pricing.items.union-monthly.amount</code></td><td>組合費（初回分）</td><td>金額が未設定です</td></tr>
-    <tr><td>料金</td><td><code>pricing.items.union-monthly.verified</code></td><td>組合費（初回分）</td><td>料金の確認が true ではありません</td></tr>
-    <tr><td>料金</td><td><code>pricing.items.additional-costs.amount</code></td><td>追加費用</td><td>金額が未設定です</td></tr>
-    <tr><td>料金</td><td><code>pricing.items.additional-costs.verified</code></td><td>追加費用</td><td>料金の確認が true ではありません</td></tr>
     <tr><td>相談員</td><td><code>staff</code></td><td>元保育士スタッフのプロフィール</td><td>公開承認済みのプロフィールがありません</td></tr>
-    <tr><td>料金</td><td><code>pricing.total.note</code></td><td>総額の注記</td><td>プレースホルダー文字列が残っています</td></tr>
-    <tr><td>料金</td><td><code>pricing.items.phone-fee.note</code></td><td>電話相談（相談料）</td><td>注記にプレースホルダーが残っています</td></tr>
   </tbody>
 </table>
 

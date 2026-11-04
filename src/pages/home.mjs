@@ -317,6 +317,10 @@ export function renderHome({ config, mode }) {
   const unionEnrollment = item(config, "union-enrollment");
   const unionMonthly = item(config, "union-monthly");
   const additional = item(config, "additional-costs");
+  const allInclusiveSupportTotal =
+    config.pricing?.total?.verified === true &&
+    config.pricing?.total?.includesAllSupportCosts === true &&
+    typeof config.pricing.total.fixedAmount === "number";
   const aiItem = item(config, "ai-fee");
   const lineItem = item(config, "line-fee");
   const phoneItem = item(config, "phone-fee");
@@ -471,19 +475,19 @@ export function renderHome({ config, mode }) {
             <span class="price-tile__note">AI・LINE・電話の相談料は無料です。</span>
           </article>
           <article class="price-tile">
-            <span class="price-tile__label">退職代行の支援料</span>
-            <span class="price-tile__value">${priceValue(supportFee, mode)}</span>
-            <span class="price-tile__note">退職支援の総額は下のTOTAL欄に表示します。</span>
+            <span class="price-tile__label">${allInclusiveSupportTotal ? "退職支援・組合費" : "退職代行の支援料"}</span>
+            <span class="price-tile__value">${allInclusiveSupportTotal ? "総額に含む" : priceValue(supportFee, mode)}</span>
+            <span class="price-tile__note">${allInclusiveSupportTotal ? "条件に該当する場合の税込総額は下に表示します。" : "退職支援の総額は下のTOTAL欄に表示します。"}</span>
           </article>
           <article class="price-tile">
-            <span class="price-tile__label">組合費</span>
-            <span class="price-tile__value">${unionEnrollment && unionEnrollment.verified ? `加入金 ${priceValue(unionEnrollment, mode)}` : pending("加入金：確認中")}</span>
-            <span class="price-tile__note">${unionMonthly && unionMonthly.verified ? `会費 ${priceValue(unionMonthly, mode)}（初回分）` : "加入金・会費の条件を確認します。"}</span>
+            <span class="price-tile__label">${allInclusiveSupportTotal ? "料金の対象条件" : "組合費"}</span>
+            <span class="price-tile__value">${allInclusiveSupportTotal ? "就業から6年以内" : unionEnrollment && unionEnrollment.verified ? `加入金 ${priceValue(unionEnrollment, mode)}` : pending("加入金：確認中")}</span>
+            <span class="price-tile__note">${allInclusiveSupportTotal ? "ご指定の条件文言をそのまま表示します。" : unionMonthly && unionMonthly.verified ? `会費 ${priceValue(unionMonthly, mode)}（初回分）` : "加入金・会費の条件を確認します。"}</span>
           </article>
           <article class="price-tile">
             <span class="price-tile__label">追加費用</span>
-            <span class="price-tile__value">${priceValue(additional, mode)}</span>
-            <span class="price-tile__note">発生条件と計算方法を事前に表示します。</span>
+            <span class="price-tile__value">${allInclusiveSupportTotal ? "なし" : priceValue(additional, mode)}</span>
+            <span class="price-tile__note">${allInclusiveSupportTotal ? "退職支援に関する追加サービス料金はありません。" : "発生条件と計算方法を事前に表示します。"}</span>
           </article>
         </div>
       </div>
@@ -669,7 +673,9 @@ export function renderHome({ config, mode }) {
           number: "08",
           eyebrow: "料金",
           title: "料金と組合加入について",
-          lead: "相談料、退職代行の支援料、組合費を分けて表示します。追加費用が発生する条件も、事前に確認できるようにします。",
+          lead: allInclusiveSupportTotal
+            ? "相談料（無料）と、退職支援にかかる税込総額を表示します。適用条件と追加料金の有無も確認できます。"
+            : "相談料、退職代行の支援料、組合費を分けて表示します。追加費用が発生する条件も、事前に確認できるようにします。",
           id: "pricing-title",
         })}
         <div class="pricing-total">
@@ -711,7 +717,20 @@ export function renderHome({ config, mode }) {
         <section class="price-group" aria-labelledby="price-support">
           <h3 class="price-group__title" id="price-support">退職支援</h3>
           <dl class="price-list">
+            ${allInclusiveSupportTotal
+              ? `${priceRow(config, mode, {
+                  id: "support-included",
+                  label: "退職支援料・組合費",
+                  valueHtml: "総額に含む",
+                  note: "個別の内訳は表示せず、条件に該当する場合の税込総額を表示します。",
+                })}
             ${priceRow(config, mode, {
+              id: "additional-costs",
+              label: "追加サービス料金",
+              valueHtml: "なし",
+              note: "退職支援に関する追加料金はありません。",
+            })}`
+              : `${priceRow(config, mode, {
               id: "support-fee",
               label: "退職代行の支援料",
               valueHtml: priceValue(supportFee, mode),
@@ -734,7 +753,7 @@ export function renderHome({ config, mode }) {
               label: "追加費用",
               valueHtml: priceValue(additional, mode),
               note: additional?.note ? escapeHtml(additional.note) : null,
-            })}
+            })}`}
           </dl>
         </section>
         <section class="price-group" aria-labelledby="price-terms">

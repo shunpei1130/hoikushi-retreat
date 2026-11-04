@@ -1,5 +1,5 @@
 import { escapeHtml, pending, pendingInline } from "../../scripts/lib/html.mjs";
-import { priceValue, taxSuffix, totalValue } from "../../scripts/lib/components.mjs";
+import { priceValue, totalValue } from "../../scripts/lib/components.mjs";
 import { icon } from "../../scripts/lib/icons.mjs";
 import { h2, pageHero, pageLayout, policyTable } from "./shared.mjs";
 
@@ -14,6 +14,10 @@ export function renderDisclosures({ config, mode }) {
     const entry = item(id);
     return entry?.verified === true && entry.amount === 0;
   });
+  const allInclusiveSupportTotal =
+    pricing.total?.verified === true &&
+    pricing.total?.includesAllSupportCosts === true &&
+    typeof pricing.total?.fixedAmount === "number";
 
   const body = `${pageHero({
     eyebrow: "取引条件 / DISCLOSURES",
@@ -63,14 +67,17 @@ export function renderDisclosures({ config, mode }) {
         <div><dt>LINE相談</dt><dd>${priceValue(item("line-fee"), mode)}</dd></div>
         <div><dt>電話相談（相談料）</dt><dd>${priceValue(item("phone-fee"), mode)}</dd></div>
         <div><dt>通話料</dt><dd>${config.channels?.phone?.callChargeDisclosure ? escapeHtml(config.channels.phone.callChargeDisclosure) : pending()}</dd></div>
-        <div><dt>退職代行の支援料</dt><dd>${priceValue(item("support-fee"), mode)}</dd></div>
+        ${allInclusiveSupportTotal
+          ? `<div><dt>退職支援料・組合費等</dt><dd>総額に含む</dd></div>
+        <div><dt>追加サービス料金</dt><dd>なし</dd></div>`
+          : `<div><dt>退職代行の支援料</dt><dd>${priceValue(item("support-fee"), mode)}</dd></div>
         <div><dt>組合加入金</dt><dd>${priceValue(item("union-enrollment"), mode)}</dd></div>
         <div><dt>組合費（初回分）</dt><dd>${priceValue(item("union-monthly"), mode)}</dd></div>
-        <div><dt>追加費用</dt><dd>${priceValue(item("additional-costs"), mode)}</dd></div>
+        <div><dt>追加費用</dt><dd>${priceValue(item("additional-costs"), mode)}</dd></div>`}
       </dl>
       <div class="disclosure-total">
         <p>退職支援の総額</p>
-        <p>${totalValue(config, mode)} <span>${escapeHtml(taxSuffix(config))}</span></p>
+        <p>${totalValue(config, mode)}</p>
         <p>${pricing.total?.note ? escapeHtml(pricing.total.note) : pending("総額の条件は公開前に確定します")}</p>
       </div>
 

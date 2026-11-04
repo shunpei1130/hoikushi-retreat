@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T10:29:45.460Z",
+  "generatedAt": "2026-11-02T11:03:45.451Z",
   "target": "dist/audit-production",
   "mode": "production",
   "summary": {
@@ -62,7 +62,7 @@
       "dataMode": "production",
       "errors": [],
       "warnings": [],
-      "textLength": 1810,
+      "textLength": 1805,
       "internalLinks": 31,
       "jsonLdTypes": [
         "WebPage",

@@ -1,0 +1,13 @@
+# Local secrets and temporary work
+.env
+.env.*
+!.env.example
+.tmp/
+node_modules/
+.vercel/
+
+# Do not accidentally publish test or production build output
+dist/test-*/
+dist/audit-production/
+dist/vercel-output/
+dist/public/

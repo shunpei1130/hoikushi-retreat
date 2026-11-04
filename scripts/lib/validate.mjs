@@ -200,6 +200,10 @@ export function collectIssues(config) {
   }
 
   const ids = new Set();
+  const totalIncludesAllSupportCosts =
+    config.pricing?.total?.verified === true &&
+    config.pricing?.total?.includesAllSupportCosts === true &&
+    typeof config.pricing?.total?.fixedAmount === "number";
   for (const item of items) {
     if (!isFilled(item.id) || !isFilled(item.label) || !isFilled(item.group)) {
       invalid.push(issue("料金", `pricing.items[${item.id || "?"}]`, "料金項目", "id・label・group を設定してください"));
@@ -208,11 +212,16 @@ export function collectIssues(config) {
       invalid.push(issue("料金", `pricing.items.${item.id}`, item.label || item.id, "id が重複しています"));
     }
     ids.add(item.id);
-    if (typeof item.amount !== "number" || !Number.isFinite(item.amount) || item.amount < 0) {
-      missing.push(issue("料金", `pricing.items.${item.id}.amount`, item.label || item.id, "金額が未設定です"));
-    }
-    if (item.verified !== true) {
-      missing.push(issue("料金", `pricing.items.${item.id}.verified`, item.label || item.id, "料金の確認が true ではありません"));
+    const amountIncludedInTotal =
+      totalIncludesAllSupportCosts &&
+      ["support-fee", "union-enrollment", "union-monthly"].includes(item.id);
+    if (!amountIncludedInTotal) {
+      if (typeof item.amount !== "number" || !Number.isFinite(item.amount) || item.amount < 0) {
+        missing.push(issue("料金", `pricing.items.${item.id}.amount`, item.label || item.id, "金額が未設定です"));
+      }
+      if (item.verified !== true) {
+        missing.push(issue("料金", `pricing.items.${item.id}.verified`, item.label || item.id, "料金の確認が true ではありません"));
+      }
     }
     if (typeof item.amount === "number" && item.amount > 10000000) {
       warnings.push(issue("料金", `pricing.items.${item.id}.amount`, item.label || item.id, "金額が1,000万円を超えています。入力ミスを確認してください"));

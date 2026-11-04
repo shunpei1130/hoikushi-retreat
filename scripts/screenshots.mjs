@@ -1,4 +1,5 @@
 import { mkdir, rm, writeFile } from "node:fs/promises";
+import { existsSync } from "node:fs";
 import { spawn, spawnSync } from "node:child_process";
 import { fileURLToPath } from "node:url";
 import path from "node:path";
@@ -16,6 +17,7 @@ const CHROME_CANDIDATES = [
   "C:/Program Files/Google/Chrome/Application/chrome.exe",
   "C:/Program Files (x86)/Google/Chrome/Application/chrome.exe",
   "C:/Program Files/Microsoft/Edge/Application/msedge.exe",
+  "C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe",
   "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
   "/usr/bin/google-chrome",
   "/usr/bin/chromium",
@@ -23,6 +25,7 @@ const CHROME_CANDIDATES = [
 
 function findChrome() {
   for (const candidate of CHROME_CANDIDATES) {
+    if (existsSync(candidate)) return candidate;
     const result = spawnSync(candidate, ["--version"], { encoding: "utf8", timeout: 15000 });
     if (!result.error && result.status === 0) return candidate;
   }

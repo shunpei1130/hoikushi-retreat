@@ -3841,7 +3841,13 @@ a.method-card--line:hover {
   }
 
   .price-row {
+    grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
     gap: 12px;
+  }
+
+  .price-row dd {
+    min-width: 0;
+    overflow-wrap: anywhere;
   }
 
   .price-row__label {

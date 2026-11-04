@@ -7,6 +7,7 @@
 - `src/` — 6ページのHTML生成元、CSS、必要最小限のJavaScript、アイコン類
 - `api/chat.js` — Vercelの同一オリジン `/api/chat` Function
 - `vercel.json` / `scripts/vercel-build.mjs` — VercelのPreview/Productionビルド設定
+- `docs/HANDOFF.md` — 他のAI／実装者へ引き継ぐための現状と停止条件
 - `dist/preview/` — `noindex` と確認中表示を含むレビュー用静的出力
 - `site.config.json` — 運営・相談窓口・料金・法務・承認情報の一元設定。未確認値は `null` または未承認フラグ
 - `.env.example` — OpenAI APIキーの入力例。実キーはローカルの `.env` のみ
@@ -55,7 +56,7 @@ node scripts/screenshots.mjs
 
 LINE IDは `@897zpkws` です。電話相談はLINE追加後に「電話相談希望」と送信する流れです。添付QR画像は `src/assets/line-qr.png` に置くと、次のビルドでページに表示されます。現在そのファイルはまだ配置されていないため、プレビューではQR画像の追加待ち表示です。生成したQRではなく、提供された画像そのものを配置してください。
 
-退職支援の税込総額は、ご指定の「就業から6年以内」の場合に24,800円として表示し、AI・LINE・電話の相談料は無料としています。6年の境界判定は行わず、料金内訳やその他の適用条件は未確認のまま本番ゲートに残しています。電話の通話料等は相談料と分けて確認してください。
+退職支援の税込総額は、ご指定の「就業から6年以内」の場合に24,800円として表示し、AI・LINE・電話の相談料は無料、退職支援の追加サービス料金なしとしています。6年の境界判定は行いません。対象条件の規約との一致や電話の通信費は引き続き確認が必要です。
 
 ## 本番ビルドのゲート
 
@@ -77,7 +78,7 @@ node scripts/audit.mjs --dir=dist/public --mode=production --out=docs/verificati
 
 Vercel用の `api/chat.js` 関数と `vercel.json` を追加済みです。VercelプロジェクトのRoot Directoryをこの `hoiku-retreat-lp` フォルダにし、Preview用Environment Variablesに `OPENAI_API_KEY` を登録してください。`OPENAI_MODEL` は省略可能で、既定値は `gpt-6-luna` です。`.env` をGitHubへ置く必要はありません。
 
-`vercel.json` は `scripts/vercel-build.mjs` を呼び、Previewでは `dist/vercel-output/` の `noindex` 出力と `/api/chat` Functionを構成します。Production環境では本番ビルドゲートが動き、現状の50件のブロッカーが解消されるまで失敗します。Preview URLはVercel Deployment Protection等で保護してください。`noindex` はアクセス制御ではありません。
+`vercel.json` は `scripts/vercel-build.mjs` を呼び、Previewでは `dist/vercel-output/` の `noindex` 出力と `/api/chat` Functionを構成します。Production環境では本番ビルドゲートが動き、現状の36件のブロッカーが解消されるまで失敗します。Preview URLはVercel Deployment Protection等で保護してください。`noindex` はアクセス制御ではありません。
 
 Vercel FunctionのインメモリIP制限は簡易的なベストエフォートで、スケール環境での本番用レート制限として十分ではありません。一般公開前に、Vercel側のレート制限・利用上限・予算通知、ログの取り扱い、HTTPS、OpenAI側のデータ条件を確認してください。Vercelへの実デプロイ・実API呼び出しは行っていません。
 
@@ -93,3 +94,4 @@ Vercel FunctionのインメモリIP制限は簡易的なベストエフォート
 - [根拠台帳](docs/EVIDENCE-LEDGER.md)
 - [検証結果と未検証事項](docs/VERIFICATION.md)
 - [自動生成の公開ブロッカー一覧](docs/PRELAUNCH.md)
+- [他のAI／実装者への引き継ぎ書](docs/HANDOFF.md)

@@ -1,0 +1,9 @@
+.env
+.env.*
+.tmp/
+node_modules/
+.vercel/
+dist/preview/
+dist/public/
+dist/audit-production/
+dist/test-*/
