@@ -4,34 +4,37 @@
    ========================================================================== */
 
 :root {
-  --color-primary: #1d6258;
-  --color-primary-ink: #123f38;
-  --color-primary-deep: #0e332d;
-  --color-bg: #faf8f3;
+  --color-primary: #287266;
+  --color-primary-light: #3a8a7c;
+  --color-primary-ink: #174d44;
+  --color-primary-deep: #123e37;
+  --color-warm-accent: #e57c58;
+  --color-warm-accent-soft: #fcf1eb;
+  --color-bg: #fcf9f5;
   --color-surface: #ffffff;
-  --color-soft: #e9f2ed;
-  --color-soft-warm: #f4f1e8;
-  --color-text: #243a36;
-  --color-muted: #52645f;
-  --color-line: #d9e1da;
-  --color-line-strong: #bccbc2;
-  --color-amber-bg: #f7eedb;
-  --color-amber-border: #dcc08a;
-  --color-amber-text: #68470d;
-  --color-dark: #133c35;
-  --color-dark-deep: #0c2621;
-  --color-cream: #faf8f3;
-  --radius-card: 16px;
-  --radius-lg: 24px;
+  --color-soft: #f0f6f3;
+  --color-soft-warm: #faf5ec;
+  --color-text: #2a3834;
+  --color-muted: #5c6e69;
+  --color-line: #e3eae5;
+  --color-line-strong: #c4d3cb;
+  --color-amber-bg: #faf1e1;
+  --color-amber-border: #e6ceaa;
+  --color-amber-text: #734d11;
+  --color-dark: #163e37;
+  --color-dark-deep: #0f2c27;
+  --color-cream: #fcf9f5;
+  --radius-card: 20px;
+  --radius-lg: 28px;
+  --radius-full: 999px;
   --content-max: 1120px;
   --gutter: clamp(20px, 4.6vw, 48px);
-  --font-sans: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", "YuGothic",
-    "Meiryo", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
-  --font-serif: "Hiragino Mincho ProN", "Yu Mincho", "YuMincho", "Noto Serif JP",
-    "Times New Roman", serif;
-  --shadow-soft: 0 18px 44px -30px rgba(18, 63, 56, 0.28);
-  --shadow-card: 0 24px 56px -34px rgba(18, 63, 56, 0.36);
-  --shadow-panel: 0 32px 90px -48px rgba(18, 63, 56, 0.48);
+  --font-sans: "Hiragino Maru Gothic ProN", "BIZ UDPGothic", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic UI", "Yu Gothic", "Meiryo", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-heading: "Hiragino Maru Gothic ProN", "BIZ UDPGothic", "Hiragino Kaku Gothic ProN", "Yu Gothic UI", "Yu Gothic", sans-serif;
+  --font-serif: "Hiragino Maru Gothic ProN", "BIZ UDPGothic", "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif;
+  --shadow-soft: 0 16px 40px -24px rgba(40, 114, 102, 0.18);
+  --shadow-card: 0 20px 48px -26px rgba(40, 114, 102, 0.22);
+  --shadow-panel: 0 28px 75px -32px rgba(40, 114, 102, 0.26);
   --ease: cubic-bezier(0.22, 0.61, 0.36, 1);
 }
 
@@ -91,10 +94,10 @@ h3,
 h4 {
   margin: 0;
   color: var(--color-primary-deep);
-  font-family: var(--font-serif);
-  font-weight: 600;
+  font-family: var(--font-heading);
+  font-weight: 700;
   line-height: 1.45;
-  letter-spacing: 0.015em;
+  letter-spacing: 0.01em;
   font-feature-settings: "palt" 1;
   text-wrap: balance;
   word-break: auto-phrase;
@@ -438,15 +441,16 @@ main {
 }
 
 .button--primary {
-  background: var(--color-primary);
-  color: var(--color-cream);
-  box-shadow: 0 16px 30px -22px rgba(18, 63, 56, 0.65);
+  background: linear-gradient(135deg, var(--color-primary) 0%, #1c5b51 100%);
+  color: #ffffff;
+  box-shadow: 0 14px 28px -12px rgba(40, 114, 102, 0.45);
 }
 
 .button--primary:hover {
-  background: var(--color-primary-ink);
-  color: var(--color-cream);
-  transform: translateY(-1px);
+  background: linear-gradient(135deg, var(--color-primary-light) 0%, var(--color-primary) 100%);
+  color: #ffffff;
+  transform: translateY(-2px);
+  box-shadow: 0 18px 34px -14px rgba(40, 114, 102, 0.55);
 }
 
 .button--outline {
@@ -758,13 +762,15 @@ main {
 }
 
 .hero__quote {
-  margin: 0 0 17px;
-  padding: 11px 16px;
-  border-left: 3px solid #9dbdb0;
-  background: rgba(255, 255, 255, 0.48);
+  margin: 0 0 20px;
+  padding: 13px 18px;
+  border-left: 4px solid var(--color-warm-accent);
+  border-radius: 0 14px 14px 0;
+  background: linear-gradient(90deg, var(--color-warm-accent-soft) 0%, rgba(255, 255, 255, 0.75) 100%);
   color: var(--color-primary-ink);
-  font-family: var(--font-serif);
+  font-family: var(--font-heading);
   font-size: clamp(0.98rem, 0.9rem + 0.32vw, 1.14rem);
+  font-weight: 600;
   line-height: 1.8;
 }
 
@@ -4238,6 +4244,160 @@ a.method-card--line:hover {
     transition-duration: 0.01ms !important;
     animation-duration: 0.01ms !important;
     animation-iteration-count: 1 !important;
+  }
+}
+
+/* ==========================================================================
+   Warm Illustrations and Healing Sections
+   ========================================================================== */
+
+.hero__illustration-wrapper {
+  margin: 0 0 24px;
+  max-width: 520px;
+  border-radius: var(--radius-card);
+  overflow: hidden;
+  box-shadow: 0 16px 36px -18px rgba(40, 114, 102, 0.22);
+  border: 3px solid rgba(255, 255, 255, 0.95);
+  background: var(--color-surface);
+}
+
+.hero__illustration {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  transition: transform 0.35s var(--ease);
+}
+
+.hero__illustration:hover {
+  transform: scale(1.02);
+}
+
+.consult-warm-banner {
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  align-items: center;
+  gap: 28px;
+  margin: 36px 0 28px;
+  padding: 24px;
+  border-radius: var(--radius-lg);
+  background: linear-gradient(135deg, #ffffff 0%, var(--color-warm-accent-soft) 100%);
+  border: 1px solid rgba(229, 124, 88, 0.22);
+  box-shadow: var(--shadow-card);
+}
+
+.consult-warm-banner__visual {
+  border-radius: var(--radius-card);
+  overflow: hidden;
+  box-shadow: 0 10px 24px -12px rgba(40, 114, 102, 0.2);
+  border: 3px solid #ffffff;
+}
+
+.consult-warm-banner__image {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+
+.consult-warm-banner__content {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.consult-warm-banner__badge {
+  display: inline-flex;
+  align-self: flex-start;
+  padding: 4px 12px;
+  border-radius: var(--radius-full);
+  background: var(--color-warm-accent);
+  color: #ffffff;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+
+.consult-warm-banner__content h3 {
+  font-size: clamp(1.15rem, 1rem + 0.5vw, 1.35rem);
+  color: var(--color-primary-deep);
+  line-height: 1.5;
+}
+
+.consult-warm-banner__content p {
+  font-size: 13.5px;
+  color: var(--color-muted);
+  line-height: 1.8;
+}
+
+@media (max-width: 768px) {
+  .consult-warm-banner {
+    grid-template-columns: 1fr;
+    gap: 18px;
+    padding: 18px;
+  }
+}
+
+.section--healing {
+  background: linear-gradient(180deg, var(--color-bg) 0%, #f4ece0 100%);
+  padding-block: clamp(40px, 6vw, 72px);
+  border-top: 1px solid var(--color-line);
+  border-bottom: 1px solid var(--color-line);
+}
+
+.healing-layout {
+  display: grid;
+  grid-template-columns: 380px 1fr;
+  align-items: center;
+  gap: clamp(24px, 4vw, 54px);
+}
+
+.healing-layout__visual {
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-panel);
+  border: 4px solid #ffffff;
+}
+
+.healing-layout__image {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 11;
+  object-fit: cover;
+}
+
+.healing-layout__content {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.healing-layout__eyebrow {
+  font-size: 10.5px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  color: var(--color-warm-accent);
+}
+
+.healing-layout__content h2 {
+  font-size: clamp(1.45rem, 1.15rem + 1vw, 2.1rem);
+  line-height: 1.45;
+  color: var(--color-primary-deep);
+}
+
+.healing-layout__content p {
+  font-size: 14.5px;
+  color: var(--color-muted);
+  line-height: 1.95;
+}
+
+@media (max-width: 860px) {
+  .healing-layout {
+    grid-template-columns: 1fr;
+    gap: 24px;
   }
 }
 

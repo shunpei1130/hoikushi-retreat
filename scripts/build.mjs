@@ -267,7 +267,14 @@ async function main() {
   const assetSource = path.join(SRC, "assets");
   const assetTarget = path.join(outDir, "assets");
   await mkdir(assetTarget, { recursive: true });
-  const assetNames = ["styles.css", "app.js", "favicon.svg"];
+  const assetNames = [
+    "styles.css",
+    "app.js",
+    "favicon.svg",
+    "hero-illustration.jpg",
+    "consult-warm-illustration.jpg",
+    "relax-healing-illustration.jpg",
+  ];
   for (const name of assetNames) {
     if (await exists(path.join(assetSource, name))) {
       await copyFile(path.join(assetSource, name), path.join(assetTarget, name));

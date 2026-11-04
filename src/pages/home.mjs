@@ -362,6 +362,9 @@ export function renderHome({ config, mode }) {
         <h1 id="hero-title"><span class="hero__h1-line">保育士の退職代行。</span><span class="hero__h1-line hero__h1-line--accent">保育の悩みから、<br class="hero__br">相談できる。</span></h1>
         <p class="hero__quote">「子どもは好き。でも、今の園で働き続けるのはつらい。」</p>
         <p class="hero__lead">担任のこと、年度途中のこと、園長への伝え方。<br>保育特化AIへのチャット、元保育士へのLINE・電話相談から、話しやすい方法を選べます。</p>
+        <div class="hero__illustration-wrapper">
+          <img class="hero__illustration" src="/assets/hero-illustration.jpg" alt="温かいお茶を手にホッと一息つく保育士の優しいイラスト" width="560" height="370" loading="eager">
+        </div>
         <div class="hero__actions">
           <a class="button button--primary" href="#consult">3つの相談方法を見る ${icon("arrowDown")}</a>
           <a class="text-link" href="#price-summary">退職代行の料金・対応範囲を見る ${icon("arrowRight")}</a>
@@ -410,6 +413,16 @@ export function renderHome({ config, mode }) {
         ${comparisonCard(config, "ai", mode)}
         ${comparisonCard(config, "line", mode)}
         ${comparisonCard(config, "phone", mode)}
+      </div>
+      <div class="consult-warm-banner">
+        <div class="consult-warm-banner__visual">
+          <img class="consult-warm-banner__image" src="/assets/consult-warm-illustration.jpg" alt="スマホで相談して安心した笑顔の保育士と寄り添う相談員の優しいイラスト" width="460" height="340" loading="lazy">
+        </div>
+        <div class="consult-warm-banner__content">
+          <span class="consult-warm-banner__badge">元保育士が寄り添います</span>
+          <h3>「こんなこと相談してもいいのかな…」<br>その迷いから、お聞かせください</h3>
+          <p>保育現場の大変さや責任感をよく知る元保育士スタッフが、あなたのペースに合わせて優しくお話を伺います。無理に退職を急かすことはありません。</p>
+        </div>
       </div>
       ${lineContactPanel(config, mode)}
       <p class="section-fine">担当者・料金・受付時間・返信時間は、公開前に確認した内容を表示します。${preview ? pendingInline("表示内容：確認中") : ""}</p>
@@ -815,6 +828,19 @@ export function renderHome({ config, mode }) {
             }),
           )
           .join("")}
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--healing" aria-label="安心のメッセージ">
+    <div class="container healing-layout">
+      <div class="healing-layout__visual">
+        <img class="healing-layout__image" src="/assets/relax-healing-illustration.jpg" alt="自然の中で深呼吸して心が軽やかになる保育士と小鳥の優しいイラスト" width="540" height="360" loading="lazy">
+      </div>
+      <div class="healing-layout__content">
+        <p class="healing-layout__eyebrow">HEALING & RETREAT</p>
+        <h2>まずは、がんばってきたご自身に<br>「おつかれさま」を。</h2>
+        <p>子どもたちの命を預かり、たくさんの責任とプレッシャーの中で毎日を懸命に過ごされてきたことと思います。<br>悩んだり、立ち止まったり、次の道を探すことは決して逃げではありません。<br>心がすこしでも軽くなるよう、私たちが温かくサポートいたします。</p>
       </div>
     </div>
   </section>

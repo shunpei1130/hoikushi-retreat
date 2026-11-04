@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-04T05:01:36.054Z",
+  "generatedAt": "2026-11-04T05:26:05.063Z",
   "baseUrl": "http://127.0.0.1:4174/",
   "widths": [
     {
       "width": 360,
       "screenshot": "screenshots/preview/width-360.png",
-      "documentHeight": 15745,
+      "documentHeight": 16000,
       "viewport": {
         "width": 360,
         "height": 844
@@ -44,6 +44,10 @@
         },
         {
           "level": 3,
+          "text": "「こんなこと相談してもいいのかな…」その迷いから、お聞かせください"
+        },
+        {
+          "level": 3,
           "text": "人に相談したいときは、LINEから。"
         },
         {
@@ -136,6 +140,10 @@
         },
         {
           "level": 2,
+          "text": "まずは、がんばってきたご自身に「おつかれさま」を。"
+        },
+        {
+          "level": 2,
           "text": "話しやすい方法から、始めてください。"
         },
         {
@@ -170,36 +178,36 @@
       "heroMethods": [
         {
           "channel": "ai",
-          "top": 417,
-          "bottom": 530,
+          "top": 684,
+          "bottom": 796,
           "inFirstScreen": true,
           "fullyInFirstScreen": true
         },
         {
           "channel": "line",
-          "top": 539,
-          "bottom": 651,
+          "top": 805,
+          "bottom": 918,
           "inFirstScreen": true,
-          "fullyInFirstScreen": true
+          "fullyInFirstScreen": false
         },
         {
           "channel": "phone",
-          "top": 660,
-          "bottom": 772,
-          "inFirstScreen": true,
-          "fullyInFirstScreen": true
+          "top": 927,
+          "bottom": 1039,
+          "inFirstScreen": false,
+          "fullyInFirstScreen": false
         }
       ],
-      "heroTitleBottom": 235,
-      "bodyHeight": 15745,
-      "mainTextLength": 11227,
+      "heroTitleBottom": 502,
+      "bodyHeight": 17155,
+      "mainTextLength": 11701,
       "internalLinks": 11,
       "telLinks": 0
     },
     {
       "width": 390,
       "screenshot": "screenshots/preview/width-390.png",
-      "documentHeight": 15166,
+      "documentHeight": 16000,
       "viewport": {
         "width": 390,
         "height": 844
@@ -238,6 +246,10 @@
         },
         {
           "level": 3,
+          "text": "「こんなこと相談してもいいのかな…」その迷いから、お聞かせください"
+        },
+        {
+          "level": 3,
           "text": "人に相談したいときは、LINEから。"
         },
         {
@@ -330,6 +342,10 @@
         },
         {
           "level": 2,
+          "text": "まずは、がんばってきたご自身に「おつかれさま」を。"
+        },
+        {
+          "level": 2,
           "text": "話しやすい方法から、始めてください。"
         },
         {
@@ -364,36 +380,36 @@
       "heroMethods": [
         {
           "channel": "ai",
-          "top": 420,
-          "bottom": 533,
+          "top": 707,
+          "bottom": 820,
           "inFirstScreen": true,
           "fullyInFirstScreen": true
         },
         {
           "channel": "line",
-          "top": 542,
-          "bottom": 654,
+          "top": 829,
+          "bottom": 941,
           "inFirstScreen": true,
-          "fullyInFirstScreen": true
+          "fullyInFirstScreen": false
         },
         {
           "channel": "phone",
-          "top": 663,
-          "bottom": 776,
-          "inFirstScreen": true,
-          "fullyInFirstScreen": true
+          "top": 950,
+          "bottom": 1063,
+          "inFirstScreen": false,
+          "fullyInFirstScreen": false
         }
       ],
-      "heroTitleBottom": 238,
-      "bodyHeight": 15166,
-      "mainTextLength": 11227,
+      "heroTitleBottom": 525,
+      "bodyHeight": 16538,
+      "mainTextLength": 11701,
       "internalLinks": 11,
       "telLinks": 0
     },
     {
       "width": 430,
       "screenshot": "screenshots/preview/width-430.png",
-      "documentHeight": 14884,
+      "documentHeight": 16000,
       "viewport": {
         "width": 430,
         "height": 844
@@ -432,6 +448,10 @@
         },
         {
           "level": 3,
+          "text": "「こんなこと相談してもいいのかな…」その迷いから、お聞かせください"
+        },
+        {
+          "level": 3,
           "text": "人に相談したいときは、LINEから。"
         },
         {
@@ -524,6 +544,10 @@
         },
         {
           "level": 2,
+          "text": "まずは、がんばってきたご自身に「おつかれさま」を。"
+        },
+        {
+          "level": 2,
           "text": "話しやすい方法から、始めてください。"
         },
         {
@@ -558,36 +582,36 @@
       "heroMethods": [
         {
           "channel": "ai",
-          "top": 421,
-          "bottom": 533,
+          "top": 693,
+          "bottom": 805,
           "inFirstScreen": true,
           "fullyInFirstScreen": true
         },
         {
           "channel": "line",
-          "top": 542,
-          "bottom": 654,
+          "top": 814,
+          "bottom": 927,
           "inFirstScreen": true,
-          "fullyInFirstScreen": true
+          "fullyInFirstScreen": false
         },
         {
           "channel": "phone",
-          "top": 663,
-          "bottom": 776,
-          "inFirstScreen": true,
-          "fullyInFirstScreen": true
+          "top": 936,
+          "bottom": 1048,
+          "inFirstScreen": false,
+          "fullyInFirstScreen": false
         }
       ],
-      "heroTitleBottom": 238,
-      "bodyHeight": 14884,
-      "mainTextLength": 11227,
+      "heroTitleBottom": 511,
+      "bodyHeight": 16399,
+      "mainTextLength": 11701,
       "internalLinks": 11,
       "telLinks": 0
     },
     {
       "width": 768,
       "screenshot": "screenshots/preview/width-768.png",
-      "documentHeight": 12767,
+      "documentHeight": 14598,
       "viewport": {
         "width": 768,
         "height": 900
@@ -626,6 +650,10 @@
         },
         {
           "level": 3,
+          "text": "「こんなこと相談してもいいのかな…」その迷いから、お聞かせください"
+        },
+        {
+          "level": 3,
           "text": "人に相談したいときは、LINEから。"
         },
         {
@@ -718,6 +746,10 @@
         },
         {
           "level": 2,
+          "text": "まずは、がんばってきたご自身に「おつかれさま」を。"
+        },
+        {
+          "level": 2,
           "text": "話しやすい方法から、始めてください。"
         },
         {
@@ -752,36 +784,36 @@
       "heroMethods": [
         {
           "channel": "ai",
-          "top": 522,
-          "bottom": 646,
+          "top": 873,
+          "bottom": 997,
           "inFirstScreen": true,
-          "fullyInFirstScreen": true
+          "fullyInFirstScreen": false
         },
         {
           "channel": "line",
-          "top": 655,
-          "bottom": 779,
-          "inFirstScreen": true,
-          "fullyInFirstScreen": true
+          "top": 1006,
+          "bottom": 1130,
+          "inFirstScreen": false,
+          "fullyInFirstScreen": false
         },
         {
           "channel": "phone",
-          "top": 788,
-          "bottom": 912,
-          "inFirstScreen": true,
+          "top": 1139,
+          "bottom": 1263,
+          "inFirstScreen": false,
           "fullyInFirstScreen": false
         }
       ],
-      "heroTitleBottom": 312,
-      "bodyHeight": 12767,
-      "mainTextLength": 11227,
+      "heroTitleBottom": 663,
+      "bodyHeight": 14598,
+      "mainTextLength": 11701,
       "internalLinks": 11,
       "telLinks": 0
     },
     {
       "width": 1280,
       "screenshot": "screenshots/preview/width-1280.png",
-      "documentHeight": 10815,
+      "documentHeight": 11817,
       "viewport": {
         "width": 1280,
         "height": 900
@@ -820,6 +852,10 @@
         },
         {
           "level": 3,
+          "text": "「こんなこと相談してもいいのかな…」その迷いから、お聞かせください"
+        },
+        {
+          "level": 3,
           "text": "人に相談したいときは、LINEから。"
         },
         {
@@ -912,6 +948,10 @@
         },
         {
           "level": 2,
+          "text": "まずは、がんばってきたご自身に「おつかれさま」を。"
+        },
+        {
+          "level": 2,
           "text": "話しやすい方法から、始めてください。"
         },
         {
@@ -946,36 +986,36 @@
       "heroMethods": [
         {
           "channel": "ai",
-          "top": 312,
-          "bottom": 436,
+          "top": 477,
+          "bottom": 601,
           "inFirstScreen": true,
           "fullyInFirstScreen": true
         },
         {
           "channel": "line",
-          "top": 445,
-          "bottom": 569,
+          "top": 610,
+          "bottom": 734,
           "inFirstScreen": true,
           "fullyInFirstScreen": true
         },
         {
           "channel": "phone",
-          "top": 578,
-          "bottom": 702,
+          "top": 743,
+          "bottom": 867,
           "inFirstScreen": true,
           "fullyInFirstScreen": true
         }
       ],
       "heroTitleBottom": 468,
-      "bodyHeight": 10815,
-      "mainTextLength": 11227,
+      "bodyHeight": 11817,
+      "mainTextLength": 11701,
       "internalLinks": 11,
       "telLinks": 0
     },
     {
       "width": 1440,
       "screenshot": "screenshots/preview/width-1440.png",
-      "documentHeight": 10907,
+      "documentHeight": 11909,
       "viewport": {
         "width": 1440,
         "height": 900
@@ -1014,6 +1054,10 @@
         },
         {
           "level": 3,
+          "text": "「こんなこと相談してもいいのかな…」その迷いから、お聞かせください"
+        },
+        {
+          "level": 3,
           "text": "人に相談したいときは、LINEから。"
         },
         {
@@ -1106,6 +1150,10 @@
         },
         {
           "level": 2,
+          "text": "まずは、がんばってきたご自身に「おつかれさま」を。"
+        },
+        {
+          "level": 2,
           "text": "話しやすい方法から、始めてください。"
         },
         {
@@ -1140,29 +1188,29 @@
       "heroMethods": [
         {
           "channel": "ai",
-          "top": 316,
-          "bottom": 440,
+          "top": 481,
+          "bottom": 605,
           "inFirstScreen": true,
           "fullyInFirstScreen": true
         },
         {
           "channel": "line",
-          "top": 449,
-          "bottom": 573,
+          "top": 614,
+          "bottom": 738,
           "inFirstScreen": true,
           "fullyInFirstScreen": true
         },
         {
           "channel": "phone",
-          "top": 582,
-          "bottom": 706,
+          "top": 747,
+          "bottom": 871,
           "inFirstScreen": true,
           "fullyInFirstScreen": true
         }
       ],
       "heroTitleBottom": 476,
-      "bodyHeight": 10907,
-      "mainTextLength": 11227,
+      "bodyHeight": 11909,
+      "mainTextLength": 11701,
       "internalLinks": 11,
       "telLinks": 0
     }
@@ -1172,7 +1220,7 @@
       "route": "/about/",
       "width": 390,
       "screenshot": "screenshots/preview/page-about-390.png",
-      "documentHeight": 4496,
+      "documentHeight": 4457,
       "viewport": {
         "width": 390,
         "height": 844
@@ -1232,7 +1280,7 @@
       "smallControls": [],
       "heroMethods": [],
       "heroTitleBottom": 288,
-      "bodyHeight": 4496,
+      "bodyHeight": 4457,
       "mainTextLength": 2507,
       "internalLinks": 21,
       "telLinks": 0
@@ -1241,7 +1289,7 @@
       "route": "/about/",
       "width": 1440,
       "screenshot": "screenshots/preview/page-about-1440.png",
-      "documentHeight": 3371,
+      "documentHeight": 3350,
       "viewport": {
         "width": 1440,
         "height": 900
@@ -1301,7 +1349,7 @@
       "smallControls": [],
       "heroMethods": [],
       "heroTitleBottom": 379,
-      "bodyHeight": 3371,
+      "bodyHeight": 3350,
       "mainTextLength": 2507,
       "internalLinks": 21,
       "telLinks": 0
@@ -1310,7 +1358,7 @@
       "route": "/privacy/",
       "width": 390,
       "screenshot": "screenshots/preview/page-privacy-390.png",
-      "documentHeight": 6387,
+      "documentHeight": 6250,
       "viewport": {
         "width": 390,
         "height": 844
@@ -1386,7 +1434,7 @@
       "smallControls": [],
       "heroMethods": [],
       "heroTitleBottom": 288,
-      "bodyHeight": 6387,
+      "bodyHeight": 6250,
       "mainTextLength": 4355,
       "internalLinks": 17,
       "telLinks": 0
@@ -1395,7 +1443,7 @@
       "route": "/privacy/",
       "width": 1440,
       "screenshot": "screenshots/preview/page-privacy-1440.png",
-      "documentHeight": 4832,
+      "documentHeight": 4804,
       "viewport": {
         "width": 1440,
         "height": 900
@@ -1471,7 +1519,7 @@
       "smallControls": [],
       "heroMethods": [],
       "heroTitleBottom": 379,
-      "bodyHeight": 4832,
+      "bodyHeight": 4804,
       "mainTextLength": 4355,
       "internalLinks": 17,
       "telLinks": 0
@@ -1480,7 +1528,7 @@
       "route": "/terms/",
       "width": 390,
       "screenshot": "screenshots/preview/page-terms-390.png",
-      "documentHeight": 5617,
+      "documentHeight": 5506,
       "viewport": {
         "width": 390,
         "height": 844
@@ -1556,7 +1604,7 @@
       "smallControls": [],
       "heroMethods": [],
       "heroTitleBottom": 288,
-      "bodyHeight": 5617,
+      "bodyHeight": 5506,
       "mainTextLength": 3409,
       "internalLinks": 20,
       "telLinks": 0
@@ -1650,7 +1698,7 @@
       "route": "/disclosures/",
       "width": 390,
       "screenshot": "screenshots/preview/page-disclosures-390.png",
-      "documentHeight": 4898,
+      "documentHeight": 4814,
       "viewport": {
         "width": 390,
         "height": 844
@@ -1718,7 +1766,7 @@
       "smallControls": [],
       "heroMethods": [],
       "heroTitleBottom": 288,
-      "bodyHeight": 4898,
+      "bodyHeight": 4814,
       "mainTextLength": 2726,
       "internalLinks": 22,
       "telLinks": 0
@@ -1727,7 +1775,7 @@
       "route": "/disclosures/",
       "width": 1440,
       "screenshot": "screenshots/preview/page-disclosures-1440.png",
-      "documentHeight": 3823,
+      "documentHeight": 3796,
       "viewport": {
         "width": 1440,
         "height": 900
@@ -1795,7 +1843,7 @@
       "smallControls": [],
       "heroMethods": [],
       "heroTitleBottom": 379,
-      "bodyHeight": 3823,
+      "bodyHeight": 3796,
       "mainTextLength": 2726,
       "internalLinks": 22,
       "telLinks": 0
