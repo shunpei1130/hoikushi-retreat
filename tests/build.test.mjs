@@ -62,7 +62,7 @@ test("production build succeeds with a complete, approved config", async () => {
   assert.equal(result.status, 0, result.stderr);
 
   const html = await read("dist/test-public/index.html");
-  assert.match(html, /<title>保育士の退職代行｜元保育士にLINE・電話相談｜リトリート<\/title>/);
+  assert.match(html, /<title>保育士の退職代行・お悩み相談｜元保育士と女性カウンセラー｜保育士リトリート<\/title>/);
   assert.match(html, /id="ai-chat"/);
   assert.match(html, /action="\/api\/chat"/);
   assert.doesNotMatch(html, /OPENAI_API_KEY|test-secret-never-in-client/);

@@ -167,13 +167,6 @@
     "hostingProvider": null,
     "deletionMethod": null
   },
-  "claims": {
-    "freeConsultation": false,
-    "available24Hours": false,
-    "sameDayService": false,
-    "noAdditionalFees": false,
-    "anonymousConsultation": false
-  },
   "analytics": {
     "enabled": false,
     "privacyApproved": false,

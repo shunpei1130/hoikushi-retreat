@@ -18,6 +18,7 @@ export function renderDisclosures({ config, mode }) {
     pricing.total?.verified === true &&
     pricing.total?.includesAllSupportCosts === true &&
     typeof pricing.total?.fixedAmount === "number";
+  const plans = Array.isArray(pricing.plans) ? pricing.plans : [];
 
   const body = `${pageHero({
     eyebrow: "取引条件 / DISCLOSURES",
@@ -75,8 +76,21 @@ export function renderDisclosures({ config, mode }) {
         <div><dt>組合費（初回分）</dt><dd>${priceValue(item("union-monthly"), mode)}</dd></div>
         <div><dt>追加費用</dt><dd>${priceValue(item("additional-costs"), mode)}</dd></div>`}
       </dl>
+      ${plans.length > 0
+        ? `<div class="disclosure-plans">
+        <p class="disclosure-plans__title">退職支援プラン</p>
+        <dl class="disclosure-price">
+          ${plans
+            .map(
+              (plan) =>
+                `<div><dt>${escapeHtml(plan.label)}</dt><dd>${priceValue(plan, mode)}<span class="disclosure-plans__condition">${escapeHtml(plan.condition || "")}</span></dd></div>`,
+            )
+            .join("")}
+        </dl>
+      </div>`
+        : ""}
       <div class="disclosure-total">
-        <p>退職支援の総額</p>
+        <p>退職支援の総額（20代・就業6年以内の場合）</p>
         <p>${totalValue(config, mode)}</p>
         <p>${pricing.total?.note ? escapeHtml(pricing.total.note) : pending("総額の条件は公開前に確定します")}</p>
       </div>

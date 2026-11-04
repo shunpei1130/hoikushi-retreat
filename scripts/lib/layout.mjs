@@ -22,7 +22,7 @@ function buildCsp(jsonLdText) {
 
 function header(config, page) {
   const isHome = page.path === "/";
-  const consultHref = isHome ? "#consult" : "/#consult";
+  const consultHref = isHome ? "#talk" : "/#talk";
   const pricingHref = isHome ? "#pricing" : "/#pricing";
   const aboutCurrent = page.path === "/about/";
   return `<header class="site-header">
@@ -35,13 +35,13 @@ function header(config, page) {
         </span>
       </a>
       <nav class="site-nav" aria-label="主なメニュー">
-        <a href="${consultHref}">3つの相談方法</a>
-        <a href="${pricingHref}">料金・対応範囲</a>
+        <a href="${consultHref}">相談の流れ</a>
+        <a href="${pricingHref}">料金プラン</a>
         <a href="/about/"${aboutCurrent ? ' aria-current="page"' : ""}>運営情報</a>
       </nav>
       <a class="header-action" href="${consultHref}">
-        <span class="header-action__long">相談方法を選ぶ</span>
-        <span class="header-action__short">相談方法</span>
+        <span class="header-action__long">無料相談をはじめる</span>
+        <span class="header-action__short">無料相談</span>
         ${icon("arrowRight")}
       </a>
     </div>
@@ -51,11 +51,16 @@ function header(config, page) {
 function stickyCta(config, page, mode) {
   if (!page.stickyCta) return "";
   return `<div class="sticky-cta" data-sticky-cta hidden>
-    <div class="sticky-cta__inner" aria-label="相談窓口">
-      <span class="sticky-cta__label">相談方法</span>
-      ${channelButton(config, "ai", { mode, placement: "sticky", label: channelLabel(config, "ai", "short"), variant: "sticky", showIcon: true, showNote: false })}
-      ${channelButton(config, "line", { mode, placement: "sticky", label: channelLabel(config, "line", "short"), variant: "sticky-primary", showIcon: true, showNote: false })}
-      ${channelButton(config, "phone", { mode, placement: "sticky", label: channelLabel(config, "phone", "short"), variant: "sticky", showIcon: true, showNote: false })}
+    <div class="sticky-cta__inner" aria-label="LINEで無料相談">
+      <p class="sticky-cta__lead"><strong>相談料 0円</strong><span>秘密厳守・24時間受付</span></p>
+      ${channelButton(config, "line", {
+        mode,
+        placement: "sticky",
+        label: "LINEで無料相談する",
+        variant: "sticky-primary",
+        showIcon: true,
+        showNote: false,
+      })}
     </div>
   </div>`;
 }
@@ -105,8 +110,8 @@ function footer(config, page, mode) {
         </div>
         <nav class="footer-col" aria-label="相談方法">
           <h2>相談方法</h2>
-          <a href="${anchor("#consult")}">3つの相談方法</a>
-          <a href="${anchor("#pricing")}">料金と組合加入</a>
+          <a href="${anchor("#talk")}">LINE相談のイメージ</a>
+          <a href="${anchor("#pricing")}">料金プラン</a>
           <a href="${anchor("#flow")}">ご利用の流れ</a>
           <a href="${anchor("#faq")}">よくあるご質問</a>
         </nav>

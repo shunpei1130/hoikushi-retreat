@@ -45,7 +45,7 @@
   },
   "service": {
     "audience": "退職を考えている保育士（正社員・契約社員・パート等）",
-    "staffing": "LINE・電話相談は、元保育士のスタッフが担当します。",
+    "staffing": "LINE・電話相談は、元保育士のスタッフと女性カウンセラーが担当します。",
     "scope": {
       "verified": true,
       "consultation": [
@@ -68,7 +68,7 @@
       ]
     },
     "membershipConditions": "退職代行・支援の正式依頼時に組合への加入手続きを行います（支援完了後の脱退も可能です）。",
-    "cancellationRefundPolicy": "退職通知の着手前であればキャンセルが可能です。着手後のキャンセルおよび返金はお受けできません。",
+    "cancellationRefundPolicy": "退職が成立しなかった場合は、退職支援料を全額返金いたします（全額返金保証）。退職通知の着手前であれば、いつでもキャンセルできます。",
     "contactPolicy": "本人への説明と同意なく勤務先へ連絡しません。",
     "contactPolicyApproved": true,
     "acceptsUndecided": true,
@@ -143,19 +143,48 @@
     "total": {
       "fixedAmount": 24800,
       "includesAllSupportCosts": true,
-      "condition": "就業から6年以内（6年を超える場合は49,600円・税込）",
+      "condition": "20代・就業から6年以内（通常プラン28,000円／公立保育園プラン75,000円・すべて税込）",
       "componentIds": [
         "support-fee",
         "union-enrollment",
         "union-monthly",
         "additional-costs"
       ],
-      "note": "「就業から6年以内」の場合、退職支援の税込総額は24,800円です（就業から6年を超える場合は49,600円・税込）。AI・LINE・電話の相談料は無料で、退職支援に関する追加のサービス料金はありません。",
+      "note": "20代・就業から6年以内の方は24,800円（税込）、通常プランは28,000円（税込）、公務員（公立保育園）プランは提携弁護士対応で75,000円（税込）です。AI・LINE・電話の相談料は無料で、退職支援に関する追加のサービス料金はありません。",
       "verified": true
     },
+    "plans": [
+      {
+        "id": "youth",
+        "label": "20代・就業6年以内限定プラン",
+        "amount": 24800,
+        "condition": "20代で、就業から6年以内の方",
+        "note": "若手支援特別価格",
+        "recommended": true,
+        "verified": true
+      },
+      {
+        "id": "standard",
+        "label": "通常プラン",
+        "amount": 28000,
+        "condition": "上記以外の方",
+        "note": "追加料金なし",
+        "recommended": false,
+        "verified": true
+      },
+      {
+        "id": "public",
+        "label": "公務員（公立保育園）プラン",
+        "amount": 75000,
+        "condition": "公立保育園にお勤めの方",
+        "note": "提携弁護士対応",
+        "recommended": false,
+        "verified": true
+      }
+    ],
     "taxStatus": "included",
-    "taxNote": "退職支援の総額は税込（就業6年以内：24,800円 / 6年超：49,600円）",
-    "paymentMethods": "クレジットカード決済（Square: https://square.link/u/NJ6sKAhn）",
+    "taxNote": "退職支援の総額は税込（20代・就業6年以内：24,800円 / 通常：28,000円 / 公務員：75,000円）",
+    "paymentMethods": "クレジットカード決済（Square: https://square.link/u/NJ6sKAhn）・あと払い対応",
     "paymentTiming": "ご相談後、退職支援の正式なお申し込み・着手前にお支払い"
   },
   "staff": [
@@ -164,6 +193,18 @@
       "role": "相談員（元保育士）",
       "experience": "保育士資格保有・認可保育園等での勤務経験あり",
       "message": "園での悩みや退職に関する不安など、同じ現場を経験した立場から丁寧にお話を伺います。",
+      "channels": [
+        "line",
+        "phone"
+      ],
+      "updatedAt": "2026-11-04",
+      "approved": true
+    },
+    {
+      "name": "女性カウンセラー",
+      "role": "カウンセラー（女性）",
+      "experience": "女性カウンセラーとして、保育士の悩みや退職のご相談に対応",
+      "message": "男性や威圧的な対応が苦手な方も、安心してお話しください。気持ちを整理するところから、ゆっくり寄り添います。",
       "channels": [
         "line",
         "phone"
@@ -182,13 +223,6 @@
     "analyticsProvider": null,
     "hostingProvider": "Vercel Inc.",
     "deletionMethod": "電子データは復元不能な方法で削除し、紙面がある場合はシュレッダー等により裁断破棄"
-  },
-  "claims": {
-    "freeConsultation": false,
-    "available24Hours": false,
-    "sameDayService": false,
-    "noAdditionalFees": false,
-    "anonymousConsultation": false
   },
   "analytics": {
     "enabled": false,

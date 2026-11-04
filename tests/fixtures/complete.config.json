@@ -176,13 +176,6 @@
     "hostingProvider": "静的ホスティング事業者",
     "deletionMethod": "問い合わせ窓口への依頼により削除"
   },
-  "claims": {
-    "freeConsultation": false,
-    "available24Hours": false,
-    "sameDayService": false,
-    "noAdditionalFees": false,
-    "anonymousConsultation": false
-  },
   "analytics": {
     "enabled": false,
     "privacyApproved": false,

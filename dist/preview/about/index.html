@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="Content-Security-Policy" content="default-src &#39;none&#39;; base-uri &#39;none&#39;; form-action &#39;none&#39;; object-src &#39;none&#39;; frame-src &#39;none&#39;; img-src &#39;self&#39; data:; font-src &#39;self&#39;; style-src &#39;self&#39;; script-src &#39;self&#39; &#39;sha256-weNGCTI2wpFa6MoUFCuG/dlMppT56Onwm9+YVa/TLLA=&#39;; connect-src &#39;self&#39;; manifest-src &#39;self&#39;">
+  <meta http-equiv="Content-Security-Policy" content="default-src &#39;none&#39;; base-uri &#39;none&#39;; form-action &#39;none&#39;; object-src &#39;none&#39;; frame-src &#39;none&#39;; img-src &#39;self&#39; data:; font-src &#39;self&#39;; style-src &#39;self&#39;; script-src &#39;self&#39; &#39;sha256-B7jSd3/fCa98Kr4RfIziYQTh65mNrNG9sY3vf48XAN0=&#39;; connect-src &#39;self&#39;; manifest-src &#39;self&#39;">
   <meta name="referrer" content="strict-origin-when-cross-origin">
   <meta name="color-scheme" content="light">
   <meta name="theme-color" content="#1D6258">
@@ -72,6 +72,12 @@
           "name": "元保育士相談スタッフ",
           "jobTitle": "相談員（元保育士）",
           "description": "保育士資格保有・認可保育園等での勤務経験あり"
+        },
+        {
+          "@type": "Person",
+          "name": "女性カウンセラー",
+          "jobTitle": "カウンセラー（女性）",
+          "description": "女性カウンセラーとして、保育士の悩みや退職のご相談に対応"
         }
       ],
       "contactPoint": {
@@ -127,13 +133,13 @@
         </span>
       </a>
       <nav class="site-nav" aria-label="主なメニュー">
-        <a href="/#consult">3つの相談方法</a>
-        <a href="/#pricing">料金・対応範囲</a>
+        <a href="/#talk">相談の流れ</a>
+        <a href="/#pricing">料金プラン</a>
         <a href="/about/" aria-current="page">運営情報</a>
       </nav>
-      <a class="header-action" href="/#consult">
-        <span class="header-action__long">相談方法を選ぶ</span>
-        <span class="header-action__short">相談方法</span>
+      <a class="header-action" href="/#talk">
+        <span class="header-action__long">無料相談をはじめる</span>
+        <span class="header-action__short">無料相談</span>
         <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 12h15M13 6l6 6-6 6"/></svg>
       </a>
     </div>
@@ -203,7 +209,7 @@
       <p>別の組織が受付・システム・決済等を担当する場合は、誰がどの業務を担うかを明確にし、このページと各サービスの表示を一致させます。</p>
 
       <h2 id="staffing">相談体制</h2>
-      <p>LINE・電話相談は、元保育士のスタッフが担当します。園での働き方や、担任・引継ぎの事情を踏まえて、話を整理します。相談員の氏名・勤務経験・担当する相談窓口・プロフィール更新日は、本人の確認と掲載許可を得た情報だけを掲載します。</p>
+      <p>LINE・電話相談は、元保育士のスタッフと女性カウンセラーが担当します。園での働き方や、担任・引継ぎの事情を踏まえて、話を整理します。相談員の氏名・勤務経験・担当する相談窓口・プロフィール更新日は、本人の確認と掲載許可を得た情報だけを掲載します。</p>
       <div class="staff-cards staff-cards--about">
         <article class="staff-card">
         <div class="staff-card__top">
@@ -220,12 +226,27 @@
           <span>担当：LINE相談・電話相談</span>
           <span>更新：2026年11月4日</span>
         </div>
+      </article><article class="staff-card">
+        <div class="staff-card__top">
+          <div class="staff-avatar staff-avatar--named" aria-hidden="true">女</div>
+          <div>
+            <p class="staff-card__kicker">STAFF PROFILE</p>
+            <h3>女性カウンセラー</h3>
+            <p class="staff-card__role">カウンセラー（女性）</p>
+          </div>
+        </div>
+        <p class="staff-card__experience">女性カウンセラーとして、保育士の悩みや退職のご相談に対応</p>
+        <p class="staff-card__body">男性や威圧的な対応が苦手な方も、安心してお話しください。気持ちを整理するところから、ゆっくり寄り添います。</p>
+        <div class="staff-card__footer">
+          <span>担当：LINE相談・電話相談</span>
+          <span>更新：2026年11月4日</span>
+        </div>
       </article>
       </div>
       <p>一次受付を別の担当者が行う場合や、相談員と園への連絡を担当する組合担当者が別の場合は、実際の流れと役割を分けて表示します。「全員が元保育士」と確認なく表現することはありません。</p>
 
       <h2 id="scope">対応範囲</h2>
-      <p>対応範囲は、<a href="/#scope">相談できること・組合が担当する支援・個別確認が必要なこと・対象外</a>に分けて表示しています。有期契約、特別な雇用形態、公立施設勤務などは、雇用主・雇用形態を確認したうえで対応可否を案内します。</p>
+      <p>対応範囲は、<a href="/#reasons">選ばれる理由・ご利用の流れ</a>でご案内しています。有期契約、特別な雇用形態、公立施設勤務などは、雇用主・雇用形態を確認したうえで対応可否を案内します。</p>
       <ul class="prose-list"><li>相談することと、正式に依頼することは別の手続きです。</li><li>正式依頼の前に、対象・費用・対応範囲・必要な加入を説明します。</li><li>本人への説明と同意なく勤務先へ連絡しません。</li><li>対応の確約ではない事項は、個別確認が必要なものとして表示します。</li></ul>
       <div class="callout callout--soft">
     <span class="callout__icon"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
@@ -288,8 +309,8 @@
         </div>
         <nav class="footer-col" aria-label="相談方法">
           <h2>相談方法</h2>
-          <a href="/#consult">3つの相談方法</a>
-          <a href="/#pricing">料金と組合加入</a>
+          <a href="/#talk">LINE相談のイメージ</a>
+          <a href="/#pricing">料金プラン</a>
           <a href="/#flow">ご利用の流れ</a>
           <a href="/#faq">よくあるご質問</a>
         </nav>

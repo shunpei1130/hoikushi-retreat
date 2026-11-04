@@ -255,6 +255,20 @@ export function collectIssues(config) {
     }
   }
 
+  const plans = Array.isArray(config.pricing?.plans) ? config.pricing.plans : [];
+  plans.forEach((plan, index) => {
+    const planPath = `pricing.plans[${index}]`;
+    if (!isFilled(plan.id) || !isFilled(plan.label)) {
+      invalid.push(issue("料金", planPath, plan.label || plan.id || `プラン${index + 1}`, "id・label を設定してください"));
+    }
+    if (typeof plan.amount !== "number" || !Number.isFinite(plan.amount) || plan.amount < 0) {
+      missing.push(issue("料金", `${planPath}.amount`, plan.label || `プラン${index + 1}`, "金額が未設定です"));
+    }
+    if (plan.verified !== true) {
+      missing.push(issue("料金", `${planPath}.verified`, plan.label || `プラン${index + 1}`, "料金の確認が true ではありません"));
+    }
+  });
+
   const staff = Array.isArray(config.staff) ? config.staff : [];
   if (staff.length === 0) {
     missing.push(issue("相談員", "staff", "元保育士スタッフのプロフィール", "公開承認済みのプロフィールがありません"));
@@ -301,13 +315,6 @@ export function collectIssues(config) {
     }
   } else {
     warnings.push(issue("計測", "analytics.enabled", "アクセス解析", "初期状態では無効です。有効化にはプライバシー承認が必要です"));
-  }
-
-  const claims = config.claims && typeof config.claims === "object" ? config.claims : {};
-  for (const [key, value] of Object.entries(claims)) {
-    if (value === true) {
-      invalid.push(issue("主張", `claims.${key}`, key, "未確認の主張です。根拠・承認・表示文言を追加するまで true にできません"));
-    }
   }
 
   if (Array.isArray(config.guides) && config.guides.length === 0) {

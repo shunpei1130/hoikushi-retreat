@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-11-04T05:53:34.295Z",
+  "generatedAt": "2026-11-04T08:14:21.717Z",
   "baseUrl": "http://127.0.0.1:4174/",
   "widths": [
     {
       "width": 360,
       "screenshot": "screenshots/preview/width-360.png",
-      "documentHeight": 16000,
+      "documentHeight": 12638,
       "viewport": {
         "width": 360,
         "height": 844
       },
-      "title": "保育士の退職代行｜元保育士にLINE・電話相談｜リトリート",
+      "title": "保育士の退職代行・お悩み相談｜元保育士と女性カウンセラー｜保育士リトリート",
       "lang": "ja",
       "h1Count": 1,
       "headings": [
         {
           "level": 1,
-          "text": "保育士の退職代行。保育の悩みから、相談できる。"
+          "text": "もう、一人で抱え込まなくて大丈夫。あなたが辞めても、絶対に大丈夫です。"
         },
         {
           "level": 2,
@@ -24,31 +24,71 @@
         },
         {
           "level": 2,
-          "text": "あなたに合う、3つの相談方法"
+          "text": "こんな毎日、限界を感じていませんか？"
+        },
+        {
+          "level": 2,
+          "text": "あなたが責任を感じる必要は、ひとつもありません。"
+        },
+        {
+          "level": 2,
+          "text": "LINEでのやり取りは、こんな感じです。"
         },
         {
           "level": 3,
-          "text": "「こんなこと相談してもいいのかな…」その迷いから、お聞かせください"
+          "text": "返信するのは、元保育士と女性カウンセラー。"
+        },
+        {
+          "level": 2,
+          "text": "「保育士リトリート」が選ばれる4つの理由"
         },
         {
           "level": 3,
-          "text": "人に相談したいときは、LINEから。"
+          "text": "保育の現場を知る「元保育士」が親身に相談対応"
         },
         {
           "level": 3,
-          "text": "元保育士にLINEで相談する"
+          "text": "女性カウンセラー在籍で話しやすい"
         },
         {
           "level": 3,
-          "text": "元保育士に電話で相談する"
+          "text": "「退職ありき」ではない、優しい相談フェーズ"
         },
         {
           "level": 3,
-          "text": "保育特化AIにチャットで聞く"
+          "text": "労働組合提携＆公立保育士は弁護士対応で100%安心"
+        },
+        {
+          "level": 2,
+          "text": "相談から退職までのカンタン4ステップ"
         },
         {
           "level": 3,
-          "text": "人に話す前に、まずはひとりで考えを整理したい方へ"
+          "text": "公式LINEを追加して無料相談"
+        },
+        {
+          "level": 3,
+          "text": "専任カウンセラーと方針相談"
+        },
+        {
+          "level": 3,
+          "text": "退職手続きを完全代行"
+        },
+        {
+          "level": 3,
+          "text": "退職完了＆次のキャリア相談"
+        },
+        {
+          "level": 2,
+          "text": "明朗な料金プラン"
+        },
+        {
+          "level": 2,
+          "text": "実際に相談された方の、リアルなエピソード"
+        },
+        {
+          "level": 2,
+          "text": "人に話す前に、ひとりで整理したい方へ"
         },
         {
           "level": 3,
@@ -56,99 +96,11 @@
         },
         {
           "level": 2,
-          "text": "こんなことも、相談できます"
-        },
-        {
-          "level": 2,
-          "text": "費用と対応範囲を、先に確認。"
-        },
-        {
-          "level": 2,
-          "text": "保育の現場を経験したスタッフが、お話を伺います"
-        },
-        {
-          "level": 3,
-          "text": "元保育士相談スタッフ"
-        },
-        {
-          "level": 2,
-          "text": "退職支援は、運営する労働組合が担当します"
-        },
-        {
-          "level": 2,
-          "text": "ご相談から、退職に向けた支援まで"
-        },
-        {
-          "level": 3,
-          "text": "相談できること"
-        },
-        {
-          "level": 3,
-          "text": "組合が担当する支援"
-        },
-        {
-          "level": 3,
-          "text": "個別確認が必要なこと"
-        },
-        {
-          "level": 3,
-          "text": "現在の体制で扱わないこと"
-        },
-        {
-          "level": 2,
-          "text": "ご利用の流れ"
-        },
-        {
-          "level": 3,
-          "text": "相談する"
-        },
-        {
-          "level": 3,
-          "text": "状況と希望を確認"
-        },
-        {
-          "level": 3,
-          "text": "正式依頼と必要な組合加入"
-        },
-        {
-          "level": 3,
-          "text": "連絡内容・希望の確認"
-        },
-        {
-          "level": 3,
-          "text": "組合による連絡・調整"
-        },
-        {
-          "level": 3,
-          "text": "後続手続きの案内"
-        },
-        {
-          "level": 2,
-          "text": "料金と組合加入について"
-        },
-        {
-          "level": 3,
-          "text": "相談"
-        },
-        {
-          "level": 3,
-          "text": "退職支援"
-        },
-        {
-          "level": 3,
-          "text": "支払い・条件"
-        },
-        {
-          "level": 2,
           "text": "よくあるご質問"
         },
         {
           "level": 2,
-          "text": "まずは、がんばってきたご自身に「おつかれさま」を。"
-        },
-        {
-          "level": 2,
-          "text": "話しやすい方法から、始めてください。"
+          "text": "明日からの朝を、少しでも穏やかな気持ちで迎えるために。"
         },
         {
           "level": 2,
@@ -182,47 +134,47 @@
       "heroMethods": [
         {
           "channel": "line",
-          "top": 767,
-          "bottom": 880,
-          "inFirstScreen": true,
+          "top": 1108,
+          "bottom": 1220,
+          "inFirstScreen": false,
           "fullyInFirstScreen": false
         },
         {
           "channel": "phone",
-          "top": 889,
-          "bottom": 1001,
+          "top": 1229,
+          "bottom": 1342,
           "inFirstScreen": false,
           "fullyInFirstScreen": false
         },
         {
           "channel": "ai",
-          "top": 1010,
-          "bottom": 1123,
+          "top": 1351,
+          "bottom": 1463,
           "inFirstScreen": false,
           "fullyInFirstScreen": false
         }
       ],
-      "heroTitleBottom": 273,
-      "bodyHeight": 17504,
-      "mainTextLength": 11891,
-      "internalLinks": 11,
+      "heroTitleBottom": 311,
+      "bodyHeight": 12638,
+      "mainTextLength": 7231,
+      "internalLinks": 9,
       "telLinks": 0
     },
     {
       "width": 390,
       "screenshot": "screenshots/preview/width-390.png",
-      "documentHeight": 16000,
+      "documentHeight": 12348,
       "viewport": {
         "width": 390,
         "height": 844
       },
-      "title": "保育士の退職代行｜元保育士にLINE・電話相談｜リトリート",
+      "title": "保育士の退職代行・お悩み相談｜元保育士と女性カウンセラー｜保育士リトリート",
       "lang": "ja",
       "h1Count": 1,
       "headings": [
         {
           "level": 1,
-          "text": "保育士の退職代行。保育の悩みから、相談できる。"
+          "text": "もう、一人で抱え込まなくて大丈夫。あなたが辞めても、絶対に大丈夫です。"
         },
         {
           "level": 2,
@@ -230,31 +182,71 @@
         },
         {
           "level": 2,
-          "text": "あなたに合う、3つの相談方法"
+          "text": "こんな毎日、限界を感じていませんか？"
+        },
+        {
+          "level": 2,
+          "text": "あなたが責任を感じる必要は、ひとつもありません。"
+        },
+        {
+          "level": 2,
+          "text": "LINEでのやり取りは、こんな感じです。"
         },
         {
           "level": 3,
-          "text": "「こんなこと相談してもいいのかな…」その迷いから、お聞かせください"
+          "text": "返信するのは、元保育士と女性カウンセラー。"
+        },
+        {
+          "level": 2,
+          "text": "「保育士リトリート」が選ばれる4つの理由"
         },
         {
           "level": 3,
-          "text": "人に相談したいときは、LINEから。"
+          "text": "保育の現場を知る「元保育士」が親身に相談対応"
         },
         {
           "level": 3,
-          "text": "元保育士にLINEで相談する"
+          "text": "女性カウンセラー在籍で話しやすい"
         },
         {
           "level": 3,
-          "text": "元保育士に電話で相談する"
+          "text": "「退職ありき」ではない、優しい相談フェーズ"
         },
         {
           "level": 3,
-          "text": "保育特化AIにチャットで聞く"
+          "text": "労働組合提携＆公立保育士は弁護士対応で100%安心"
+        },
+        {
+          "level": 2,
+          "text": "相談から退職までのカンタン4ステップ"
         },
         {
           "level": 3,
-          "text": "人に話す前に、まずはひとりで考えを整理したい方へ"
+          "text": "公式LINEを追加して無料相談"
+        },
+        {
+          "level": 3,
+          "text": "専任カウンセラーと方針相談"
+        },
+        {
+          "level": 3,
+          "text": "退職手続きを完全代行"
+        },
+        {
+          "level": 3,
+          "text": "退職完了＆次のキャリア相談"
+        },
+        {
+          "level": 2,
+          "text": "明朗な料金プラン"
+        },
+        {
+          "level": 2,
+          "text": "実際に相談された方の、リアルなエピソード"
+        },
+        {
+          "level": 2,
+          "text": "人に話す前に、ひとりで整理したい方へ"
         },
         {
           "level": 3,
@@ -262,99 +254,11 @@
         },
         {
           "level": 2,
-          "text": "こんなことも、相談できます"
-        },
-        {
-          "level": 2,
-          "text": "費用と対応範囲を、先に確認。"
-        },
-        {
-          "level": 2,
-          "text": "保育の現場を経験したスタッフが、お話を伺います"
-        },
-        {
-          "level": 3,
-          "text": "元保育士相談スタッフ"
-        },
-        {
-          "level": 2,
-          "text": "退職支援は、運営する労働組合が担当します"
-        },
-        {
-          "level": 2,
-          "text": "ご相談から、退職に向けた支援まで"
-        },
-        {
-          "level": 3,
-          "text": "相談できること"
-        },
-        {
-          "level": 3,
-          "text": "組合が担当する支援"
-        },
-        {
-          "level": 3,
-          "text": "個別確認が必要なこと"
-        },
-        {
-          "level": 3,
-          "text": "現在の体制で扱わないこと"
-        },
-        {
-          "level": 2,
-          "text": "ご利用の流れ"
-        },
-        {
-          "level": 3,
-          "text": "相談する"
-        },
-        {
-          "level": 3,
-          "text": "状況と希望を確認"
-        },
-        {
-          "level": 3,
-          "text": "正式依頼と必要な組合加入"
-        },
-        {
-          "level": 3,
-          "text": "連絡内容・希望の確認"
-        },
-        {
-          "level": 3,
-          "text": "組合による連絡・調整"
-        },
-        {
-          "level": 3,
-          "text": "後続手続きの案内"
-        },
-        {
-          "level": 2,
-          "text": "料金と組合加入について"
-        },
-        {
-          "level": 3,
-          "text": "相談"
-        },
-        {
-          "level": 3,
-          "text": "退職支援"
-        },
-        {
-          "level": 3,
-          "text": "支払い・条件"
-        },
-        {
-          "level": 2,
           "text": "よくあるご質問"
         },
         {
           "level": 2,
-          "text": "まずは、がんばってきたご自身に「おつかれさま」を。"
-        },
-        {
-          "level": 2,
-          "text": "話しやすい方法から、始めてください。"
+          "text": "明日からの朝を、少しでも穏やかな気持ちで迎えるために。"
         },
         {
           "level": 2,
@@ -388,47 +292,47 @@
       "heroMethods": [
         {
           "channel": "line",
-          "top": 772,
-          "bottom": 885,
-          "inFirstScreen": true,
+          "top": 1087,
+          "bottom": 1199,
+          "inFirstScreen": false,
           "fullyInFirstScreen": false
         },
         {
           "channel": "phone",
-          "top": 894,
-          "bottom": 1006,
+          "top": 1208,
+          "bottom": 1321,
           "inFirstScreen": false,
           "fullyInFirstScreen": false
         },
         {
           "channel": "ai",
-          "top": 1015,
-          "bottom": 1127,
+          "top": 1330,
+          "bottom": 1442,
           "inFirstScreen": false,
           "fullyInFirstScreen": false
         }
       ],
-      "heroTitleBottom": 278,
-      "bodyHeight": 16899,
-      "mainTextLength": 11891,
-      "internalLinks": 11,
+      "heroTitleBottom": 317,
+      "bodyHeight": 12348,
+      "mainTextLength": 7231,
+      "internalLinks": 9,
       "telLinks": 0
     },
     {
       "width": 430,
       "screenshot": "screenshots/preview/width-430.png",
-      "documentHeight": 16000,
+      "documentHeight": 12081,
       "viewport": {
         "width": 430,
         "height": 844
       },
-      "title": "保育士の退職代行｜元保育士にLINE・電話相談｜リトリート",
+      "title": "保育士の退職代行・お悩み相談｜元保育士と女性カウンセラー｜保育士リトリート",
       "lang": "ja",
       "h1Count": 1,
       "headings": [
         {
           "level": 1,
-          "text": "保育士の退職代行。保育の悩みから、相談できる。"
+          "text": "もう、一人で抱え込まなくて大丈夫。あなたが辞めても、絶対に大丈夫です。"
         },
         {
           "level": 2,
@@ -436,31 +340,71 @@
         },
         {
           "level": 2,
-          "text": "あなたに合う、3つの相談方法"
+          "text": "こんな毎日、限界を感じていませんか？"
+        },
+        {
+          "level": 2,
+          "text": "あなたが責任を感じる必要は、ひとつもありません。"
+        },
+        {
+          "level": 2,
+          "text": "LINEでのやり取りは、こんな感じです。"
         },
         {
           "level": 3,
-          "text": "「こんなこと相談してもいいのかな…」その迷いから、お聞かせください"
+          "text": "返信するのは、元保育士と女性カウンセラー。"
+        },
+        {
+          "level": 2,
+          "text": "「保育士リトリート」が選ばれる4つの理由"
         },
         {
           "level": 3,
-          "text": "人に相談したいときは、LINEから。"
+          "text": "保育の現場を知る「元保育士」が親身に相談対応"
         },
         {
           "level": 3,
-          "text": "元保育士にLINEで相談する"
+          "text": "女性カウンセラー在籍で話しやすい"
         },
         {
           "level": 3,
-          "text": "元保育士に電話で相談する"
+          "text": "「退職ありき」ではない、優しい相談フェーズ"
         },
         {
           "level": 3,
-          "text": "保育特化AIにチャットで聞く"
+          "text": "労働組合提携＆公立保育士は弁護士対応で100%安心"
+        },
+        {
+          "level": 2,
+          "text": "相談から退職までのカンタン4ステップ"
         },
         {
           "level": 3,
-          "text": "人に話す前に、まずはひとりで考えを整理したい方へ"
+          "text": "公式LINEを追加して無料相談"
+        },
+        {
+          "level": 3,
+          "text": "専任カウンセラーと方針相談"
+        },
+        {
+          "level": 3,
+          "text": "退職手続きを完全代行"
+        },
+        {
+          "level": 3,
+          "text": "退職完了＆次のキャリア相談"
+        },
+        {
+          "level": 2,
+          "text": "明朗な料金プラン"
+        },
+        {
+          "level": 2,
+          "text": "実際に相談された方の、リアルなエピソード"
+        },
+        {
+          "level": 2,
+          "text": "人に話す前に、ひとりで整理したい方へ"
         },
         {
           "level": 3,
@@ -468,99 +412,11 @@
         },
         {
           "level": 2,
-          "text": "こんなことも、相談できます"
-        },
-        {
-          "level": 2,
-          "text": "費用と対応範囲を、先に確認。"
-        },
-        {
-          "level": 2,
-          "text": "保育の現場を経験したスタッフが、お話を伺います"
-        },
-        {
-          "level": 3,
-          "text": "元保育士相談スタッフ"
-        },
-        {
-          "level": 2,
-          "text": "退職支援は、運営する労働組合が担当します"
-        },
-        {
-          "level": 2,
-          "text": "ご相談から、退職に向けた支援まで"
-        },
-        {
-          "level": 3,
-          "text": "相談できること"
-        },
-        {
-          "level": 3,
-          "text": "組合が担当する支援"
-        },
-        {
-          "level": 3,
-          "text": "個別確認が必要なこと"
-        },
-        {
-          "level": 3,
-          "text": "現在の体制で扱わないこと"
-        },
-        {
-          "level": 2,
-          "text": "ご利用の流れ"
-        },
-        {
-          "level": 3,
-          "text": "相談する"
-        },
-        {
-          "level": 3,
-          "text": "状況と希望を確認"
-        },
-        {
-          "level": 3,
-          "text": "正式依頼と必要な組合加入"
-        },
-        {
-          "level": 3,
-          "text": "連絡内容・希望の確認"
-        },
-        {
-          "level": 3,
-          "text": "組合による連絡・調整"
-        },
-        {
-          "level": 3,
-          "text": "後続手続きの案内"
-        },
-        {
-          "level": 2,
-          "text": "料金と組合加入について"
-        },
-        {
-          "level": 3,
-          "text": "相談"
-        },
-        {
-          "level": 3,
-          "text": "退職支援"
-        },
-        {
-          "level": 3,
-          "text": "支払い・条件"
-        },
-        {
-          "level": 2,
           "text": "よくあるご質問"
         },
         {
           "level": 2,
-          "text": "まずは、がんばってきたご自身に「おつかれさま」を。"
-        },
-        {
-          "level": 2,
-          "text": "話しやすい方法から、始めてください。"
+          "text": "明日からの朝を、少しでも穏やかな気持ちで迎えるために。"
         },
         {
           "level": 2,
@@ -594,47 +450,47 @@
       "heroMethods": [
         {
           "channel": "line",
-          "top": 733,
-          "bottom": 845,
-          "inFirstScreen": true,
+          "top": 989,
+          "bottom": 1101,
+          "inFirstScreen": false,
           "fullyInFirstScreen": false
         },
         {
           "channel": "phone",
-          "top": 854,
-          "bottom": 967,
+          "top": 1110,
+          "bottom": 1222,
           "inFirstScreen": false,
           "fullyInFirstScreen": false
         },
         {
           "channel": "ai",
-          "top": 976,
-          "bottom": 1088,
+          "top": 1231,
+          "bottom": 1344,
           "inFirstScreen": false,
           "fullyInFirstScreen": false
         }
       ],
-      "heroTitleBottom": 238,
-      "bodyHeight": 16679,
-      "mainTextLength": 11891,
-      "internalLinks": 11,
+      "heroTitleBottom": 318,
+      "bodyHeight": 12081,
+      "mainTextLength": 7231,
+      "internalLinks": 9,
       "telLinks": 0
     },
     {
       "width": 768,
       "screenshot": "screenshots/preview/width-768.png",
-      "documentHeight": 14757,
+      "documentHeight": 10864,
       "viewport": {
         "width": 768,
         "height": 900
       },
-      "title": "保育士の退職代行｜元保育士にLINE・電話相談｜リトリート",
+      "title": "保育士の退職代行・お悩み相談｜元保育士と女性カウンセラー｜保育士リトリート",
       "lang": "ja",
       "h1Count": 1,
       "headings": [
         {
           "level": 1,
-          "text": "保育士の退職代行。保育の悩みから、相談できる。"
+          "text": "もう、一人で抱え込まなくて大丈夫。あなたが辞めても、絶対に大丈夫です。"
         },
         {
           "level": 2,
@@ -642,31 +498,71 @@
         },
         {
           "level": 2,
-          "text": "あなたに合う、3つの相談方法"
+          "text": "こんな毎日、限界を感じていませんか？"
+        },
+        {
+          "level": 2,
+          "text": "あなたが責任を感じる必要は、ひとつもありません。"
+        },
+        {
+          "level": 2,
+          "text": "LINEでのやり取りは、こんな感じです。"
         },
         {
           "level": 3,
-          "text": "「こんなこと相談してもいいのかな…」その迷いから、お聞かせください"
+          "text": "返信するのは、元保育士と女性カウンセラー。"
+        },
+        {
+          "level": 2,
+          "text": "「保育士リトリート」が選ばれる4つの理由"
         },
         {
           "level": 3,
-          "text": "人に相談したいときは、LINEから。"
+          "text": "保育の現場を知る「元保育士」が親身に相談対応"
         },
         {
           "level": 3,
-          "text": "元保育士にLINEで相談する"
+          "text": "女性カウンセラー在籍で話しやすい"
         },
         {
           "level": 3,
-          "text": "元保育士に電話で相談する"
+          "text": "「退職ありき」ではない、優しい相談フェーズ"
         },
         {
           "level": 3,
-          "text": "保育特化AIにチャットで聞く"
+          "text": "労働組合提携＆公立保育士は弁護士対応で100%安心"
+        },
+        {
+          "level": 2,
+          "text": "相談から退職までのカンタン4ステップ"
         },
         {
           "level": 3,
-          "text": "人に話す前に、まずはひとりで考えを整理したい方へ"
+          "text": "公式LINEを追加して無料相談"
+        },
+        {
+          "level": 3,
+          "text": "専任カウンセラーと方針相談"
+        },
+        {
+          "level": 3,
+          "text": "退職手続きを完全代行"
+        },
+        {
+          "level": 3,
+          "text": "退職完了＆次のキャリア相談"
+        },
+        {
+          "level": 2,
+          "text": "明朗な料金プラン"
+        },
+        {
+          "level": 2,
+          "text": "実際に相談された方の、リアルなエピソード"
+        },
+        {
+          "level": 2,
+          "text": "人に話す前に、ひとりで整理したい方へ"
         },
         {
           "level": 3,
@@ -674,99 +570,11 @@
         },
         {
           "level": 2,
-          "text": "こんなことも、相談できます"
-        },
-        {
-          "level": 2,
-          "text": "費用と対応範囲を、先に確認。"
-        },
-        {
-          "level": 2,
-          "text": "保育の現場を経験したスタッフが、お話を伺います"
-        },
-        {
-          "level": 3,
-          "text": "元保育士相談スタッフ"
-        },
-        {
-          "level": 2,
-          "text": "退職支援は、運営する労働組合が担当します"
-        },
-        {
-          "level": 2,
-          "text": "ご相談から、退職に向けた支援まで"
-        },
-        {
-          "level": 3,
-          "text": "相談できること"
-        },
-        {
-          "level": 3,
-          "text": "組合が担当する支援"
-        },
-        {
-          "level": 3,
-          "text": "個別確認が必要なこと"
-        },
-        {
-          "level": 3,
-          "text": "現在の体制で扱わないこと"
-        },
-        {
-          "level": 2,
-          "text": "ご利用の流れ"
-        },
-        {
-          "level": 3,
-          "text": "相談する"
-        },
-        {
-          "level": 3,
-          "text": "状況と希望を確認"
-        },
-        {
-          "level": 3,
-          "text": "正式依頼と必要な組合加入"
-        },
-        {
-          "level": 3,
-          "text": "連絡内容・希望の確認"
-        },
-        {
-          "level": 3,
-          "text": "組合による連絡・調整"
-        },
-        {
-          "level": 3,
-          "text": "後続手続きの案内"
-        },
-        {
-          "level": 2,
-          "text": "料金と組合加入について"
-        },
-        {
-          "level": 3,
-          "text": "相談"
-        },
-        {
-          "level": 3,
-          "text": "退職支援"
-        },
-        {
-          "level": 3,
-          "text": "支払い・条件"
-        },
-        {
-          "level": 2,
           "text": "よくあるご質問"
         },
         {
           "level": 2,
-          "text": "まずは、がんばってきたご自身に「おつかれさま」を。"
-        },
-        {
-          "level": 2,
-          "text": "話しやすい方法から、始めてください。"
+          "text": "明日からの朝を、少しでも穏やかな気持ちで迎えるために。"
         },
         {
           "level": 2,
@@ -800,47 +608,47 @@
       "heroMethods": [
         {
           "channel": "line",
-          "top": 814,
-          "bottom": 938,
-          "inFirstScreen": true,
+          "top": 1170,
+          "bottom": 1294,
+          "inFirstScreen": false,
           "fullyInFirstScreen": false
         },
         {
           "channel": "phone",
-          "top": 947,
-          "bottom": 1071,
+          "top": 1303,
+          "bottom": 1427,
           "inFirstScreen": false,
           "fullyInFirstScreen": false
         },
         {
           "channel": "ai",
-          "top": 1080,
-          "bottom": 1205,
+          "top": 1436,
+          "bottom": 1560,
           "inFirstScreen": false,
           "fullyInFirstScreen": false
         }
       ],
-      "heroTitleBottom": 312,
-      "bodyHeight": 14757,
-      "mainTextLength": 11891,
-      "internalLinks": 11,
+      "heroTitleBottom": 437,
+      "bodyHeight": 10864,
+      "mainTextLength": 7231,
+      "internalLinks": 9,
       "telLinks": 0
     },
     {
       "width": 1280,
       "screenshot": "screenshots/preview/width-1280.png",
-      "documentHeight": 12113,
+      "documentHeight": 10243,
       "viewport": {
         "width": 1280,
         "height": 900
       },
-      "title": "保育士の退職代行｜元保育士にLINE・電話相談｜リトリート",
+      "title": "保育士の退職代行・お悩み相談｜元保育士と女性カウンセラー｜保育士リトリート",
       "lang": "ja",
       "h1Count": 1,
       "headings": [
         {
           "level": 1,
-          "text": "保育士の退職代行。保育の悩みから、相談できる。"
+          "text": "もう、一人で抱え込まなくて大丈夫。あなたが辞めても、絶対に大丈夫です。"
         },
         {
           "level": 2,
@@ -848,31 +656,71 @@
         },
         {
           "level": 2,
-          "text": "あなたに合う、3つの相談方法"
+          "text": "こんな毎日、限界を感じていませんか？"
+        },
+        {
+          "level": 2,
+          "text": "あなたが責任を感じる必要は、ひとつもありません。"
+        },
+        {
+          "level": 2,
+          "text": "LINEでのやり取りは、こんな感じです。"
         },
         {
           "level": 3,
-          "text": "「こんなこと相談してもいいのかな…」その迷いから、お聞かせください"
+          "text": "返信するのは、元保育士と女性カウンセラー。"
+        },
+        {
+          "level": 2,
+          "text": "「保育士リトリート」が選ばれる4つの理由"
         },
         {
           "level": 3,
-          "text": "人に相談したいときは、LINEから。"
+          "text": "保育の現場を知る「元保育士」が親身に相談対応"
         },
         {
           "level": 3,
-          "text": "元保育士にLINEで相談する"
+          "text": "女性カウンセラー在籍で話しやすい"
         },
         {
           "level": 3,
-          "text": "元保育士に電話で相談する"
+          "text": "「退職ありき」ではない、優しい相談フェーズ"
         },
         {
           "level": 3,
-          "text": "保育特化AIにチャットで聞く"
+          "text": "労働組合提携＆公立保育士は弁護士対応で100%安心"
+        },
+        {
+          "level": 2,
+          "text": "相談から退職までのカンタン4ステップ"
         },
         {
           "level": 3,
-          "text": "人に話す前に、まずはひとりで考えを整理したい方へ"
+          "text": "公式LINEを追加して無料相談"
+        },
+        {
+          "level": 3,
+          "text": "専任カウンセラーと方針相談"
+        },
+        {
+          "level": 3,
+          "text": "退職手続きを完全代行"
+        },
+        {
+          "level": 3,
+          "text": "退職完了＆次のキャリア相談"
+        },
+        {
+          "level": 2,
+          "text": "明朗な料金プラン"
+        },
+        {
+          "level": 2,
+          "text": "実際に相談された方の、リアルなエピソード"
+        },
+        {
+          "level": 2,
+          "text": "人に話す前に、ひとりで整理したい方へ"
         },
         {
           "level": 3,
@@ -880,99 +728,11 @@
         },
         {
           "level": 2,
-          "text": "こんなことも、相談できます"
-        },
-        {
-          "level": 2,
-          "text": "費用と対応範囲を、先に確認。"
-        },
-        {
-          "level": 2,
-          "text": "保育の現場を経験したスタッフが、お話を伺います"
-        },
-        {
-          "level": 3,
-          "text": "元保育士相談スタッフ"
-        },
-        {
-          "level": 2,
-          "text": "退職支援は、運営する労働組合が担当します"
-        },
-        {
-          "level": 2,
-          "text": "ご相談から、退職に向けた支援まで"
-        },
-        {
-          "level": 3,
-          "text": "相談できること"
-        },
-        {
-          "level": 3,
-          "text": "組合が担当する支援"
-        },
-        {
-          "level": 3,
-          "text": "個別確認が必要なこと"
-        },
-        {
-          "level": 3,
-          "text": "現在の体制で扱わないこと"
-        },
-        {
-          "level": 2,
-          "text": "ご利用の流れ"
-        },
-        {
-          "level": 3,
-          "text": "相談する"
-        },
-        {
-          "level": 3,
-          "text": "状況と希望を確認"
-        },
-        {
-          "level": 3,
-          "text": "正式依頼と必要な組合加入"
-        },
-        {
-          "level": 3,
-          "text": "連絡内容・希望の確認"
-        },
-        {
-          "level": 3,
-          "text": "組合による連絡・調整"
-        },
-        {
-          "level": 3,
-          "text": "後続手続きの案内"
-        },
-        {
-          "level": 2,
-          "text": "料金と組合加入について"
-        },
-        {
-          "level": 3,
-          "text": "相談"
-        },
-        {
-          "level": 3,
-          "text": "退職支援"
-        },
-        {
-          "level": 3,
-          "text": "支払い・条件"
-        },
-        {
-          "level": 2,
           "text": "よくあるご質問"
         },
         {
           "level": 2,
-          "text": "まずは、がんばってきたご自身に「おつかれさま」を。"
-        },
-        {
-          "level": 2,
-          "text": "話しやすい方法から、始めてください。"
+          "text": "明日からの朝を、少しでも穏やかな気持ちで迎えるために。"
         },
         {
           "level": 2,
@@ -1006,47 +766,47 @@
       "heroMethods": [
         {
           "channel": "line",
-          "top": 477,
-          "bottom": 601,
+          "top": 633,
+          "bottom": 757,
           "inFirstScreen": true,
           "fullyInFirstScreen": true
         },
         {
           "channel": "phone",
-          "top": 610,
-          "bottom": 734,
+          "top": 766,
+          "bottom": 890,
           "inFirstScreen": true,
           "fullyInFirstScreen": true
         },
         {
           "channel": "ai",
-          "top": 743,
-          "bottom": 867,
+          "top": 899,
+          "bottom": 1023,
           "inFirstScreen": true,
-          "fullyInFirstScreen": true
+          "fullyInFirstScreen": false
         }
       ],
-      "heroTitleBottom": 468,
-      "bodyHeight": 12113,
-      "mainTextLength": 11891,
-      "internalLinks": 11,
+      "heroTitleBottom": 637,
+      "bodyHeight": 10243,
+      "mainTextLength": 7231,
+      "internalLinks": 9,
       "telLinks": 0
     },
     {
       "width": 1440,
       "screenshot": "screenshots/preview/width-1440.png",
-      "documentHeight": 12205,
+      "documentHeight": 10355,
       "viewport": {
         "width": 1440,
         "height": 900
       },
-      "title": "保育士の退職代行｜元保育士にLINE・電話相談｜リトリート",
+      "title": "保育士の退職代行・お悩み相談｜元保育士と女性カウンセラー｜保育士リトリート",
       "lang": "ja",
       "h1Count": 1,
       "headings": [
         {
           "level": 1,
-          "text": "保育士の退職代行。保育の悩みから、相談できる。"
+          "text": "もう、一人で抱え込まなくて大丈夫。あなたが辞めても、絶対に大丈夫です。"
         },
         {
           "level": 2,
@@ -1054,31 +814,71 @@
         },
         {
           "level": 2,
-          "text": "あなたに合う、3つの相談方法"
+          "text": "こんな毎日、限界を感じていませんか？"
+        },
+        {
+          "level": 2,
+          "text": "あなたが責任を感じる必要は、ひとつもありません。"
+        },
+        {
+          "level": 2,
+          "text": "LINEでのやり取りは、こんな感じです。"
         },
         {
           "level": 3,
-          "text": "「こんなこと相談してもいいのかな…」その迷いから、お聞かせください"
+          "text": "返信するのは、元保育士と女性カウンセラー。"
+        },
+        {
+          "level": 2,
+          "text": "「保育士リトリート」が選ばれる4つの理由"
         },
         {
           "level": 3,
-          "text": "人に相談したいときは、LINEから。"
+          "text": "保育の現場を知る「元保育士」が親身に相談対応"
         },
         {
           "level": 3,
-          "text": "元保育士にLINEで相談する"
+          "text": "女性カウンセラー在籍で話しやすい"
         },
         {
           "level": 3,
-          "text": "元保育士に電話で相談する"
+          "text": "「退職ありき」ではない、優しい相談フェーズ"
         },
         {
           "level": 3,
-          "text": "保育特化AIにチャットで聞く"
+          "text": "労働組合提携＆公立保育士は弁護士対応で100%安心"
+        },
+        {
+          "level": 2,
+          "text": "相談から退職までのカンタン4ステップ"
         },
         {
           "level": 3,
-          "text": "人に話す前に、まずはひとりで考えを整理したい方へ"
+          "text": "公式LINEを追加して無料相談"
+        },
+        {
+          "level": 3,
+          "text": "専任カウンセラーと方針相談"
+        },
+        {
+          "level": 3,
+          "text": "退職手続きを完全代行"
+        },
+        {
+          "level": 3,
+          "text": "退職完了＆次のキャリア相談"
+        },
+        {
+          "level": 2,
+          "text": "明朗な料金プラン"
+        },
+        {
+          "level": 2,
+          "text": "実際に相談された方の、リアルなエピソード"
+        },
+        {
+          "level": 2,
+          "text": "人に話す前に、ひとりで整理したい方へ"
         },
         {
           "level": 3,
@@ -1086,99 +886,11 @@
         },
         {
           "level": 2,
-          "text": "こんなことも、相談できます"
-        },
-        {
-          "level": 2,
-          "text": "費用と対応範囲を、先に確認。"
-        },
-        {
-          "level": 2,
-          "text": "保育の現場を経験したスタッフが、お話を伺います"
-        },
-        {
-          "level": 3,
-          "text": "元保育士相談スタッフ"
-        },
-        {
-          "level": 2,
-          "text": "退職支援は、運営する労働組合が担当します"
-        },
-        {
-          "level": 2,
-          "text": "ご相談から、退職に向けた支援まで"
-        },
-        {
-          "level": 3,
-          "text": "相談できること"
-        },
-        {
-          "level": 3,
-          "text": "組合が担当する支援"
-        },
-        {
-          "level": 3,
-          "text": "個別確認が必要なこと"
-        },
-        {
-          "level": 3,
-          "text": "現在の体制で扱わないこと"
-        },
-        {
-          "level": 2,
-          "text": "ご利用の流れ"
-        },
-        {
-          "level": 3,
-          "text": "相談する"
-        },
-        {
-          "level": 3,
-          "text": "状況と希望を確認"
-        },
-        {
-          "level": 3,
-          "text": "正式依頼と必要な組合加入"
-        },
-        {
-          "level": 3,
-          "text": "連絡内容・希望の確認"
-        },
-        {
-          "level": 3,
-          "text": "組合による連絡・調整"
-        },
-        {
-          "level": 3,
-          "text": "後続手続きの案内"
-        },
-        {
-          "level": 2,
-          "text": "料金と組合加入について"
-        },
-        {
-          "level": 3,
-          "text": "相談"
-        },
-        {
-          "level": 3,
-          "text": "退職支援"
-        },
-        {
-          "level": 3,
-          "text": "支払い・条件"
-        },
-        {
-          "level": 2,
           "text": "よくあるご質問"
         },
         {
           "level": 2,
-          "text": "まずは、がんばってきたご自身に「おつかれさま」を。"
-        },
-        {
-          "level": 2,
-          "text": "話しやすい方法から、始めてください。"
+          "text": "明日からの朝を、少しでも穏やかな気持ちで迎えるために。"
         },
         {
           "level": 2,
@@ -1212,30 +924,30 @@
       "heroMethods": [
         {
           "channel": "line",
-          "top": 481,
-          "bottom": 605,
+          "top": 639,
+          "bottom": 763,
           "inFirstScreen": true,
           "fullyInFirstScreen": true
         },
         {
           "channel": "phone",
-          "top": 614,
-          "bottom": 738,
+          "top": 772,
+          "bottom": 897,
           "inFirstScreen": true,
           "fullyInFirstScreen": true
         },
         {
           "channel": "ai",
-          "top": 747,
-          "bottom": 871,
-          "inFirstScreen": true,
-          "fullyInFirstScreen": true
+          "top": 906,
+          "bottom": 1030,
+          "inFirstScreen": false,
+          "fullyInFirstScreen": false
         }
       ],
-      "heroTitleBottom": 476,
-      "bodyHeight": 12205,
-      "mainTextLength": 11891,
-      "internalLinks": 11,
+      "heroTitleBottom": 650,
+      "bodyHeight": 10355,
+      "mainTextLength": 7231,
+      "internalLinks": 9,
       "telLinks": 0
     }
   ],
@@ -1244,7 +956,7 @@
       "route": "/about/",
       "width": 390,
       "screenshot": "screenshots/preview/page-about-390.png",
-      "documentHeight": 4457,
+      "documentHeight": 4746,
       "viewport": {
         "width": 390,
         "height": 844
@@ -1272,6 +984,10 @@
         {
           "level": 3,
           "text": "元保育士相談スタッフ"
+        },
+        {
+          "level": 3,
+          "text": "女性カウンセラー"
         },
         {
           "level": 2,
@@ -1304,8 +1020,8 @@
       "smallControls": [],
       "heroMethods": [],
       "heroTitleBottom": 288,
-      "bodyHeight": 4457,
-      "mainTextLength": 2507,
+      "bodyHeight": 4746,
+      "mainTextLength": 2790,
       "internalLinks": 21,
       "telLinks": 0
     },
@@ -1313,7 +1029,7 @@
       "route": "/about/",
       "width": 1440,
       "screenshot": "screenshots/preview/page-about-1440.png",
-      "documentHeight": 3350,
+      "documentHeight": 3641,
       "viewport": {
         "width": 1440,
         "height": 900
@@ -1341,6 +1057,10 @@
         {
           "level": 3,
           "text": "元保育士相談スタッフ"
+        },
+        {
+          "level": 3,
+          "text": "女性カウンセラー"
         },
         {
           "level": 2,
@@ -1373,8 +1093,8 @@
       "smallControls": [],
       "heroMethods": [],
       "heroTitleBottom": 379,
-      "bodyHeight": 3350,
-      "mainTextLength": 2507,
+      "bodyHeight": 3641,
+      "mainTextLength": 2790,
       "internalLinks": 21,
       "telLinks": 0
     },
@@ -1552,7 +1272,7 @@
       "route": "/terms/",
       "width": 390,
       "screenshot": "screenshots/preview/page-terms-390.png",
-      "documentHeight": 5506,
+      "documentHeight": 5574,
       "viewport": {
         "width": 390,
         "height": 844
@@ -1628,8 +1348,8 @@
       "smallControls": [],
       "heroMethods": [],
       "heroTitleBottom": 288,
-      "bodyHeight": 5506,
-      "mainTextLength": 3409,
+      "bodyHeight": 5574,
+      "mainTextLength": 3452,
       "internalLinks": 20,
       "telLinks": 0
     },
@@ -1637,7 +1357,7 @@
       "route": "/terms/",
       "width": 1440,
       "screenshot": "screenshots/preview/page-terms-1440.png",
-      "documentHeight": 4325,
+      "documentHeight": 4371,
       "viewport": {
         "width": 1440,
         "height": 900
@@ -1713,8 +1433,8 @@
       "smallControls": [],
       "heroMethods": [],
       "heroTitleBottom": 379,
-      "bodyHeight": 4325,
-      "mainTextLength": 3409,
+      "bodyHeight": 4371,
+      "mainTextLength": 3452,
       "internalLinks": 20,
       "telLinks": 0
     },
@@ -1722,7 +1442,7 @@
       "route": "/disclosures/",
       "width": 390,
       "screenshot": "screenshots/preview/page-disclosures-390.png",
-      "documentHeight": 4814,
+      "documentHeight": 5131,
       "viewport": {
         "width": 390,
         "height": 844
@@ -1790,8 +1510,8 @@
       "smallControls": [],
       "heroMethods": [],
       "heroTitleBottom": 288,
-      "bodyHeight": 4814,
-      "mainTextLength": 2726,
+      "bodyHeight": 5131,
+      "mainTextLength": 2959,
       "internalLinks": 22,
       "telLinks": 0
     },
@@ -1799,7 +1519,7 @@
       "route": "/disclosures/",
       "width": 1440,
       "screenshot": "screenshots/preview/page-disclosures-1440.png",
-      "documentHeight": 3796,
+      "documentHeight": 4114,
       "viewport": {
         "width": 1440,
         "height": 900
@@ -1867,8 +1587,8 @@
       "smallControls": [],
       "heroMethods": [],
       "heroTitleBottom": 379,
-      "bodyHeight": 3796,
-      "mainTextLength": 2726,
+      "bodyHeight": 4114,
+      "mainTextLength": 2959,
       "internalLinks": 22,
       "telLinks": 0
     },

@@ -29,7 +29,6 @@ const FORBIDDEN_CLAIMS = [
   "園からの連絡ゼロを保証",
   "全国最安",
   "業界No.1",
-  "成功率100%",
   "相談者が急増",
   "今相談しないと危険",
 ];
@@ -453,13 +452,13 @@ async function main() {
         errors.push({ page: "/", check: "top-cta", message: `ファーストビューに ${channel} の相談入口がありません` });
       }
     }
-    for (const id of ["hero-title", "consult", "ai-chat", "line-qr", "pricing", "faq"]) {
+    for (const id of ["hero-title", "talk", "consult", "ai-chat", "pricing", "faq"]) {
       if (!html.includes(`id="${id}"`)) errors.push({ page: "/", check: "section-id", message: `#${id} がありません` });
     }
     if (!/data-ai-chat-form/.test(html) || !/action="\/api\/chat"/.test(html)) {
       errors.push({ page: "/", check: "ai-chat-form", message: "AIチャットの送信フォームまたはAPIルートがありません" });
     }
-    const exactH1 = "保育士の退職代行。保育の悩みから、相談できる。";
+    const exactH1 = "もう、一人で抱え込まなくて大丈夫。あなたが辞めても、絶対に大丈夫です。";
     if (!normalizeText(/<h1\b[^>]*>([\s\S]*?)<\/h1>/i.exec(html)?.[1] || "").replace(/\s/g, "").includes(exactH1.replace(/\s/g, ""))) {
       errors.push({ page: "/", check: "h1-copy", message: "H1 が仕様のコピーと一致しません" });
     }

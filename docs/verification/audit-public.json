@@ -1,0 +1,125 @@
+{
+  "generatedAt": "2026-11-04T08:15:07.678Z",
+  "target": "dist/public",
+  "mode": "production",
+  "summary": {
+    "pages": 6,
+    "errors": 0,
+    "warnings": 0,
+    "checks": [
+      "HTML構造・見出し・ID重複",
+      "内部リンク・アンカー・アセット参照",
+      "title・description・robots・canonical・OGP",
+      "JSON-LD と CSP ハッシュ",
+      "禁止表現・プレビュー残存",
+      "robots.txt・sitemap.xml・_headers",
+      "OGP/Appleアイコンの画像寸法",
+      "スクリーンショットの有無"
+    ]
+  },
+  "pages": [
+    {
+      "route": "/404.html",
+      "file": "404.html",
+      "title": "ページが見つかりません｜保育士リトリート",
+      "description": "お探しのページは見つかりませんでした。保育士リトリートのトップページ、相談方法、料金、運営情報へのリンクを案内します。",
+      "dataMode": "production",
+      "errors": [],
+      "warnings": [],
+      "textLength": 423,
+      "internalLinks": 22,
+      "jsonLdTypes": [
+        "WebPage",
+        "WebSite",
+        "Organization+WorkersUnion",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "route": "/about/",
+      "file": "about/index.html",
+      "title": "運営情報・労働組合について｜保育士リトリート",
+      "description": "保育士リトリートを運営する労働組合の情報、サービスとの関係、元保育士スタッフの相談体制、対応範囲、開示情報をまとめています。",
+      "dataMode": "production",
+      "errors": [],
+      "warnings": [],
+      "textLength": 2016,
+      "internalLinks": 27,
+      "jsonLdTypes": [
+        "WebPage",
+        "WebSite",
+        "Organization+WorkersUnion",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "route": "/disclosures/",
+      "file": "disclosures/index.html",
+      "title": "取引条件・事業者情報｜保育士リトリート",
+      "description": "保育士リトリートの取引条件と事業者情報。サービス内容、料金、支払い方法・時期、提供時期、取消・返金、組合加入、問い合わせ先をまとめています。",
+      "dataMode": "production",
+      "errors": [],
+      "warnings": [],
+      "textLength": 2280,
+      "internalLinks": 31,
+      "jsonLdTypes": [
+        "WebPage",
+        "WebSite",
+        "Organization+WorkersUnion",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "route": "/",
+      "file": "index.html",
+      "title": "保育士の退職代行・お悩み相談｜元保育士と女性カウンセラー｜保育士リトリート",
+      "description": "「辞めたい」と言えずに悩む20代の保育士へ。元保育士と女性カウンセラーがLINEで無料相談。労働組合提携の退職代行で、園とのやり取りなく退職できます。料金プラン・ご利用の流れ・よくあるご質問をご案内します。",
+      "dataMode": "production",
+      "errors": [],
+      "warnings": [],
+      "textLength": 4558,
+      "internalLinks": 32,
+      "jsonLdTypes": [
+        "WebPage",
+        "WebSite",
+        "Organization+WorkersUnion"
+      ]
+    },
+    {
+      "route": "/privacy/",
+      "file": "privacy/index.html",
+      "title": "個人情報・相談情報の取扱い｜保育士リトリート",
+      "description": "保育士リトリートにおける個人情報・相談情報の取扱い、AIチャット・LINE・電話・アクセス解析の利用、保存期間・削除、開示等の請求、お問い合わせ窓口をまとめています。",
+      "dataMode": "production",
+      "errors": [],
+      "warnings": [],
+      "textLength": 3662,
+      "internalLinks": 28,
+      "jsonLdTypes": [
+        "WebPage",
+        "WebSite",
+        "Organization+WorkersUnion",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "route": "/terms/",
+      "file": "terms/index.html",
+      "title": "利用条件｜保育士リトリート",
+      "description": "保育士リトリートの利用条件。相談と正式依頼の違い、組合加入、料金・支払い、取消・返金、勤務先への連絡、禁止事項、免責、お問い合わせについてまとめています。",
+      "dataMode": "production",
+      "errors": [],
+      "warnings": [],
+      "textLength": 2934,
+      "internalLinks": 31,
+      "jsonLdTypes": [
+        "WebPage",
+        "WebSite",
+        "Organization+WorkersUnion",
+        "BreadcrumbList"
+      ]
+    }
+  ],
+  "errors": [],
+  "warnings": []
+}
