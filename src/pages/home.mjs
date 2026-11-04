@@ -37,8 +37,8 @@ function heroFee(config, key) {
 function heroMethodCard(config, key, mode) {
   const meta = CHANNEL_META[key];
   const status = channelStatus(config, key, mode);
-  const number = key === "ai" ? "01" : key === "line" ? "02" : "03";
-  const label = key === "ai" ? "AI CHAT" : key === "line" ? "LINE" : "PHONE";
+  const number = key === "line" ? "01" : key === "phone" ? "02" : "03";
+  const label = key === "line" ? "LINE相談（おすすめ）" : key === "phone" ? "電話相談" : "AIチャット";
   const inner = `<span class="method-card__top">
       <span class="method-card__icon">${icon(meta.icon)}</span>
       <span class="method-card__tag">${number} / ${label}</span>
@@ -124,7 +124,7 @@ function comparisonCard(config, key, mode) {
     <div class="compare-card__head">
       <span class="compare-card__icon">${icon(meta.icon)}</span>
       <div>
-        <p class="compare-card__tag">${key === "ai" ? "01 / AI" : key === "line" ? "02 / LINE" : "03 / PHONE"}</p>
+        <p class="compare-card__tag">${key === "line" ? "01 / LINE" : key === "phone" ? "02 / PHONE" : "03 / AI"}</p>
         <h3 id="compare-${key}">${escapeHtml(channelCardTitle(config, key))}</h3>
       </div>
     </div>
@@ -166,7 +166,7 @@ function lineContactPanel(config, mode) {
   const line = config.channels?.line ?? {};
   const hasQr = Boolean(line.qrAsset);
   const visual = hasQr
-    ? `<div class="line-qr-panel__visual"><img class="line-qr-panel__image" src="${escapeHtml(line.qrAsset)}" alt="LINE公式アカウント ${escapeHtml(line.id || "")} の友だち追加QRコード" width="180" height="180" loading="lazy"></div>`
+    ? `<div class="line-qr-panel__visual"><img class="line-qr-panel__image" src="${escapeHtml(line.qrAsset)}" alt="LINE公式アカウント ${escapeHtml(line.id || "")} の友だち追加QRコード" width="180" height="180"></div>`
     : mode === "preview"
       ? `<div class="line-qr-panel__visual"><div class="line-qr-panel__placeholder" role="img" aria-label="QRコード画像の追加待ち">QR画像を追加後<br>ここに表示</div></div>`
       : "";
@@ -378,9 +378,9 @@ export function renderHome({ config, mode }) {
           <p>話しやすい方法から始められます。</p>
         </div>
         <div class="method-stack">
-          ${heroMethodCard(config, "ai", mode)}
           ${heroMethodCard(config, "line", mode)}
           ${heroMethodCard(config, "phone", mode)}
+          ${heroMethodCard(config, "ai", mode)}
         </div>
         <p class="hero-panel__foot">${preview ? "接続先・電話番号・費用は公開前に確認します。" : "各窓口の受付条件は、相談方法の詳細に表示しています。"}</p>
       </aside>
@@ -388,8 +388,8 @@ export function renderHome({ config, mode }) {
     <div class="container hero__foot">
       <div class="hero__trust" aria-label="サービスの特徴">
         <span>${icon("building")} 労働組合運営</span>
-        <span>${icon("users")} 元保育士へのLINE・電話相談</span>
-        <span>${icon("ai")} 保育特化AIチャット</span>
+        <span>${icon("users")} 元保育士が直接LINE・電話対応</span>
+        <span>${icon("chat")} ひとりで整理できるAIも選べます</span>
       </div>
       <a class="hero__scroll" href="#consult">相談方法を読む ${icon("arrowDown")}</a>
     </div>
@@ -408,12 +408,6 @@ export function renderHome({ config, mode }) {
         <span class="consult-callout__icon">${icon("info")}</span>
         <p><strong>AIを経由しないと、人に相談できない構造にはしていません。</strong>LINE・電話は、どちらも最上部から直接選べます。</p>
       </div>
-      ${aiChatPanel()}
-      <div class="compare-grid">
-        ${comparisonCard(config, "ai", mode)}
-        ${comparisonCard(config, "line", mode)}
-        ${comparisonCard(config, "phone", mode)}
-      </div>
       <div class="consult-warm-banner">
         <div class="consult-warm-banner__visual">
           <img class="consult-warm-banner__image" src="/assets/consult-warm-illustration.jpg" alt="スマホで相談して安心した笑顔の保育士と寄り添う相談員の優しいイラスト" width="460" height="340" loading="lazy">
@@ -425,6 +419,17 @@ export function renderHome({ config, mode }) {
         </div>
       </div>
       ${lineContactPanel(config, mode)}
+      <div class="compare-grid">
+        ${comparisonCard(config, "line", mode)}
+        ${comparisonCard(config, "phone", mode)}
+        ${comparisonCard(config, "ai", mode)}
+      </div>
+      <div class="ai-chat-section-intro">
+        <span class="ai-chat-section-intro__badge">セルフ整理ツール</span>
+        <h3>人に話す前に、まずはひとりで考えを整理したい方へ</h3>
+        <p>「まだ人に話す勇気が出ない」「自分の気持ちを文字にして確かめたい」という方は、保育特化AIチャットでいつでも自由に整理できます。AIを使わず、最初から元保育士にLINEや電話で相談することももちろん可能です。</p>
+      </div>
+      ${aiChatPanel()}
       <p class="section-fine">担当者・料金・受付時間・返信時間は、公開前に確認した内容を表示します。${preview ? pendingInline("表示内容：確認中") : ""}</p>
     </div>
   </section>

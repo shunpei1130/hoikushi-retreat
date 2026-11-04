@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-04T05:42:13.183Z",
+  "generatedAt": "2026-11-04T05:53:34.295Z",
   "baseUrl": "http://127.0.0.1:4174/",
   "widths": [
     {
@@ -28,11 +28,11 @@
         },
         {
           "level": 3,
-          "text": "保育の悩みを、チャットで整理する"
+          "text": "「こんなこと相談してもいいのかな…」その迷いから、お聞かせください"
         },
         {
           "level": 3,
-          "text": "保育特化AIにチャットで聞く"
+          "text": "人に相談したいときは、LINEから。"
         },
         {
           "level": 3,
@@ -44,11 +44,15 @@
         },
         {
           "level": 3,
-          "text": "「こんなこと相談してもいいのかな…」その迷いから、お聞かせください"
+          "text": "保育特化AIにチャットで聞く"
         },
         {
           "level": 3,
-          "text": "人に相談したいときは、LINEから。"
+          "text": "人に話す前に、まずはひとりで考えを整理したい方へ"
+        },
+        {
+          "level": 3,
+          "text": "保育の悩みを、チャットで整理する"
         },
         {
           "level": 2,
@@ -177,21 +181,21 @@
       "smallControls": [],
       "heroMethods": [
         {
-          "channel": "ai",
+          "channel": "line",
           "top": 767,
           "bottom": 880,
           "inFirstScreen": true,
           "fullyInFirstScreen": false
         },
         {
-          "channel": "line",
+          "channel": "phone",
           "top": 889,
           "bottom": 1001,
           "inFirstScreen": false,
           "fullyInFirstScreen": false
         },
         {
-          "channel": "phone",
+          "channel": "ai",
           "top": 1010,
           "bottom": 1123,
           "inFirstScreen": false,
@@ -199,8 +203,8 @@
         }
       ],
       "heroTitleBottom": 273,
-      "bodyHeight": 17169,
-      "mainTextLength": 11701,
+      "bodyHeight": 17504,
+      "mainTextLength": 11891,
       "internalLinks": 11,
       "telLinks": 0
     },
@@ -230,11 +234,11 @@
         },
         {
           "level": 3,
-          "text": "保育の悩みを、チャットで整理する"
+          "text": "「こんなこと相談してもいいのかな…」その迷いから、お聞かせください"
         },
         {
           "level": 3,
-          "text": "保育特化AIにチャットで聞く"
+          "text": "人に相談したいときは、LINEから。"
         },
         {
           "level": 3,
@@ -246,11 +250,15 @@
         },
         {
           "level": 3,
-          "text": "「こんなこと相談してもいいのかな…」その迷いから、お聞かせください"
+          "text": "保育特化AIにチャットで聞く"
         },
         {
           "level": 3,
-          "text": "人に相談したいときは、LINEから。"
+          "text": "人に話す前に、まずはひとりで考えを整理したい方へ"
+        },
+        {
+          "level": 3,
+          "text": "保育の悩みを、チャットで整理する"
         },
         {
           "level": 2,
@@ -379,21 +387,21 @@
       "smallControls": [],
       "heroMethods": [
         {
-          "channel": "ai",
+          "channel": "line",
           "top": 772,
           "bottom": 885,
           "inFirstScreen": true,
           "fullyInFirstScreen": false
         },
         {
-          "channel": "line",
+          "channel": "phone",
           "top": 894,
           "bottom": 1006,
           "inFirstScreen": false,
           "fullyInFirstScreen": false
         },
         {
-          "channel": "phone",
+          "channel": "ai",
           "top": 1015,
           "bottom": 1127,
           "inFirstScreen": false,
@@ -401,8 +409,8 @@
         }
       ],
       "heroTitleBottom": 278,
-      "bodyHeight": 16533,
-      "mainTextLength": 11701,
+      "bodyHeight": 16899,
+      "mainTextLength": 11891,
       "internalLinks": 11,
       "telLinks": 0
     },
@@ -432,11 +440,11 @@
         },
         {
           "level": 3,
-          "text": "保育の悩みを、チャットで整理する"
+          "text": "「こんなこと相談してもいいのかな…」その迷いから、お聞かせください"
         },
         {
           "level": 3,
-          "text": "保育特化AIにチャットで聞く"
+          "text": "人に相談したいときは、LINEから。"
         },
         {
           "level": 3,
@@ -448,11 +456,15 @@
         },
         {
           "level": 3,
-          "text": "「こんなこと相談してもいいのかな…」その迷いから、お聞かせください"
+          "text": "保育特化AIにチャットで聞く"
         },
         {
           "level": 3,
-          "text": "人に相談したいときは、LINEから。"
+          "text": "人に話す前に、まずはひとりで考えを整理したい方へ"
+        },
+        {
+          "level": 3,
+          "text": "保育の悩みを、チャットで整理する"
         },
         {
           "level": 2,
@@ -581,21 +593,21 @@
       "smallControls": [],
       "heroMethods": [
         {
-          "channel": "ai",
+          "channel": "line",
           "top": 733,
           "bottom": 845,
           "inFirstScreen": true,
           "fullyInFirstScreen": false
         },
         {
-          "channel": "line",
+          "channel": "phone",
           "top": 854,
           "bottom": 967,
           "inFirstScreen": false,
           "fullyInFirstScreen": false
         },
         {
-          "channel": "phone",
+          "channel": "ai",
           "top": 976,
           "bottom": 1088,
           "inFirstScreen": false,
@@ -603,15 +615,15 @@
         }
       ],
       "heroTitleBottom": 238,
-      "bodyHeight": 16369,
-      "mainTextLength": 11701,
+      "bodyHeight": 16679,
+      "mainTextLength": 11891,
       "internalLinks": 11,
       "telLinks": 0
     },
     {
       "width": 768,
       "screenshot": "screenshots/preview/width-768.png",
-      "documentHeight": 14484,
+      "documentHeight": 14757,
       "viewport": {
         "width": 768,
         "height": 900
@@ -634,11 +646,11 @@
         },
         {
           "level": 3,
-          "text": "保育の悩みを、チャットで整理する"
+          "text": "「こんなこと相談してもいいのかな…」その迷いから、お聞かせください"
         },
         {
           "level": 3,
-          "text": "保育特化AIにチャットで聞く"
+          "text": "人に相談したいときは、LINEから。"
         },
         {
           "level": 3,
@@ -650,11 +662,15 @@
         },
         {
           "level": 3,
-          "text": "「こんなこと相談してもいいのかな…」その迷いから、お聞かせください"
+          "text": "保育特化AIにチャットで聞く"
         },
         {
           "level": 3,
-          "text": "人に相談したいときは、LINEから。"
+          "text": "人に話す前に、まずはひとりで考えを整理したい方へ"
+        },
+        {
+          "level": 3,
+          "text": "保育の悩みを、チャットで整理する"
         },
         {
           "level": 2,
@@ -783,21 +799,21 @@
       "smallControls": [],
       "heroMethods": [
         {
-          "channel": "ai",
+          "channel": "line",
           "top": 814,
           "bottom": 938,
           "inFirstScreen": true,
           "fullyInFirstScreen": false
         },
         {
-          "channel": "line",
+          "channel": "phone",
           "top": 947,
           "bottom": 1071,
           "inFirstScreen": false,
           "fullyInFirstScreen": false
         },
         {
-          "channel": "phone",
+          "channel": "ai",
           "top": 1080,
           "bottom": 1205,
           "inFirstScreen": false,
@@ -805,15 +821,15 @@
         }
       ],
       "heroTitleBottom": 312,
-      "bodyHeight": 14484,
-      "mainTextLength": 11701,
+      "bodyHeight": 14757,
+      "mainTextLength": 11891,
       "internalLinks": 11,
       "telLinks": 0
     },
     {
       "width": 1280,
       "screenshot": "screenshots/preview/width-1280.png",
-      "documentHeight": 11830,
+      "documentHeight": 12113,
       "viewport": {
         "width": 1280,
         "height": 900
@@ -836,11 +852,11 @@
         },
         {
           "level": 3,
-          "text": "保育の悩みを、チャットで整理する"
+          "text": "「こんなこと相談してもいいのかな…」その迷いから、お聞かせください"
         },
         {
           "level": 3,
-          "text": "保育特化AIにチャットで聞く"
+          "text": "人に相談したいときは、LINEから。"
         },
         {
           "level": 3,
@@ -852,11 +868,15 @@
         },
         {
           "level": 3,
-          "text": "「こんなこと相談してもいいのかな…」その迷いから、お聞かせください"
+          "text": "保育特化AIにチャットで聞く"
         },
         {
           "level": 3,
-          "text": "人に相談したいときは、LINEから。"
+          "text": "人に話す前に、まずはひとりで考えを整理したい方へ"
+        },
+        {
+          "level": 3,
+          "text": "保育の悩みを、チャットで整理する"
         },
         {
           "level": 2,
@@ -985,21 +1005,21 @@
       "smallControls": [],
       "heroMethods": [
         {
-          "channel": "ai",
+          "channel": "line",
           "top": 477,
           "bottom": 601,
           "inFirstScreen": true,
           "fullyInFirstScreen": true
         },
         {
-          "channel": "line",
+          "channel": "phone",
           "top": 610,
           "bottom": 734,
           "inFirstScreen": true,
           "fullyInFirstScreen": true
         },
         {
-          "channel": "phone",
+          "channel": "ai",
           "top": 743,
           "bottom": 867,
           "inFirstScreen": true,
@@ -1007,15 +1027,15 @@
         }
       ],
       "heroTitleBottom": 468,
-      "bodyHeight": 11830,
-      "mainTextLength": 11701,
+      "bodyHeight": 12113,
+      "mainTextLength": 11891,
       "internalLinks": 11,
       "telLinks": 0
     },
     {
       "width": 1440,
       "screenshot": "screenshots/preview/width-1440.png",
-      "documentHeight": 11922,
+      "documentHeight": 12205,
       "viewport": {
         "width": 1440,
         "height": 900
@@ -1038,11 +1058,11 @@
         },
         {
           "level": 3,
-          "text": "保育の悩みを、チャットで整理する"
+          "text": "「こんなこと相談してもいいのかな…」その迷いから、お聞かせください"
         },
         {
           "level": 3,
-          "text": "保育特化AIにチャットで聞く"
+          "text": "人に相談したいときは、LINEから。"
         },
         {
           "level": 3,
@@ -1054,11 +1074,15 @@
         },
         {
           "level": 3,
-          "text": "「こんなこと相談してもいいのかな…」その迷いから、お聞かせください"
+          "text": "保育特化AIにチャットで聞く"
         },
         {
           "level": 3,
-          "text": "人に相談したいときは、LINEから。"
+          "text": "人に話す前に、まずはひとりで考えを整理したい方へ"
+        },
+        {
+          "level": 3,
+          "text": "保育の悩みを、チャットで整理する"
         },
         {
           "level": 2,
@@ -1187,21 +1211,21 @@
       "smallControls": [],
       "heroMethods": [
         {
-          "channel": "ai",
+          "channel": "line",
           "top": 481,
           "bottom": 605,
           "inFirstScreen": true,
           "fullyInFirstScreen": true
         },
         {
-          "channel": "line",
+          "channel": "phone",
           "top": 614,
           "bottom": 738,
           "inFirstScreen": true,
           "fullyInFirstScreen": true
         },
         {
-          "channel": "phone",
+          "channel": "ai",
           "top": 747,
           "bottom": 871,
           "inFirstScreen": true,
@@ -1209,8 +1233,8 @@
         }
       ],
       "heroTitleBottom": 476,
-      "bodyHeight": 11922,
-      "mainTextLength": 11701,
+      "bodyHeight": 12205,
+      "mainTextLength": 11891,
       "internalLinks": 11,
       "telLinks": 0
     }

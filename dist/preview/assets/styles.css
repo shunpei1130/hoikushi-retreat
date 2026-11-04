@@ -4,37 +4,38 @@
    ========================================================================== */
 
 :root {
-  --color-primary: #287266;
-  --color-primary-light: #3a8a7c;
-  --color-primary-ink: #174d44;
-  --color-primary-deep: #123e37;
-  --color-warm-accent: #e57c58;
-  --color-warm-accent-soft: #fcf1eb;
-  --color-bg: #fcf9f5;
+  --color-primary: #35695e;
+  --color-primary-light: #477f72;
+  --color-primary-ink: #224941;
+  --color-primary-deep: #193832;
+  --color-warm-primary: #d96a43;
+  --color-warm-accent: #e0734a;
+  --color-warm-accent-soft: #fdf3ec;
+  --color-bg: #fdfaf6;
   --color-surface: #ffffff;
-  --color-soft: #f0f6f3;
-  --color-soft-warm: #faf5ec;
-  --color-text: #2a3834;
-  --color-muted: #5c6e69;
-  --color-line: #e3eae5;
-  --color-line-strong: #c4d3cb;
-  --color-amber-bg: #faf1e1;
-  --color-amber-border: #e6ceaa;
-  --color-amber-text: #734d11;
-  --color-dark: #163e37;
-  --color-dark-deep: #0f2c27;
-  --color-cream: #fcf9f5;
-  --radius-card: 20px;
-  --radius-lg: 28px;
+  --color-soft: #f4f7f4;
+  --color-soft-warm: #f9f4ec;
+  --color-text: #2d2926;
+  --color-muted: #686058;
+  --color-line: #ede4d8;
+  --color-line-strong: #dbcbc0;
+  --color-amber-bg: #faeed9;
+  --color-amber-border: #e8cca2;
+  --color-amber-text: #7a490d;
+  --color-dark: #1c3832;
+  --color-dark-deep: #132824;
+  --color-cream: #fdfaf6;
+  --radius-card: 24px;
+  --radius-lg: 32px;
   --radius-full: 999px;
   --content-max: 1120px;
   --gutter: clamp(20px, 4.6vw, 48px);
-  --font-sans: "Hiragino Maru Gothic ProN", "BIZ UDPGothic", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic UI", "Yu Gothic", "Meiryo", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
-  --font-heading: "Hiragino Maru Gothic ProN", "BIZ UDPGothic", "Hiragino Kaku Gothic ProN", "Yu Gothic UI", "Yu Gothic", sans-serif;
-  --font-serif: "Hiragino Maru Gothic ProN", "BIZ UDPGothic", "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif;
-  --shadow-soft: 0 16px 40px -24px rgba(40, 114, 102, 0.18);
-  --shadow-card: 0 20px 48px -26px rgba(40, 114, 102, 0.22);
-  --shadow-panel: 0 28px 75px -32px rgba(40, 114, 102, 0.26);
+  --font-sans: "Hiragino Maru Gothic ProN", "BIZ UDPGothic", "Rounded Mplus 1c", "M PLUS Rounded 1c", "Meiryo", "Yu Gothic UI", "Yu Gothic", system-ui, -apple-system, sans-serif;
+  --font-heading: "Hiragino Maru Gothic ProN", "BIZ UDPGothic", "Rounded Mplus 1c", "M PLUS Rounded 1c", "Meiryo", "Yu Gothic UI", sans-serif;
+  --font-serif: "Hiragino Maru Gothic ProN", "BIZ UDPGothic", "Rounded Mplus 1c", "Yu Gothic UI", sans-serif;
+  --shadow-soft: 0 16px 40px -24px rgba(53, 105, 94, 0.16);
+  --shadow-card: 0 20px 48px -26px rgba(53, 105, 94, 0.2);
+  --shadow-panel: 0 28px 75px -32px rgba(53, 105, 94, 0.24);
   --ease: cubic-bezier(0.22, 0.61, 0.36, 1);
 }
 
@@ -856,7 +857,7 @@ main {
   min-height: 86px;
   padding: 13px 15px 14px;
   border: 1.5px solid var(--color-line-strong);
-  border-radius: 14px;
+  border-radius: 18px;
   background: var(--color-surface);
   color: var(--color-text);
   text-decoration: none;
@@ -871,15 +872,15 @@ a.method-card:hover {
 }
 
 .method-card--line {
-  border-color: var(--color-primary);
-  background: var(--color-primary);
+  border-color: var(--color-warm-accent);
+  background: linear-gradient(135deg, var(--color-primary) 0%, #25544a 100%);
   color: var(--color-cream);
-  box-shadow: 0 18px 34px -24px rgba(18, 63, 56, 0.55);
+  box-shadow: 0 18px 34px -20px rgba(53, 105, 94, 0.45);
 }
 
 a.method-card--line:hover {
-  border-color: var(--color-primary-ink);
-  background: var(--color-primary-ink);
+  border-color: var(--color-warm-primary);
+  background: linear-gradient(135deg, var(--color-primary-light) 0%, var(--color-primary) 100%);
 }
 
 .method-card--pending {
@@ -4176,9 +4177,12 @@ a.method-card--line:hover {
   grid-template-columns: 180px minmax(0, 1fr);
   align-items: center;
   gap: clamp(18px, 3vw, 30px);
-  margin: 24px 0;
-  padding: clamp(16px, 3vw, 24px);
-  background: var(--color-soft);
+  margin: 28px 0 32px;
+  padding: clamp(20px, 3.5vw, 30px);
+  background: linear-gradient(135deg, #ffffff 0%, var(--color-soft-warm) 100%);
+  border: 1.5px solid var(--color-line-strong);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-card);
 }
 
 .line-qr-panel--text-only {
@@ -4197,10 +4201,11 @@ a.method-card--line:hover {
   display: block;
   width: 180px;
   height: 180px;
-  border: 1px solid var(--color-line);
-  border-radius: 14px;
+  border: 1.5px solid var(--color-line);
+  border-radius: 18px;
   background: #fff;
   object-fit: contain;
+  box-shadow: 0 8px 20px -8px rgba(0, 0, 0, 0.08);
 }
 
 .line-qr-panel__placeholder {
@@ -4366,6 +4371,45 @@ a.method-card--line:hover {
     gap: 18px;
     padding: 18px;
   }
+}
+
+.ai-chat-section-intro {
+  margin: 48px 0 20px;
+  padding: clamp(20px, 3.5vw, 28px);
+  border-radius: var(--radius-card);
+  background: var(--color-soft-warm);
+  border: 1.5px dashed var(--color-line-strong);
+  text-align: center;
+}
+
+.ai-chat-section-intro__badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 14px;
+  border-radius: var(--radius-full);
+  background: var(--color-amber-bg);
+  border: 1px solid var(--color-amber-border);
+  color: var(--color-amber-text);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  margin-bottom: 10px;
+}
+
+.ai-chat-section-intro h3 {
+  font-size: clamp(1.15rem, 1rem + 0.5vw, 1.4rem);
+  color: var(--color-primary-deep);
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+.ai-chat-section-intro p {
+  max-width: 640px;
+  margin: 0 auto;
+  font-size: 13.5px;
+  color: var(--color-muted);
+  line-height: 1.85;
 }
 
 .section--healing {
