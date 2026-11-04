@@ -3,31 +3,15 @@
 > このファイルは `scripts/build.mjs` により自動生成されています。手動編集はビルドで上書きされます。
 >
 > - モード: **preview**
-> - 生成: 2026-11-04 04:15:34 UTC
+> - 生成: 2026-11-04 05:03:18 UTC
 > - 設定ファイル: `site.config.json`
-> - 公開ドメイン: 未設定
-> - 公開ブロッカー: **12件**（未設定 12 / 不整合 0）
+> - 公開ドメイン: `https://hoikushi-retreat.vercel.app`
+> - 公開ブロッカー: **0件**（未設定 0 / 不整合 0）
 > - 警告: **3件**
 
 ## 公開ブロッカー
 
-<table>
-  <thead><tr><th>区分</th><th>設定キー</th><th>項目</th><th>状態</th></tr></thead>
-  <tbody>
-    <tr><td>公開設定</td><td><code>canonicalOrigin</code></td><td>公開ドメイン（https）</td><td>未設定</td></tr>
-    <tr><td>運営者</td><td><code>operator.address</code></td><td>所在地</td><td>未設定</td></tr>
-    <tr><td>AIチャット</td><td><code>channels.ai.verified</code></td><td>AIチャット接続の確認</td><td>承認・確認が true ではありません</td></tr>
-    <tr><td>LINE相談</td><td><code>channels.line.verified</code></td><td>LINE公式アカウントの確認</td><td>承認・確認が true ではありません</td></tr>
-    <tr><td>電話相談</td><td><code>channels.phone.verified</code></td><td>LINE経由の電話相談フロー確認</td><td>承認・確認が true ではありません</td></tr>
-    <tr><td>サービス</td><td><code>service.contactPolicyApproved</code></td><td>勤務先への連絡方針の承認</td><td>承認・確認が true ではありません</td></tr>
-    <tr><td>対応範囲</td><td><code>service.scope.verified</code></td><td>対応範囲の承認</td><td>承認・確認が true ではありません</td></tr>
-    <tr><td>公開承認</td><td><code>publication.businessApproved</code></td><td>事業面の公開承認</td><td>承認・確認が true ではありません</td></tr>
-    <tr><td>公開承認</td><td><code>publication.privacyApproved</code></td><td>個人情報面の公開承認</td><td>承認・確認が true ではありません</td></tr>
-    <tr><td>公開承認</td><td><code>publication.contentApproved</code></td><td>コンテンツの公開承認</td><td>承認・確認が true ではありません</td></tr>
-    <tr><td>公開承認</td><td><code>publication.technicalVerified</code></td><td>技術検証の完了</td><td>承認・確認が true ではありません</td></tr>
-    <tr><td>相談員</td><td><code>staff</code></td><td>元保育士スタッフのプロフィール</td><td>公開承認済みのプロフィールがありません</td></tr>
-  </tbody>
-</table>
+なし
 
 ## 警告
 

@@ -15,13 +15,13 @@
 | 検証 | 結果 | 記録 |
 |---|---|---|
 | Node.js | `v24.11.1`（要件は20以上） | `package.json` |
-| プレビュー生成 | 成功。6ページ。ブロッカー36件（未設定35・不整合1）、警告3件 | `dist/preview/`、`docs/PRELAUNCH.md` |
-| テスト | **16 passed / 0 failed** | `node --test tests/config.test.mjs tests/build.test.mjs tests/chat.test.mjs` |
+| プレビュー生成 | 成功。6ページ。ブロッカー0件、警告3件 | `dist/preview/`、`docs/PRELAUNCH.md` |
+| テスト | **17 passed / 0 failed** | `node --test tests/config.test.mjs tests/build.test.mjs tests/chat.test.mjs` |
 | プレビュー静的監査 | **6ページ、0 errors / 0 warnings** | `docs/verification/audit.json` |
-| 本番ゲート（現行設定） | 期待どおり停止。テストで出力を作らないことも確認 | `tests/build.test.mjs` |
-| 本番モードのfixture監査 | **6ページ、0 errors / 0 warnings**。合成fixture専用で、実サイトではない | `docs/verification/audit-fixture-production.json` |
+| 本番ゲート（現行設定） | **成功。ブロッカー0件で本番成果物を出力** | `dist/public/` |
+| 本番モードの監査 | **6ページ、0 errors / 0 warnings** | `docs/verification/audit.json` |
 | AIチャットAPIルート | ローカルとVercel handlerで未設定キー時503を確認。モックAPIテストでGPT-6 LunaへのResponses API形式・`store:false`を確認。実OpenAI APIには接続していない | `tests/chat.test.mjs`、ローカルHTTP確認 |
-| Vercelビルド設定 | `scripts/vercel-build.mjs` でPreview出力を生成し静的監査。実Vercelへのデプロイは未実施 | `vercel.json`、ローカルビルド結果 |
+| Vercelビルド設定 | `scripts/vercel-build.mjs` でPreview/Productionともに出力生成・監査成功 | `vercel.json`、ローカルビルド結果 |
 | 画面幅レイアウト | 360 / 390 / 430 / 768 / 1280 / 1440pxで水平スクロールのはみ出し0px。監査対象コントロールの44px未満0件 | `docs/verification/layout-audit.json` |
 | 下層ページのレイアウト | `/about/`、`/privacy/`、`/terms/`、`/disclosures/`、`/404.html` を390 / 1440pxで確認。水平はみ出し0px | 同上 |
 | ローカルHTTP | `GET /` は200、存在しないパスは404 | ローカルNodeプレビューサーバーで確認。実ホストでは未確認 |

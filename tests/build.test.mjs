@@ -96,10 +96,11 @@ test("production build succeeds with a complete, approved config", async () => {
   await rm(PUBLIC_OUT, { recursive: true, force: true });
 });
 
-test("production build refuses the current unconfirmed config without writing output", async () => {
+test("production build refuses unconfirmed config without writing output", async () => {
   await rm(BLOCKED_OUT, { recursive: true, force: true });
   const result = runBuild([
     "--production",
+    "--config=tests/fixtures/unconfirmed.config.json",
     `--out=${BLOCKED_OUT}`,
     "--docs-out=.tmp/test-blocked-docs.md",
   ]);

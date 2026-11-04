@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-04T04:17:04.458Z",
+  "generatedAt": "2026-11-04T05:01:36.054Z",
   "baseUrl": "http://127.0.0.1:4174/",
   "widths": [
     {
       "width": 360,
       "screenshot": "screenshots/preview/width-360.png",
-      "documentHeight": 15882,
+      "documentHeight": 15745,
       "viewport": {
         "width": 360,
         "height": 844
@@ -60,7 +60,7 @@
         },
         {
           "level": 3,
-          "text": "スタッフ情報は公開前に確定します"
+          "text": "元保育士相談スタッフ"
         },
         {
           "level": 2,
@@ -171,35 +171,35 @@
         {
           "channel": "ai",
           "top": 417,
-          "bottom": 552,
+          "bottom": 530,
           "inFirstScreen": true,
           "fullyInFirstScreen": true
         },
         {
           "channel": "line",
-          "top": 561,
-          "bottom": 696,
+          "top": 539,
+          "bottom": 651,
           "inFirstScreen": true,
           "fullyInFirstScreen": true
         },
         {
           "channel": "phone",
-          "top": 705,
-          "bottom": 840,
+          "top": 660,
+          "bottom": 772,
           "inFirstScreen": true,
           "fullyInFirstScreen": true
         }
       ],
       "heroTitleBottom": 235,
-      "bodyHeight": 15882,
-      "mainTextLength": 11467,
+      "bodyHeight": 15745,
+      "mainTextLength": 11227,
       "internalLinks": 11,
       "telLinks": 0
     },
     {
       "width": 390,
       "screenshot": "screenshots/preview/width-390.png",
-      "documentHeight": 15267,
+      "documentHeight": 15166,
       "viewport": {
         "width": 390,
         "height": 844
@@ -254,7 +254,7 @@
         },
         {
           "level": 3,
-          "text": "スタッフ情報は公開前に確定します"
+          "text": "元保育士相談スタッフ"
         },
         {
           "level": 2,
@@ -365,35 +365,35 @@
         {
           "channel": "ai",
           "top": 420,
-          "bottom": 555,
+          "bottom": 533,
           "inFirstScreen": true,
           "fullyInFirstScreen": true
         },
         {
           "channel": "line",
-          "top": 564,
-          "bottom": 699,
+          "top": 542,
+          "bottom": 654,
           "inFirstScreen": true,
           "fullyInFirstScreen": true
         },
         {
           "channel": "phone",
-          "top": 708,
-          "bottom": 843,
+          "top": 663,
+          "bottom": 776,
           "inFirstScreen": true,
           "fullyInFirstScreen": true
         }
       ],
       "heroTitleBottom": 238,
-      "bodyHeight": 15267,
-      "mainTextLength": 11467,
+      "bodyHeight": 15166,
+      "mainTextLength": 11227,
       "internalLinks": 11,
       "telLinks": 0
     },
     {
       "width": 430,
       "screenshot": "screenshots/preview/width-430.png",
-      "documentHeight": 14961,
+      "documentHeight": 14884,
       "viewport": {
         "width": 430,
         "height": 844
@@ -448,7 +448,7 @@
         },
         {
           "level": 3,
-          "text": "スタッフ情報は公開前に確定します"
+          "text": "元保育士相談スタッフ"
         },
         {
           "level": 2,
@@ -559,35 +559,35 @@
         {
           "channel": "ai",
           "top": 421,
-          "bottom": 555,
+          "bottom": 533,
           "inFirstScreen": true,
           "fullyInFirstScreen": true
         },
         {
           "channel": "line",
-          "top": 564,
-          "bottom": 699,
+          "top": 542,
+          "bottom": 654,
           "inFirstScreen": true,
           "fullyInFirstScreen": true
         },
         {
           "channel": "phone",
-          "top": 708,
-          "bottom": 843,
+          "top": 663,
+          "bottom": 776,
           "inFirstScreen": true,
           "fullyInFirstScreen": true
         }
       ],
       "heroTitleBottom": 238,
-      "bodyHeight": 14961,
-      "mainTextLength": 11467,
+      "bodyHeight": 14884,
+      "mainTextLength": 11227,
       "internalLinks": 11,
       "telLinks": 0
     },
     {
       "width": 768,
       "screenshot": "screenshots/preview/width-768.png",
-      "documentHeight": 12858,
+      "documentHeight": 12767,
       "viewport": {
         "width": 768,
         "height": 900
@@ -642,7 +642,7 @@
         },
         {
           "level": 3,
-          "text": "スタッフ情報は公開前に確定します"
+          "text": "元保育士相談スタッフ"
         },
         {
           "level": 2,
@@ -753,35 +753,35 @@
         {
           "channel": "ai",
           "top": 522,
-          "bottom": 672,
+          "bottom": 646,
           "inFirstScreen": true,
           "fullyInFirstScreen": true
         },
         {
           "channel": "line",
-          "top": 681,
-          "bottom": 832,
+          "top": 655,
+          "bottom": 779,
           "inFirstScreen": true,
           "fullyInFirstScreen": true
         },
         {
           "channel": "phone",
-          "top": 841,
-          "bottom": 991,
+          "top": 788,
+          "bottom": 912,
           "inFirstScreen": true,
           "fullyInFirstScreen": false
         }
       ],
       "heroTitleBottom": 312,
-      "bodyHeight": 12858,
-      "mainTextLength": 11467,
+      "bodyHeight": 12767,
+      "mainTextLength": 11227,
       "internalLinks": 11,
       "telLinks": 0
     },
     {
       "width": 1280,
       "screenshot": "screenshots/preview/width-1280.png",
-      "documentHeight": 10880,
+      "documentHeight": 10815,
       "viewport": {
         "width": 1280,
         "height": 900
@@ -836,7 +836,7 @@
         },
         {
           "level": 3,
-          "text": "スタッフ情報は公開前に確定します"
+          "text": "元保育士相談スタッフ"
         },
         {
           "level": 2,
@@ -946,36 +946,36 @@
       "heroMethods": [
         {
           "channel": "ai",
-          "top": 298,
-          "bottom": 448,
+          "top": 312,
+          "bottom": 436,
           "inFirstScreen": true,
           "fullyInFirstScreen": true
         },
         {
           "channel": "line",
-          "top": 457,
-          "bottom": 608,
+          "top": 445,
+          "bottom": 569,
           "inFirstScreen": true,
           "fullyInFirstScreen": true
         },
         {
           "channel": "phone",
-          "top": 617,
-          "bottom": 767,
+          "top": 578,
+          "bottom": 702,
           "inFirstScreen": true,
           "fullyInFirstScreen": true
         }
       ],
-      "heroTitleBottom": 493,
-      "bodyHeight": 10880,
-      "mainTextLength": 11467,
+      "heroTitleBottom": 468,
+      "bodyHeight": 10815,
+      "mainTextLength": 11227,
       "internalLinks": 11,
       "telLinks": 0
     },
     {
       "width": 1440,
       "screenshot": "screenshots/preview/width-1440.png",
-      "documentHeight": 10963,
+      "documentHeight": 10907,
       "viewport": {
         "width": 1440,
         "height": 900
@@ -1030,7 +1030,7 @@
         },
         {
           "level": 3,
-          "text": "スタッフ情報は公開前に確定します"
+          "text": "元保育士相談スタッフ"
         },
         {
           "level": 2,
@@ -1140,29 +1140,29 @@
       "heroMethods": [
         {
           "channel": "ai",
-          "top": 298,
-          "bottom": 448,
+          "top": 316,
+          "bottom": 440,
           "inFirstScreen": true,
           "fullyInFirstScreen": true
         },
         {
           "channel": "line",
-          "top": 457,
-          "bottom": 608,
+          "top": 449,
+          "bottom": 573,
           "inFirstScreen": true,
           "fullyInFirstScreen": true
         },
         {
           "channel": "phone",
-          "top": 617,
-          "bottom": 767,
+          "top": 582,
+          "bottom": 706,
           "inFirstScreen": true,
           "fullyInFirstScreen": true
         }
       ],
-      "heroTitleBottom": 497,
-      "bodyHeight": 10963,
-      "mainTextLength": 11467,
+      "heroTitleBottom": 476,
+      "bodyHeight": 10907,
+      "mainTextLength": 11227,
       "internalLinks": 11,
       "telLinks": 0
     }
@@ -1172,7 +1172,7 @@
       "route": "/about/",
       "width": 390,
       "screenshot": "screenshots/preview/page-about-390.png",
-      "documentHeight": 4482,
+      "documentHeight": 4496,
       "viewport": {
         "width": 390,
         "height": 844
@@ -1199,7 +1199,7 @@
         },
         {
           "level": 3,
-          "text": "スタッフ情報は公開前に確定します"
+          "text": "元保育士相談スタッフ"
         },
         {
           "level": 2,
@@ -1232,8 +1232,8 @@
       "smallControls": [],
       "heroMethods": [],
       "heroTitleBottom": 288,
-      "bodyHeight": 4482,
-      "mainTextLength": 2475,
+      "bodyHeight": 4496,
+      "mainTextLength": 2507,
       "internalLinks": 21,
       "telLinks": 0
     },
@@ -1241,7 +1241,7 @@
       "route": "/about/",
       "width": 1440,
       "screenshot": "screenshots/preview/page-about-1440.png",
-      "documentHeight": 3330,
+      "documentHeight": 3371,
       "viewport": {
         "width": 1440,
         "height": 900
@@ -1268,7 +1268,7 @@
         },
         {
           "level": 3,
-          "text": "スタッフ情報は公開前に確定します"
+          "text": "元保育士相談スタッフ"
         },
         {
           "level": 2,
@@ -1301,8 +1301,8 @@
       "smallControls": [],
       "heroMethods": [],
       "heroTitleBottom": 379,
-      "bodyHeight": 3330,
-      "mainTextLength": 2475,
+      "bodyHeight": 3371,
+      "mainTextLength": 2507,
       "internalLinks": 21,
       "telLinks": 0
     },
@@ -1310,7 +1310,7 @@
       "route": "/privacy/",
       "width": 390,
       "screenshot": "screenshots/preview/page-privacy-390.png",
-      "documentHeight": 6388,
+      "documentHeight": 6387,
       "viewport": {
         "width": 390,
         "height": 844
@@ -1386,8 +1386,8 @@
       "smallControls": [],
       "heroMethods": [],
       "heroTitleBottom": 288,
-      "bodyHeight": 6388,
-      "mainTextLength": 4361,
+      "bodyHeight": 6387,
+      "mainTextLength": 4355,
       "internalLinks": 17,
       "telLinks": 0
     },
@@ -1395,7 +1395,7 @@
       "route": "/privacy/",
       "width": 1440,
       "screenshot": "screenshots/preview/page-privacy-1440.png",
-      "documentHeight": 4833,
+      "documentHeight": 4832,
       "viewport": {
         "width": 1440,
         "height": 900
@@ -1471,8 +1471,8 @@
       "smallControls": [],
       "heroMethods": [],
       "heroTitleBottom": 379,
-      "bodyHeight": 4833,
-      "mainTextLength": 4361,
+      "bodyHeight": 4832,
+      "mainTextLength": 4355,
       "internalLinks": 17,
       "telLinks": 0
     },
@@ -1480,7 +1480,7 @@
       "route": "/terms/",
       "width": 390,
       "screenshot": "screenshots/preview/page-terms-390.png",
-      "documentHeight": 5618,
+      "documentHeight": 5617,
       "viewport": {
         "width": 390,
         "height": 844
@@ -1556,8 +1556,8 @@
       "smallControls": [],
       "heroMethods": [],
       "heroTitleBottom": 288,
-      "bodyHeight": 5618,
-      "mainTextLength": 3415,
+      "bodyHeight": 5617,
+      "mainTextLength": 3409,
       "internalLinks": 20,
       "telLinks": 0
     },
@@ -1565,7 +1565,7 @@
       "route": "/terms/",
       "width": 1440,
       "screenshot": "screenshots/preview/page-terms-1440.png",
-      "documentHeight": 4326,
+      "documentHeight": 4325,
       "viewport": {
         "width": 1440,
         "height": 900
@@ -1641,8 +1641,8 @@
       "smallControls": [],
       "heroMethods": [],
       "heroTitleBottom": 379,
-      "bodyHeight": 4326,
-      "mainTextLength": 3415,
+      "bodyHeight": 4325,
+      "mainTextLength": 3409,
       "internalLinks": 20,
       "telLinks": 0
     },
@@ -1650,7 +1650,7 @@
       "route": "/disclosures/",
       "width": 390,
       "screenshot": "screenshots/preview/page-disclosures-390.png",
-      "documentHeight": 4900,
+      "documentHeight": 4898,
       "viewport": {
         "width": 390,
         "height": 844
@@ -1718,8 +1718,8 @@
       "smallControls": [],
       "heroMethods": [],
       "heroTitleBottom": 288,
-      "bodyHeight": 4900,
-      "mainTextLength": 2738,
+      "bodyHeight": 4898,
+      "mainTextLength": 2726,
       "internalLinks": 22,
       "telLinks": 0
     },
@@ -1727,7 +1727,7 @@
       "route": "/disclosures/",
       "width": 1440,
       "screenshot": "screenshots/preview/page-disclosures-1440.png",
-      "documentHeight": 3825,
+      "documentHeight": 3823,
       "viewport": {
         "width": 1440,
         "height": 900
@@ -1795,8 +1795,8 @@
       "smallControls": [],
       "heroMethods": [],
       "heroTitleBottom": 379,
-      "bodyHeight": 3825,
-      "mainTextLength": 2738,
+      "bodyHeight": 3823,
+      "mainTextLength": 2726,
       "internalLinks": 22,
       "telLinks": 0
     },

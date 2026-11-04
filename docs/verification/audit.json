@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-04T04:15:38.574Z",
-  "target": "dist/preview",
-  "mode": "preview",
+  "generatedAt": "2026-11-04T05:03:12.676Z",
+  "target": "dist/public",
+  "mode": "production",
   "summary": {
     "pages": 6,
     "errors": 0,
@@ -23,13 +23,16 @@
       "file": "404.html",
       "title": "ページが見つかりません｜保育士リトリート",
       "description": "お探しのページは見つかりませんでした。保育士リトリートのトップページ、相談方法、料金、運営情報へのリンクを案内します。",
-      "dataMode": "preview",
+      "dataMode": "production",
       "errors": [],
       "warnings": [],
-      "textLength": 817,
-      "internalLinks": 23,
+      "textLength": 423,
+      "internalLinks": 22,
       "jsonLdTypes": [
-        "WebPage"
+        "WebPage",
+        "WebSite",
+        "Organization+WorkersUnion",
+        "BreadcrumbList"
       ]
     },
     {
@@ -37,13 +40,16 @@
       "file": "about/index.html",
       "title": "運営情報・労働組合について｜保育士リトリート",
       "description": "保育士リトリートを運営する労働組合の情報、サービスとの関係、元保育士スタッフの相談体制、対応範囲、開示情報をまとめています。",
-      "dataMode": "preview",
+      "dataMode": "production",
       "errors": [],
       "warnings": [],
-      "textLength": 2364,
-      "internalLinks": 28,
+      "textLength": 1880,
+      "internalLinks": 27,
       "jsonLdTypes": [
-        "WebPage"
+        "WebPage",
+        "WebSite",
+        "Organization+WorkersUnion",
+        "BreadcrumbList"
       ]
     },
     {
@@ -51,13 +57,16 @@
       "file": "disclosures/index.html",
       "title": "取引条件・事業者情報｜保育士リトリート",
       "description": "保育士リトリートの取引条件と事業者情報。サービス内容、料金、支払い方法・時期、提供時期、取消・返金、組合加入、問い合わせ先をまとめています。",
-      "dataMode": "preview",
+      "dataMode": "production",
       "errors": [],
       "warnings": [],
-      "textLength": 2569,
-      "internalLinks": 32,
+      "textLength": 2089,
+      "internalLinks": 31,
       "jsonLdTypes": [
-        "WebPage"
+        "WebPage",
+        "WebSite",
+        "Organization+WorkersUnion",
+        "BreadcrumbList"
       ]
     },
     {
@@ -65,13 +74,15 @@
       "file": "index.html",
       "title": "保育士の退職代行｜元保育士にLINE・電話相談｜リトリート",
       "description": "保育士の退職相談・退職代行を労働組合がサポート。保育特化AIへのチャット、元保育士へのLINE・電話相談から、話しやすい方法を選べます。料金・対応範囲・ご利用の流れをご案内します。",
-      "dataMode": "preview",
+      "dataMode": "production",
       "errors": [],
       "warnings": [],
-      "textLength": 7382,
-      "internalLinks": 44,
+      "textLength": 6537,
+      "internalLinks": 43,
       "jsonLdTypes": [
-        "WebPage"
+        "WebPage",
+        "WebSite",
+        "Organization+WorkersUnion"
       ]
     },
     {
@@ -79,13 +90,16 @@
       "file": "privacy/index.html",
       "title": "個人情報・相談情報の取扱い｜保育士リトリート",
       "description": "保育士リトリートにおける個人情報・相談情報の取扱い、AIチャット・LINE・電話・アクセス解析の利用、保存期間・削除、開示等の請求、お問い合わせ窓口をまとめています。",
-      "dataMode": "preview",
+      "dataMode": "production",
       "errors": [],
       "warnings": [],
-      "textLength": 4204,
-      "internalLinks": 29,
+      "textLength": 3662,
+      "internalLinks": 28,
       "jsonLdTypes": [
-        "WebPage"
+        "WebPage",
+        "WebSite",
+        "Organization+WorkersUnion",
+        "BreadcrumbList"
       ]
     },
     {
@@ -93,13 +107,16 @@
       "file": "terms/index.html",
       "title": "利用条件｜保育士リトリート",
       "description": "保育士リトリートの利用条件。相談と正式依頼の違い、組合加入、料金・支払い、取消・返金、勤務先への連絡、禁止事項、免責、お問い合わせについてまとめています。",
-      "dataMode": "preview",
+      "dataMode": "production",
       "errors": [],
       "warnings": [],
-      "textLength": 3382,
-      "internalLinks": 32,
+      "textLength": 2891,
+      "internalLinks": 31,
       "jsonLdTypes": [
-        "WebPage"
+        "WebPage",
+        "WebSite",
+        "Organization+WorkersUnion",
+        "BreadcrumbList"
       ]
     }
   ],

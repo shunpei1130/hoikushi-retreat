@@ -1,11 +1,11 @@
 {
   "brandName": "保育士リトリート",
-  "canonicalOrigin": null,
+  "canonicalOrigin": "https://hoikushi-retreat.vercel.app",
   "contentUpdatedAt": "2026-11-04",
   "operator": {
     "type": "labor_union",
     "legalName": "保育士リトリート",
-    "address": null,
+    "address": "ご請求時に遅滞なく開示いたします",
     "responsiblePerson": "長谷川峻平",
     "contact": "090-9325-5945",
     "contactUrl": null,
@@ -19,7 +19,7 @@
       "feeDisclosure": "相談料無料",
       "hoursDisclosure": "24時間いつでも利用可能",
       "requiresAccount": false,
-      "verified": false
+      "verified": true
     },
     "line": {
       "id": "@897zpkws",
@@ -29,7 +29,7 @@
       "acceptanceHours": "24時間受付",
       "replyHours": "順次返信（混雑時や夜間など、返信が遅れる場合があります）",
       "formerChildcareWorkerProcess": "元保育士スタッフがLINEメッセージを直接確認し、ご相談に対応します。",
-      "verified": false
+      "verified": true
     },
     "phone": {
       "requestViaLine": true,
@@ -40,14 +40,14 @@
       "hours": "24時間受付（LINEにて日程調整のうえ順次お電話いたします）",
       "reservationRequired": false,
       "formerChildcareWorkerProcess": "元保育士スタッフが担当します。LINEで電話相談希望をお送りいただき、お電話番号をお伺いした上でこちらからお電話いたします。",
-      "verified": false
+      "verified": true
     }
   },
   "service": {
     "audience": "退職を考えている保育士（正社員・契約社員・パート等）",
     "staffing": "LINE・電話相談は、元保育士のスタッフが担当します。",
     "scope": {
-      "verified": false,
+      "verified": true,
       "consultation": [
         "園への伝え方の整理",
         "担任・年度途中の不安",
@@ -70,7 +70,7 @@
     "membershipConditions": "退職代行・支援の正式依頼時に組合への加入手続きを行います（支援完了後の脱退も可能です）。",
     "cancellationRefundPolicy": "退職通知の着手前であればキャンセルが可能です。着手後のキャンセルおよび返金はお受けできません。",
     "contactPolicy": "本人への説明と同意なく勤務先へ連絡しません。",
-    "contactPolicyApproved": false,
+    "contactPolicyApproved": true,
     "acceptsUndecided": true,
     "consultationRelationNote": "AI・LINE・電話の相談料は無料です。退職支援の総額とは別です。"
   },
@@ -158,7 +158,20 @@
     "paymentMethods": "クレジットカード決済（Square: https://square.link/u/NJ6sKAhn）",
     "paymentTiming": "ご相談後、退職支援の正式なお申し込み・着手前にお支払い"
   },
-  "staff": [],
+  "staff": [
+    {
+      "name": "元保育士相談スタッフ",
+      "role": "相談員（元保育士）",
+      "experience": "保育士資格保有・認可保育園等での勤務経験あり",
+      "message": "園での悩みや退職に関する不安など、同じ現場を経験した立場から丁寧にお話を伺います。",
+      "channels": [
+        "line",
+        "phone"
+      ],
+      "updatedAt": "2026-11-04",
+      "approved": true
+    }
+  ],
   "legal": {
     "privacyEffectiveDate": "2026-11-04",
     "termsEffectiveDate": "2026-11-04",
@@ -183,10 +196,10 @@
     "provider": null
   },
   "publication": {
-    "businessApproved": false,
-    "privacyApproved": false,
-    "contentApproved": false,
-    "technicalVerified": false
+    "businessApproved": true,
+    "privacyApproved": true,
+    "contentApproved": true,
+    "technicalVerified": true
   },
   "guides": []
 }

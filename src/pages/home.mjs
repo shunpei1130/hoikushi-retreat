@@ -113,7 +113,7 @@ function comparisonCard(config, key, mode) {
         : "";
   const phoneNote =
     channel.requestViaLine === true
-      ? "電話相談をご希望の場合は、LINE追加後に「電話相談希望」と送信してください。返信で進め方をご案内します。相談料は無料。通話料等は別途確認中です。"
+      ? "電話相談をご希望の場合は、LINE追加後に「電話相談希望」と送信してください。LINEで電話番号をお伺いした上で当組合よりお電話いたします。相談料・通話料ともに無料です。"
       : channel.reservationRequired === true
       ? "予約制です。予約のうえ発信してください。相談料と通話料は別です。"
       : channel.reservationRequired === false

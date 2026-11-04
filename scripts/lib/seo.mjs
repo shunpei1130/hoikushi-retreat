@@ -132,7 +132,7 @@ export function buildMeta({ config, page, mode, origin }) {
   const isProduction = mode === "production";
   const robots = isProduction && !page.noindex ? "index,follow,max-image-preview:large" : "noindex,nofollow,noarchive";
   const ogImage = origin ? `${origin}/assets/og-image.png` : "/assets/og-image.png";
-  const canonical = origin && !page.noindex ? `${origin}${page.path}` : null;
+  const canonical = isProduction && origin && !page.noindex ? `${origin}${page.path}` : null;
   const title = page.title;
   const description = page.description;
 
