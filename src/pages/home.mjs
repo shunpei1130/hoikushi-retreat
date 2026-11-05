@@ -64,24 +64,37 @@ const REASONS = [
 
 const STEPS = [
   {
-    title: "公式LINEを追加して無料相談",
-    bodyHtml: '「辞めたい」「辛い」の一言でもOK。今の状況やお気持ちを、あなたのペースで<span class="u-ib">お聞かせください。</span>',
+    icon: "chat",
+    tag: "無料・24時間受付",
+    titleHtml: '公式LINEを<span class="u-ib">友だち追加</span>',
+    bodyHtml:
+      'まずは公式LINEを追加します。すぐにご依頼したい方はもちろん、「まだ迷っている」段階の<span class="u-ib">無料相談だけでもOKです。</span>',
+    point: "相談料 0円・追加だけでも安心",
   },
   {
-    title: "専任カウンセラーと方針相談",
-    bodyHtml: '今すぐ退職手続きに進むか、まずは気持ちの整理や休職を検討するかを<span class="u-ib">一緒に考えます。</span>',
+    icon: "document",
+    tag: "Googleフォーム",
+    titleHtml: 'ヒアリングシート<span class="u-ib">（Googleフォーム）を記入</span>',
+    bodyHtml:
+      'LINEでご案内するヒアリングシート（Googleフォーム）に、勤務先の情報やご希望の退職日などを<span class="u-ib">スマホから入力します。</span>',
+    point: "スマホ完結・長い電話ヒアリング不要",
   },
   {
-    title: "退職手続きをすべてサポート",
-    bodyHtml: '正式ご依頼後は、あなたが園と直接やり取りする必要はありません。退職届の作成支援や貸与物返却も<span class="u-ib">丁寧に案内します。</span>',
-  },
-  {
-    title: "退職完了＆次のキャリア相談",
-    bodyHtml: '退職手続きが完了したらゴールです。ご希望の方には、保育士以外の道も含めた<span class="u-ib">転職・キャリア支援も実施します。</span>',
+    icon: "yen",
+    tag: "クレカ・あと払い",
+    titleHtml: '料金のお支払いで<span class="u-ib">ご依頼完了</span>',
+    bodyHtml:
+      'プランに応じた料金をお支払いいただいたら、あなたのお手続きは完了です。<span class="u-ib">追加料金は一切かかりません。</span>',
+    point: "全額返金保証・組合費もすべて込み",
   },
 ];
 
 const FAQ_ITEMS = [
+  {
+    question: "申し込みの手続きは難しくありませんか？",
+    answer:
+      "とてもシンプルです。公式LINEを追加後、ご案内するヒアリングシート（Googleフォーム）をご記入いただき、プランに応じた料金をお支払いいただくだけでお手続き完了です。お支払い後は、当組合（公立の場合は提携弁護士）が園への連絡や調整を進めます。",
+  },
   {
     question: "本当に園や保護者と話さずに辞められますか？",
     answer:
@@ -454,37 +467,10 @@ export function renderHome({ config, mode }) {
     </div>
   </section>
 
-  <section class="section section--steps" id="flow" aria-labelledby="steps-title">
-    <div class="container">
-      ${sectionHead({
-        number: "04",
-        eyebrow: "ご利用の流れ",
-        title: '相談から退職までの<br><span class="u-ib">カンタン4ステップ</span>',
-        lead: "まずはLINEで今の気持ちを送るところから。退職するかどうかは、話しながら決めていけます。",
-        id: "steps-title",
-      })}
-      <ol class="step-grid">
-        ${STEPS.map(
-          (step, index) => `<li class="step-card">
-          <div class="step-card__top">
-            <span class="step-card__num">STEP ${index + 1}</span>
-          </div>
-          <h3>${escapeHtml(step.title)}</h3>
-          <p>${step.bodyHtml}</p>
-        </li>`,
-        ).join("")}
-      </ol>
-      <div class="steps-note">
-        <span class="steps-note__badge">${icon("info")} ご安心ください</span>
-        <p>相談したこと、LINEを追加したことは、正式依頼や組合加入への同意ではありません。<span class="u-ib">決めるのは、あなた自身です。</span></p>
-      </div>
-    </div>
-  </section>
-
   <section class="section section--plans" id="pricing" aria-labelledby="plans-title">
     <div class="container">
       ${sectionHead({
-        number: "05",
+        number: "04",
         eyebrow: "料金プラン",
         title: "明朗な料金プラン",
         lead: "AI・LINE・電話でのご相談はすべて無料。退職支援を正式にご依頼いただく場合のみ、以下の料金がかかります。",
@@ -514,6 +500,50 @@ export function renderHome({ config, mode }) {
           </div>
         </dl>
         <p class="plan-links"><a class="text-link" href="/disclosures/">取引条件・事業者情報を見る ${icon("arrowRight")}</a></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--steps" id="flow" aria-labelledby="steps-title">
+    <div class="container">
+      ${sectionHead({
+        number: "05",
+        eyebrow: "ご利用の流れ",
+        title: 'ご依頼の流れは、<br><span class="u-ib">かんたん3ステップ</span>',
+        lead: '複雑な書類手続きや長い電話ヒアリングはありません。公式LINE追加後、<span class="u-ib">ヒアリングシート（Googleフォーム）</span>を記入して、<span class="u-ib">料金をお支払いいただくだけです。</span>',
+        id: "steps-title",
+      })}
+      <ol class="step-grid">
+        ${STEPS.map(
+          (step, index) => `<li class="step-card">
+          <div class="step-card__top">
+            <div class="step-card__badges">
+              <span class="step-card__num">STEP 0${index + 1}</span>
+              <span class="step-card__tag">${escapeHtml(step.tag)}</span>
+            </div>
+            <span class="step-card__icon">${icon(step.icon)}</span>
+          </div>
+          <h3>${step.titleHtml}</h3>
+          <p>${step.bodyHtml}</p>
+          <p class="step-card__point">${icon("check")}<span>${escapeHtml(step.point)}</span></p>
+          ${index < STEPS.length - 1 ? `<span class="step-card__arrow" aria-hidden="true">${icon("arrowRight")}</span>` : ""}
+        </li>`,
+        ).join("")}
+      </ol>
+      <div class="flow-complete">
+        <div class="flow-complete__body">
+          <span class="flow-complete__badge">${icon("shield")} お支払い後はすべておまかせ</span>
+          <p class="flow-complete__title">園への連絡・退職手続きの調整は、<span class="u-ib">当組合がすべて代行します。</span></p>
+          <p class="flow-complete__desc">ご希望の日時に合わせて当組合（公立保育園は提携弁護士）から園へ連絡します。あなたが園と<span class="u-ib">直接やり取りする必要はありません。</span><span class="flow-complete__fine">※LINE追加や無料相談だけでは、料金や組合加入は発生しません。</span></p>
+        </div>
+        <div class="flow-complete__cta">
+          ${channelButton(config, "line", {
+            mode,
+            placement: "flow",
+            label: "LINEを友だち追加する",
+            variant: "primary",
+          })}
+        </div>
       </div>
     </div>
   </section>

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T02:30:17.762Z",
+  "generatedAt": "2026-11-05T03:09:25.931Z",
   "baseUrl": "http://127.0.0.1:4174/",
   "widths": [
     {
@@ -60,26 +60,6 @@
         },
         {
           "level": 2,
-          "text": "相談から退職までのカンタン4ステップ"
-        },
-        {
-          "level": 3,
-          "text": "公式LINEを追加して無料相談"
-        },
-        {
-          "level": 3,
-          "text": "専任カウンセラーと方針相談"
-        },
-        {
-          "level": 3,
-          "text": "退職手続きをすべてサポート"
-        },
-        {
-          "level": 3,
-          "text": "退職完了＆次のキャリア相談"
-        },
-        {
-          "level": 2,
           "text": "明朗な料金プラン"
         },
         {
@@ -93,6 +73,22 @@
         {
           "level": 3,
           "text": "公務員（公立保育園）プラン"
+        },
+        {
+          "level": 2,
+          "text": "ご依頼の流れは、かんたん3ステップ"
+        },
+        {
+          "level": 3,
+          "text": "公式LINEを友だち追加"
+        },
+        {
+          "level": 3,
+          "text": "ヒアリングシート（Googleフォーム）を記入"
+        },
+        {
+          "level": 3,
+          "text": "料金のお支払いでご依頼完了"
         },
         {
           "level": 2,
@@ -167,15 +163,15 @@
         }
       ],
       "heroTitleBottom": 334,
-      "bodyHeight": 16165,
-      "mainTextLength": 8928,
+      "bodyHeight": 16632,
+      "mainTextLength": 9541,
       "internalLinks": 9,
       "telLinks": 0
     },
     {
       "width": 390,
       "screenshot": "screenshots/preview/width-390.png",
-      "documentHeight": 15491,
+      "documentHeight": 15961,
       "viewport": {
         "width": 390,
         "height": 844
@@ -230,26 +226,6 @@
         },
         {
           "level": 2,
-          "text": "相談から退職までのカンタン4ステップ"
-        },
-        {
-          "level": 3,
-          "text": "公式LINEを追加して無料相談"
-        },
-        {
-          "level": 3,
-          "text": "専任カウンセラーと方針相談"
-        },
-        {
-          "level": 3,
-          "text": "退職手続きをすべてサポート"
-        },
-        {
-          "level": 3,
-          "text": "退職完了＆次のキャリア相談"
-        },
-        {
-          "level": 2,
           "text": "明朗な料金プラン"
         },
         {
@@ -263,6 +239,22 @@
         {
           "level": 3,
           "text": "公務員（公立保育園）プラン"
+        },
+        {
+          "level": 2,
+          "text": "ご依頼の流れは、かんたん3ステップ"
+        },
+        {
+          "level": 3,
+          "text": "公式LINEを友だち追加"
+        },
+        {
+          "level": 3,
+          "text": "ヒアリングシート（Googleフォーム）を記入"
+        },
+        {
+          "level": 3,
+          "text": "料金のお支払いでご依頼完了"
         },
         {
           "level": 2,
@@ -337,15 +329,15 @@
         }
       ],
       "heroTitleBottom": 314,
-      "bodyHeight": 15491,
-      "mainTextLength": 8928,
+      "bodyHeight": 15961,
+      "mainTextLength": 9541,
       "internalLinks": 9,
       "telLinks": 0
     },
     {
       "width": 430,
       "screenshot": "screenshots/preview/width-430.png",
-      "documentHeight": 14917,
+      "documentHeight": 15375,
       "viewport": {
         "width": 430,
         "height": 844
@@ -400,26 +392,6 @@
         },
         {
           "level": 2,
-          "text": "相談から退職までのカンタン4ステップ"
-        },
-        {
-          "level": 3,
-          "text": "公式LINEを追加して無料相談"
-        },
-        {
-          "level": 3,
-          "text": "専任カウンセラーと方針相談"
-        },
-        {
-          "level": 3,
-          "text": "退職手続きをすべてサポート"
-        },
-        {
-          "level": 3,
-          "text": "退職完了＆次のキャリア相談"
-        },
-        {
-          "level": 2,
           "text": "明朗な料金プラン"
         },
         {
@@ -433,6 +405,22 @@
         {
           "level": 3,
           "text": "公務員（公立保育園）プラン"
+        },
+        {
+          "level": 2,
+          "text": "ご依頼の流れは、かんたん3ステップ"
+        },
+        {
+          "level": 3,
+          "text": "公式LINEを友だち追加"
+        },
+        {
+          "level": 3,
+          "text": "ヒアリングシート（Googleフォーム）を記入"
+        },
+        {
+          "level": 3,
+          "text": "料金のお支払いでご依頼完了"
         },
         {
           "level": 2,
@@ -507,15 +495,15 @@
         }
       ],
       "heroTitleBottom": 319,
-      "bodyHeight": 14917,
-      "mainTextLength": 8928,
+      "bodyHeight": 15375,
+      "mainTextLength": 9541,
       "internalLinks": 9,
       "telLinks": 0
     },
     {
       "width": 768,
       "screenshot": "screenshots/preview/width-768.png",
-      "documentHeight": 12901,
+      "documentHeight": 13557,
       "viewport": {
         "width": 768,
         "height": 900
@@ -570,26 +558,6 @@
         },
         {
           "level": 2,
-          "text": "相談から退職までのカンタン4ステップ"
-        },
-        {
-          "level": 3,
-          "text": "公式LINEを追加して無料相談"
-        },
-        {
-          "level": 3,
-          "text": "専任カウンセラーと方針相談"
-        },
-        {
-          "level": 3,
-          "text": "退職手続きをすべてサポート"
-        },
-        {
-          "level": 3,
-          "text": "退職完了＆次のキャリア相談"
-        },
-        {
-          "level": 2,
           "text": "明朗な料金プラン"
         },
         {
@@ -603,6 +571,22 @@
         {
           "level": 3,
           "text": "公務員（公立保育園）プラン"
+        },
+        {
+          "level": 2,
+          "text": "ご依頼の流れは、かんたん3ステップ"
+        },
+        {
+          "level": 3,
+          "text": "公式LINEを友だち追加"
+        },
+        {
+          "level": 3,
+          "text": "ヒアリングシート（Googleフォーム）を記入"
+        },
+        {
+          "level": 3,
+          "text": "料金のお支払いでご依頼完了"
         },
         {
           "level": 2,
@@ -677,15 +661,15 @@
         }
       ],
       "heroTitleBottom": 287,
-      "bodyHeight": 12901,
-      "mainTextLength": 8928,
+      "bodyHeight": 13557,
+      "mainTextLength": 9541,
       "internalLinks": 9,
       "telLinks": 0
     },
     {
       "width": 1280,
       "screenshot": "screenshots/preview/width-1280.png",
-      "documentHeight": 10480,
+      "documentHeight": 10665,
       "viewport": {
         "width": 1280,
         "height": 900
@@ -740,26 +724,6 @@
         },
         {
           "level": 2,
-          "text": "相談から退職までのカンタン4ステップ"
-        },
-        {
-          "level": 3,
-          "text": "公式LINEを追加して無料相談"
-        },
-        {
-          "level": 3,
-          "text": "専任カウンセラーと方針相談"
-        },
-        {
-          "level": 3,
-          "text": "退職手続きをすべてサポート"
-        },
-        {
-          "level": 3,
-          "text": "退職完了＆次のキャリア相談"
-        },
-        {
-          "level": 2,
           "text": "明朗な料金プラン"
         },
         {
@@ -773,6 +737,22 @@
         {
           "level": 3,
           "text": "公務員（公立保育園）プラン"
+        },
+        {
+          "level": 2,
+          "text": "ご依頼の流れは、かんたん3ステップ"
+        },
+        {
+          "level": 3,
+          "text": "公式LINEを友だち追加"
+        },
+        {
+          "level": 3,
+          "text": "ヒアリングシート（Googleフォーム）を記入"
+        },
+        {
+          "level": 3,
+          "text": "料金のお支払いでご依頼完了"
         },
         {
           "level": 2,
@@ -847,15 +827,15 @@
         }
       ],
       "heroTitleBottom": 441,
-      "bodyHeight": 10480,
-      "mainTextLength": 8928,
+      "bodyHeight": 10665,
+      "mainTextLength": 9541,
       "internalLinks": 9,
       "telLinks": 0
     },
     {
       "width": 1440,
       "screenshot": "screenshots/preview/width-1440.png",
-      "documentHeight": 10529,
+      "documentHeight": 10714,
       "viewport": {
         "width": 1440,
         "height": 900
@@ -910,26 +890,6 @@
         },
         {
           "level": 2,
-          "text": "相談から退職までのカンタン4ステップ"
-        },
-        {
-          "level": 3,
-          "text": "公式LINEを追加して無料相談"
-        },
-        {
-          "level": 3,
-          "text": "専任カウンセラーと方針相談"
-        },
-        {
-          "level": 3,
-          "text": "退職手続きをすべてサポート"
-        },
-        {
-          "level": 3,
-          "text": "退職完了＆次のキャリア相談"
-        },
-        {
-          "level": 2,
           "text": "明朗な料金プラン"
         },
         {
@@ -943,6 +903,22 @@
         {
           "level": 3,
           "text": "公務員（公立保育園）プラン"
+        },
+        {
+          "level": 2,
+          "text": "ご依頼の流れは、かんたん3ステップ"
+        },
+        {
+          "level": 3,
+          "text": "公式LINEを友だち追加"
+        },
+        {
+          "level": 3,
+          "text": "ヒアリングシート（Googleフォーム）を記入"
+        },
+        {
+          "level": 3,
+          "text": "料金のお支払いでご依頼完了"
         },
         {
           "level": 2,
@@ -1017,8 +993,8 @@
         }
       ],
       "heroTitleBottom": 441,
-      "bodyHeight": 10529,
-      "mainTextLength": 8928,
+      "bodyHeight": 10714,
+      "mainTextLength": 9541,
       "internalLinks": 9,
       "telLinks": 0
     }
@@ -1093,8 +1069,8 @@
       "heroMethods": [],
       "heroTitleBottom": 304,
       "bodyHeight": 6387,
-      "mainTextLength": 2780,
-      "internalLinks": 24,
+      "mainTextLength": 2782,
+      "internalLinks": 26,
       "telLinks": 0
     },
     {
@@ -1166,15 +1142,15 @@
       "heroMethods": [],
       "heroTitleBottom": 351,
       "bodyHeight": 3937,
-      "mainTextLength": 2780,
-      "internalLinks": 24,
+      "mainTextLength": 2782,
+      "internalLinks": 26,
       "telLinks": 0
     },
     {
       "route": "/privacy/",
       "width": 390,
       "screenshot": "screenshots/preview/page-privacy-390.png",
-      "documentHeight": 9277,
+      "documentHeight": 9397,
       "viewport": {
         "width": 390,
         "height": 844
@@ -1250,16 +1226,16 @@
       "smallControls": [],
       "heroMethods": [],
       "heroTitleBottom": 304,
-      "bodyHeight": 9277,
-      "mainTextLength": 4355,
-      "internalLinks": 20,
+      "bodyHeight": 9397,
+      "mainTextLength": 4414,
+      "internalLinks": 21,
       "telLinks": 0
     },
     {
       "route": "/privacy/",
       "width": 1440,
       "screenshot": "screenshots/preview/page-privacy-1440.png",
-      "documentHeight": 5518,
+      "documentHeight": 5581,
       "viewport": {
         "width": 1440,
         "height": 900
@@ -1335,16 +1311,16 @@
       "smallControls": [],
       "heroMethods": [],
       "heroTitleBottom": 351,
-      "bodyHeight": 5518,
-      "mainTextLength": 4355,
-      "internalLinks": 20,
+      "bodyHeight": 5581,
+      "mainTextLength": 4414,
+      "internalLinks": 21,
       "telLinks": 0
     },
     {
       "route": "/terms/",
       "width": 390,
       "screenshot": "screenshots/preview/page-terms-390.png",
-      "documentHeight": 8096,
+      "documentHeight": 8153,
       "viewport": {
         "width": 390,
         "height": 844
@@ -1420,16 +1396,16 @@
       "smallControls": [],
       "heroMethods": [],
       "heroTitleBottom": 304,
-      "bodyHeight": 8096,
-      "mainTextLength": 3401,
-      "internalLinks": 23,
+      "bodyHeight": 8153,
+      "mainTextLength": 3430,
+      "internalLinks": 24,
       "telLinks": 0
     },
     {
       "route": "/terms/",
       "width": 1440,
       "screenshot": "screenshots/preview/page-terms-1440.png",
-      "documentHeight": 4824,
+      "documentHeight": 4852,
       "viewport": {
         "width": 1440,
         "height": 900
@@ -1505,16 +1481,16 @@
       "smallControls": [],
       "heroMethods": [],
       "heroTitleBottom": 351,
-      "bodyHeight": 4824,
-      "mainTextLength": 3401,
-      "internalLinks": 23,
+      "bodyHeight": 4852,
+      "mainTextLength": 3430,
+      "internalLinks": 24,
       "telLinks": 0
     },
     {
       "route": "/disclosures/",
       "width": 390,
       "screenshot": "screenshots/preview/page-disclosures-390.png",
-      "documentHeight": 7327,
+      "documentHeight": 7384,
       "viewport": {
         "width": 390,
         "height": 844
@@ -1582,9 +1558,9 @@
       "smallControls": [],
       "heroMethods": [],
       "heroTitleBottom": 304,
-      "bodyHeight": 7327,
-      "mainTextLength": 2930,
-      "internalLinks": 25,
+      "bodyHeight": 7384,
+      "mainTextLength": 2962,
+      "internalLinks": 26,
       "telLinks": 0
     },
     {
@@ -1660,8 +1636,8 @@
       "heroMethods": [],
       "heroTitleBottom": 351,
       "bodyHeight": 4728,
-      "mainTextLength": 2930,
-      "internalLinks": 25,
+      "mainTextLength": 2962,
+      "internalLinks": 26,
       "telLinks": 0
     },
     {
@@ -1706,7 +1682,7 @@
       "heroTitleBottom": 317,
       "bodyHeight": 1851,
       "mainTextLength": 208,
-      "internalLinks": 24,
+      "internalLinks": 25,
       "telLinks": 0
     },
     {
@@ -1751,7 +1727,7 @@
       "heroTitleBottom": 371,
       "bodyHeight": 1287,
       "mainTextLength": 208,
-      "internalLinks": 24,
+      "internalLinks": 25,
       "telLinks": 0
     }
   ],

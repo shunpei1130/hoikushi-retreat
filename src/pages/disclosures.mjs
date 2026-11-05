@@ -65,7 +65,7 @@ export function renderDisclosures({ config, mode }) {
       <p class="prose-note">運営する労働組合の正式名称・所在地・責任者・連絡先は、<a href="/about/">運営情報</a>にも掲載しています。</p>
 
       ${h2("service", "サービス内容")}
-      <p>本サービスは、${service.audience ? escapeHtml(service.audience) : "保育士"}を対象とした退職相談・退職代行サービスです。AIチャット、元保育士へのLINE相談、元保育士への電話相談から、話しやすい方法を選べます。相談の後に、対象・費用・対応範囲・必要な組合加入の説明を受け、正式依頼へ進むかを判断できます。</p>
+      <p>本サービスは、${service.audience ? escapeHtml(service.audience) : "保育士"}を対象とした退職相談・退職代行サービスです。AIチャット、元保育士へのLINE相談、元保育士への電話相談から、話しやすい方法を選べます。正式にご依頼いただく場合は、公式LINE追加後、ヒアリングシート（Googleフォーム）をご記入いただき、プランに応じた料金をお支払いいただく流れとなります。</p>
       ${service.staffing ? `<p>${escapeHtml(service.staffing).replace(/。$/, "")}。AIは自動応答で、人による回答ではありません。</p>` : ""}
       <p>相談したこと、AIへ質問したこと、LINEを追加したこと、電話を発信したことは、正式依頼や組合加入への同意ではありません。</p>
 

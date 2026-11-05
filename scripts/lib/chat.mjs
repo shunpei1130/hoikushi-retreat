@@ -94,6 +94,11 @@ export function buildChatInstructions(config = {}) {
     facts.push(
       `LINE IDは ${line.id} です。${line.verified === true ? "アカウント確認済みです。" : "このIDは提供情報ですが、アカウントの稼働確認は未完了です。"}`,
     );
+    if (line.verified === true) {
+      facts.push(
+        "正式にご依頼いただく場合の流れは、公式LINE追加後、ヒアリングシート（Googleフォーム）を記入し、プランに応じた料金をお支払いいただく流れです。",
+      );
+    }
   }
   const phone = config.channels?.phone ?? {};
   if (phone.requestViaLine === true) {
