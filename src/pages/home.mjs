@@ -661,5 +661,38 @@ export function renderHome({ config, mode }) {
     body,
     stickyCta: true,
     breadcrumbs: [{ label: "ホーム", path: "/" }],
+    faqs: FAQ_ITEMS,
+    steps: [
+      {
+        name: "公式LINEを友だち追加",
+        text: "まずは公式LINEを追加します。すぐにご依頼したい方はもちろん、「まだ迷っている」段階の無料相談だけでもOKです。",
+      },
+      {
+        name: "ヒアリングシート（Googleフォーム）を記入",
+        text: "LINEでご案内するヒアリングシート（Googleフォーム）に、勤務先の情報やご希望の退職日などをスマホから入力します。",
+      },
+      {
+        name: "料金のお支払いでご依頼完了",
+        text: "プランに応じた料金をお支払いいただいたら、あなたのお手続きは完了です。追加料金は一切かかりません。",
+      },
+    ],
+    images: [
+      {
+        path: "/assets/og-image.png",
+        title: "保育士リトリート｜保育士特化のやさしい退職・お悩み相談窓口",
+      },
+      {
+        path: "/assets/hero-illustration.jpg",
+        title: "温かいお茶を手にホッと一息つく保育士の優しいイラスト",
+      },
+      {
+        path: "/assets/relax-healing-illustration.jpg",
+        title: "自然の中で深呼吸して心が軽やかになる保育士と小鳥の優しいイラスト",
+      },
+      {
+        path: "/assets/consult-warm-illustration.jpg",
+        title: "保育士のお悩みに優しく耳を傾ける女性カウンセラーのイラスト",
+      },
+    ],
   };
 }

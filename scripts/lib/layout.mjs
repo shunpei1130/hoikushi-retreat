@@ -167,6 +167,8 @@ export function layout({
   ${page.metaTags}
   <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+  <link rel="manifest" href="/manifest.webmanifest">
+  ${page.name === "home" ? '<link rel="preload" as="image" href="/assets/hero-illustration-1200.webp" imagesrcset="/assets/hero-illustration-720.webp 720w, /assets/hero-illustration-1200.webp 1200w" imagesizes="(max-width: 980px) 92vw, 480px" type="image/webp" fetchpriority="high">' : ""}
   <link rel="stylesheet" href="/assets/fonts/kiwi-maru.css">
   <link rel="stylesheet" href="/assets/styles.css">
   <script type="application/ld+json">${jsonLdText}</script>

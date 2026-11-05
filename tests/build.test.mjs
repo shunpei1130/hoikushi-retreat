@@ -82,8 +82,14 @@ test("production build succeeds with a complete, approved config", async () => {
   assert.match(html, /href="tel:0398765432"/);
   assert.match(html, /href="#ai-chat"/);
   assert.match(html, /"price": "36000"/);
+  assert.match(html, /"@type": "Service"/);
+  assert.match(html, /"@type": "FAQPage"/);
+  assert.match(html, /"@type": "HowTo"/);
+  assert.match(html, /"@type": "BreadcrumbList"/);
+  assert.match(html, /rel="alternate" hreflang="ja"/);
+  assert.match(html, /rel="manifest" href="\/manifest\.webmanifest"/);
 
-  for (const file of ["about/index.html", "privacy/index.html", "terms/index.html", "disclosures/index.html", "404.html", "robots.txt", "sitemap.xml", "_headers"]) {
+  for (const file of ["about/index.html", "privacy/index.html", "terms/index.html", "disclosures/index.html", "404.html", "robots.txt", "sitemap.xml", "llms.txt", "manifest.webmanifest", "_headers"]) {
     assert.equal(await exists(path.join(PUBLIC_OUT, file)), true, `${file} should exist`);
   }
   assert.equal(await exists(path.join(PUBLIC_OUT, ".env")), false, ".env must never be copied into output");
@@ -94,6 +100,7 @@ test("production build succeeds with a complete, approved config", async () => {
 
   const sitemap = await read("dist/test-public/sitemap.xml");
   assert.match(sitemap, /https:\/\/hoiku-retreat\.jp\/about\//);
+  assert.match(sitemap, /<image:loc>https:\/\/hoiku-retreat\.jp\/assets\/og-image\.png<\/image:loc>/);
   assert.doesNotMatch(sitemap, /404\.html/);
 
   const notFound = await read("dist/test-public/404.html");

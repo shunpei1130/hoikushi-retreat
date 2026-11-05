@@ -53,20 +53,119 @@ function pageFile(route) {
   return route.replace(/^\//, "");
 }
 
+function sitemapPriority(route) {
+  if (route === "/") return { changefreq: "weekly", priority: "1.0" };
+  if (route === "/about/" || route === "/disclosures/") return { changefreq: "monthly", priority: "0.8" };
+  return { changefreq: "monthly", priority: "0.6" };
+}
+
 function sitemapXml(pages, origin, lastmod) {
   const urls = pages
     .filter((page) => !page.noindex && page.path !== "/404.html")
-    .map(
-      (page) => `  <url>
-    <loc>${escapeXml(origin + page.path)}</loc>
-    ${lastmod ? `<lastmod>${escapeXml(lastmod)}</lastmod>` : ""}
-  </url>`,
-    )
+    .map((page) => {
+      const { changefreq, priority } = sitemapPriority(page.path);
+      const imagesXml = Array.isArray(page.images)
+        ? page.images
+            .map(
+              (img) => `    <image:image>
+      <image:loc>${escapeXml(origin + img.path)}</image:loc>
+      <image:title>${escapeXml(img.title)}</image:title>
+    </image:image>`,
+            )
+            .join("\n")
+        : "";
+      return [
+        "  <url>",
+        `    <loc>${escapeXml(origin + page.path)}</loc>`,
+        lastmod ? `    <lastmod>${escapeXml(lastmod)}</lastmod>` : "",
+        `    <changefreq>${changefreq}</changefreq>`,
+        `    <priority>${priority}</priority>`,
+        imagesXml,
+        "  </url>",
+      ]
+        .filter(Boolean)
+        .join("\n");
+    })
     .join("\n");
   return `<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 ${urls}
 </urlset>
+`;
+}
+
+function manifestJson(config) {
+  return `${JSON.stringify(
+    {
+      name: `${config.brandName}｜保育士の退職代行・お悩み相談`,
+      short_name: config.brandName,
+      description:
+        "元保育士と女性カウンセラーが対応する、保育士特化の無料お悩み相談・労働組合運営の退職代行サービス。",
+      lang: "ja",
+      start_url: "/",
+      scope: "/",
+      display: "standalone",
+      background_color: "#FAF6F0",
+      theme_color: "#1D6258",
+      icons: [
+        {
+          src: "/assets/favicon.svg",
+          sizes: "any",
+          type: "image/svg+xml",
+          purpose: "any",
+        },
+        {
+          src: "/assets/apple-touch-icon.png",
+          sizes: "180x180",
+          type: "image/png",
+          purpose: "any",
+        },
+      ],
+    },
+    null,
+    2,
+  )}\n`;
+}
+
+function llmsTxt(config, origin) {
+  const operator = config.operator ?? {};
+  const lineUrl = config.channels?.line?.url || "";
+  const lineId = config.channels?.line?.id || "";
+  return `# ${config.brandName}（保育士特化の退職相談・退職代行サービス）
+
+> 「辞めたい」と言えずに悩む保育士さんのための、優しい退職・お悩み相談窓口。元保育士スタッフと女性カウンセラーが無料で相談に対応し、労働組合運営（公立保育園は提携弁護士対応）の退職代行で園との直接やり取りなく退職をサポートします。
+
+## サービス概要
+- **サービス名**: ${config.brandName}
+- **運営主体**: ${operator.legalName || config.brandName}（労働組合運営）
+- **対象者**: ${config.service?.audience || "退職を考えている保育士（正社員・契約社員・パート・公立保育士等）"}
+- **相談料**: AIチャット・LINE相談・電話相談すべて完全無料（0円）
+- **受付時間**: 24時間受付・秘密厳守・「辞めるか迷っている段階」の相談も歓迎
+- **公式URL**: ${origin}/
+${lineUrl ? `- **公式LINE**: ${lineUrl} （ID: ${lineId}）\n` : ""}
+## 選ばれる4つの理由
+1. **保育の現場を知る「元保育士」が親身に相談対応**: 行事準備や持ち帰り残業、担任・引き継ぎの悩みも専門用語のまま伝わります。
+2. **女性カウンセラー在籍で安心して話せる**: 威圧的な対応が苦手な方でも優しく気持ちを整理できます。
+3. **「退職ありき」ではない優しい相談フェーズ**: 退職を無理に勧めることはありません。
+4. **労働組合提携＆公立保育士は弁護士対応で安心**: 退職届の郵送や貸与物の返却までサポートし、園への直接連絡は不要です。
+
+## 料金プラン（税込・追加料金なし・全額返金保証・あと払い対応）
+- **無料相談（LINE・電話・保育特化AIチャット）**: 0円
+- **20代・就業6年以内限定プラン（若手支援特別価格）**: 24,800円（税込）— 退職連絡・組合費込み／追加料金なし
+- **通常プラン**: 28,000円（税込）— 正社員・契約社員・パート等すべて対応
+- **公務員（公立保育園）プラン**: 75,000円（税込）— 提携弁護士が対応／公立園の手続き一式
+
+## ご利用の流れ（かんたん3ステップ）
+1. **STEP 01 公式LINEを友だち追加**: 無料・24時間受付。まずは相談だけでもOK。
+2. **STEP 02 ヒアリングシート（Googleフォーム）を記入**: スマホ完結。長い電話ヒアリングは不要。
+3. **STEP 03 料金のお支払いでご依頼完了**: クレジットカード（Square決済）・あと払い対応。お支払い後は当組合（公立は提携弁護士）が園への連絡・調整をすべて代行します。
+
+## 主要ページ一覧
+- [トップページ](${origin}/): サービスの特徴、LINE相談イメージ、料金プラン、ご利用の流れ、AIチャット相談、よくあるご質問
+- [運営情報・労働組合について](${origin}/about/): 運営する労働組合、元保育士スタッフ・女性カウンセラーの相談体制、対応範囲
+- [取引条件・事業者情報](${origin}/disclosures/): 特定商取引法等に基づく表記、料金内訳、支払方法・時期、取消・返金条件
+- [利用条件](${origin}/terms/): 相談と正式依頼の違い、組合加入条件、免責事項
+- [個人情報・相談情報の取扱い](${origin}/privacy/): プライバシーポリシー、AI・LINE・電話相談データの保護方針
 `;
 }
 
@@ -83,7 +182,15 @@ function headersFile() {
   X-Frame-Options: DENY
   Referrer-Policy: strict-origin-when-cross-origin
   Permissions-Policy: geolocation=(), microphone=(), camera=()
+  Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+  X-Permitted-Cross-Domain-Policies: none
   Content-Security-Policy: frame-ancestors 'none'
+
+/404.html
+  X-Robots-Tag: noindex, nofollow
+
+/api/*
+  X-Robots-Tag: noindex, nofollow
 
 /assets/*
   Cache-Control: public, max-age=31536000, immutable
@@ -305,10 +412,12 @@ async function main() {
     await copyFile(lineQrSource, path.join(assetTarget, "line-qr.png"));
   }
 
+  await writeFile(path.join(outDir, "manifest.webmanifest"), manifestJson(config), "utf8");
+
   if (mode === "production") {
     await writeFile(
       path.join(outDir, "robots.txt"),
-      `User-agent: *\nAllow: /\n\nSitemap: ${origin}/sitemap.xml\n`,
+      `User-agent: *\nAllow: /\nDisallow: /api/\n\nSitemap: ${origin}/sitemap.xml\n`,
       "utf8",
     );
     await writeFile(
@@ -316,6 +425,7 @@ async function main() {
       sitemapXml(rendered, origin, config.contentUpdatedAt),
       "utf8",
     );
+    await writeFile(path.join(outDir, "llms.txt"), llmsTxt(config, origin), "utf8");
   } else {
     await writeFile(path.join(outDir, "robots.txt"), "User-agent: *\nDisallow: /\n", "utf8");
   }
