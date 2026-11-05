@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T03:09:25.931Z",
+  "generatedAt": "2026-11-05T11:17:17.505Z",
   "baseUrl": "http://127.0.0.1:4174/",
   "widths": [
     {
@@ -142,36 +142,36 @@
       "heroMethods": [
         {
           "channel": "line",
-          "top": 1365,
-          "bottom": 1485,
+          "top": 1212,
+          "bottom": 1326,
           "inFirstScreen": false,
           "fullyInFirstScreen": false
         },
         {
           "channel": "phone",
-          "top": 1493,
-          "bottom": 1632,
+          "top": 1333,
+          "bottom": 1466,
           "inFirstScreen": false,
           "fullyInFirstScreen": false
         },
         {
           "channel": "ai",
-          "top": 1640,
-          "bottom": 1779,
+          "top": 1473,
+          "bottom": 1605,
           "inFirstScreen": false,
           "fullyInFirstScreen": false
         }
       ],
-      "heroTitleBottom": 334,
-      "bodyHeight": 16632,
-      "mainTextLength": 9541,
+      "heroTitleBottom": 333,
+      "bodyHeight": 16193,
+      "mainTextLength": 9550,
       "internalLinks": 9,
       "telLinks": 0
     },
     {
       "width": 390,
       "screenshot": "screenshots/preview/width-390.png",
-      "documentHeight": 15961,
+      "documentHeight": 15623,
       "viewport": {
         "width": 390,
         "height": 844
@@ -308,36 +308,36 @@
       "heroMethods": [
         {
           "channel": "line",
-          "top": 1332,
-          "bottom": 1452,
+          "top": 1214,
+          "bottom": 1328,
           "inFirstScreen": false,
           "fullyInFirstScreen": false
         },
         {
           "channel": "phone",
-          "top": 1460,
-          "bottom": 1599,
+          "top": 1335,
+          "bottom": 1468,
           "inFirstScreen": false,
           "fullyInFirstScreen": false
         },
         {
           "channel": "ai",
-          "top": 1607,
-          "bottom": 1727,
+          "top": 1475,
+          "bottom": 1589,
           "inFirstScreen": false,
           "fullyInFirstScreen": false
         }
       ],
       "heroTitleBottom": 314,
-      "bodyHeight": 15961,
-      "mainTextLength": 9541,
+      "bodyHeight": 15623,
+      "mainTextLength": 9550,
       "internalLinks": 9,
       "telLinks": 0
     },
     {
       "width": 430,
       "screenshot": "screenshots/preview/width-430.png",
-      "documentHeight": 15375,
+      "documentHeight": 15011,
       "viewport": {
         "width": 430,
         "height": 844
@@ -474,36 +474,36 @@
       "heroMethods": [
         {
           "channel": "line",
-          "top": 1359,
-          "bottom": 1479,
+          "top": 1241,
+          "bottom": 1355,
           "inFirstScreen": false,
           "fullyInFirstScreen": false
         },
         {
           "channel": "phone",
-          "top": 1487,
-          "bottom": 1607,
+          "top": 1362,
+          "bottom": 1476,
           "inFirstScreen": false,
           "fullyInFirstScreen": false
         },
         {
           "channel": "ai",
-          "top": 1615,
-          "bottom": 1735,
+          "top": 1483,
+          "bottom": 1598,
           "inFirstScreen": false,
           "fullyInFirstScreen": false
         }
       ],
       "heroTitleBottom": 319,
-      "bodyHeight": 15375,
-      "mainTextLength": 9541,
+      "bodyHeight": 15011,
+      "mainTextLength": 9550,
       "internalLinks": 9,
       "telLinks": 0
     },
     {
       "width": 768,
       "screenshot": "screenshots/preview/width-768.png",
-      "documentHeight": 13557,
+      "documentHeight": 13456,
       "viewport": {
         "width": 768,
         "height": 900
@@ -640,36 +640,36 @@
       "heroMethods": [
         {
           "channel": "line",
-          "top": 1333,
-          "bottom": 1453,
+          "top": 1310,
+          "bottom": 1424,
           "inFirstScreen": false,
           "fullyInFirstScreen": false
         },
         {
           "channel": "phone",
-          "top": 1461,
-          "bottom": 1581,
+          "top": 1431,
+          "bottom": 1546,
           "inFirstScreen": false,
           "fullyInFirstScreen": false
         },
         {
           "channel": "ai",
-          "top": 1589,
-          "bottom": 1710,
+          "top": 1553,
+          "bottom": 1667,
           "inFirstScreen": false,
           "fullyInFirstScreen": false
         }
       ],
       "heroTitleBottom": 287,
-      "bodyHeight": 13557,
-      "mainTextLength": 9541,
+      "bodyHeight": 13456,
+      "mainTextLength": 9550,
       "internalLinks": 9,
       "telLinks": 0
     },
     {
       "width": 1280,
       "screenshot": "screenshots/preview/width-1280.png",
-      "documentHeight": 10665,
+      "documentHeight": 10088,
       "viewport": {
         "width": 1280,
         "height": 900
@@ -806,36 +806,36 @@
       "heroMethods": [
         {
           "channel": "line",
-          "top": 593,
-          "bottom": 713,
+          "top": 577,
+          "bottom": 691,
           "inFirstScreen": true,
           "fullyInFirstScreen": true
         },
         {
           "channel": "phone",
-          "top": 721,
-          "bottom": 841,
+          "top": 698,
+          "bottom": 813,
           "inFirstScreen": true,
           "fullyInFirstScreen": true
         },
         {
           "channel": "ai",
-          "top": 849,
-          "bottom": 970,
+          "top": 820,
+          "bottom": 934,
           "inFirstScreen": true,
           "fullyInFirstScreen": false
         }
       ],
       "heroTitleBottom": 441,
-      "bodyHeight": 10665,
-      "mainTextLength": 9541,
+      "bodyHeight": 10088,
+      "mainTextLength": 9550,
       "internalLinks": 9,
       "telLinks": 0
     },
     {
       "width": 1440,
       "screenshot": "screenshots/preview/width-1440.png",
-      "documentHeight": 10714,
+      "documentHeight": 10136,
       "viewport": {
         "width": 1440,
         "height": 900
@@ -972,29 +972,29 @@
       "heroMethods": [
         {
           "channel": "line",
-          "top": 593,
-          "bottom": 713,
+          "top": 577,
+          "bottom": 691,
           "inFirstScreen": true,
           "fullyInFirstScreen": true
         },
         {
           "channel": "phone",
-          "top": 721,
-          "bottom": 841,
+          "top": 698,
+          "bottom": 813,
           "inFirstScreen": true,
           "fullyInFirstScreen": true
         },
         {
           "channel": "ai",
-          "top": 849,
-          "bottom": 970,
+          "top": 820,
+          "bottom": 934,
           "inFirstScreen": true,
           "fullyInFirstScreen": false
         }
       ],
       "heroTitleBottom": 441,
-      "bodyHeight": 10714,
-      "mainTextLength": 9541,
+      "bodyHeight": 10136,
+      "mainTextLength": 9550,
       "internalLinks": 9,
       "telLinks": 0
     }

@@ -31,7 +31,7 @@ const EMPATHY_ITEMS = [
   },
   {
     icon: "info",
-    html: '年度途中や担任の引き継ぎが気になり、<span class="u-ib">言い出す時期がわからない</span>',
+    html: '年度途中や担任の<span class="u-ib">引き継ぎが気になり、</span><span class="u-ib">言い出す時期がわからない</span>',
   },
   {
     icon: "leaf",
@@ -68,7 +68,7 @@ const STEPS = [
     tag: "無料・24時間受付",
     titleHtml: '公式LINEを<span class="u-ib">友だち追加</span>',
     bodyHtml:
-      'まずは公式LINEを追加します。すぐにご依頼したい方はもちろん、「まだ迷っている」段階の<span class="u-ib">無料相談だけでもOKです。</span>',
+      "まずは公式LINEを追加します。すぐにご依頼したい方はもちろん、「まだ迷っている」段階の無料相談だけでもOKです。",
     point: "相談料 0円・追加だけでも安心",
   },
   {
@@ -76,7 +76,7 @@ const STEPS = [
     tag: "Googleフォーム",
     titleHtml: 'ヒアリングシート<span class="u-ib">（Googleフォーム）を記入</span>',
     bodyHtml:
-      'LINEでご案内するヒアリングシート（Googleフォーム）に、勤務先の情報やご希望の退職日などを<span class="u-ib">スマホから入力します。</span>',
+      'LINEでご案内するヒアリングシート<span class="u-ib">（Googleフォーム）</span>に、勤務先の情報やご希望の退職日などをスマホから入力します。',
     point: "スマホ完結・長い電話ヒアリング不要",
   },
   {
@@ -84,7 +84,7 @@ const STEPS = [
     tag: "クレカ・あと払い",
     titleHtml: '料金のお支払いで<span class="u-ib">ご依頼完了</span>',
     bodyHtml:
-      'プランに応じた料金をお支払いいただいたら、あなたのお手続きは完了です。<span class="u-ib">追加料金は一切かかりません。</span>',
+      "プランに応じた料金をお支払いいただいたら、あなたのお手続きは完了です。追加料金は一切かかりません。",
     point: "全額返金保証・組合費もすべて込み",
   },
 ];
@@ -184,7 +184,7 @@ function heroMethodCard(config, key, mode) {
 function planFeatureText(plan) {
   if (plan.id === "youth") return "退職連絡・組合費込み／追加料金なし";
   if (plan.id === "standard") return "正社員・契約社員・パート等すべて対応";
-  if (plan.id === "public") return "提携弁護士が対応／公立施設の手続きに対応";
+  if (plan.id === "public") return "提携弁護士が対応／公立園の手続き一式";
   return plan.note || "追加料金なし";
 }
 
@@ -283,26 +283,25 @@ export function renderHome({ config, mode }) {
       <div class="hero__body">
         <div class="hero-card">
           <p class="hero-card__quote">「子どもは好き。<span class="u-ib">でも、もう限界かもしれない。」</span></p>
-          <p class="hero-card__lead">そんな保育士さんのための、優しい退職・お悩み相談窓口<strong class="u-ib">【保育士リトリート】</strong>です。元保育士と女性カウンセラーが、<span class="u-ib">あなたのペースでお話を伺います。</span></p>
+          <p class="hero-card__lead">そんな保育士さんのための、優しい退職・お悩み相談窓口<strong class="u-ib">【保育士リトリート】</strong>です。元保育士と女性カウンセラーが、あなたのペースでお話を伺います。</p>
           <ul class="hero-badges" aria-label="サービスの特徴">
             <li>${icon("users")}<span>元保育士が相談対応</span></li>
             <li>${icon("chat")}<span>女性カウンセラー在籍</span></li>
-            <li>${icon("yen")}<span>相談料 0円（完全無料）</span></li>
+            <li>${icon("yen")}<span>相談料0円・完全無料</span></li>
             <li>${icon("shield")}<span>労働組合提携で安心</span></li>
           </ul>
-        </div>
-
-        <div class="hero-cta-box">
-          <p class="hero-cta-box__micro"><span>秘密厳守</span><span class="dot" aria-hidden="true"></span><span>24時間受付</span><span class="dot" aria-hidden="true"></span><span>迷っている段階でもOK</span></p>
-          <div class="hero__actions hero__actions--cta">
-            ${channelButton(config, "line", {
-              mode,
-              placement: "hero",
-              label: "まずはLINEで無料相談する",
-              variant: "primary",
-              className: "button--hero",
-            })}
-            <a class="button button--outline" href="#pricing"><span>料金・サポート内容を見る</span>${icon("arrowDown")}</a>
+          <div class="hero-card__cta">
+            <p class="hero-cta-box__micro"><span>秘密厳守</span><span class="dot" aria-hidden="true"></span><span>24時間受付</span><span class="dot" aria-hidden="true"></span><span>迷っている段階でもOK</span></p>
+            <div class="hero__actions hero__actions--cta">
+              ${channelButton(config, "line", {
+                mode,
+                placement: "hero",
+                label: "まずはLINEで無料相談する",
+                variant: "primary",
+                className: "button--hero",
+              })}
+              <a class="button button--outline" href="#pricing"><span>料金・サポート内容を見る</span>${icon("arrowDown")}</a>
+            </div>
           </div>
         </div>
       </div>
@@ -375,7 +374,7 @@ export function renderHome({ config, mode }) {
         <div class="retreat-card__content">
           <p class="retreat-card__eyebrow">RETREAT / 休息と相談</p>
           <h2 id="retreat-title">あなたが責任を<span class="u-ib">感じる必要は、</span><br><span class="u-ib">ひとつもありません。</span></h2>
-          <p>「リトリート（Retreat）」とは、忙しい日常から少し離れ、<span class="u-ib">心と身体をリセットすること。</span></p>
+          <p>「リトリート（Retreat）」とは、忙しい日常から少し離れ、心と身体を<span class="u-ib">リセットすること。</span></p>
           <p>あなたの心と身体の健康よりも大切な仕事はありません。まずは一度立ち止まって、<span class="u-ib">深呼吸してみませんか？</span></p>
           <p class="retreat-card__note">悩んだり、立ち止まったり、次の道を探すことは決して逃げではありません。まずは、がんばってきたご自身に<span class="u-ib">「おつかれさま」を。</span></p>
         </div>
@@ -425,7 +424,7 @@ export function renderHome({ config, mode }) {
           <div class="talk-card__body">
             <p class="talk-card__badge">COUNSELOR / 対応スタッフ</p>
             <h3>返信するのは、<span class="u-ib">元保育士と女性カウンセラー。</span></h3>
-            <p>保育の現場を知るスタッフだから、行事準備の忙しさも、園長への伝えにくさも、<span class="u-ib">説明なしでそのまま伝わります。</span></p>
+            <p>保育の現場を知るスタッフだから、行事準備の忙しさも、園長への伝えにくさも、説明なしでそのまま伝わります。</p>
             <ul class="talk-points">
               <li>${icon("check")}<span>「辞める」と決めていなくても相談OK</span></li>
               <li>${icon("check")}<span>退職を無理に勧めることはありません</span></li>
@@ -510,7 +509,7 @@ export function renderHome({ config, mode }) {
         number: "05",
         eyebrow: "ご利用の流れ",
         title: 'ご依頼の流れは、<br><span class="u-ib">かんたん3ステップ</span>',
-        lead: '複雑な書類手続きや長い電話ヒアリングはありません。公式LINE追加後、<span class="u-ib">ヒアリングシート（Googleフォーム）</span>を記入して、<span class="u-ib">料金をお支払いいただくだけです。</span>',
+        lead: '複雑な書類手続きや長い電話ヒアリングはありません。公式LINE追加後、ヒアリングシート<span class="u-ib">（Googleフォーム）</span>を記入して、料金をお支払いいただくだけです。',
         id: "steps-title",
       })}
       <ol class="step-grid">
@@ -534,7 +533,7 @@ export function renderHome({ config, mode }) {
         <div class="flow-complete__body">
           <span class="flow-complete__badge">${icon("shield")} お支払い後はすべておまかせ</span>
           <p class="flow-complete__title">園への連絡・退職手続きの調整は、<span class="u-ib">当組合がすべて代行します。</span></p>
-          <p class="flow-complete__desc">ご希望の日時に合わせて当組合（公立保育園は提携弁護士）から園へ連絡します。あなたが園と<span class="u-ib">直接やり取りする必要はありません。</span><span class="flow-complete__fine">※LINE追加や無料相談だけでは、料金や組合加入は発生しません。</span></p>
+          <p class="flow-complete__desc">ご希望の日時に合わせて当組合（公立保育園は提携弁護士）から園へ連絡します。あなたが園と直接やり取りする必要はありません。<span class="flow-complete__fine">※LINE追加や無料相談だけでは、料金や組合加入は発生しません。</span></p>
         </div>
         <div class="flow-complete__cta">
           ${channelButton(config, "line", {

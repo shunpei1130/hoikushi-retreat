@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T03:09:46.723Z",
+  "generatedAt": "2026-11-05T11:17:51.593Z",
   "target": "dist/preview",
   "mode": "preview",
   "summary": {
@@ -77,7 +77,7 @@
       "dataMode": "preview",
       "errors": [],
       "warnings": [],
-      "textLength": 5809,
+      "textLength": 5801,
       "internalLinks": 38,
       "jsonLdTypes": [
         "WebPage",

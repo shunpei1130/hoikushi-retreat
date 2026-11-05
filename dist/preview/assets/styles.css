@@ -115,8 +115,10 @@ h4 {
   word-break: auto-phrase;
   overflow-wrap: anywhere;
   line-break: strict;
+  text-wrap: balance;
 }
 
+/* Body copy: phrase-aware wrapping (no mid-word splits) + kinsoku rules */
 p,
 li,
 dd,
@@ -741,14 +743,19 @@ main {
 
 .hero__body {
   grid-area: body;
-  align-self: center;
+  align-self: stretch;
   display: flex;
   flex-direction: column;
-  gap: 18px;
+  justify-content: space-between;
+  gap: 16px;
 }
 
 .hero-panel {
   grid-area: panel;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .hero__eyebrow {
@@ -823,16 +830,26 @@ main {
 }
 
 .hero-card {
-  padding: clamp(20px, 2.5vw, 26px);
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 16px;
+  padding: clamp(22px, 2.6vw, 28px);
   border: 1px solid var(--color-line-strong);
   border-radius: var(--radius-card);
   background: var(--color-surface);
   box-shadow: var(--shadow-soft);
 }
 
+.hero-card__cta {
+  padding-top: 18px;
+  border-top: 1px dashed var(--color-line);
+}
+
 .hero-card__quote {
-  margin: 0 0 12px;
-  padding: 10px 14px;
+  margin: 0;
+  padding: 12px 15px;
   border-left: 4px solid var(--color-warm-accent);
   border-radius: 0 12px 12px 0;
   background: var(--color-warm-accent-soft);
@@ -843,7 +860,7 @@ main {
 }
 
 .hero-card__lead {
-  margin: 0 0 16px;
+  margin: 0;
   color: var(--color-muted);
   font-size: 14.5px;
   line-height: 1.85;
@@ -914,7 +931,7 @@ main {
 
 /* Hero consultation panel */
 .hero-panel {
-  padding: clamp(18px, 2.2vw, 22px);
+  padding: 18px 20px;
   border: 1px solid var(--color-line-strong);
   border-radius: var(--radius-lg);
   background: var(--color-surface);
@@ -922,13 +939,13 @@ main {
 }
 
 .hero-panel__head {
-  margin-bottom: 14px;
-  padding-bottom: 12px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
   border-bottom: 1px solid var(--color-line);
 }
 
 .hero-panel__kicker {
-  margin: 0 0 4px;
+  margin: 0 0 3px;
   color: var(--color-primary);
   font-size: 11px;
   font-weight: 700;
@@ -936,31 +953,30 @@ main {
 }
 
 .hero-panel h2 {
-  margin: 0 0 4px;
-  font-size: 20px;
-  line-height: 1.4;
+  margin: 0 0 3px;
+  font-size: 19px;
+  line-height: 1.38;
 }
 
 .hero-panel__head > p:last-child {
   color: var(--color-muted);
-  font-size: 13px;
-  line-height: 1.65;
+  font-size: 12.5px;
+  line-height: 1.55;
 }
 
 .method-stack {
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 7px;
 }
 
 .method-card {
   position: relative;
   display: flex;
   flex-direction: column;
-  min-height: 82px;
-  padding: 11px 40px 11px 14px;
+  padding: 10px 38px 10px 13px;
   border: 1.5px solid var(--color-line-strong);
-  border-radius: 16px;
+  border-radius: 15px;
   background: var(--color-bg);
   color: var(--color-text);
   text-decoration: none;
@@ -994,8 +1010,8 @@ a.method-card--line:hover {
 .method-card__top {
   display: flex;
   align-items: center;
-  gap: 8px;
-  margin-bottom: 5px;
+  gap: 7px;
+  margin-bottom: 3px;
 }
 
 .method-card__icon {
@@ -1059,7 +1075,7 @@ a.method-card--line:hover {
   align-items: center;
   flex-wrap: wrap;
   gap: 6px;
-  margin-top: 6px;
+  margin-top: 4px;
   color: var(--color-primary-ink);
   font-size: 11.5px;
   font-weight: 700;
@@ -1100,23 +1116,23 @@ a.method-card--line:hover {
 
 .hero-panel__qr {
   align-items: center;
-  gap: 12px;
-  margin-top: 12px;
-  padding: 10px 12px;
+  gap: 11px;
+  margin-top: 9px;
+  padding: 8px 11px;
   border: 1.5px dashed var(--color-line-strong);
-  border-radius: 14px;
+  border-radius: 13px;
   background: var(--color-bg);
 }
 
 .hero-panel__qr-img {
-  width: 68px;
-  height: 68px;
+  width: 58px;
+  height: 58px;
   aspect-ratio: 1 / 1;
   object-fit: contain;
-  flex: 0 0 68px;
+  flex: 0 0 58px;
   padding: 3px;
   border: 1px solid var(--color-line);
-  border-radius: 10px;
+  border-radius: 9px;
   background: #ffffff;
 }
 
@@ -1146,7 +1162,7 @@ a.method-card--line:hover {
   align-items: flex-start;
   justify-content: flex-start;
   gap: 6px;
-  margin-top: 12px;
+  margin-top: 9px;
   color: var(--color-muted);
   font-size: 11.5px;
   line-height: 1.55;
@@ -1277,6 +1293,8 @@ a.method-card--line:hover {
    ========================================================================== */
 
 .section--retreat {
+  padding-top: 8px;
+  padding-bottom: clamp(48px, 6vw, 80px);
   background: var(--color-bg);
 }
 
@@ -1343,6 +1361,45 @@ a.method-card--line:hover {
   font-size: 14px !important;
   font-weight: 700;
   line-height: 1.8 !important;
+}
+
+@media (min-width: 981px) {
+  .retreat-card__content {
+    gap: 11px;
+  }
+
+  .retreat-card__content h2 {
+    font-size: clamp(1.35rem, 1.1rem + 1vw, 1.85rem);
+  }
+
+  .retreat-card__note {
+    padding: 12px 15px;
+  }
+
+  .section--talk .talk-layout {
+    grid-template-columns: minmax(0, 0.94fr) minmax(0, 1.06fr);
+    justify-content: stretch;
+    gap: clamp(24px, 3.5vw, 36px);
+    align-items: center;
+  }
+
+  .talk-card .talk-card__img {
+    aspect-ratio: 2.15 / 1;
+    object-position: 50% 25%;
+  }
+
+  .talk-card .talk-card__body {
+    padding: 20px 24px 22px;
+    gap: 11px;
+  }
+
+  .talk-card .talk-points {
+    gap: 7px;
+  }
+
+  .talk-card .talk-points li {
+    padding: 8px 12px;
+  }
 }
 
 /* ==========================================================================
@@ -2266,6 +2323,54 @@ a.method-card--line:hover {
   background: var(--color-amber-bg);
   color: var(--color-amber-text);
   font-size: 12.5px;
+}
+
+.ai-chat-panel__intro > p:last-child,
+.ai-chat-panel__fine {
+  max-width: 48em;
+}
+
+.human-path-card p {
+  flex: 1 1 320px;
+}
+
+@media (min-width: 981px) {
+  .ai-chat-panel {
+    grid-template-columns: minmax(0, 0.82fr) minmax(0, 1.18fr);
+    grid-template-areas:
+      "intro conv"
+      "chips form"
+      "fine form"
+      "noscript form";
+    grid-template-rows: auto auto auto 1fr;
+    gap: 18px clamp(24px, 3vw, 36px);
+    align-items: start;
+  }
+
+  .ai-chat-panel__intro {
+    grid-area: intro;
+  }
+
+  .ai-chat-panel__conversation {
+    grid-area: conv;
+    align-self: stretch;
+  }
+
+  .ai-chat-chips-wrap {
+    grid-area: chips;
+  }
+
+  .ai-chat-form {
+    grid-area: form;
+  }
+
+  .ai-chat-panel__fine {
+    grid-area: fine;
+  }
+
+  .ai-chat-panel > noscript {
+    grid-area: noscript;
+  }
 }
 
 .human-path-card {
@@ -3689,14 +3794,49 @@ a.method-card--line:hover {
     line-height: 1.46;
   }
 
+  .hero-card {
+    padding: 18px 16px;
+  }
+
+  .hero-card__cta {
+    margin-top: 16px;
+    padding-top: 16px;
+  }
+
   .hero-badges {
-    grid-template-columns: 1fr;
-    gap: 7px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 6px;
   }
 
   .hero-badges li {
-    padding: 9px 13px;
-    font-size: 13px;
+    padding: 8px 8px;
+    font-size: 11px;
+    letter-spacing: 0;
+    gap: 5px;
+    white-space: nowrap;
+  }
+
+  .hero-badges .icon {
+    width: 14px;
+    height: 14px;
+    flex: 0 0 14px;
+  }
+
+  .empathy-item {
+    padding: 13px 14px;
+    gap: 10px;
+  }
+
+  .empathy-item__icon {
+    width: 34px;
+    height: 34px;
+    flex: 0 0 34px;
+  }
+
+  .empathy-item__check {
+    width: 22px;
+    height: 22px;
+    flex: 0 0 22px;
   }
 
   .button--hero {
@@ -3715,6 +3855,37 @@ a.method-card--line:hover {
     padding: 9px 10px;
     font-size: 12.5px;
     text-align: center;
+  }
+
+  .ai-chat-panel {
+    padding: 18px 16px;
+    gap: 16px;
+  }
+
+  .ai-chat-panel__conversation {
+    padding: 12px;
+  }
+
+  .ai-chat-message {
+    max-width: 100%;
+  }
+
+  .ai-chat-form__actions .button {
+    width: 100%;
+  }
+
+  .retreat-card {
+    padding: 16px 16px 22px;
+    gap: 20px;
+  }
+
+  .retreat-card__content {
+    padding-inline: 4px;
+  }
+
+  .talk-card__img {
+    aspect-ratio: 16 / 10;
+    object-position: 50% 25%;
   }
 
   .faq-item summary {
@@ -3759,8 +3930,14 @@ a.method-card--line:hover {
     font-size: 15px;
   }
 
-  .hero-badges {
-    grid-template-columns: 1fr;
+  .hero__eyebrow {
+    font-size: 10px;
+    padding: 4px 9px;
+  }
+
+  .hero-badges li {
+    padding: 7px 8px;
+    font-size: 11px;
   }
 
   .ai-chat-chips {
