@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-04T10:47:53.346Z",
+  "generatedAt": "2026-11-05T01:40:56.762Z",
   "baseUrl": "http://127.0.0.1:4174/",
   "widths": [
     {
       "width": 360,
       "screenshot": "screenshots/preview/width-360.png",
-      "documentHeight": 12747,
+      "documentHeight": 13006,
       "viewport": {
         "width": 360,
         "height": 844
@@ -134,36 +134,36 @@
       "heroMethods": [
         {
           "channel": "line",
-          "top": 1108,
-          "bottom": 1220,
+          "top": 1100,
+          "bottom": 1212,
           "inFirstScreen": false,
           "fullyInFirstScreen": false
         },
         {
           "channel": "phone",
-          "top": 1229,
-          "bottom": 1342,
+          "top": 1221,
+          "bottom": 1334,
           "inFirstScreen": false,
           "fullyInFirstScreen": false
         },
         {
           "channel": "ai",
-          "top": 1351,
-          "bottom": 1463,
+          "top": 1343,
+          "bottom": 1455,
           "inFirstScreen": false,
           "fullyInFirstScreen": false
         }
       ],
-      "heroTitleBottom": 311,
-      "bodyHeight": 12747,
-      "mainTextLength": 7226,
+      "heroTitleBottom": 303,
+      "bodyHeight": 13006,
+      "mainTextLength": 7793,
       "internalLinks": 9,
       "telLinks": 0
     },
     {
       "width": 390,
       "screenshot": "screenshots/preview/width-390.png",
-      "documentHeight": 12419,
+      "documentHeight": 12678,
       "viewport": {
         "width": 390,
         "height": 844
@@ -292,36 +292,36 @@
       "heroMethods": [
         {
           "channel": "line",
-          "top": 1102,
-          "bottom": 1214,
+          "top": 1094,
+          "bottom": 1206,
           "inFirstScreen": false,
           "fullyInFirstScreen": false
         },
         {
           "channel": "phone",
-          "top": 1223,
-          "bottom": 1335,
+          "top": 1215,
+          "bottom": 1327,
           "inFirstScreen": false,
           "fullyInFirstScreen": false
         },
         {
           "channel": "ai",
-          "top": 1344,
-          "bottom": 1457,
+          "top": 1336,
+          "bottom": 1449,
           "inFirstScreen": false,
           "fullyInFirstScreen": false
         }
       ],
-      "heroTitleBottom": 317,
-      "bodyHeight": 12419,
-      "mainTextLength": 7226,
+      "heroTitleBottom": 309,
+      "bodyHeight": 12678,
+      "mainTextLength": 7793,
       "internalLinks": 9,
       "telLinks": 0
     },
     {
       "width": 430,
       "screenshot": "screenshots/preview/width-430.png",
-      "documentHeight": 12243,
+      "documentHeight": 12472,
       "viewport": {
         "width": 430,
         "height": 844
@@ -450,36 +450,36 @@
       "heroMethods": [
         {
           "channel": "line",
-          "top": 989,
-          "bottom": 1101,
+          "top": 981,
+          "bottom": 1093,
           "inFirstScreen": false,
           "fullyInFirstScreen": false
         },
         {
           "channel": "phone",
-          "top": 1110,
-          "bottom": 1222,
+          "top": 1102,
+          "bottom": 1214,
           "inFirstScreen": false,
           "fullyInFirstScreen": false
         },
         {
           "channel": "ai",
-          "top": 1231,
-          "bottom": 1344,
+          "top": 1223,
+          "bottom": 1336,
           "inFirstScreen": false,
           "fullyInFirstScreen": false
         }
       ],
-      "heroTitleBottom": 318,
-      "bodyHeight": 12243,
-      "mainTextLength": 7226,
+      "heroTitleBottom": 310,
+      "bodyHeight": 12472,
+      "mainTextLength": 7793,
       "internalLinks": 9,
       "telLinks": 0
     },
     {
       "width": 768,
       "screenshot": "screenshots/preview/width-768.png",
-      "documentHeight": 11118,
+      "documentHeight": 11216,
       "viewport": {
         "width": 768,
         "height": 900
@@ -608,36 +608,36 @@
       "heroMethods": [
         {
           "channel": "line",
-          "top": 1170,
-          "bottom": 1294,
+          "top": 1162,
+          "bottom": 1286,
           "inFirstScreen": false,
           "fullyInFirstScreen": false
         },
         {
           "channel": "phone",
-          "top": 1303,
-          "bottom": 1427,
+          "top": 1295,
+          "bottom": 1419,
           "inFirstScreen": false,
           "fullyInFirstScreen": false
         },
         {
           "channel": "ai",
-          "top": 1436,
-          "bottom": 1560,
+          "top": 1428,
+          "bottom": 1552,
           "inFirstScreen": false,
           "fullyInFirstScreen": false
         }
       ],
-      "heroTitleBottom": 437,
-      "bodyHeight": 11118,
-      "mainTextLength": 7226,
+      "heroTitleBottom": 429,
+      "bodyHeight": 11216,
+      "mainTextLength": 7793,
       "internalLinks": 9,
       "telLinks": 0
     },
     {
       "width": 1280,
       "screenshot": "screenshots/preview/width-1280.png",
-      "documentHeight": 10267,
+      "documentHeight": 10297,
       "viewport": {
         "width": 1280,
         "height": 900
@@ -766,36 +766,36 @@
       "heroMethods": [
         {
           "channel": "line",
-          "top": 620,
-          "bottom": 744,
+          "top": 290,
+          "bottom": 414,
           "inFirstScreen": true,
           "fullyInFirstScreen": true
         },
         {
           "channel": "phone",
-          "top": 753,
-          "bottom": 877,
+          "top": 423,
+          "bottom": 547,
           "inFirstScreen": true,
           "fullyInFirstScreen": true
         },
         {
           "channel": "ai",
-          "top": 886,
-          "bottom": 1010,
+          "top": 556,
+          "bottom": 680,
           "inFirstScreen": true,
-          "fullyInFirstScreen": false
+          "fullyInFirstScreen": true
         }
       ],
-      "heroTitleBottom": 612,
-      "bodyHeight": 10267,
-      "mainTextLength": 7226,
+      "heroTitleBottom": 604,
+      "bodyHeight": 10297,
+      "mainTextLength": 7793,
       "internalLinks": 9,
       "telLinks": 0
     },
     {
       "width": 1440,
       "screenshot": "screenshots/preview/width-1440.png",
-      "documentHeight": 10365,
+      "documentHeight": 10396,
       "viewport": {
         "width": 1440,
         "height": 900
@@ -924,29 +924,29 @@
       "heroMethods": [
         {
           "channel": "line",
-          "top": 620,
-          "bottom": 744,
+          "top": 290,
+          "bottom": 414,
           "inFirstScreen": true,
           "fullyInFirstScreen": true
         },
         {
           "channel": "phone",
-          "top": 753,
-          "bottom": 877,
+          "top": 423,
+          "bottom": 547,
           "inFirstScreen": true,
           "fullyInFirstScreen": true
         },
         {
           "channel": "ai",
-          "top": 886,
-          "bottom": 1010,
+          "top": 556,
+          "bottom": 680,
           "inFirstScreen": true,
-          "fullyInFirstScreen": false
+          "fullyInFirstScreen": true
         }
       ],
-      "heroTitleBottom": 612,
-      "bodyHeight": 10365,
-      "mainTextLength": 7226,
+      "heroTitleBottom": 604,
+      "bodyHeight": 10396,
+      "mainTextLength": 7793,
       "internalLinks": 9,
       "telLinks": 0
     }
@@ -956,7 +956,7 @@
       "route": "/about/",
       "width": 390,
       "screenshot": "screenshots/preview/page-about-390.png",
-      "documentHeight": 4779,
+      "documentHeight": 4771,
       "viewport": {
         "width": 390,
         "height": 844
@@ -1019,8 +1019,8 @@
       "overflowElements": [],
       "smallControls": [],
       "heroMethods": [],
-      "heroTitleBottom": 288,
-      "bodyHeight": 4779,
+      "heroTitleBottom": 280,
+      "bodyHeight": 4771,
       "mainTextLength": 2790,
       "internalLinks": 21,
       "telLinks": 0
@@ -1029,7 +1029,7 @@
       "route": "/about/",
       "width": 1440,
       "screenshot": "screenshots/preview/page-about-1440.png",
-      "documentHeight": 3662,
+      "documentHeight": 3654,
       "viewport": {
         "width": 1440,
         "height": 900
@@ -1092,8 +1092,8 @@
       "overflowElements": [],
       "smallControls": [],
       "heroMethods": [],
-      "heroTitleBottom": 379,
-      "bodyHeight": 3662,
+      "heroTitleBottom": 371,
+      "bodyHeight": 3654,
       "mainTextLength": 2790,
       "internalLinks": 21,
       "telLinks": 0
@@ -1102,7 +1102,7 @@
       "route": "/privacy/",
       "width": 390,
       "screenshot": "screenshots/preview/page-privacy-390.png",
-      "documentHeight": 6485,
+      "documentHeight": 6477,
       "viewport": {
         "width": 390,
         "height": 844
@@ -1177,8 +1177,8 @@
       "overflowElements": [],
       "smallControls": [],
       "heroMethods": [],
-      "heroTitleBottom": 288,
-      "bodyHeight": 6485,
+      "heroTitleBottom": 280,
+      "bodyHeight": 6477,
       "mainTextLength": 4355,
       "internalLinks": 17,
       "telLinks": 0
@@ -1187,7 +1187,7 @@
       "route": "/privacy/",
       "width": 1440,
       "screenshot": "screenshots/preview/page-privacy-1440.png",
-      "documentHeight": 4833,
+      "documentHeight": 4825,
       "viewport": {
         "width": 1440,
         "height": 900
@@ -1262,8 +1262,8 @@
       "overflowElements": [],
       "smallControls": [],
       "heroMethods": [],
-      "heroTitleBottom": 379,
-      "bodyHeight": 4833,
+      "heroTitleBottom": 371,
+      "bodyHeight": 4825,
       "mainTextLength": 4355,
       "internalLinks": 17,
       "telLinks": 0
@@ -1272,7 +1272,7 @@
       "route": "/terms/",
       "width": 390,
       "screenshot": "screenshots/preview/page-terms-390.png",
-      "documentHeight": 5757,
+      "documentHeight": 5749,
       "viewport": {
         "width": 390,
         "height": 844
@@ -1347,8 +1347,8 @@
       "overflowElements": [],
       "smallControls": [],
       "heroMethods": [],
-      "heroTitleBottom": 288,
-      "bodyHeight": 5757,
+      "heroTitleBottom": 280,
+      "bodyHeight": 5749,
       "mainTextLength": 3452,
       "internalLinks": 20,
       "telLinks": 0
@@ -1357,7 +1357,7 @@
       "route": "/terms/",
       "width": 1440,
       "screenshot": "screenshots/preview/page-terms-1440.png",
-      "documentHeight": 4371,
+      "documentHeight": 4363,
       "viewport": {
         "width": 1440,
         "height": 900
@@ -1432,8 +1432,8 @@
       "overflowElements": [],
       "smallControls": [],
       "heroMethods": [],
-      "heroTitleBottom": 379,
-      "bodyHeight": 4371,
+      "heroTitleBottom": 371,
+      "bodyHeight": 4363,
       "mainTextLength": 3452,
       "internalLinks": 20,
       "telLinks": 0
@@ -1442,7 +1442,7 @@
       "route": "/disclosures/",
       "width": 390,
       "screenshot": "screenshots/preview/page-disclosures-390.png",
-      "documentHeight": 5240,
+      "documentHeight": 5232,
       "viewport": {
         "width": 390,
         "height": 844
@@ -1509,8 +1509,8 @@
       "overflowElements": [],
       "smallControls": [],
       "heroMethods": [],
-      "heroTitleBottom": 288,
-      "bodyHeight": 5240,
+      "heroTitleBottom": 280,
+      "bodyHeight": 5232,
       "mainTextLength": 2959,
       "internalLinks": 22,
       "telLinks": 0
@@ -1519,7 +1519,7 @@
       "route": "/disclosures/",
       "width": 1440,
       "screenshot": "screenshots/preview/page-disclosures-1440.png",
-      "documentHeight": 4141,
+      "documentHeight": 4133,
       "viewport": {
         "width": 1440,
         "height": 900
@@ -1586,8 +1586,8 @@
       "overflowElements": [],
       "smallControls": [],
       "heroMethods": [],
-      "heroTitleBottom": 379,
-      "bodyHeight": 4141,
+      "heroTitleBottom": 371,
+      "bodyHeight": 4133,
       "mainTextLength": 2959,
       "internalLinks": 22,
       "telLinks": 0
@@ -1596,7 +1596,7 @@
       "route": "/404.html",
       "width": 390,
       "screenshot": "screenshots/preview/page-404-390.png",
-      "documentHeight": 1698,
+      "documentHeight": 1690,
       "viewport": {
         "width": 390,
         "height": 844
@@ -1631,8 +1631,8 @@
       "overflowElements": [],
       "smallControls": [],
       "heroMethods": [],
-      "heroTitleBottom": 319,
-      "bodyHeight": 1698,
+      "heroTitleBottom": 311,
+      "bodyHeight": 1690,
       "mainTextLength": 210,
       "internalLinks": 21,
       "telLinks": 0
@@ -1641,7 +1641,7 @@
       "route": "/404.html",
       "width": 1440,
       "screenshot": "screenshots/preview/page-404-1440.png",
-      "documentHeight": 1210,
+      "documentHeight": 1202,
       "viewport": {
         "width": 1440,
         "height": 900
@@ -1676,8 +1676,8 @@
       "overflowElements": [],
       "smallControls": [],
       "heroMethods": [],
-      "heroTitleBottom": 376,
-      "bodyHeight": 1210,
+      "heroTitleBottom": 368,
+      "bodyHeight": 1202,
       "mainTextLength": 210,
       "internalLinks": 21,
       "telLinks": 0

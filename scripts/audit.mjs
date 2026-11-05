@@ -287,7 +287,13 @@ async function checkPage({ file, html, pageMap, mode, report }) {
   const assetRefs = [...html.matchAll(/(?:href|src)="(\/[^"]+)"/g)]
     .map((match) => decodeEntities(match[1]))
     .filter((href) => !href.startsWith("//") && /\.[a-z0-9]+$/i.test(href.split("?")[0]));
-  for (const ref of unique(assetRefs)) {
+  const srcsetRefs = [...html.matchAll(/srcset="([^"]+)"/g)].flatMap((match) =>
+    match[1]
+      .split(",")
+      .map((part) => decodeEntities(part.trim().split(/\s+/)[0]))
+      .filter((href) => href.startsWith("/") && /\.[a-z0-9]+$/i.test(href.split("?")[0])),
+  );
+  for (const ref of unique([...assetRefs, ...srcsetRefs])) {
     const targetFile = fileForLinkPath(ref.split("?")[0]);
     if (!pageMap.has(targetFile) && !(await exists(path.join(report.dir, targetFile)))) {
       addError("asset-link", `参照ファイルがありません: ${ref}`);

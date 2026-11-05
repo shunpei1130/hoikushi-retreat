@@ -11,3 +11,6 @@ dist/test-*/
 dist/audit-production/
 dist/vercel-output/
 dist/public/
+
+.vercel
+.env*

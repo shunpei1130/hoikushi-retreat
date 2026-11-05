@@ -272,8 +272,14 @@ async function main() {
     "app.js",
     "favicon.svg",
     "hero-illustration.jpg",
+    "hero-illustration-1200.webp",
+    "hero-illustration-720.webp",
     "consult-warm-illustration.jpg",
+    "consult-warm-illustration-960.webp",
+    "consult-warm-illustration-640.webp",
     "relax-healing-illustration.jpg",
+    "relax-healing-illustration-1200.webp",
+    "relax-healing-illustration-720.webp",
   ];
   for (const name of assetNames) {
     if (await exists(path.join(assetSource, name))) {

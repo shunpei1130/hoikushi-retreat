@@ -117,17 +117,20 @@
 
   const hero = document.querySelector(".hero");
   const chatPanel = document.querySelector("#ai-chat");
+  const closing = document.querySelector("#closing");
   const sticky = document.querySelector("[data-sticky-cta]");
-  if ((hero || chatPanel) && sticky && "IntersectionObserver" in window) {
+  if ((hero || chatPanel || closing) && sticky && "IntersectionObserver" in window) {
     let heroVisible = false;
     let chatVisible = false;
+    let closingVisible = false;
     const stickyObserver = new IntersectionObserver(
       (entries) => {
         for (const entry of entries) {
           if (entry.target === hero) heroVisible = entry.isIntersecting;
           if (entry.target === chatPanel) chatVisible = entry.isIntersecting;
+          if (entry.target === closing) closingVisible = entry.isIntersecting;
         }
-        const hideSticky = heroVisible || chatVisible;
+        const hideSticky = heroVisible || chatVisible || closingVisible;
         sticky.hidden = hideSticky;
         sticky.classList.toggle("is-visible", !hideSticky);
       },
@@ -135,5 +138,16 @@
     );
     if (hero) stickyObserver.observe(hero);
     if (chatPanel) stickyObserver.observe(chatPanel);
+    if (closing) stickyObserver.observe(closing);
+  }
+
+  for (const chip of document.querySelectorAll("[data-chip]")) {
+    chip.addEventListener("click", () => {
+      const input = document.querySelector("#ai-chat-input");
+      if (input) {
+        input.value = chip.getAttribute("data-chip") || "";
+        input.focus();
+      }
+    });
   }
 })();

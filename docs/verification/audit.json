@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-04T05:53:29.502Z",
+  "generatedAt": "2026-11-05T01:43:03.195Z",
   "target": "dist/public",
   "mode": "production",
   "summary": {
@@ -43,7 +43,7 @@
       "dataMode": "production",
       "errors": [],
       "warnings": [],
-      "textLength": 1880,
+      "textLength": 2016,
       "internalLinks": 27,
       "jsonLdTypes": [
         "WebPage",
@@ -60,7 +60,7 @@
       "dataMode": "production",
       "errors": [],
       "warnings": [],
-      "textLength": 2089,
+      "textLength": 2280,
       "internalLinks": 31,
       "jsonLdTypes": [
         "WebPage",
@@ -72,13 +72,13 @@
     {
       "route": "/",
       "file": "index.html",
-      "title": "保育士の退職代行｜元保育士にLINE・電話相談｜リトリート",
-      "description": "保育士の退職相談・退職代行を労働組合がサポート。保育特化AIへのチャット、元保育士へのLINE・電話相談から、話しやすい方法を選べます。料金・対応範囲・ご利用の流れをご案内します。",
+      "title": "保育士の退職代行・お悩み相談｜元保育士と女性カウンセラー｜保育士リトリート",
+      "description": "「辞めたい」と言えずに悩む20代の保育士へ。元保育士と女性カウンセラーがLINEで無料相談。労働組合提携の退職代行で、園とのやり取りなく退職できます。料金プラン・ご利用の流れ・よくあるご質問をご案内します。",
       "dataMode": "production",
       "errors": [],
       "warnings": [],
-      "textLength": 6969,
-      "internalLinks": 43,
+      "textLength": 4718,
+      "internalLinks": 32,
       "jsonLdTypes": [
         "WebPage",
         "WebSite",
@@ -110,7 +110,7 @@
       "dataMode": "production",
       "errors": [],
       "warnings": [],
-      "textLength": 2891,
+      "textLength": 2934,
       "internalLinks": 31,
       "jsonLdTypes": [
         "WebPage",

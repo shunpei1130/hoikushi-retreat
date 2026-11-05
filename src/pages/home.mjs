@@ -193,6 +193,12 @@ function aiChatPanel() {
     <div class="ai-chat-panel__conversation" data-ai-chat-log role="log" aria-label="AIとの会話" aria-live="polite" aria-relevant="additions text">
       <p class="ai-chat-message ai-chat-message--assistant">こんにちは。まずは、今いちばん整理したいことを教えてください。氏名や園名など、個人が特定できる情報は書かないでください。</p>
     </div>
+    <div class="ai-chat-chips" aria-label="相談内容の例">
+      <button type="button" class="ai-chip" data-chip="年度途中ですが、精神的に限界で退職を考えています。何から整理すればいいですか？">年度途中の退職</button>
+      <button type="button" class="ai-chip" data-chip="園長からの当たりが強く、直接辞めると言えません。どうすればいいですか？">園長に言えない</button>
+      <button type="button" class="ai-chip" data-chip="残っている有給休暇をすべて消化して退職できますか？">有給休暇の消化</button>
+      <button type="button" class="ai-chip" data-chip="私物の持ち帰りや保険証・エプロンの返却はどう進めればいいですか？">私物・保険証の返却</button>
+    </div>
     <form class="ai-chat-form" data-ai-chat-form action="/api/chat" method="post">
       <label for="ai-chat-input">相談内容</label>
       <textarea id="ai-chat-input" name="message" rows="3" maxlength="1500" required placeholder="例：年度途中で退職を考えています。何から整理すればよいですか？"></textarea>
@@ -237,7 +243,10 @@ export function renderHome({ config, mode }) {
           <a class="button button--outline" href="#pricing">今すぐ退職手続きを頼みたい方はこちら ${icon("arrowDown")}</a>
         </div>
         <div class="hero__illustration-wrapper">
-          <img class="hero__illustration" src="/assets/hero-illustration.jpg" alt="温かいお茶を手にホッと一息つく保育士の優しいイラスト" width="560" height="370" loading="eager">
+          <picture>
+            <source srcset="/assets/hero-illustration-1200.webp" type="image/webp">
+            <img class="hero__illustration" src="/assets/hero-illustration.jpg" alt="温かいお茶を手にホッと一息つく保育士の優しいイラスト" width="560" height="370" loading="eager" decoding="async">
+          </picture>
         </div>
         <ul class="hero-badges" aria-label="サービスの特徴">
           <li>${icon("users")} 元保育士が相談対応</li>
@@ -257,6 +266,13 @@ export function renderHome({ config, mode }) {
           ${heroMethodCard(config, "line", mode)}
           ${heroMethodCard(config, "phone", mode)}
           ${heroMethodCard(config, "ai", mode)}
+        </div>
+        <div class="hero-panel__qr" data-pc-only>
+          <img class="hero-panel__qr-img" src="/assets/line-qr.png" alt="LINE友だち追加QRコード" width="76" height="76" loading="eager" decoding="async">
+          <div class="hero-panel__qr-text">
+            <p class="hero-panel__qr-title">PCの方はスマホでQR読み取り</p>
+            <p class="hero-panel__qr-sub">LINE追加ですぐ相談できます<br><span class="hero-panel__qr-id">公式LINE ID: @897zpkws</span></p>
+          </div>
         </div>
         <p class="hero-panel__foot">相談しただけでは、正式依頼や組合加入にはなりません。</p>
       </aside>
@@ -304,7 +320,10 @@ export function renderHome({ config, mode }) {
   <section class="section section--retreat" id="retreat" aria-labelledby="retreat-title">
     <div class="container retreat-layout">
       <div class="retreat-layout__visual">
-        <img class="retreat-layout__image" src="/assets/relax-healing-illustration.jpg" alt="自然の中で深呼吸して心が軽やかになる保育士と小鳥の優しいイラスト" width="540" height="360" loading="lazy">
+        <picture>
+          <source srcset="/assets/relax-healing-illustration-1200.webp" type="image/webp">
+          <img class="retreat-layout__image" src="/assets/relax-healing-illustration.jpg" alt="自然の中で深呼吸して心が軽やかになる保育士と小鳥の優しいイラスト" width="540" height="360" loading="eager" decoding="async">
+        </picture>
       </div>
       <div class="retreat-layout__content">
         <p class="retreat-layout__eyebrow">RETREAT / 休息と相談</p>
@@ -326,22 +345,31 @@ export function renderHome({ config, mode }) {
         id: "talk-title",
       })}
       <div class="talk-layout">
-        <div class="talk-phone" role="img" aria-label="LINE相談のやり取りイメージ。相談者の『園長が怖くて、辞めたいって言えません…』に、カウンセラーが『よく話してくれました。それはとても苦しかったですね』と返信しています。">
-          <div class="talk-phone__head">
-            <span class="talk-phone__avatar">保</span>
-            <div>
-              <strong>保育士リトリート</strong>
-              <span>元保育士・女性カウンセラー</span>
+        <div class="talk-visual">
+          <div class="talk-phone" role="img" aria-label="LINE相談のやり取りイメージ。相談者の『園長が怖くて、辞めたいって言えません…』に、カウンセラーが『よく話してくれました。それはとても苦しかったですね』と返信しています。">
+            <div class="talk-phone__head">
+              <span class="talk-phone__avatar">保</span>
+              <div>
+                <strong>保育士リトリート</strong>
+                <span>元保育士・女性カウンセラー</span>
+              </div>
             </div>
+            <div class="talk-phone__body">
+              <p class="talk-bubble talk-bubble--user">園長が怖くて、辞めたいって言えません…</p>
+              <p class="talk-bubble talk-bubble--counselor">よく話してくれました。それはとても苦しかったですね。</p>
+              <p class="talk-bubble talk-bubble--counselor">辞めるかどうかを決める前に、まずは気持ちを整理するところから始めましょう。</p>
+              <p class="talk-bubble talk-bubble--user">こんなこと相談してもいいんですか？</p>
+              <p class="talk-bubble talk-bubble--counselor">もちろんです。あなたのペースで大丈夫ですよ。</p>
+            </div>
+            <div class="talk-phone__input">メッセージを入力…</div>
           </div>
-          <div class="talk-phone__body">
-            <p class="talk-bubble talk-bubble--user">園長が怖くて、辞めたいって言えません…</p>
-            <p class="talk-bubble talk-bubble--counselor">よく話してくれました。それはとても苦しかったですね。</p>
-            <p class="talk-bubble talk-bubble--counselor">辞めるかどうかを決める前に、まずは気持ちを整理するところから始めましょう。</p>
-            <p class="talk-bubble talk-bubble--user">こんなこと相談してもいいんですか？</p>
-            <p class="talk-bubble talk-bubble--counselor">もちろんです。あなたのペースで大丈夫ですよ。</p>
+          <div class="talk-counselor-preview" aria-hidden="true">
+            <picture>
+              <source srcset="/assets/consult-warm-illustration-640.webp" type="image/webp">
+              <img class="talk-counselor-preview__img" src="/assets/consult-warm-illustration.jpg" alt="保育士のお悩みに優しく耳を傾ける女性カウンセラーのイラスト" width="340" height="254" loading="eager" decoding="async">
+            </picture>
+            <p class="talk-counselor-preview__label">${icon("users")} 同じ保育現場を経験したスタッフが、あなたのお気持ちを否定せず大切に受け止めます。</p>
           </div>
-          <div class="talk-phone__input">メッセージを入力…</div>
         </div>
         <div class="talk-copy">
           <h3>返信するのは、元保育士と女性カウンセラー。</h3>
@@ -503,6 +531,13 @@ export function renderHome({ config, mode }) {
             className: "button--hero",
           })}
           <p>相談しただけでは、正式依頼や組合加入にはなりません。</p>
+        </div>
+        <div class="closing-qr" data-pc-only>
+          <img class="closing-qr__img" src="/assets/line-qr.png" alt="LINE友だち追加QRコード" width="92" height="92" loading="lazy" decoding="async">
+          <div class="closing-qr__text">
+            <strong>スマホで読み取り相談</strong>
+            <span>公式LINE ID: @897zpkws</span>
+          </div>
         </div>
       </div>
       <div class="closing-foot">
