@@ -119,9 +119,9 @@ export function renderPrivacy({ config, mode }) {
   return {
     name: "privacy",
     path: "/privacy/",
-    title: "個人情報・相談情報の取扱い｜保育士リトリート",
+    title: "プライバシーポリシー・個人情報の取扱い｜保育士リトリート",
     description:
-      "保育士リトリートにおける個人情報・相談情報の取扱い、AIチャット・LINE・電話・アクセス解析の利用、保存期間・削除、開示等の請求、お問い合わせ窓口をまとめています。",
+      "保育士の退職代行・お悩み相談「保育士リトリート」における個人情報・相談情報の保護方針。職場にバレない秘密厳守の徹底、LINE・電話・AIチャット相談データの管理、保存期間・削除請求窓口をご案内します。",
     body,
     stickyCta: false,
     breadcrumbs: [

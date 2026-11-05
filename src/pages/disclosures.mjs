@@ -142,9 +142,9 @@ export function renderDisclosures({ config, mode }) {
   return {
     name: "disclosures",
     path: "/disclosures/",
-    title: "取引条件・事業者情報｜保育士リトリート",
+    title: "料金・取引条件・事業者情報｜保育士の退職代行｜保育士リトリート",
     description:
-      "保育士リトリートの取引条件と事業者情報。サービス内容、料金、支払い方法・時期、提供時期、取消・返金、組合加入、問い合わせ先をまとめています。",
+      "保育士特化の退職代行「保育士リトリート」の料金プラン（20代・就業6年以内24,800円／通常28,000円／公立保育園・弁護士対応75,000円・税込）、支払方法（クレカ・あと払い）、全額返金保証、事業者情報を掲載。",
     body,
     stickyCta: false,
     breadcrumbs: [

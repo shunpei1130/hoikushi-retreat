@@ -65,6 +65,8 @@ export function buildJsonLd({ config, page, mode, origin }) {
     webpage.breadcrumb = { "@id": `${pageUrl}#breadcrumb` };
   }
   if (page.path === "/" && !page.noindex) {
+    webpage.keywords =
+      "保育士 辞めたい,保育士 退職代行,保育士 退職相談,保育士 年度途中 退職,保育園 辞めたい 言えない,保育士 1年目 辞めたい,保育士 退職代行 労働組合,公立保育士 退職代行,保育士リトリート";
     webpage.speakable = {
       "@type": "SpeakableSpecification",
       cssSelector: ["#hero-title", ".hero-card__lead", "#faq"],
@@ -78,9 +80,12 @@ export function buildJsonLd({ config, page, mode, origin }) {
       "@id": websiteId,
       url: `${origin}/`,
       name: brand,
-      alternateName: ["保育士リトリート（退職代行・お悩み相談）", "保育士のほっと退職"],
+      alternateName: [
+        "保育士リトリート（保育士が辞めたい時の退職代行・お悩み相談）",
+        "保育士のほっと退職",
+      ],
       description:
-        "元保育士と女性カウンセラーが対応する、保育士特化の無料お悩み相談・労働組合運営の退職代行サービス。",
+        "「保育士を辞めたい」と悩む保育士さん専門の退職代行・無料相談窓口。元保育士と女性カウンセラーが24時間LINE・電話で対応する労働組合運営サービス。",
       inLanguage: "ja-JP",
     };
     if (organizationId && hasOrganization) website.publisher = { "@id": organizationId };
@@ -114,6 +119,14 @@ export function buildJsonLd({ config, page, mode, origin }) {
         "@type": "Country",
         name: "JP",
       },
+      knowsAbout: [
+        "保育士 辞めたい（お悩み・退職相談）",
+        "保育士 退職代行（労働組合運営）",
+        "年度途中の保育士退職・担任引き継ぎの調整",
+        "保育園の人間関係・園長トラブルによる退職支援",
+        "有給休暇消化・私物郵送返却のサポート",
+        "公立保育士・公務員保育士の弁護士退職代行",
+      ],
       address: {
         "@type": "PostalAddress",
         streetAddress: operator.address,
@@ -165,8 +178,8 @@ export function buildJsonLd({ config, page, mode, origin }) {
     const service = {
       "@type": "Service",
       "@id": serviceId,
-      name: `${brand}（保育士特化の退職相談・退職代行）`,
-      alternateName: brand,
+      name: `${brand}｜保育士が辞めたい時の退職代行・無料お悩み相談`,
+      alternateName: ["保育士リトリート", "保育士専門の退職代行・無料相談"],
       serviceType: SERVICE_TYPE,
       category: "退職代行・労働組合相談支援",
       description: page.description,
@@ -300,6 +313,9 @@ export function buildMeta({ config, page, mode, origin }) {
     tags: [
       `<title>${escapeHtml(title)}</title>`,
       `<meta name="description" content="${escapeAttr(description)}">`,
+      page.path === "/"
+        ? `<meta name="keywords" content="保育士 辞めたい,保育士 退職代行,保育士 退職相談,保育士 年度途中 退職,保育園 辞めたい 言えない,保育士 退職代行 労働組合,公立保育士 退職代行,保育士リトリート">`
+        : "",
       `<meta name="robots" content="${robots}">`,
       `<meta name="googlebot" content="${robots}">`,
       `<meta name="format-detection" content="telephone=no,address=no,email=no">`,

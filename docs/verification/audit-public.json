@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T11:31:54.958Z",
+  "generatedAt": "2026-11-05T12:09:16.247Z",
   "target": "dist/public",
   "mode": "production",
   "summary": {
@@ -38,12 +38,12 @@
     {
       "route": "/about/",
       "file": "about/index.html",
-      "title": "運営情報・労働組合について｜保育士リトリート",
-      "description": "保育士リトリートを運営する労働組合の情報、サービスとの関係、元保育士スタッフの相談体制、対応範囲、開示情報をまとめています。",
+      "title": "運営労働組合・元保育士の相談体制｜保育士の退職代行・お悩み相談｜保育士リトリート",
+      "description": "「保育士を辞めたい」と悩む方を支援する保育士リトリートの運営労働組合情報。元保育士スタッフと女性カウンセラーによるLINE・電話無料相談体制、団体交渉権を持つ労働組合による退職代行の対応範囲・開示情報を掲載しています。",
       "dataMode": "production",
       "errors": [],
       "warnings": [],
-      "textLength": 2031,
+      "textLength": 2049,
       "internalLinks": 32,
       "jsonLdTypes": [
         "ImageObject",
@@ -57,12 +57,12 @@
     {
       "route": "/disclosures/",
       "file": "disclosures/index.html",
-      "title": "取引条件・事業者情報｜保育士リトリート",
-      "description": "保育士リトリートの取引条件と事業者情報。サービス内容、料金、支払い方法・時期、提供時期、取消・返金、組合加入、問い合わせ先をまとめています。",
+      "title": "料金・取引条件・事業者情報｜保育士の退職代行｜保育士リトリート",
+      "description": "保育士特化の退職代行「保育士リトリート」の料金プラン（20代・就業6年以内24,800円／通常28,000円／公立保育園・弁護士対応75,000円・税込）、支払方法（クレカ・あと払い）、全額返金保証、事業者情報を掲載。",
       "dataMode": "production",
       "errors": [],
       "warnings": [],
-      "textLength": 2317,
+      "textLength": 2329,
       "internalLinks": 36,
       "jsonLdTypes": [
         "ImageObject",
@@ -76,12 +76,12 @@
     {
       "route": "/",
       "file": "index.html",
-      "title": "保育士の退職代行・お悩み相談｜元保育士と女性カウンセラー｜保育士リトリート",
-      "description": "「辞めたい」と言えずに悩む20代の保育士へ。元保育士と女性カウンセラーがLINEで無料相談。労働組合提携の退職代行で、園とのやり取りなく退職できます。料金プラン・ご利用の流れ・よくあるご質問をご案内します。",
+      "title": "保育士が辞めたい時の退職代行・無料相談｜元保育士と女性カウンセラー｜保育士リトリート",
+      "description": "「保育士を辞めたい」「園長が怖くて言い出せない」「年度途中の引き継ぎが不安」と悩む保育士さん専門の退職代行・無料相談窓口【保育士リトリート】。元保育士と女性カウンセラーが24時間LINEで無料相談に対応。労働組合運営（公立は弁護士対応）で園と直接話さず郵送完結で退職をサポートします。",
       "dataMode": "production",
       "errors": [],
       "warnings": [],
-      "textLength": 5407,
+      "textLength": 5412,
       "internalLinks": 37,
       "jsonLdTypes": [
         "ImageObject",
@@ -97,12 +97,12 @@
     {
       "route": "/privacy/",
       "file": "privacy/index.html",
-      "title": "個人情報・相談情報の取扱い｜保育士リトリート",
-      "description": "保育士リトリートにおける個人情報・相談情報の取扱い、AIチャット・LINE・電話・アクセス解析の利用、保存期間・削除、開示等の請求、お問い合わせ窓口をまとめています。",
+      "title": "プライバシーポリシー・個人情報の取扱い｜保育士リトリート",
+      "description": "保育士の退職代行・お悩み相談「保育士リトリート」における個人情報・相談情報の保護方針。職場にバレない秘密厳守の徹底、LINE・電話・AIチャット相談データの管理、保存期間・削除請求窓口をご案内します。",
       "dataMode": "production",
       "errors": [],
       "warnings": [],
-      "textLength": 3714,
+      "textLength": 3720,
       "internalLinks": 32,
       "jsonLdTypes": [
         "ImageObject",
@@ -116,12 +116,12 @@
     {
       "route": "/terms/",
       "file": "terms/index.html",
-      "title": "利用条件｜保育士リトリート",
-      "description": "保育士リトリートの利用条件。相談と正式依頼の違い、組合加入、料金・支払い、取消・返金、勤務先への連絡、禁止事項、免責、お問い合わせについてまとめています。",
+      "title": "利用規約・ご利用条件｜保育士の退職代行・無料相談｜保育士リトリート",
+      "description": "保育士リトリート（保育士専門の退職相談・退職代行サービス）の利用条件。LINE・電話・AIチャットの無料相談と正式依頼の違い、労働組合加入条件、料金・全額返金保証、勤務先への連絡方針について定めています。",
       "dataMode": "production",
       "errors": [],
       "warnings": [],
-      "textLength": 2938,
+      "textLength": 2958,
       "internalLinks": 35,
       "jsonLdTypes": [
         "ImageObject",
