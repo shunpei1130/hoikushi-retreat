@@ -1,0 +1,25 @@
+{
+  "name": "保育士リトリート｜保育士の退職代行・お悩み相談",
+  "short_name": "保育士リトリート",
+  "description": "元保育士と女性カウンセラーが対応する、保育士特化の無料お悩み相談・労働組合運営の退職代行サービス。",
+  "lang": "ja",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#FAF6F0",
+  "theme_color": "#1D6258",
+  "icons": [
+    {
+      "src": "/assets/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

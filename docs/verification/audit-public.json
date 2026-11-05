@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T11:17:51.849Z",
+  "generatedAt": "2026-11-05T11:31:54.958Z",
   "target": "dist/public",
   "mode": "production",
   "summary": {
@@ -32,7 +32,7 @@
         "WebPage",
         "WebSite",
         "Organization+WorkersUnion",
-        "BreadcrumbList"
+        "Service"
       ]
     },
     {
@@ -46,9 +46,11 @@
       "textLength": 2031,
       "internalLinks": 32,
       "jsonLdTypes": [
+        "ImageObject",
         "WebPage",
         "WebSite",
         "Organization+WorkersUnion",
+        "Service",
         "BreadcrumbList"
       ]
     },
@@ -63,9 +65,11 @@
       "textLength": 2317,
       "internalLinks": 36,
       "jsonLdTypes": [
+        "ImageObject",
         "WebPage",
         "WebSite",
         "Organization+WorkersUnion",
+        "Service",
         "BreadcrumbList"
       ]
     },
@@ -80,9 +84,14 @@
       "textLength": 5407,
       "internalLinks": 37,
       "jsonLdTypes": [
+        "ImageObject",
         "WebPage",
         "WebSite",
-        "Organization+WorkersUnion"
+        "Organization+WorkersUnion",
+        "Service",
+        "FAQPage",
+        "HowTo",
+        "BreadcrumbList"
       ]
     },
     {
@@ -96,9 +105,11 @@
       "textLength": 3714,
       "internalLinks": 32,
       "jsonLdTypes": [
+        "ImageObject",
         "WebPage",
         "WebSite",
         "Organization+WorkersUnion",
+        "Service",
         "BreadcrumbList"
       ]
     },
@@ -113,9 +124,11 @@
       "textLength": 2938,
       "internalLinks": 35,
       "jsonLdTypes": [
+        "ImageObject",
         "WebPage",
         "WebSite",
         "Organization+WorkersUnion",
+        "Service",
         "BreadcrumbList"
       ]
     }
