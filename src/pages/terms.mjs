@@ -72,9 +72,9 @@ export function renderTerms({ config, mode }) {
       <p>組合加入は、本サービスの正式依頼とは別の手続きです。加入の意思確認、費用の支払い、脱退の条件は、規約と実際の運用に沿って説明します。</p>
 
       ${h2("fees", "料金・支払い")}
-      <p>相談料、退職代行の支援料、組合加入金、組合費、追加費用は、<a href="/#pricing">料金と組合加入</a>に表示します。実際に負担する総額、税区分、支払い方法、支払い時点は、正式依頼の前に確認できるようにします。</p>
-      <p>${pricing.paymentMethods ? `支払い方法：${escapeHtml(pricing.paymentMethods)}。` : pendingInline("支払い方法：確認中")} ${pricing.paymentTiming ? `支払い時点：${escapeHtml(pricing.paymentTiming)}。` : pendingInline("支払い時点：確認中")}</p>
-      <p>${consultationFeesFree ? "AI・LINE・電話の相談料は無料です。" : "相談料は各窓口の表示をご確認ください。"} 電話相談で通話料等の通信費が利用者負担となるか、誰が発信するかは公開前に確認します。追加費用がある場合は条件と金額または計算方法を事前に表示します。</p>
+      <p>相談料、退職代行の支援料、組合加入金、組合費、追加費用は、<a href="/#pricing">料金プラン</a>に表示します。実際に負担する総額、税区分、支払い方法、支払い時点は、正式依頼の前に確認できるようにします。</p>
+      <p>${pricing.paymentMethods ? `支払い方法：${escapeHtml(pricing.paymentMethods.replace(/（Square:\s*https:\/\/[^\s）)]+）/, "（Square決済）"))}。` : pendingInline("支払い方法：確認中")} ${pricing.paymentTiming ? `支払い時点：${escapeHtml(pricing.paymentTiming)}。` : pendingInline("支払い時点：確認中")}</p>
+      <p>${consultationFeesFree ? "AI・LINE・電話の相談料は無料です。" : "相談料は各窓口の表示をご確認ください。"} ${config.channels?.phone?.callChargeDisclosure ? escapeHtml(config.channels.phone.callChargeDisclosure) + "。" : ""}追加費用がある場合は条件と金額または計算方法を事前に表示します。</p>
 
       ${h2("cancellation", "取消・返金")}
       <p>${service.cancellationRefundPolicy ? escapeHtml(service.cancellationRefundPolicy) : pendingInline("取消・返金の条件：確認中")}</p>

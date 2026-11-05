@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-05T01:40:56.762Z",
+  "generatedAt": "2026-11-05T02:30:17.762Z",
   "baseUrl": "http://127.0.0.1:4174/",
   "widths": [
     {
       "width": 360,
       "screenshot": "screenshots/preview/width-360.png",
-      "documentHeight": 13006,
+      "documentHeight": 16000,
       "viewport": {
         "width": 360,
         "height": 844
@@ -48,7 +48,7 @@
         },
         {
           "level": 3,
-          "text": "女性カウンセラー在籍で話しやすい"
+          "text": "女性カウンセラー在籍で安心して話せる"
         },
         {
           "level": 3,
@@ -56,7 +56,7 @@
         },
         {
           "level": 3,
-          "text": "労働組合提携＆公立保育士は弁護士対応で100%安心"
+          "text": "労働組合提携＆公立保育士は弁護士対応で安心"
         },
         {
           "level": 2,
@@ -72,7 +72,7 @@
         },
         {
           "level": 3,
-          "text": "退職手続きを完全代行"
+          "text": "退職手続きをすべてサポート"
         },
         {
           "level": 3,
@@ -81,6 +81,18 @@
         {
           "level": 2,
           "text": "明朗な料金プラン"
+        },
+        {
+          "level": 3,
+          "text": "20代・就業6年以内限定プラン"
+        },
+        {
+          "level": 3,
+          "text": "通常プラン"
+        },
+        {
+          "level": 3,
+          "text": "公務員（公立保育園）プラン"
         },
         {
           "level": 2,
@@ -127,43 +139,43 @@
           "className": "hero__wash",
           "id": "",
           "right": 396,
-          "width": 420
+          "width": 520
         }
       ],
       "smallControls": [],
       "heroMethods": [
         {
           "channel": "line",
-          "top": 1100,
-          "bottom": 1212,
+          "top": 1365,
+          "bottom": 1485,
           "inFirstScreen": false,
           "fullyInFirstScreen": false
         },
         {
           "channel": "phone",
-          "top": 1221,
-          "bottom": 1334,
+          "top": 1493,
+          "bottom": 1632,
           "inFirstScreen": false,
           "fullyInFirstScreen": false
         },
         {
           "channel": "ai",
-          "top": 1343,
-          "bottom": 1455,
+          "top": 1640,
+          "bottom": 1779,
           "inFirstScreen": false,
           "fullyInFirstScreen": false
         }
       ],
-      "heroTitleBottom": 303,
-      "bodyHeight": 13006,
-      "mainTextLength": 7793,
+      "heroTitleBottom": 334,
+      "bodyHeight": 16165,
+      "mainTextLength": 8928,
       "internalLinks": 9,
       "telLinks": 0
     },
     {
       "width": 390,
       "screenshot": "screenshots/preview/width-390.png",
-      "documentHeight": 12678,
+      "documentHeight": 15491,
       "viewport": {
         "width": 390,
         "height": 844
@@ -206,7 +218,7 @@
         },
         {
           "level": 3,
-          "text": "女性カウンセラー在籍で話しやすい"
+          "text": "女性カウンセラー在籍で安心して話せる"
         },
         {
           "level": 3,
@@ -214,7 +226,7 @@
         },
         {
           "level": 3,
-          "text": "労働組合提携＆公立保育士は弁護士対応で100%安心"
+          "text": "労働組合提携＆公立保育士は弁護士対応で安心"
         },
         {
           "level": 2,
@@ -230,7 +242,7 @@
         },
         {
           "level": 3,
-          "text": "退職手続きを完全代行"
+          "text": "退職手続きをすべてサポート"
         },
         {
           "level": 3,
@@ -239,6 +251,18 @@
         {
           "level": 2,
           "text": "明朗な料金プラン"
+        },
+        {
+          "level": 3,
+          "text": "20代・就業6年以内限定プラン"
+        },
+        {
+          "level": 3,
+          "text": "通常プラン"
+        },
+        {
+          "level": 3,
+          "text": "公務員（公立保育園）プラン"
         },
         {
           "level": 2,
@@ -285,43 +309,43 @@
           "className": "hero__wash",
           "id": "",
           "right": 429,
-          "width": 420
+          "width": 520
         }
       ],
       "smallControls": [],
       "heroMethods": [
         {
           "channel": "line",
-          "top": 1094,
-          "bottom": 1206,
+          "top": 1332,
+          "bottom": 1452,
           "inFirstScreen": false,
           "fullyInFirstScreen": false
         },
         {
           "channel": "phone",
-          "top": 1215,
-          "bottom": 1327,
+          "top": 1460,
+          "bottom": 1599,
           "inFirstScreen": false,
           "fullyInFirstScreen": false
         },
         {
           "channel": "ai",
-          "top": 1336,
-          "bottom": 1449,
+          "top": 1607,
+          "bottom": 1727,
           "inFirstScreen": false,
           "fullyInFirstScreen": false
         }
       ],
-      "heroTitleBottom": 309,
-      "bodyHeight": 12678,
-      "mainTextLength": 7793,
+      "heroTitleBottom": 314,
+      "bodyHeight": 15491,
+      "mainTextLength": 8928,
       "internalLinks": 9,
       "telLinks": 0
     },
     {
       "width": 430,
       "screenshot": "screenshots/preview/width-430.png",
-      "documentHeight": 12472,
+      "documentHeight": 14917,
       "viewport": {
         "width": 430,
         "height": 844
@@ -364,7 +388,7 @@
         },
         {
           "level": 3,
-          "text": "女性カウンセラー在籍で話しやすい"
+          "text": "女性カウンセラー在籍で安心して話せる"
         },
         {
           "level": 3,
@@ -372,7 +396,7 @@
         },
         {
           "level": 3,
-          "text": "労働組合提携＆公立保育士は弁護士対応で100%安心"
+          "text": "労働組合提携＆公立保育士は弁護士対応で安心"
         },
         {
           "level": 2,
@@ -388,7 +412,7 @@
         },
         {
           "level": 3,
-          "text": "退職手続きを完全代行"
+          "text": "退職手続きをすべてサポート"
         },
         {
           "level": 3,
@@ -397,6 +421,18 @@
         {
           "level": 2,
           "text": "明朗な料金プラン"
+        },
+        {
+          "level": 3,
+          "text": "20代・就業6年以内限定プラン"
+        },
+        {
+          "level": 3,
+          "text": "通常プラン"
+        },
+        {
+          "level": 3,
+          "text": "公務員（公立保育園）プラン"
         },
         {
           "level": 2,
@@ -443,43 +479,43 @@
           "className": "hero__wash",
           "id": "",
           "right": 473,
-          "width": 420
+          "width": 520
         }
       ],
       "smallControls": [],
       "heroMethods": [
         {
           "channel": "line",
-          "top": 981,
-          "bottom": 1093,
+          "top": 1359,
+          "bottom": 1479,
           "inFirstScreen": false,
           "fullyInFirstScreen": false
         },
         {
           "channel": "phone",
-          "top": 1102,
-          "bottom": 1214,
+          "top": 1487,
+          "bottom": 1607,
           "inFirstScreen": false,
           "fullyInFirstScreen": false
         },
         {
           "channel": "ai",
-          "top": 1223,
-          "bottom": 1336,
+          "top": 1615,
+          "bottom": 1735,
           "inFirstScreen": false,
           "fullyInFirstScreen": false
         }
       ],
-      "heroTitleBottom": 310,
-      "bodyHeight": 12472,
-      "mainTextLength": 7793,
+      "heroTitleBottom": 319,
+      "bodyHeight": 14917,
+      "mainTextLength": 8928,
       "internalLinks": 9,
       "telLinks": 0
     },
     {
       "width": 768,
       "screenshot": "screenshots/preview/width-768.png",
-      "documentHeight": 11216,
+      "documentHeight": 12901,
       "viewport": {
         "width": 768,
         "height": 900
@@ -522,7 +558,7 @@
         },
         {
           "level": 3,
-          "text": "女性カウンセラー在籍で話しやすい"
+          "text": "女性カウンセラー在籍で安心して話せる"
         },
         {
           "level": 3,
@@ -530,7 +566,7 @@
         },
         {
           "level": 3,
-          "text": "労働組合提携＆公立保育士は弁護士対応で100%安心"
+          "text": "労働組合提携＆公立保育士は弁護士対応で安心"
         },
         {
           "level": 2,
@@ -546,7 +582,7 @@
         },
         {
           "level": 3,
-          "text": "退職手続きを完全代行"
+          "text": "退職手続きをすべてサポート"
         },
         {
           "level": 3,
@@ -555,6 +591,18 @@
         {
           "level": 2,
           "text": "明朗な料金プラン"
+        },
+        {
+          "level": 3,
+          "text": "20代・就業6年以内限定プラン"
+        },
+        {
+          "level": 3,
+          "text": "通常プラン"
+        },
+        {
+          "level": 3,
+          "text": "公務員（公立保育園）プラン"
         },
         {
           "level": 2,
@@ -601,43 +649,43 @@
           "className": "hero__wash",
           "id": "",
           "right": 845,
-          "width": 420
+          "width": 520
         }
       ],
       "smallControls": [],
       "heroMethods": [
         {
           "channel": "line",
-          "top": 1162,
-          "bottom": 1286,
+          "top": 1333,
+          "bottom": 1453,
           "inFirstScreen": false,
           "fullyInFirstScreen": false
         },
         {
           "channel": "phone",
-          "top": 1295,
-          "bottom": 1419,
+          "top": 1461,
+          "bottom": 1581,
           "inFirstScreen": false,
           "fullyInFirstScreen": false
         },
         {
           "channel": "ai",
-          "top": 1428,
-          "bottom": 1552,
+          "top": 1589,
+          "bottom": 1710,
           "inFirstScreen": false,
           "fullyInFirstScreen": false
         }
       ],
-      "heroTitleBottom": 429,
-      "bodyHeight": 11216,
-      "mainTextLength": 7793,
+      "heroTitleBottom": 287,
+      "bodyHeight": 12901,
+      "mainTextLength": 8928,
       "internalLinks": 9,
       "telLinks": 0
     },
     {
       "width": 1280,
       "screenshot": "screenshots/preview/width-1280.png",
-      "documentHeight": 10297,
+      "documentHeight": 10480,
       "viewport": {
         "width": 1280,
         "height": 900
@@ -680,7 +728,7 @@
         },
         {
           "level": 3,
-          "text": "女性カウンセラー在籍で話しやすい"
+          "text": "女性カウンセラー在籍で安心して話せる"
         },
         {
           "level": 3,
@@ -688,7 +736,7 @@
         },
         {
           "level": 3,
-          "text": "労働組合提携＆公立保育士は弁護士対応で100%安心"
+          "text": "労働組合提携＆公立保育士は弁護士対応で安心"
         },
         {
           "level": 2,
@@ -704,7 +752,7 @@
         },
         {
           "level": 3,
-          "text": "退職手続きを完全代行"
+          "text": "退職手続きをすべてサポート"
         },
         {
           "level": 3,
@@ -713,6 +761,18 @@
         {
           "level": 2,
           "text": "明朗な料金プラン"
+        },
+        {
+          "level": 3,
+          "text": "20代・就業6年以内限定プラン"
+        },
+        {
+          "level": 3,
+          "text": "通常プラン"
+        },
+        {
+          "level": 3,
+          "text": "公務員（公立保育園）プラン"
         },
         {
           "level": 2,
@@ -759,43 +819,43 @@
           "className": "hero__wash",
           "id": "",
           "right": 1408,
-          "width": 691
+          "width": 520
         }
       ],
       "smallControls": [],
       "heroMethods": [
         {
           "channel": "line",
-          "top": 290,
-          "bottom": 414,
+          "top": 593,
+          "bottom": 713,
           "inFirstScreen": true,
           "fullyInFirstScreen": true
         },
         {
           "channel": "phone",
-          "top": 423,
-          "bottom": 547,
+          "top": 721,
+          "bottom": 841,
           "inFirstScreen": true,
           "fullyInFirstScreen": true
         },
         {
           "channel": "ai",
-          "top": 556,
-          "bottom": 680,
+          "top": 849,
+          "bottom": 970,
           "inFirstScreen": true,
-          "fullyInFirstScreen": true
+          "fullyInFirstScreen": false
         }
       ],
-      "heroTitleBottom": 604,
-      "bodyHeight": 10297,
-      "mainTextLength": 7793,
+      "heroTitleBottom": 441,
+      "bodyHeight": 10480,
+      "mainTextLength": 8928,
       "internalLinks": 9,
       "telLinks": 0
     },
     {
       "width": 1440,
       "screenshot": "screenshots/preview/width-1440.png",
-      "documentHeight": 10396,
+      "documentHeight": 10529,
       "viewport": {
         "width": 1440,
         "height": 900
@@ -838,7 +898,7 @@
         },
         {
           "level": 3,
-          "text": "女性カウンセラー在籍で話しやすい"
+          "text": "女性カウンセラー在籍で安心して話せる"
         },
         {
           "level": 3,
@@ -846,7 +906,7 @@
         },
         {
           "level": 3,
-          "text": "労働組合提携＆公立保育士は弁護士対応で100%安心"
+          "text": "労働組合提携＆公立保育士は弁護士対応で安心"
         },
         {
           "level": 2,
@@ -862,7 +922,7 @@
         },
         {
           "level": 3,
-          "text": "退職手続きを完全代行"
+          "text": "退職手続きをすべてサポート"
         },
         {
           "level": 3,
@@ -871,6 +931,18 @@
         {
           "level": 2,
           "text": "明朗な料金プラン"
+        },
+        {
+          "level": 3,
+          "text": "20代・就業6年以内限定プラン"
+        },
+        {
+          "level": 3,
+          "text": "通常プラン"
+        },
+        {
+          "level": 3,
+          "text": "公務員（公立保育園）プラン"
         },
         {
           "level": 2,
@@ -917,36 +989,36 @@
           "className": "hero__wash",
           "id": "",
           "right": 1584,
-          "width": 778
+          "width": 520
         }
       ],
       "smallControls": [],
       "heroMethods": [
         {
           "channel": "line",
-          "top": 290,
-          "bottom": 414,
+          "top": 593,
+          "bottom": 713,
           "inFirstScreen": true,
           "fullyInFirstScreen": true
         },
         {
           "channel": "phone",
-          "top": 423,
-          "bottom": 547,
+          "top": 721,
+          "bottom": 841,
           "inFirstScreen": true,
           "fullyInFirstScreen": true
         },
         {
           "channel": "ai",
-          "top": 556,
-          "bottom": 680,
+          "top": 849,
+          "bottom": 970,
           "inFirstScreen": true,
-          "fullyInFirstScreen": true
+          "fullyInFirstScreen": false
         }
       ],
-      "heroTitleBottom": 604,
-      "bodyHeight": 10396,
-      "mainTextLength": 7793,
+      "heroTitleBottom": 441,
+      "bodyHeight": 10529,
+      "mainTextLength": 8928,
       "internalLinks": 9,
       "telLinks": 0
     }
@@ -956,7 +1028,7 @@
       "route": "/about/",
       "width": 390,
       "screenshot": "screenshots/preview/page-about-390.png",
-      "documentHeight": 4771,
+      "documentHeight": 6387,
       "viewport": {
         "width": 390,
         "height": 844
@@ -1019,17 +1091,17 @@
       "overflowElements": [],
       "smallControls": [],
       "heroMethods": [],
-      "heroTitleBottom": 280,
-      "bodyHeight": 4771,
-      "mainTextLength": 2790,
-      "internalLinks": 21,
+      "heroTitleBottom": 304,
+      "bodyHeight": 6387,
+      "mainTextLength": 2780,
+      "internalLinks": 24,
       "telLinks": 0
     },
     {
       "route": "/about/",
       "width": 1440,
       "screenshot": "screenshots/preview/page-about-1440.png",
-      "documentHeight": 3654,
+      "documentHeight": 3937,
       "viewport": {
         "width": 1440,
         "height": 900
@@ -1092,17 +1164,17 @@
       "overflowElements": [],
       "smallControls": [],
       "heroMethods": [],
-      "heroTitleBottom": 371,
-      "bodyHeight": 3654,
-      "mainTextLength": 2790,
-      "internalLinks": 21,
+      "heroTitleBottom": 351,
+      "bodyHeight": 3937,
+      "mainTextLength": 2780,
+      "internalLinks": 24,
       "telLinks": 0
     },
     {
       "route": "/privacy/",
       "width": 390,
       "screenshot": "screenshots/preview/page-privacy-390.png",
-      "documentHeight": 6477,
+      "documentHeight": 9277,
       "viewport": {
         "width": 390,
         "height": 844
@@ -1177,17 +1249,17 @@
       "overflowElements": [],
       "smallControls": [],
       "heroMethods": [],
-      "heroTitleBottom": 280,
-      "bodyHeight": 6477,
+      "heroTitleBottom": 304,
+      "bodyHeight": 9277,
       "mainTextLength": 4355,
-      "internalLinks": 17,
+      "internalLinks": 20,
       "telLinks": 0
     },
     {
       "route": "/privacy/",
       "width": 1440,
       "screenshot": "screenshots/preview/page-privacy-1440.png",
-      "documentHeight": 4825,
+      "documentHeight": 5518,
       "viewport": {
         "width": 1440,
         "height": 900
@@ -1262,17 +1334,17 @@
       "overflowElements": [],
       "smallControls": [],
       "heroMethods": [],
-      "heroTitleBottom": 371,
-      "bodyHeight": 4825,
+      "heroTitleBottom": 351,
+      "bodyHeight": 5518,
       "mainTextLength": 4355,
-      "internalLinks": 17,
+      "internalLinks": 20,
       "telLinks": 0
     },
     {
       "route": "/terms/",
       "width": 390,
       "screenshot": "screenshots/preview/page-terms-390.png",
-      "documentHeight": 5749,
+      "documentHeight": 8096,
       "viewport": {
         "width": 390,
         "height": 844
@@ -1347,17 +1419,17 @@
       "overflowElements": [],
       "smallControls": [],
       "heroMethods": [],
-      "heroTitleBottom": 280,
-      "bodyHeight": 5749,
-      "mainTextLength": 3452,
-      "internalLinks": 20,
+      "heroTitleBottom": 304,
+      "bodyHeight": 8096,
+      "mainTextLength": 3401,
+      "internalLinks": 23,
       "telLinks": 0
     },
     {
       "route": "/terms/",
       "width": 1440,
       "screenshot": "screenshots/preview/page-terms-1440.png",
-      "documentHeight": 4363,
+      "documentHeight": 4824,
       "viewport": {
         "width": 1440,
         "height": 900
@@ -1432,17 +1504,17 @@
       "overflowElements": [],
       "smallControls": [],
       "heroMethods": [],
-      "heroTitleBottom": 371,
-      "bodyHeight": 4363,
-      "mainTextLength": 3452,
-      "internalLinks": 20,
+      "heroTitleBottom": 351,
+      "bodyHeight": 4824,
+      "mainTextLength": 3401,
+      "internalLinks": 23,
       "telLinks": 0
     },
     {
       "route": "/disclosures/",
       "width": 390,
       "screenshot": "screenshots/preview/page-disclosures-390.png",
-      "documentHeight": 5232,
+      "documentHeight": 7327,
       "viewport": {
         "width": 390,
         "height": 844
@@ -1509,17 +1581,17 @@
       "overflowElements": [],
       "smallControls": [],
       "heroMethods": [],
-      "heroTitleBottom": 280,
-      "bodyHeight": 5232,
-      "mainTextLength": 2959,
-      "internalLinks": 22,
+      "heroTitleBottom": 304,
+      "bodyHeight": 7327,
+      "mainTextLength": 2930,
+      "internalLinks": 25,
       "telLinks": 0
     },
     {
       "route": "/disclosures/",
       "width": 1440,
       "screenshot": "screenshots/preview/page-disclosures-1440.png",
-      "documentHeight": 4133,
+      "documentHeight": 4728,
       "viewport": {
         "width": 1440,
         "height": 900
@@ -1563,6 +1635,96 @@
         {
           "level": 2,
           "text": "お問い合わせ"
+        },
+        {
+          "level": 2,
+          "text": "相談方法"
+        },
+        {
+          "level": 2,
+          "text": "運営情報"
+        },
+        {
+          "level": 2,
+          "text": "お問い合わせ"
+        },
+        {
+          "level": 2,
+          "text": "公開前に確認する項目"
+        }
+      ],
+      "duplicateIds": [],
+      "horizontalOverflow": 0,
+      "overflowElements": [],
+      "smallControls": [],
+      "heroMethods": [],
+      "heroTitleBottom": 351,
+      "bodyHeight": 4728,
+      "mainTextLength": 2930,
+      "internalLinks": 25,
+      "telLinks": 0
+    },
+    {
+      "route": "/404.html",
+      "width": 390,
+      "screenshot": "screenshots/preview/page-404-390.png",
+      "documentHeight": 1851,
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "title": "ページが見つかりません｜保育士リトリート",
+      "lang": "ja",
+      "h1Count": 1,
+      "headings": [
+        {
+          "level": 1,
+          "text": "ページが見つかりません。"
+        },
+        {
+          "level": 2,
+          "text": "相談方法"
+        },
+        {
+          "level": 2,
+          "text": "運営情報"
+        },
+        {
+          "level": 2,
+          "text": "お問い合わせ"
+        },
+        {
+          "level": 2,
+          "text": "公開前に確認する項目"
+        }
+      ],
+      "duplicateIds": [],
+      "horizontalOverflow": 0,
+      "overflowElements": [],
+      "smallControls": [],
+      "heroMethods": [],
+      "heroTitleBottom": 317,
+      "bodyHeight": 1851,
+      "mainTextLength": 208,
+      "internalLinks": 24,
+      "telLinks": 0
+    },
+    {
+      "route": "/404.html",
+      "width": 1440,
+      "screenshot": "screenshots/preview/page-404-1440.png",
+      "documentHeight": 1287,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "title": "ページが見つかりません｜保育士リトリート",
+      "lang": "ja",
+      "h1Count": 1,
+      "headings": [
+        {
+          "level": 1,
+          "text": "ページが見つかりません。"
         },
         {
           "level": 2,
@@ -1587,99 +1749,9 @@
       "smallControls": [],
       "heroMethods": [],
       "heroTitleBottom": 371,
-      "bodyHeight": 4133,
-      "mainTextLength": 2959,
-      "internalLinks": 22,
-      "telLinks": 0
-    },
-    {
-      "route": "/404.html",
-      "width": 390,
-      "screenshot": "screenshots/preview/page-404-390.png",
-      "documentHeight": 1690,
-      "viewport": {
-        "width": 390,
-        "height": 844
-      },
-      "title": "ページが見つかりません｜保育士リトリート",
-      "lang": "ja",
-      "h1Count": 1,
-      "headings": [
-        {
-          "level": 1,
-          "text": "ページが見つかりません。"
-        },
-        {
-          "level": 2,
-          "text": "相談方法"
-        },
-        {
-          "level": 2,
-          "text": "運営情報"
-        },
-        {
-          "level": 2,
-          "text": "お問い合わせ"
-        },
-        {
-          "level": 2,
-          "text": "公開前に確認する項目"
-        }
-      ],
-      "duplicateIds": [],
-      "horizontalOverflow": 0,
-      "overflowElements": [],
-      "smallControls": [],
-      "heroMethods": [],
-      "heroTitleBottom": 311,
-      "bodyHeight": 1690,
-      "mainTextLength": 210,
-      "internalLinks": 21,
-      "telLinks": 0
-    },
-    {
-      "route": "/404.html",
-      "width": 1440,
-      "screenshot": "screenshots/preview/page-404-1440.png",
-      "documentHeight": 1202,
-      "viewport": {
-        "width": 1440,
-        "height": 900
-      },
-      "title": "ページが見つかりません｜保育士リトリート",
-      "lang": "ja",
-      "h1Count": 1,
-      "headings": [
-        {
-          "level": 1,
-          "text": "ページが見つかりません。"
-        },
-        {
-          "level": 2,
-          "text": "相談方法"
-        },
-        {
-          "level": 2,
-          "text": "運営情報"
-        },
-        {
-          "level": 2,
-          "text": "お問い合わせ"
-        },
-        {
-          "level": 2,
-          "text": "公開前に確認する項目"
-        }
-      ],
-      "duplicateIds": [],
-      "horizontalOverflow": 0,
-      "overflowElements": [],
-      "smallControls": [],
-      "heroMethods": [],
-      "heroTitleBottom": 368,
-      "bodyHeight": 1202,
-      "mainTextLength": 210,
-      "internalLinks": 21,
+      "bodyHeight": 1287,
+      "mainTextLength": 208,
+      "internalLinks": 24,
       "telLinks": 0
     }
   ],

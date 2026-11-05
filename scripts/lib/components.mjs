@@ -163,7 +163,7 @@ export function operatorFacts(config, mode) {
     ["受付時間", operator.hours, "受付時間"],
   ];
 
-  return `<dl class="facts">
+  return `<dl class="policy-facts">
     ${rows
       .map(([label, value, pendingLabel]) => {
         let valueHtml;
@@ -173,9 +173,9 @@ export function operatorFacts(config, mode) {
             valueHtml = `<a href="${escapeHtml(operator.contactUrl)}" target="_blank" rel="noopener noreferrer">${valueHtml}</a>`;
           }
         } else {
-          valueHtml = pending(mode === "production" ? "未設定" : "確認中", "pending--soft");
+          valueHtml = pending(mode === "production" ? "未設定" : `${pendingLabel}：確認中`, "pending--soft");
         }
-        return `<div class="facts__row"><dt>${escapeHtml(label)}</dt><dd>${valueHtml}<span class="facts__note">${escapeHtml(pendingLabel)}</span></dd></div>`;
+        return `<div class="policy-facts__row"><dt>${escapeHtml(label)}</dt><dd>${valueHtml}</dd></div>`;
       })
       .join("")}
   </dl>`;

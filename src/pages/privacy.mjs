@@ -35,7 +35,7 @@ export function renderPrivacy({ config, mode }) {
     body: `
       ${h2("policy", "基本方針")}
       <p>保育士リトリート（以下「本サービス」）は、${operatorName}が運営する退職相談・退職代行サービスです。相談には、氏名・勤務先・健康状態・退職理由などの個人情報や、機微な事情が含まれる場合があります。取得する情報を必要な範囲に限り、利用目的を明確にして取り扱います。</p>
-      <p>本ページの内容は、実際の委託関係・外部サービスの仕様・保存期間・法令上の義務を確認したうえで確定します。公開前に、運営責任者による承認と必要な法務確認を行います。</p>
+      <p>${preview ? "本ページの内容は、実際の委託関係・外部サービスの仕様・保存期間・法令上の義務を確認したうえで確定します。公開前に、運営責任者による承認と必要な法務確認を行います。" : "本ページの内容は、委託関係・外部サービスの仕様・保存期間・法令上の義務を踏まえて定めています。"}</p>
       ${policyTable([
         ["施行日", legal.privacyEffectiveDate ? escapeHtml(legal.privacyEffectiveDate) : null],
         ["運営主体", operator.legalName ? escapeHtml(operator.legalName) : null],

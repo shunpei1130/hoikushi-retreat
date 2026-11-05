@@ -22,8 +22,7 @@ function buildCsp(jsonLdText) {
 
 function header(config, page) {
   const isHome = page.path === "/";
-  const consultHref = isHome ? "#talk" : "/#talk";
-  const pricingHref = isHome ? "#pricing" : "/#pricing";
+  const anchor = (hash) => (isHome ? hash : `/${hash}`);
   const aboutCurrent = page.path === "/about/";
   return `<header class="site-header">
     <div class="container site-header__inner">
@@ -35,11 +34,14 @@ function header(config, page) {
         </span>
       </a>
       <nav class="site-nav" aria-label="主なメニュー">
-        <a href="${consultHref}">相談の流れ</a>
-        <a href="${pricingHref}">料金プラン</a>
+        <a href="${anchor("#worries")}">お悩み</a>
+        <a href="${anchor("#talk")}">LINE相談</a>
+        <a href="${anchor("#reasons")}">選ばれる理由</a>
+        <a href="${anchor("#pricing")}">料金プラン</a>
+        <a href="${anchor("#faq")}">よくある質問</a>
         <a href="/about/"${aboutCurrent ? ' aria-current="page"' : ""}>運営情報</a>
       </nav>
-      <a class="header-action" href="${consultHref}">
+      <a class="header-action" href="${anchor("#talk")}">
         <span class="header-action__long">無料相談をはじめる</span>
         <span class="header-action__short">無料相談</span>
         ${icon("arrowRight")}

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-04T10:49:11.878Z",
+  "generatedAt": "2026-11-05T02:30:38.510Z",
   "target": "dist/public",
   "mode": "production",
   "summary": {
@@ -26,8 +26,8 @@
       "dataMode": "production",
       "errors": [],
       "warnings": [],
-      "textLength": 423,
-      "internalLinks": 22,
+      "textLength": 440,
+      "internalLinks": 25,
       "jsonLdTypes": [
         "WebPage",
         "WebSite",
@@ -43,8 +43,8 @@
       "dataMode": "production",
       "errors": [],
       "warnings": [],
-      "textLength": 2016,
-      "internalLinks": 27,
+      "textLength": 2020,
+      "internalLinks": 30,
       "jsonLdTypes": [
         "WebPage",
         "WebSite",
@@ -60,8 +60,8 @@
       "dataMode": "production",
       "errors": [],
       "warnings": [],
-      "textLength": 2280,
-      "internalLinks": 31,
+      "textLength": 2278,
+      "internalLinks": 35,
       "jsonLdTypes": [
         "WebPage",
         "WebSite",
@@ -77,8 +77,8 @@
       "dataMode": "production",
       "errors": [],
       "warnings": [],
-      "textLength": 4558,
-      "internalLinks": 32,
+      "textLength": 5096,
+      "internalLinks": 35,
       "jsonLdTypes": [
         "WebPage",
         "WebSite",
@@ -93,8 +93,8 @@
       "dataMode": "production",
       "errors": [],
       "warnings": [],
-      "textLength": 3662,
-      "internalLinks": 28,
+      "textLength": 3647,
+      "internalLinks": 31,
       "jsonLdTypes": [
         "WebPage",
         "WebSite",
@@ -110,8 +110,8 @@
       "dataMode": "production",
       "errors": [],
       "warnings": [],
-      "textLength": 2934,
-      "internalLinks": 31,
+      "textLength": 2902,
+      "internalLinks": 34,
       "jsonLdTypes": [
         "WebPage",
         "WebSite",

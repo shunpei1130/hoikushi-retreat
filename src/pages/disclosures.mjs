@@ -19,6 +19,14 @@ export function renderDisclosures({ config, mode }) {
     pricing.total?.includesAllSupportCosts === true &&
     typeof pricing.total?.fixedAmount === "number";
   const plans = Array.isArray(pricing.plans) ? pricing.plans : [];
+  const formatPayment = (raw) => {
+    if (!raw) return null;
+    const m = /^(.*?)（Square:\s*(https:\/\/[^\s）)]+)）(.*)$/.exec(raw);
+    if (m) {
+      return `${escapeHtml(m[1])}（<a href="${escapeHtml(m[2])}" target="_blank" rel="noopener noreferrer">Square決済ページ</a>）${escapeHtml(m[3])}`;
+    }
+    return escapeHtml(raw);
+  };
 
   const body = `${pageHero({
     eyebrow: "取引条件 / DISCLOSURES",
@@ -62,7 +70,7 @@ export function renderDisclosures({ config, mode }) {
       <p>相談したこと、AIへ質問したこと、LINEを追加したこと、電話を発信したことは、正式依頼や組合加入への同意ではありません。</p>
 
       ${h2("price", "料金")}
-      <p>料金は、<a href="/#pricing">料金と組合加入</a>に表示しています。実際に負担する総額、税区分、追加費用の有無は、正式依頼の前に確認できるようにします。</p>
+      <p>料金は、<a href="/#pricing">料金プラン</a>に表示しています。実際に負担する総額、税区分、追加費用の有無は、正式依頼の前に確認できるようにします。</p>
       <dl class="disclosure-price">
         <div><dt>保育特化AIチャット</dt><dd>${priceValue(item("ai-fee"), mode)}</dd></div>
         <div><dt>LINE相談</dt><dd>${priceValue(item("line-fee"), mode)}</dd></div>
@@ -92,12 +100,12 @@ export function renderDisclosures({ config, mode }) {
       <div class="disclosure-total">
         <p>退職支援の総額（20代・就業6年以内の場合）</p>
         <p>${totalValue(config, mode)}</p>
-        <p>${pricing.total?.note ? escapeHtml(pricing.total.note) : pending("総額の条件は公開前に確定します")}</p>
+        <p>${pricing.total?.note ? escapeHtml(pricing.total.note).replace(/([0-9,]+円（税込）)/g, '<span class="u-ib">$1</span>') : pending("総額の条件は公開前に確定します")}</p>
       </div>
 
       ${h2("payment", "支払い方法・時期")}
       ${policyTable([
-        ["支払い方法", pricing.paymentMethods ? escapeHtml(pricing.paymentMethods) : null],
+        ["支払い方法", formatPayment(pricing.paymentMethods)],
         ["支払い時点", pricing.paymentTiming ? escapeHtml(pricing.paymentTiming) : null],
         ["税区分", pricing.taxNote ? escapeHtml(pricing.taxNote) : null],
       ])}
