@@ -3,9 +3,9 @@
 > このファイルは `scripts/build.mjs` により自動生成されています。手動編集はビルドで上書きされます。
 >
 > - モード: **production**
-> - 生成: 2026-11-05 12:09:15 UTC
+> - 生成: 2026-11-06 02:54:00 UTC
 > - 設定ファイル: `site.config.json`
-> - 公開ドメイン: `https://hoikushi-retreat.vercel.app`
+> - 公開ドメイン: `https://hoiku-retreat.app`
 > - 公開ブロッカー: **0件**（未設定 0 / 不整合 0）
 > - 警告: **3件**
 

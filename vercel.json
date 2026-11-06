@@ -2,6 +2,19 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "buildCommand": "node scripts/vercel-build.mjs",
   "outputDirectory": "dist/vercel-output",
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "hoikushi-retreat.vercel.app"
+        }
+      ],
+      "destination": "https://hoiku-retreat.app/:path*",
+      "permanent": true
+    }
+  ],
   "functions": {
     "api/chat.js": {
       "maxDuration": 30
