@@ -60,29 +60,23 @@ function header(config, page) {
         <a href="${anchor("#faq")}">よくある質問</a>
         <a href="/about/"${aboutCurrent ? ' aria-current="page"' : ""}>運営情報</a>
       </nav>
-      <div class="header-ai" data-header-ai>
-        <button
-          type="button"
-          class="header-ai__trigger"
-          aria-expanded="false"
-          aria-controls="header-ai-menu"
-          data-header-ai-trigger
-        >
-          ${icon("ai")}
+      <details class="header-ai" data-header-ai>
+        <summary class="header-ai__trigger" data-header-ai-trigger>
+          <span class="header-ai__trigger-badge" aria-hidden="true">${icon("ai")}</span>
           <span class="header-ai__trigger-label">いつものAIに相談する</span>
           ${icon("chevronDown", "header-ai__chevron")}
-        </button>
-        <div class="header-ai__menu" id="header-ai-menu" data-header-ai-menu hidden>
-          <div class="header-ai__menu-head">
-            <p class="header-ai__menu-kicker">いつものAIアプリで安心チェック</p>
-            <p class="header-ai__menu-lead">「違法じゃない？」「追加料金は？」「訴えられない？」「親にバレない？」など、当窓口の情報を渡して使い慣れたAIに相談できます。</p>
-          </div>
+        </summary>
+        <div class="header-ai__bar" id="header-ai-menu" data-header-ai-menu>
+          <p class="header-ai__bar-lead">
+            使い慣れたAIアプリに当窓口の公式情報を渡して、<strong>「違法？」「追加料金は？」「訴えられない？」「親にバレない？」</strong>などをすぐ確認できます。
+          </p>
           <div class="header-ai__options">
             <a
               class="header-ai__option header-ai__option--chatgpt"
               href="${escapeAttr(chatgptUrl)}"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="ChatGPTに相談する（アプリで相談）"
               data-track="consult_cta_click"
               data-channel="chatgpt"
               data-placement="header_mobile"
@@ -90,8 +84,8 @@ function header(config, page) {
             >
               <span class="header-ai__option-icon" aria-hidden="true">${icon("chatgpt")}</span>
               <span class="header-ai__option-text">
-                <span class="header-ai__option-name">ChatGPTに相談する</span>
-                <span class="header-ai__option-desc">アプリを開いて安全性・疑問を確認</span>
+                <span class="header-ai__option-name">ChatGPT</span>
+                <span class="header-ai__option-desc">アプリで相談</span>
               </span>
               <span class="header-ai__option-arrow" aria-hidden="true">${icon("external")}</span>
             </a>
@@ -100,6 +94,7 @@ function header(config, page) {
               href="${escapeAttr(geminiUrl)}"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="Geminiに相談する（アプリで相談）"
               data-track="consult_cta_click"
               data-channel="gemini"
               data-placement="header_mobile"
@@ -107,17 +102,17 @@ function header(config, page) {
             >
               <span class="header-ai__option-icon" aria-hidden="true">${icon("gemini")}</span>
               <span class="header-ai__option-text">
-                <span class="header-ai__option-name">Geminiに相談する</span>
-                <span class="header-ai__option-desc">アプリを開いて安全性・疑問を確認</span>
+                <span class="header-ai__option-name">Gemini</span>
+                <span class="header-ai__option-desc">アプリで相談</span>
               </span>
               <span class="header-ai__option-arrow" aria-hidden="true">${icon("external")}</span>
             </a>
           </div>
           <p class="header-ai__note" data-header-ai-status role="status" aria-live="polite">
-            ※タッチするとサービス情報と質問文も自動コピーされます。開いたアプリでそのまま送信（または貼り付け）してください。
+            ※タッチすると質問と公式情報も自動コピーされます（入力欄が空の場合は貼り付けて送信）
           </p>
         </div>
-      </div>
+      </details>
       <a class="header-action" href="${anchor("#talk")}">
         <span class="header-action__long">無料相談をはじめる</span>
         <span class="header-action__short">無料相談</span>
@@ -250,7 +245,7 @@ export function layout({
   <link rel="manifest" href="/manifest.webmanifest">
   ${page.name === "home" ? '<link rel="preload" as="image" href="/assets/hero-illustration-1200.webp" imagesrcset="/assets/hero-illustration-720.webp 720w, /assets/hero-illustration-1200.webp 1200w" imagesizes="(max-width: 980px) 92vw, 480px" type="image/webp" fetchpriority="high">' : ""}
   <link rel="stylesheet" href="/assets/fonts/kiwi-maru.css">
-  <link rel="stylesheet" href="/assets/styles.css">
+  <link rel="stylesheet" href="/assets/styles.css?v=20261110b">
   <script type="application/ld+json">${jsonLdText}</script>
 </head>
 <body class="${escapeAttr(bodyClass)}" data-page="${escapeAttr(page.name || "")}">
@@ -267,7 +262,7 @@ export function layout({
   </main>
   ${footer(config, page, mode)}
   ${stickyCta(config, page, mode)}
-  <script src="/assets/app.js" defer></script>
+  <script src="/assets/app.js?v=20261110b" defer></script>
 </body>
 </html>`;
 }

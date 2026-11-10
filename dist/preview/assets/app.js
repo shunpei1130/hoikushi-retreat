@@ -22,47 +22,29 @@
   }
 
   const headerAi = document.querySelector("[data-header-ai]");
-  if (headerAi) {
+  if (headerAi instanceof HTMLDetailsElement) {
     const trigger = headerAi.querySelector("[data-header-ai-trigger]");
-    const menu = headerAi.querySelector("[data-header-ai-menu]");
     const statusNote = headerAi.querySelector("[data-header-ai-status]");
 
-    const closeMenu = () => {
-      if (!trigger || !menu || menu.hidden) return;
-      menu.hidden = true;
-      trigger.setAttribute("aria-expanded", "false");
-      headerAi.classList.remove("is-open");
-    };
+    headerAi.addEventListener("toggle", () => {
+      if (headerAi.open) {
+        track("header_ai_menu_open", { page_type: pageType });
+      }
+    });
 
-    const openMenu = () => {
-      if (!trigger || !menu) return;
-      menu.hidden = false;
-      trigger.setAttribute("aria-expanded", "true");
-      headerAi.classList.add("is-open");
-      track("header_ai_menu_open", { page_type: pageType });
-    };
+    document.addEventListener("click", (event) => {
+      if (!headerAi.open) return;
+      if (event.target instanceof Node && !headerAi.contains(event.target)) {
+        headerAi.open = false;
+      }
+    });
 
-    if (trigger && menu) {
-      trigger.addEventListener("click", (event) => {
-        event.stopPropagation();
-        if (menu.hidden) openMenu();
-        else closeMenu();
-      });
-
-      document.addEventListener("click", (event) => {
-        if (menu.hidden) return;
-        if (event.target instanceof Node && !headerAi.contains(event.target)) {
-          closeMenu();
-        }
-      });
-
-      document.addEventListener("keydown", (event) => {
-        if (event.key === "Escape" && !menu.hidden) {
-          closeMenu();
-          trigger.focus();
-        }
-      });
-    }
+    document.addEventListener("keydown", (event) => {
+      if (event.key === "Escape" && headerAi.open) {
+        headerAi.open = false;
+        if (trigger instanceof HTMLElement) trigger.focus();
+      }
+    });
 
     for (const option of headerAi.querySelectorAll("[data-ai-app]")) {
       option.addEventListener("click", () => {
