@@ -9,7 +9,7 @@
     "build:prod": "node scripts/build.mjs --production",
     "build:vercel": "node scripts/vercel-build.mjs",
     "serve": "node scripts/serve.mjs",
-    "test": "node --test tests/config.test.mjs tests/build.test.mjs tests/chat.test.mjs",
+    "test": "node --test tests/config.test.mjs tests/build.test.mjs tests/chat.test.mjs tests/line-webhook.test.mjs",
     "audit": "node scripts/audit.mjs",
     "screenshots": "node scripts/screenshots.mjs",
     "og": "node scripts/generate-og.mjs"

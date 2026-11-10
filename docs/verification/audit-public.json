@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-06T02:54:00.924Z",
+  "generatedAt": "2026-11-10T09:06:52.551Z",
   "target": "dist/public",
   "mode": "production",
   "summary": {
-    "pages": 6,
+    "pages": 8,
     "errors": 0,
     "warnings": 0,
     "checks": [
@@ -26,8 +26,8 @@
       "dataMode": "production",
       "errors": [],
       "warnings": [],
-      "textLength": 447,
-      "internalLinks": 26,
+      "textLength": 477,
+      "internalLinks": 28,
       "jsonLdTypes": [
         "WebPage",
         "WebSite",
@@ -43,8 +43,8 @@
       "dataMode": "production",
       "errors": [],
       "warnings": [],
-      "textLength": 2049,
-      "internalLinks": 32,
+      "textLength": 2079,
+      "internalLinks": 34,
       "jsonLdTypes": [
         "ImageObject",
         "WebPage",
@@ -62,8 +62,8 @@
       "dataMode": "production",
       "errors": [],
       "warnings": [],
-      "textLength": 2329,
-      "internalLinks": 36,
+      "textLength": 2359,
+      "internalLinks": 38,
       "jsonLdTypes": [
         "ImageObject",
         "WebPage",
@@ -81,8 +81,8 @@
       "dataMode": "production",
       "errors": [],
       "warnings": [],
-      "textLength": 5412,
-      "internalLinks": 37,
+      "textLength": 5735,
+      "internalLinks": 39,
       "jsonLdTypes": [
         "ImageObject",
         "WebPage",
@@ -102,14 +102,34 @@
       "dataMode": "production",
       "errors": [],
       "warnings": [],
-      "textLength": 3720,
-      "internalLinks": 32,
+      "textLength": 3750,
+      "internalLinks": 34,
       "jsonLdTypes": [
         "ImageObject",
         "WebPage",
         "WebSite",
         "Organization+WorkersUnion",
         "Service",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "route": "/taishoku-daikou/",
+      "file": "taishoku-daikou/index.html",
+      "title": "保育士の退職代行おすすめガイド｜労働組合・公立弁護士対応・料金プラン｜保育士リトリート",
+      "description": "「保育士 退職代行」で後悔しない選び方と料金・流れを徹底解説。民間業者と労働組合・弁護士（公立保育園対応）の違い、有給休暇の消化、引き継ぎや私物・保険証の郵送返却、元保育士と女性カウンセラーが対応する【保育士リトリート】（24,800円〜・税込・全額返金保証）をご案内します。",
+      "dataMode": "production",
+      "errors": [],
+      "warnings": [],
+      "textLength": 2805,
+      "internalLinks": 35,
+      "jsonLdTypes": [
+        "ImageObject",
+        "WebPage",
+        "WebSite",
+        "Organization+WorkersUnion",
+        "Service",
+        "FAQPage",
         "BreadcrumbList"
       ]
     },
@@ -121,7 +141,26 @@
       "dataMode": "production",
       "errors": [],
       "warnings": [],
-      "textLength": 2958,
+      "textLength": 2988,
+      "internalLinks": 37,
+      "jsonLdTypes": [
+        "ImageObject",
+        "WebPage",
+        "WebSite",
+        "Organization+WorkersUnion",
+        "Service",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "route": "/yametai/",
+      "file": "yametai/index.html",
+      "title": "保育士を辞めたい時の対処法と無料相談｜年度途中・1年目・園長に言えない方へ｜保育士リトリート",
+      "description": "「保育士を辞めたい」「年度途中で担任の引き継ぎが不安」「園長が怖くて言い出せない」と悩む保育士さんへ。1年目や年度途中でも辞められる法的根拠、私物・保険証を郵送で返却して園に行かずに退職する手順、元保育士と女性カウンセラーの無料LINE相談・退職代行をご案内します。",
+      "dataMode": "production",
+      "errors": [],
+      "warnings": [],
+      "textLength": 3064,
       "internalLinks": 35,
       "jsonLdTypes": [
         "ImageObject",
@@ -129,6 +168,7 @@
         "WebSite",
         "Organization+WorkersUnion",
         "Service",
+        "FAQPage",
         "BreadcrumbList"
       ]
     }

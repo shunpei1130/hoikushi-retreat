@@ -91,6 +91,11 @@ const STEPS = [
 
 const FAQ_ITEMS = [
   {
+    question: "「保育士を辞めたい」と悩む年度途中や1年目でも、退職代行を使えますか？",
+    answer:
+      "はい、年度途中や新卒1年目、クラス担任をお持ちの保育士さんでも問題なく退職代行をご利用いただけます。当組合（公立保育園は提携弁護士）が園長への連絡から退職日の調整、引き継ぎや返却物の郵送手配まで代行するため、園と直接やり取りせずに退職可能です。",
+  },
+  {
     question: "申し込みの手続きは難しくありませんか？",
     answer:
       "とてもシンプルです。公式LINEを追加後、ご案内するヒアリングシート（Googleフォーム）をご記入いただき、プランに応じた料金をお支払いいただくだけでお手続き完了です。お支払い後は、当組合（公立の場合は提携弁護士）が園への連絡や調整を進めます。",
@@ -267,8 +272,8 @@ export function renderHome({ config, mode }) {
     <div class="hero__wash" aria-hidden="true"></div>
     <div class="container hero__grid">
       <div class="hero__head">
-        <p class="hero__eyebrow"><span class="hero__eyebrow-dot" aria-hidden="true"></span>労働組合運営｜保育士特化のやさしい退職・お悩み相談</p>
-        <h1 id="hero-title"><span class="hero__h1-line">もう、一人で<span class="u-ib">抱え込まなくて大丈夫。</span></span><span class="hero__h1-line hero__h1-line--accent">あなたが辞めても、<br class="hero__br"><span class="u-ib">絶対に大丈夫です。</span></span></h1>
+        <p class="hero__eyebrow"><span class="hero__eyebrow-dot" aria-hidden="true"></span>労働組合運営｜保育士特化の退職代行・やさしいお悩み相談</p>
+        <h1 id="hero-title"><span class="sr-only">保育士が辞めたい時の退職代行・無料相談（保育士リトリート）｜</span><span class="hero__h1-line">もう、一人で<span class="u-ib">抱え込まなくて大丈夫。</span></span><span class="hero__h1-line hero__h1-line--accent">あなたが辞めても、<br class="hero__br"><span class="u-ib">絶対に大丈夫です。</span></span></h1>
       </div>
 
       <div class="hero__visual">
@@ -283,7 +288,7 @@ export function renderHome({ config, mode }) {
       <div class="hero__body">
         <div class="hero-card">
           <p class="hero-card__quote">「子どもは好き。<span class="u-ib">でも、もう限界かもしれない。」</span></p>
-          <p class="hero-card__lead">そんな保育士さんのための、優しい退職・お悩み相談窓口<strong class="u-ib">【保育士リトリート】</strong>です。元保育士と女性カウンセラーが、あなたのペースでお話を伺います。</p>
+          <p class="hero-card__lead">「保育士を辞めたい」と悩む方のための、優しい退職代行・お悩み相談窓口<strong class="u-ib">【保育士リトリート】</strong>です。元保育士と女性カウンセラーが、あなたのペースでお話を伺います。</p>
           <ul class="hero-badges" aria-label="サービスの特徴">
             <li>${icon("users")}<span>元保育士が相談対応</span></li>
             <li>${icon("chat")}<span>女性カウンセラー在籍</span></li>
@@ -333,8 +338,8 @@ export function renderHome({ config, mode }) {
     <div class="container">
       ${sectionHead({
         number: "01",
-        eyebrow: "お悩みチェック",
-        title: 'こんな毎日、<br>限界を<span class="u-ib">感じていませんか？</span>',
+        eyebrow: "保育士を辞めたいお悩みチェック",
+        title: '<span class="sr-only">保育士を辞めたいと悩む方へ：</span>こんな毎日、<br>限界を<span class="u-ib">感じていませんか？</span>',
         lead: "ひとつでも当てはまったら、それはあなたががんばりすぎているサインかもしれません。",
         id: "empathy-title",
       })}
@@ -446,8 +451,8 @@ export function renderHome({ config, mode }) {
     <div class="container">
       ${sectionHead({
         number: "03",
-        eyebrow: "選ばれる理由",
-        title: '<span class="u-ib">「保育士リトリート」</span>が<br>選ばれる4つの理由',
+        eyebrow: "保育士の退職代行で選ばれる理由",
+        title: '<span class="sr-only">保育士の退職代行・無料相談で</span><span class="u-ib">「保育士リトリート」</span>が<br>選ばれる4つの理由',
         lead: "事務的な退職代行ではなく、まずは悩みを安心して吐き出せる場所でありたい。それが私たちの考えです。",
         id: "reasons-title",
       })}
@@ -470,8 +475,8 @@ export function renderHome({ config, mode }) {
     <div class="container">
       ${sectionHead({
         number: "04",
-        eyebrow: "料金プラン",
-        title: "明朗な料金プラン",
+        eyebrow: "退職代行の料金プラン",
+        title: '<span class="sr-only">保育士退職代行の</span>明朗な料金プラン',
         lead: "AI・LINE・電話でのご相談はすべて無料。退職支援を正式にご依頼いただく場合のみ、以下の料金がかかります。",
         id: "plans-title",
       })}
@@ -507,8 +512,8 @@ export function renderHome({ config, mode }) {
     <div class="container">
       ${sectionHead({
         number: "05",
-        eyebrow: "ご利用の流れ",
-        title: 'ご依頼の流れは、<br><span class="u-ib">かんたん3ステップ</span>',
+        eyebrow: "退職代行ご利用の流れ",
+        title: '<span class="sr-only">保育士退職代行の</span>ご依頼の流れは、<br><span class="u-ib">かんたん3ステップ</span>',
         lead: '複雑な書類手続きや長い電話ヒアリングはありません。公式LINE追加後、ヒアリングシート<span class="u-ib">（Googleフォーム）</span>を記入して、料金をお支払いいただくだけです。',
         id: "steps-title",
       })}
@@ -599,7 +604,7 @@ export function renderHome({ config, mode }) {
         ${sectionHead({
           number: "08",
           eyebrow: "よくあるご質問",
-          title: "よくあるご質問",
+          title: '<span class="sr-only">保育士の退職代行・辞めたい相談の</span>よくあるご質問',
           lead: "相談前に確認しておきたい、園への連絡・返却物・秘密厳守・料金についてまとめました。",
           id: "faq-title",
         })}

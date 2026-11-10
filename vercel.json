@@ -18,6 +18,9 @@
   "functions": {
     "api/chat.js": {
       "maxDuration": 30
+    },
+    "api/line/webhook.js": {
+      "maxDuration": 30
     }
   },
   "headers": [

@@ -5,6 +5,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { loadConfig } from "./lib/config.mjs";
 import { ChatServiceError, requestOpenAIResponse, toPublicChatError } from "./lib/chat.mjs";
+import { LineWebhookError, processLineWebhook } from "./lib/line-webhook.mjs";
 
 const ROOT = path.resolve(fileURLToPath(new URL("../", import.meta.url)));
 const MAX_CHAT_BODY_BYTES = 24 * 1024;
@@ -106,6 +107,31 @@ function readJsonBody(request) {
   });
 }
 
+function readRawBody(request, maxBytes = 64 * 1024) {
+  return new Promise((resolve, reject) => {
+    let size = 0;
+    let tooLarge = false;
+    const chunks = [];
+    request.on("data", (chunk) => {
+      size += chunk.length;
+      if (size > maxBytes) {
+        tooLarge = true;
+        chunks.length = 0;
+      } else if (!tooLarge) {
+        chunks.push(chunk);
+      }
+    });
+    request.on("end", () => {
+      if (tooLarge) {
+        reject(new LineWebhookError("body_too_large", 413));
+        return;
+      }
+      resolve(Buffer.concat(chunks).toString("utf8"));
+    });
+    request.on("error", () => reject(new LineWebhookError("request_error", 400)));
+  });
+}
+
 function allowChatRequest(client) {
   const now = Date.now();
   const current = chatRateLimits.get(client);
@@ -152,6 +178,31 @@ const config = await loadConfig();
 
 const server = createServer(async (request, response) => {
   const requestPath = (request.url || "/").split("?")[0];
+  if (requestPath === "/api/line/webhook" || requestPath === "/api/line-webhook") {
+    if (request.method !== "POST") {
+      sendJson(response, 405, { error: "Method Not Allowed" });
+      return;
+    }
+    try {
+      const rawBody = await readRawBody(request);
+      const signature = String(request.headers["x-line-signature"] || "");
+      const result = await processLineWebhook({
+        rawBody,
+        signature,
+        env: process.env,
+        config,
+        signal: AbortSignal.timeout(20000),
+      });
+      sendJson(response, 200, { status: "ok", notified: result.notified });
+    } catch (error) {
+      if (error instanceof LineWebhookError) {
+        sendJson(response, error.status, { error: error.code });
+      } else {
+        sendJson(response, 500, { error: "internal_error" });
+      }
+    }
+    return;
+  }
   if (requestPath === "/api/chat") {
     if (request.method !== "POST") {
       sendJson(response, 405, { error: "この方法では送信できません。" });

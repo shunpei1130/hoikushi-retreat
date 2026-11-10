@@ -112,11 +112,13 @@ function footer(config, page, mode) {
           <p class="footer-brand__operator">運営：${operatorName}</p>
         </div>
         <nav class="footer-col" aria-label="相談方法">
-          <h2>相談方法</h2>
+          <h2>相談方法・お悩みガイド</h2>
           <a href="${anchor("#talk")}">LINE相談のイメージ</a>
           <a href="${anchor("#pricing")}">料金プラン</a>
           <a href="${anchor("#flow")}">ご利用の流れ</a>
           <a href="${anchor("#faq")}">よくあるご質問</a>
+          <a href="/yametai/">保育士を辞めたい方へ</a>
+          <a href="/taishoku-daikou/">保育士の退職代行ガイド</a>
         </nav>
         <nav class="footer-col" aria-label="運営情報">
           <h2>運営情報</h2>

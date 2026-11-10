@@ -12,6 +12,7 @@ import { renderAbout } from "../src/pages/about.mjs";
 import { renderPrivacy } from "../src/pages/privacy.mjs";
 import { renderTerms } from "../src/pages/terms.mjs";
 import { renderDisclosures } from "../src/pages/disclosures.mjs";
+import { renderYametaiGuide, renderTaishokuDaikouGuide } from "../src/pages/guides.mjs";
 import { renderNotFound } from "../src/pages/notfound.mjs";
 
 const ROOT = path.resolve(fileURLToPath(new URL("../", import.meta.url)));
@@ -55,6 +56,7 @@ function pageFile(route) {
 
 function sitemapPriority(route) {
   if (route === "/") return { changefreq: "weekly", priority: "1.0" };
+  if (route === "/yametai/" || route === "/taishoku-daikou/") return { changefreq: "weekly", priority: "0.9" };
   if (route === "/about/" || route === "/disclosures/") return { changefreq: "monthly", priority: "0.8" };
   return { changefreq: "monthly", priority: "0.6" };
 }
@@ -174,6 +176,8 @@ ${lineUrl ? `- **公式LINE**: ${lineUrl} （ID: ${lineId}）\n` : ""}
 
 ## 主要ページ一覧
 - [トップページ](${origin}/): 保育士が辞めたい時の無料相談・退職代行の特徴、LINE相談イメージ、料金プラン、ご利用の流れ、AIチャット相談、よくあるご質問
+- [保育士を辞めたい方へ（年度途中・園長に言えない時の対処法）](${origin}/yametai/): 保育士を辞めたい5つの原因、1年目・年度途中でも辞められる法的根拠、引き継ぎ・私物郵送の手順
+- [保育士の退職代行ガイド（選び方・料金・流れ）](${origin}/taishoku-daikou/): 民間業者・労働組合・弁護士（公立保育園対応）の比較、料金相場、郵送完結の3ステップ
 - [運営情報・労働組合について](${origin}/about/): 運営する労働組合、元保育士スタッフ・女性カウンセラーの相談体制、対応範囲
 - [取引条件・事業者情報](${origin}/disclosures/): 特定商取引法等に基づく表記、料金内訳、支払方法・時期、取消・返金条件
 - [利用条件](${origin}/terms/): 相談と正式依頼の違い、組合加入条件、免責事項
@@ -336,6 +340,8 @@ async function main() {
 
   const pageRenderers = [
     renderHome({ config: renderConfig, mode }),
+    renderYametaiGuide({ config: renderConfig, mode }),
+    renderTaishokuDaikouGuide({ config: renderConfig, mode }),
     renderAbout({ config: renderConfig, mode }),
     renderPrivacy({ config: renderConfig, mode }),
     renderTerms({ config: renderConfig, mode }),
