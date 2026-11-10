@@ -21,10 +21,35 @@
     window.dataLayer.push({ event: name, ...allowed });
   }
 
+  function copyTextToClipboard(text) {
+    if (!text) return false;
+    let copied = false;
+    try {
+      const textarea = document.createElement("textarea");
+      textarea.value = text;
+      textarea.setAttribute("readonly", "");
+      textarea.className = "sr-only";
+      document.body.append(textarea);
+      textarea.focus({ preventScroll: true });
+      textarea.select();
+      textarea.setSelectionRange(0, text.length);
+      copied = document.execCommand("copy");
+      textarea.remove();
+    } catch {
+      // Fallback to async Clipboard API below.
+    }
+    if (navigator.clipboard && typeof navigator.clipboard.writeText === "function") {
+      navigator.clipboard.writeText(text).catch(() => {});
+      copied = true;
+    }
+    return copied;
+  }
+
   const headerAi = document.querySelector("[data-header-ai]");
   if (headerAi instanceof HTMLDetailsElement) {
     const trigger = headerAi.querySelector("[data-header-ai-trigger]");
     const statusNote = headerAi.querySelector("[data-header-ai-status]");
+    const fullPrompt = headerAi.getAttribute("data-ai-prompt") || "";
 
     headerAi.addEventListener("toggle", () => {
       if (headerAi.open) {
@@ -47,18 +72,37 @@
     });
 
     for (const option of headerAi.querySelectorAll("[data-ai-app]")) {
-      option.addEventListener("click", () => {
-        try {
-          const url = new URL(option.href, window.location.origin);
-          const prompt = url.searchParams.get("q");
-          if (prompt && navigator.clipboard && typeof navigator.clipboard.writeText === "function") {
-            navigator.clipboard.writeText(prompt).catch(() => {});
+      option.addEventListener("click", (event) => {
+        const appType = option.getAttribute("data-ai-app") || "";
+        let promptToCopy = fullPrompt;
+        if (!promptToCopy) {
+          try {
+            const url = new URL(option.href, window.location.origin);
+            promptToCopy = url.searchParams.get("q") || "";
+          } catch {
+            // Ignore URL parse error.
           }
-        } catch {
-          // Ignore URL parse or clipboard errors and let native link navigation proceed.
         }
-        if (statusNote) {
-          statusNote.textContent = "✓ 相談用の情報をコピーしました。開いたAIアプリでそのまま送信（または貼り付け）してください。";
+        copyTextToClipboard(promptToCopy);
+
+        if (appType === "gemini-app") {
+          event.preventDefault();
+          if (statusNote instanceof HTMLElement) {
+            statusNote.dataset.copied = "true";
+            statusNote.textContent =
+              "✓ 相談文をコピーしました！開いたGeminiアプリの入力欄に「ペースト（貼り付け）」して送信してください。";
+          }
+          const targetHref = option.getAttribute("href") || "https://gemini.google.com/app";
+          window.setTimeout(() => {
+            window.location.assign(targetHref);
+          }, 180);
+          return;
+        }
+
+        if (statusNote instanceof HTMLElement) {
+          statusNote.dataset.copied = "true";
+          statusNote.textContent =
+            "✓ 相談用の情報を渡し、クリップボードにもコピーしました。開いたAI画面でご確認ください。";
         }
       });
     }

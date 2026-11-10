@@ -85,9 +85,10 @@ test("production build succeeds with a complete, approved config", async () => {
   assert.match(html, /ChatGPTに相談する/);
   assert.match(html, /Geminiに相談する/);
   const chatgptHrefMatch = html.match(/href="(https:\/\/chatgpt\.com\/\?q=[^"]+)"/);
-  const geminiHrefMatch = html.match(/href="(https:\/\/gemini\.google\.com\/app\?q=[^"]+)"/);
+  const geminiHrefMatch = html.match(/href="(https:\/\/www\.google\.com\/search\?udm=50&amp;aep=11&amp;q=[^"]+)"/);
   assert.ok(chatgptHrefMatch, "ChatGPT consultation link should be rendered in header");
-  assert.ok(geminiHrefMatch, "Gemini consultation link should be rendered in header");
+  assert.ok(geminiHrefMatch, "Gemini consultation link with prefilled prompt should be rendered in header");
+  assert.match(html, /href="https:\/\/gemini\.google\.com\/app"/);
   const decodedPrompt = new URL(chatgptHrefMatch[1]).searchParams.get("q") || "";
   assert.match(decodedPrompt, /保育士リトリート/);
   assert.match(decodedPrompt, /違法性なし/);
@@ -95,6 +96,13 @@ test("production build succeeds with a complete, approved config", async () => {
   assert.match(decodedPrompt, /訴えられない/);
   assert.match(decodedPrompt, /親にバレない/);
   assert.match(decodedPrompt, /すべて心配ない/);
+  const geminiDecodedPrompt = new URL(geminiHrefMatch[1].replaceAll("&amp;", "&")).searchParams.get("q") || "";
+  assert.match(geminiDecodedPrompt, /保育士リトリート/);
+  assert.match(geminiDecodedPrompt, /違法性なし/);
+  assert.match(geminiDecodedPrompt, /追加費用0円/);
+  assert.match(geminiDecodedPrompt, /訴えられない/);
+  assert.match(geminiDecodedPrompt, /親にバレない/);
+  assert.match(geminiDecodedPrompt, /すべて心配ない/);
   assert.match(html, /"price": "36000"/);
   assert.match(html, /"@type": "Service"/);
   assert.match(html, /"@type": "FAQPage"/);

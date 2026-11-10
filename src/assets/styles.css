@@ -655,11 +655,61 @@ html[data-mobile-os="true"] .header-action {
   height: 14px;
 }
 
+.header-ai__subaction {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  min-height: 44px;
+  margin-top: 8px;
+  padding: 6px 11px;
+  border: 1px dashed var(--color-line-strong);
+  border-radius: 11px;
+  background: var(--color-soft);
+  color: var(--color-text);
+  font-size: 11px;
+  line-height: 1.4;
+  text-decoration: none;
+  transition: border-color 0.2s var(--ease), background 0.2s var(--ease);
+}
+
+.header-ai__subaction:hover,
+.header-ai__subaction:active {
+  border-color: var(--color-primary);
+  background: #e2ede8;
+}
+
+.header-ai__subaction-label strong {
+  color: var(--color-primary-deep);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.header-ai__subaction-arrow {
+  display: inline-flex;
+  align-items: center;
+  color: var(--color-primary);
+  flex: 0 0 auto;
+}
+
+.header-ai__subaction-arrow .icon {
+  width: 13px;
+  height: 13px;
+}
+
 .header-ai__note {
   margin: 8px 0 0;
   color: var(--color-muted);
   font-size: 10.5px;
   line-height: 1.5;
+}
+
+.header-ai__note[data-copied="true"] {
+  padding: 6px 9px;
+  border-radius: 8px;
+  background: #e6f2ed;
+  color: var(--color-primary-deep);
+  font-weight: 700;
 }
 
 /* ==========================================================================
