@@ -5,6 +5,12 @@
   const analyticsEnabled = root.dataset.analytics === "enabled";
   const pageType = document.body?.dataset.page === "home" ? "home" : "other";
 
+  const ua = navigator.userAgent || "";
+  const isTouchMac = navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1;
+  if (/(iPhone|iPod|iPad|Android)/i.test(ua) || isTouchMac) {
+    root.dataset.mobileOs = "true";
+  }
+
   function track(name, params = {}) {
     if (!analyticsEnabled) return;
     const allowed = {};
@@ -13,6 +19,67 @@
     }
     window.dataLayer = window.dataLayer || [];
     window.dataLayer.push({ event: name, ...allowed });
+  }
+
+  const headerAi = document.querySelector("[data-header-ai]");
+  if (headerAi) {
+    const trigger = headerAi.querySelector("[data-header-ai-trigger]");
+    const menu = headerAi.querySelector("[data-header-ai-menu]");
+    const statusNote = headerAi.querySelector("[data-header-ai-status]");
+
+    const closeMenu = () => {
+      if (!trigger || !menu || menu.hidden) return;
+      menu.hidden = true;
+      trigger.setAttribute("aria-expanded", "false");
+      headerAi.classList.remove("is-open");
+    };
+
+    const openMenu = () => {
+      if (!trigger || !menu) return;
+      menu.hidden = false;
+      trigger.setAttribute("aria-expanded", "true");
+      headerAi.classList.add("is-open");
+      track("header_ai_menu_open", { page_type: pageType });
+    };
+
+    if (trigger && menu) {
+      trigger.addEventListener("click", (event) => {
+        event.stopPropagation();
+        if (menu.hidden) openMenu();
+        else closeMenu();
+      });
+
+      document.addEventListener("click", (event) => {
+        if (menu.hidden) return;
+        if (event.target instanceof Node && !headerAi.contains(event.target)) {
+          closeMenu();
+        }
+      });
+
+      document.addEventListener("keydown", (event) => {
+        if (event.key === "Escape" && !menu.hidden) {
+          closeMenu();
+          trigger.focus();
+        }
+      });
+    }
+
+    for (const option of headerAi.querySelectorAll("[data-ai-app]")) {
+      option.addEventListener("click", () => {
+        try {
+          const url = new URL(option.href, window.location.origin);
+          const prompt = url.searchParams.get("q");
+          if (prompt && navigator.clipboard && typeof navigator.clipboard.writeText === "function") {
+            navigator.clipboard.writeText(prompt).catch(() => {});
+          }
+        } catch {
+          // Ignore URL parse or clipboard errors and let native link navigation proceed.
+        }
+        if (statusNote) {
+          statusNote.textContent = "✓ 相談用の情報をコピーしました。開いたAIアプリでそのまま送信（または貼り付け）してください。";
+        }
+      });
+    }
   }
 
   document.addEventListener(

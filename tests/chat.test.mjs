@@ -34,6 +34,10 @@ test("chat instructions include only configured pricing and LINE flow facts", as
   assert.match(instructions, /@897zpkws/);
   assert.match(instructions, /電話相談希望/);
   assert.match(instructions, /個人情報を尋ねない/);
+  assert.match(instructions, /違法性について/);
+  assert.match(instructions, /追加料金について/);
+  assert.match(instructions, /訴えられる不安について/);
+  assert.match(instructions, /親バレ・職場バレについて/);
 });
 
 test("Responses API request keeps the key server-side and disables response storage", async () => {

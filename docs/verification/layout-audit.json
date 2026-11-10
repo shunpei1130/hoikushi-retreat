@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T11:17:17.505Z",
+  "generatedAt": "2026-11-10T09:33:35.822Z",
   "baseUrl": "http://127.0.0.1:4174/",
   "widths": [
     {
@@ -10,13 +10,13 @@
         "width": 360,
         "height": 844
       },
-      "title": "保育士の退職代行・お悩み相談｜元保育士と女性カウンセラー｜保育士リトリート",
+      "title": "保育士が辞めたい時の退職代行・無料相談｜元保育士と女性カウンセラー｜保育士リトリート",
       "lang": "ja",
       "h1Count": 1,
       "headings": [
         {
           "level": 1,
-          "text": "もう、一人で抱え込まなくて大丈夫。あなたが辞めても、絶対に大丈夫です。"
+          "text": "保育士が辞めたい時の退職代行・無料相談（保育士リトリート）｜もう、一人で抱え込まなくて大丈夫。あなたが辞めても、絶対に大丈夫です。"
         },
         {
           "level": 2,
@@ -24,7 +24,7 @@
         },
         {
           "level": 2,
-          "text": "こんな毎日、限界を感じていませんか？"
+          "text": "保育士を辞めたいと悩む方へ：こんな毎日、限界を感じていませんか？"
         },
         {
           "level": 2,
@@ -40,7 +40,7 @@
         },
         {
           "level": 2,
-          "text": "「保育士リトリート」が選ばれる4つの理由"
+          "text": "保育士の退職代行・無料相談で「保育士リトリート」が選ばれる4つの理由"
         },
         {
           "level": 3,
@@ -60,7 +60,7 @@
         },
         {
           "level": 2,
-          "text": "明朗な料金プラン"
+          "text": "保育士退職代行の明朗な料金プラン"
         },
         {
           "level": 3,
@@ -76,7 +76,7 @@
         },
         {
           "level": 2,
-          "text": "ご依頼の流れは、かんたん3ステップ"
+          "text": "保育士退職代行のご依頼の流れは、かんたん3ステップ"
         },
         {
           "level": 3,
@@ -104,7 +104,7 @@
         },
         {
           "level": 2,
-          "text": "よくあるご質問"
+          "text": "保育士の退職代行・辞めたい相談のよくあるご質問"
         },
         {
           "level": 2,
@@ -112,7 +112,7 @@
         },
         {
           "level": 2,
-          "text": "相談方法"
+          "text": "相談方法・お悩みガイド"
         },
         {
           "level": 2,
@@ -142,47 +142,47 @@
       "heroMethods": [
         {
           "channel": "line",
-          "top": 1212,
-          "bottom": 1326,
+          "top": 1238,
+          "bottom": 1353,
           "inFirstScreen": false,
           "fullyInFirstScreen": false
         },
         {
           "channel": "phone",
-          "top": 1333,
-          "bottom": 1466,
+          "top": 1360,
+          "bottom": 1492,
           "inFirstScreen": false,
           "fullyInFirstScreen": false
         },
         {
           "channel": "ai",
-          "top": 1473,
-          "bottom": 1605,
+          "top": 1499,
+          "bottom": 1632,
           "inFirstScreen": false,
           "fullyInFirstScreen": false
         }
       ],
       "heroTitleBottom": 333,
-      "bodyHeight": 16193,
-      "mainTextLength": 9550,
-      "internalLinks": 9,
+      "bodyHeight": 16387,
+      "mainTextLength": 9872,
+      "internalLinks": 11,
       "telLinks": 0
     },
     {
       "width": 390,
       "screenshot": "screenshots/preview/width-390.png",
-      "documentHeight": 15623,
+      "documentHeight": 15792,
       "viewport": {
         "width": 390,
         "height": 844
       },
-      "title": "保育士の退職代行・お悩み相談｜元保育士と女性カウンセラー｜保育士リトリート",
+      "title": "保育士が辞めたい時の退職代行・無料相談｜元保育士と女性カウンセラー｜保育士リトリート",
       "lang": "ja",
       "h1Count": 1,
       "headings": [
         {
           "level": 1,
-          "text": "もう、一人で抱え込まなくて大丈夫。あなたが辞めても、絶対に大丈夫です。"
+          "text": "保育士が辞めたい時の退職代行・無料相談（保育士リトリート）｜もう、一人で抱え込まなくて大丈夫。あなたが辞めても、絶対に大丈夫です。"
         },
         {
           "level": 2,
@@ -190,7 +190,7 @@
         },
         {
           "level": 2,
-          "text": "こんな毎日、限界を感じていませんか？"
+          "text": "保育士を辞めたいと悩む方へ：こんな毎日、限界を感じていませんか？"
         },
         {
           "level": 2,
@@ -206,7 +206,7 @@
         },
         {
           "level": 2,
-          "text": "「保育士リトリート」が選ばれる4つの理由"
+          "text": "保育士の退職代行・無料相談で「保育士リトリート」が選ばれる4つの理由"
         },
         {
           "level": 3,
@@ -226,7 +226,7 @@
         },
         {
           "level": 2,
-          "text": "明朗な料金プラン"
+          "text": "保育士退職代行の明朗な料金プラン"
         },
         {
           "level": 3,
@@ -242,7 +242,7 @@
         },
         {
           "level": 2,
-          "text": "ご依頼の流れは、かんたん3ステップ"
+          "text": "保育士退職代行のご依頼の流れは、かんたん3ステップ"
         },
         {
           "level": 3,
@@ -270,7 +270,7 @@
         },
         {
           "level": 2,
-          "text": "よくあるご質問"
+          "text": "保育士の退職代行・辞めたい相談のよくあるご質問"
         },
         {
           "level": 2,
@@ -278,7 +278,7 @@
         },
         {
           "level": 2,
-          "text": "相談方法"
+          "text": "相談方法・お悩みガイド"
         },
         {
           "level": 2,
@@ -329,26 +329,26 @@
         }
       ],
       "heroTitleBottom": 314,
-      "bodyHeight": 15623,
-      "mainTextLength": 9550,
-      "internalLinks": 9,
+      "bodyHeight": 15792,
+      "mainTextLength": 9872,
+      "internalLinks": 11,
       "telLinks": 0
     },
     {
       "width": 430,
       "screenshot": "screenshots/preview/width-430.png",
-      "documentHeight": 15011,
+      "documentHeight": 15158,
       "viewport": {
         "width": 430,
         "height": 844
       },
-      "title": "保育士の退職代行・お悩み相談｜元保育士と女性カウンセラー｜保育士リトリート",
+      "title": "保育士が辞めたい時の退職代行・無料相談｜元保育士と女性カウンセラー｜保育士リトリート",
       "lang": "ja",
       "h1Count": 1,
       "headings": [
         {
           "level": 1,
-          "text": "もう、一人で抱え込まなくて大丈夫。あなたが辞めても、絶対に大丈夫です。"
+          "text": "保育士が辞めたい時の退職代行・無料相談（保育士リトリート）｜もう、一人で抱え込まなくて大丈夫。あなたが辞めても、絶対に大丈夫です。"
         },
         {
           "level": 2,
@@ -356,7 +356,7 @@
         },
         {
           "level": 2,
-          "text": "こんな毎日、限界を感じていませんか？"
+          "text": "保育士を辞めたいと悩む方へ：こんな毎日、限界を感じていませんか？"
         },
         {
           "level": 2,
@@ -372,7 +372,7 @@
         },
         {
           "level": 2,
-          "text": "「保育士リトリート」が選ばれる4つの理由"
+          "text": "保育士の退職代行・無料相談で「保育士リトリート」が選ばれる4つの理由"
         },
         {
           "level": 3,
@@ -392,7 +392,7 @@
         },
         {
           "level": 2,
-          "text": "明朗な料金プラン"
+          "text": "保育士退職代行の明朗な料金プラン"
         },
         {
           "level": 3,
@@ -408,7 +408,7 @@
         },
         {
           "level": 2,
-          "text": "ご依頼の流れは、かんたん3ステップ"
+          "text": "保育士退職代行のご依頼の流れは、かんたん3ステップ"
         },
         {
           "level": 3,
@@ -436,7 +436,7 @@
         },
         {
           "level": 2,
-          "text": "よくあるご質問"
+          "text": "保育士の退職代行・辞めたい相談のよくあるご質問"
         },
         {
           "level": 2,
@@ -444,7 +444,7 @@
         },
         {
           "level": 2,
-          "text": "相談方法"
+          "text": "相談方法・お悩みガイド"
         },
         {
           "level": 2,
@@ -495,26 +495,26 @@
         }
       ],
       "heroTitleBottom": 319,
-      "bodyHeight": 15011,
-      "mainTextLength": 9550,
-      "internalLinks": 9,
+      "bodyHeight": 15158,
+      "mainTextLength": 9872,
+      "internalLinks": 11,
       "telLinks": 0
     },
     {
       "width": 768,
       "screenshot": "screenshots/preview/width-768.png",
-      "documentHeight": 13456,
+      "documentHeight": 13590,
       "viewport": {
         "width": 768,
         "height": 900
       },
-      "title": "保育士の退職代行・お悩み相談｜元保育士と女性カウンセラー｜保育士リトリート",
+      "title": "保育士が辞めたい時の退職代行・無料相談｜元保育士と女性カウンセラー｜保育士リトリート",
       "lang": "ja",
       "h1Count": 1,
       "headings": [
         {
           "level": 1,
-          "text": "もう、一人で抱え込まなくて大丈夫。あなたが辞めても、絶対に大丈夫です。"
+          "text": "保育士が辞めたい時の退職代行・無料相談（保育士リトリート）｜もう、一人で抱え込まなくて大丈夫。あなたが辞めても、絶対に大丈夫です。"
         },
         {
           "level": 2,
@@ -522,7 +522,7 @@
         },
         {
           "level": 2,
-          "text": "こんな毎日、限界を感じていませんか？"
+          "text": "保育士を辞めたいと悩む方へ：こんな毎日、限界を感じていませんか？"
         },
         {
           "level": 2,
@@ -538,7 +538,7 @@
         },
         {
           "level": 2,
-          "text": "「保育士リトリート」が選ばれる4つの理由"
+          "text": "保育士の退職代行・無料相談で「保育士リトリート」が選ばれる4つの理由"
         },
         {
           "level": 3,
@@ -558,7 +558,7 @@
         },
         {
           "level": 2,
-          "text": "明朗な料金プラン"
+          "text": "保育士退職代行の明朗な料金プラン"
         },
         {
           "level": 3,
@@ -574,7 +574,7 @@
         },
         {
           "level": 2,
-          "text": "ご依頼の流れは、かんたん3ステップ"
+          "text": "保育士退職代行のご依頼の流れは、かんたん3ステップ"
         },
         {
           "level": 3,
@@ -602,7 +602,7 @@
         },
         {
           "level": 2,
-          "text": "よくあるご質問"
+          "text": "保育士の退職代行・辞めたい相談のよくあるご質問"
         },
         {
           "level": 2,
@@ -610,7 +610,7 @@
         },
         {
           "level": 2,
-          "text": "相談方法"
+          "text": "相談方法・お悩みガイド"
         },
         {
           "level": 2,
@@ -661,26 +661,26 @@
         }
       ],
       "heroTitleBottom": 287,
-      "bodyHeight": 13456,
-      "mainTextLength": 9550,
-      "internalLinks": 9,
+      "bodyHeight": 13590,
+      "mainTextLength": 9872,
+      "internalLinks": 11,
       "telLinks": 0
     },
     {
       "width": 1280,
       "screenshot": "screenshots/preview/width-1280.png",
-      "documentHeight": 10088,
+      "documentHeight": 10211,
       "viewport": {
         "width": 1280,
         "height": 900
       },
-      "title": "保育士の退職代行・お悩み相談｜元保育士と女性カウンセラー｜保育士リトリート",
+      "title": "保育士が辞めたい時の退職代行・無料相談｜元保育士と女性カウンセラー｜保育士リトリート",
       "lang": "ja",
       "h1Count": 1,
       "headings": [
         {
           "level": 1,
-          "text": "もう、一人で抱え込まなくて大丈夫。あなたが辞めても、絶対に大丈夫です。"
+          "text": "保育士が辞めたい時の退職代行・無料相談（保育士リトリート）｜もう、一人で抱え込まなくて大丈夫。あなたが辞めても、絶対に大丈夫です。"
         },
         {
           "level": 2,
@@ -688,7 +688,7 @@
         },
         {
           "level": 2,
-          "text": "こんな毎日、限界を感じていませんか？"
+          "text": "保育士を辞めたいと悩む方へ：こんな毎日、限界を感じていませんか？"
         },
         {
           "level": 2,
@@ -704,7 +704,7 @@
         },
         {
           "level": 2,
-          "text": "「保育士リトリート」が選ばれる4つの理由"
+          "text": "保育士の退職代行・無料相談で「保育士リトリート」が選ばれる4つの理由"
         },
         {
           "level": 3,
@@ -724,7 +724,7 @@
         },
         {
           "level": 2,
-          "text": "明朗な料金プラン"
+          "text": "保育士退職代行の明朗な料金プラン"
         },
         {
           "level": 3,
@@ -740,7 +740,7 @@
         },
         {
           "level": 2,
-          "text": "ご依頼の流れは、かんたん3ステップ"
+          "text": "保育士退職代行のご依頼の流れは、かんたん3ステップ"
         },
         {
           "level": 3,
@@ -768,7 +768,7 @@
         },
         {
           "level": 2,
-          "text": "よくあるご質問"
+          "text": "保育士の退職代行・辞めたい相談のよくあるご質問"
         },
         {
           "level": 2,
@@ -776,7 +776,7 @@
         },
         {
           "level": 2,
-          "text": "相談方法"
+          "text": "相談方法・お悩みガイド"
         },
         {
           "level": 2,
@@ -827,26 +827,26 @@
         }
       ],
       "heroTitleBottom": 441,
-      "bodyHeight": 10088,
-      "mainTextLength": 9550,
-      "internalLinks": 9,
+      "bodyHeight": 10211,
+      "mainTextLength": 9872,
+      "internalLinks": 11,
       "telLinks": 0
     },
     {
       "width": 1440,
       "screenshot": "screenshots/preview/width-1440.png",
-      "documentHeight": 10136,
+      "documentHeight": 10259,
       "viewport": {
         "width": 1440,
         "height": 900
       },
-      "title": "保育士の退職代行・お悩み相談｜元保育士と女性カウンセラー｜保育士リトリート",
+      "title": "保育士が辞めたい時の退職代行・無料相談｜元保育士と女性カウンセラー｜保育士リトリート",
       "lang": "ja",
       "h1Count": 1,
       "headings": [
         {
           "level": 1,
-          "text": "もう、一人で抱え込まなくて大丈夫。あなたが辞めても、絶対に大丈夫です。"
+          "text": "保育士が辞めたい時の退職代行・無料相談（保育士リトリート）｜もう、一人で抱え込まなくて大丈夫。あなたが辞めても、絶対に大丈夫です。"
         },
         {
           "level": 2,
@@ -854,7 +854,7 @@
         },
         {
           "level": 2,
-          "text": "こんな毎日、限界を感じていませんか？"
+          "text": "保育士を辞めたいと悩む方へ：こんな毎日、限界を感じていませんか？"
         },
         {
           "level": 2,
@@ -870,7 +870,7 @@
         },
         {
           "level": 2,
-          "text": "「保育士リトリート」が選ばれる4つの理由"
+          "text": "保育士の退職代行・無料相談で「保育士リトリート」が選ばれる4つの理由"
         },
         {
           "level": 3,
@@ -890,7 +890,7 @@
         },
         {
           "level": 2,
-          "text": "明朗な料金プラン"
+          "text": "保育士退職代行の明朗な料金プラン"
         },
         {
           "level": 3,
@@ -906,7 +906,7 @@
         },
         {
           "level": 2,
-          "text": "ご依頼の流れは、かんたん3ステップ"
+          "text": "保育士退職代行のご依頼の流れは、かんたん3ステップ"
         },
         {
           "level": 3,
@@ -934,7 +934,7 @@
         },
         {
           "level": 2,
-          "text": "よくあるご質問"
+          "text": "保育士の退職代行・辞めたい相談のよくあるご質問"
         },
         {
           "level": 2,
@@ -942,7 +942,7 @@
         },
         {
           "level": 2,
-          "text": "相談方法"
+          "text": "相談方法・お悩みガイド"
         },
         {
           "level": 2,
@@ -993,9 +993,9 @@
         }
       ],
       "heroTitleBottom": 441,
-      "bodyHeight": 10136,
-      "mainTextLength": 9550,
-      "internalLinks": 9,
+      "bodyHeight": 10259,
+      "mainTextLength": 9872,
+      "internalLinks": 11,
       "telLinks": 0
     }
   ],
@@ -1004,12 +1004,12 @@
       "route": "/about/",
       "width": 390,
       "screenshot": "screenshots/preview/page-about-390.png",
-      "documentHeight": 6387,
+      "documentHeight": 6447,
       "viewport": {
         "width": 390,
         "height": 844
       },
-      "title": "運営情報・労働組合について｜保育士リトリート",
+      "title": "運営労働組合・元保育士の相談体制｜保育士の退職代行・お悩み相談｜保育士リトリート",
       "lang": "ja",
       "h1Count": 1,
       "headings": [
@@ -1047,7 +1047,7 @@
         },
         {
           "level": 2,
-          "text": "相談方法"
+          "text": "相談方法・お悩みガイド"
         },
         {
           "level": 2,
@@ -1068,21 +1068,21 @@
       "smallControls": [],
       "heroMethods": [],
       "heroTitleBottom": 304,
-      "bodyHeight": 6387,
-      "mainTextLength": 2782,
-      "internalLinks": 26,
+      "bodyHeight": 6447,
+      "mainTextLength": 2783,
+      "internalLinks": 28,
       "telLinks": 0
     },
     {
       "route": "/about/",
       "width": 1440,
       "screenshot": "screenshots/preview/page-about-1440.png",
-      "documentHeight": 3937,
+      "documentHeight": 3985,
       "viewport": {
         "width": 1440,
         "height": 900
       },
-      "title": "運営情報・労働組合について｜保育士リトリート",
+      "title": "運営労働組合・元保育士の相談体制｜保育士の退職代行・お悩み相談｜保育士リトリート",
       "lang": "ja",
       "h1Count": 1,
       "headings": [
@@ -1120,7 +1120,7 @@
         },
         {
           "level": 2,
-          "text": "相談方法"
+          "text": "相談方法・お悩みガイド"
         },
         {
           "level": 2,
@@ -1141,21 +1141,21 @@
       "smallControls": [],
       "heroMethods": [],
       "heroTitleBottom": 351,
-      "bodyHeight": 3937,
-      "mainTextLength": 2782,
-      "internalLinks": 26,
+      "bodyHeight": 3985,
+      "mainTextLength": 2783,
+      "internalLinks": 28,
       "telLinks": 0
     },
     {
       "route": "/privacy/",
       "width": 390,
       "screenshot": "screenshots/preview/page-privacy-390.png",
-      "documentHeight": 9397,
+      "documentHeight": 9457,
       "viewport": {
         "width": 390,
         "height": 844
       },
-      "title": "個人情報・相談情報の取扱い｜保育士リトリート",
+      "title": "プライバシーポリシー・個人情報の取扱い｜保育士リトリート",
       "lang": "ja",
       "h1Count": 1,
       "headings": [
@@ -1205,7 +1205,7 @@
         },
         {
           "level": 2,
-          "text": "相談方法"
+          "text": "相談方法・お悩みガイド"
         },
         {
           "level": 2,
@@ -1226,21 +1226,21 @@
       "smallControls": [],
       "heroMethods": [],
       "heroTitleBottom": 304,
-      "bodyHeight": 9397,
-      "mainTextLength": 4414,
-      "internalLinks": 21,
+      "bodyHeight": 9457,
+      "mainTextLength": 4415,
+      "internalLinks": 23,
       "telLinks": 0
     },
     {
       "route": "/privacy/",
       "width": 1440,
       "screenshot": "screenshots/preview/page-privacy-1440.png",
-      "documentHeight": 5581,
+      "documentHeight": 5630,
       "viewport": {
         "width": 1440,
         "height": 900
       },
-      "title": "個人情報・相談情報の取扱い｜保育士リトリート",
+      "title": "プライバシーポリシー・個人情報の取扱い｜保育士リトリート",
       "lang": "ja",
       "h1Count": 1,
       "headings": [
@@ -1290,7 +1290,7 @@
         },
         {
           "level": 2,
-          "text": "相談方法"
+          "text": "相談方法・お悩みガイド"
         },
         {
           "level": 2,
@@ -1311,21 +1311,21 @@
       "smallControls": [],
       "heroMethods": [],
       "heroTitleBottom": 351,
-      "bodyHeight": 5581,
-      "mainTextLength": 4414,
-      "internalLinks": 21,
+      "bodyHeight": 5630,
+      "mainTextLength": 4415,
+      "internalLinks": 23,
       "telLinks": 0
     },
     {
       "route": "/terms/",
       "width": 390,
       "screenshot": "screenshots/preview/page-terms-390.png",
-      "documentHeight": 8153,
+      "documentHeight": 8213,
       "viewport": {
         "width": 390,
         "height": 844
       },
-      "title": "利用条件｜保育士リトリート",
+      "title": "利用規約・ご利用条件｜保育士の退職代行・無料相談｜保育士リトリート",
       "lang": "ja",
       "h1Count": 1,
       "headings": [
@@ -1375,7 +1375,7 @@
         },
         {
           "level": 2,
-          "text": "相談方法"
+          "text": "相談方法・お悩みガイド"
         },
         {
           "level": 2,
@@ -1396,21 +1396,21 @@
       "smallControls": [],
       "heroMethods": [],
       "heroTitleBottom": 304,
-      "bodyHeight": 8153,
-      "mainTextLength": 3430,
-      "internalLinks": 24,
+      "bodyHeight": 8213,
+      "mainTextLength": 3431,
+      "internalLinks": 26,
       "telLinks": 0
     },
     {
       "route": "/terms/",
       "width": 1440,
       "screenshot": "screenshots/preview/page-terms-1440.png",
-      "documentHeight": 4852,
+      "documentHeight": 4901,
       "viewport": {
         "width": 1440,
         "height": 900
       },
-      "title": "利用条件｜保育士リトリート",
+      "title": "利用規約・ご利用条件｜保育士の退職代行・無料相談｜保育士リトリート",
       "lang": "ja",
       "h1Count": 1,
       "headings": [
@@ -1460,7 +1460,7 @@
         },
         {
           "level": 2,
-          "text": "相談方法"
+          "text": "相談方法・お悩みガイド"
         },
         {
           "level": 2,
@@ -1481,21 +1481,21 @@
       "smallControls": [],
       "heroMethods": [],
       "heroTitleBottom": 351,
-      "bodyHeight": 4852,
-      "mainTextLength": 3430,
-      "internalLinks": 24,
+      "bodyHeight": 4901,
+      "mainTextLength": 3431,
+      "internalLinks": 26,
       "telLinks": 0
     },
     {
       "route": "/disclosures/",
       "width": 390,
       "screenshot": "screenshots/preview/page-disclosures-390.png",
-      "documentHeight": 7384,
+      "documentHeight": 7444,
       "viewport": {
         "width": 390,
         "height": 844
       },
-      "title": "取引条件・事業者情報｜保育士リトリート",
+      "title": "料金・取引条件・事業者情報｜保育士の退職代行｜保育士リトリート",
       "lang": "ja",
       "h1Count": 1,
       "headings": [
@@ -1537,7 +1537,7 @@
         },
         {
           "level": 2,
-          "text": "相談方法"
+          "text": "相談方法・お悩みガイド"
         },
         {
           "level": 2,
@@ -1558,21 +1558,21 @@
       "smallControls": [],
       "heroMethods": [],
       "heroTitleBottom": 304,
-      "bodyHeight": 7384,
-      "mainTextLength": 2962,
-      "internalLinks": 26,
+      "bodyHeight": 7444,
+      "mainTextLength": 2963,
+      "internalLinks": 28,
       "telLinks": 0
     },
     {
       "route": "/disclosures/",
       "width": 1440,
       "screenshot": "screenshots/preview/page-disclosures-1440.png",
-      "documentHeight": 4728,
+      "documentHeight": 4776,
       "viewport": {
         "width": 1440,
         "height": 900
       },
-      "title": "取引条件・事業者情報｜保育士リトリート",
+      "title": "料金・取引条件・事業者情報｜保育士の退職代行｜保育士リトリート",
       "lang": "ja",
       "h1Count": 1,
       "headings": [
@@ -1614,7 +1614,7 @@
         },
         {
           "level": 2,
-          "text": "相談方法"
+          "text": "相談方法・お悩みガイド"
         },
         {
           "level": 2,
@@ -1635,16 +1635,16 @@
       "smallControls": [],
       "heroMethods": [],
       "heroTitleBottom": 351,
-      "bodyHeight": 4728,
-      "mainTextLength": 2962,
-      "internalLinks": 26,
+      "bodyHeight": 4776,
+      "mainTextLength": 2963,
+      "internalLinks": 28,
       "telLinks": 0
     },
     {
       "route": "/404.html",
       "width": 390,
       "screenshot": "screenshots/preview/page-404-390.png",
-      "documentHeight": 1851,
+      "documentHeight": 1912,
       "viewport": {
         "width": 390,
         "height": 844
@@ -1659,7 +1659,7 @@
         },
         {
           "level": 2,
-          "text": "相談方法"
+          "text": "相談方法・お悩みガイド"
         },
         {
           "level": 2,
@@ -1680,16 +1680,16 @@
       "smallControls": [],
       "heroMethods": [],
       "heroTitleBottom": 317,
-      "bodyHeight": 1851,
+      "bodyHeight": 1912,
       "mainTextLength": 208,
-      "internalLinks": 25,
+      "internalLinks": 27,
       "telLinks": 0
     },
     {
       "route": "/404.html",
       "width": 1440,
       "screenshot": "screenshots/preview/page-404-1440.png",
-      "documentHeight": 1287,
+      "documentHeight": 1336,
       "viewport": {
         "width": 1440,
         "height": 900
@@ -1704,7 +1704,7 @@
         },
         {
           "level": 2,
-          "text": "相談方法"
+          "text": "相談方法・お悩みガイド"
         },
         {
           "level": 2,
@@ -1725,9 +1725,9 @@
       "smallControls": [],
       "heroMethods": [],
       "heroTitleBottom": 371,
-      "bodyHeight": 1287,
+      "bodyHeight": 1336,
       "mainTextLength": 208,
-      "internalLinks": 25,
+      "internalLinks": 27,
       "telLinks": 0
     }
   ],
