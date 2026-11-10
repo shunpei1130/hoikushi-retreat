@@ -167,7 +167,9 @@ export function layout({
   <meta name="color-scheme" content="light">
   <meta name="theme-color" content="#1D6258">
   ${page.metaTags}
+  <link rel="icon" href="/favicon.ico" sizes="32x32 48x48">
   <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="/assets/icon-192.png" type="image/png" sizes="192x192">
   <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
   <link rel="manifest" href="/manifest.webmanifest">
   ${page.name === "home" ? '<link rel="preload" as="image" href="/assets/hero-illustration-1200.webp" imagesrcset="/assets/hero-illustration-720.webp 720w, /assets/hero-illustration-1200.webp 1200w" imagesizes="(max-width: 980px) 92vw, 480px" type="image/webp" fetchpriority="high">' : ""}

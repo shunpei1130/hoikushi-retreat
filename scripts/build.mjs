@@ -122,6 +122,18 @@ function manifestJson(config) {
           type: "image/png",
           purpose: "any",
         },
+        {
+          src: "/assets/icon-192.png",
+          sizes: "192x192",
+          type: "image/png",
+          purpose: "any",
+        },
+        {
+          src: "/assets/icon-512.png",
+          sizes: "512x512",
+          type: "image/png",
+          purpose: "any",
+        },
       ],
     },
     null,
@@ -396,6 +408,13 @@ async function main() {
     "styles.css",
     "app.js",
     "favicon.svg",
+    "favicon.ico",
+    "favicon-32.png",
+    "favicon-48.png",
+    "favicon-96.png",
+    "icon-192.png",
+    "icon-512.png",
+    "brand-icon.png",
     "hero-illustration.jpg",
     "hero-illustration-1200.webp",
     "hero-illustration-720.webp",
@@ -412,6 +431,9 @@ async function main() {
     } else {
       console.warn(`Asset missing: src/assets/${name}`);
     }
+  }
+  if (await exists(path.join(assetSource, "favicon.ico"))) {
+    await copyFile(path.join(assetSource, "favicon.ico"), path.join(outDir, "favicon.ico"));
   }
   for (const name of ["og-image.png", "apple-touch-icon.png"]) {
     if (await exists(path.join(assetSource, name))) {

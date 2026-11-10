@@ -53,10 +53,6 @@ export function icon(name, className = "") {
 }
 
 export function brandMark(className = "") {
-  return `<svg class="brand-mark ${className}" viewBox="0 0 40 40" aria-hidden="true" focusable="false">
-  <rect width="40" height="40" rx="12" fill="currentColor"/>
-  <path d="M11.5 29.5V22a8.5 8.5 0 0 1 17 0v7.5" fill="none" stroke="#FAF8F3" stroke-width="1.6" stroke-linecap="round"/>
-  <path d="M16.2 29.5v-6.2a3.8 3.8 0 0 1 7.6 0v6.2" fill="none" stroke="#FAF8F3" stroke-width="1.2" stroke-linecap="round" opacity=".58"/>
-  <circle cx="20" cy="9.4" r="1.5" fill="#FAF8F3"/>
-</svg>`;
+  const classes = ["brand-mark", className].filter(Boolean).join(" ");
+  return `<img class="${classes}" src="/assets/favicon-96.png" alt="" width="40" height="40" decoding="async">`;
 }

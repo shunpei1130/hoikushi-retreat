@@ -352,6 +352,8 @@ main {
   width: 38px;
   height: 38px;
   flex: 0 0 auto;
+  border-radius: 9px;
+  object-fit: cover;
   color: var(--color-primary);
 }
 
@@ -1452,7 +1454,9 @@ a.method-card--line:hover {
   height: 38px;
   flex: 0 0 38px;
   border-radius: 50%;
-  background: rgba(255, 255, 255, 0.22);
+  object-fit: cover;
+  background: #FAF8F3;
+  border: 1.5px solid rgba(255, 255, 255, 0.75);
   color: #ffffff;
   font-size: 15px;
   font-weight: 700;

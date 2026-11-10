@@ -1,8 +1,8 @@
-import { mkdir, rm, writeFile, stat } from "node:fs/promises";
+import { mkdir, readFile, rm, writeFile, stat } from "node:fs/promises";
+import { existsSync } from "node:fs";
 import { spawnSync } from "node:child_process";
 import { fileURLToPath } from "node:url";
 import path from "node:path";
-import os from "node:os";
 
 const ROOT = path.resolve(fileURLToPath(new URL("../", import.meta.url)));
 const ASSETS = path.join(ROOT, "src", "assets");
@@ -10,6 +10,8 @@ const TMP = path.join(ROOT, ".tmp", "og");
 
 const CHROME_CANDIDATES = [
   process.env.CHROME_PATH,
+  "C:/Users/HasegawaSyunpei/AppData/Local/ms-playwright/chromium-1234/chrome-win64/chrome.exe",
+  "C:/Users/HasegawaSyunpei/AppData/Local/ms-playwright/chromium-1187/chrome-win/chrome.exe",
   "C:/Program Files/Google/Chrome/Application/chrome.exe",
   "C:/Program Files (x86)/Google/Chrome/Application/chrome.exe",
   "C:/Program Files/Microsoft/Edge/Application/msedge.exe",
@@ -20,21 +22,13 @@ const CHROME_CANDIDATES = [
 
 function findChrome() {
   for (const candidate of CHROME_CANDIDATES) {
-    const result = spawnSync(candidate, ["--version"], { encoding: "utf8", timeout: 15000 });
-    if (!result.error && result.status === 0) return candidate;
+    if (existsSync(candidate)) return candidate;
   }
   throw new Error("Chrome/Edge が見つかりません。CHROME_PATH を設定してください。");
 }
 
-const mark = `
-<svg class="mark" viewBox="0 0 40 40" aria-hidden="true">
-  <rect width="40" height="40" rx="11" fill="#FAF8F3"/>
-  <path d="M10.5 30V21.5a9.5 9.5 0 0 1 19 0V30" fill="none" stroke="#1D6258" stroke-width="2" stroke-linecap="round"/>
-  <path d="M15.8 30v-6.6a4.2 4.2 0 0 1 8.4 0V30" fill="none" stroke="#1D6258" stroke-width="1.5" stroke-linecap="round" opacity=".55"/>
-  <circle cx="20" cy="8.4" r="1.7" fill="#1D6258"/>
-</svg>`;
-
-const ogHtml = `<!doctype html>
+function buildOgHtml(iconDataUrl) {
+  return `<!doctype html>
 <html lang="ja">
 <head>
 <meta charset="utf-8">
@@ -52,7 +46,7 @@ const ogHtml = `<!doctype html>
     -webkit-font-smoothing: antialiased;
   }
   .brand { display: flex; align-items: center; gap: 14px; }
-  .mark { width: 44px; height: 44px; }
+  .mark { width: 52px; height: 52px; border-radius: 14px; object-fit: cover; border: 2px solid rgba(250,248,243,.35); background: #FAF8F3; }
   .brand p { margin: 0; }
   .brand strong { display: block; font-size: 21px; letter-spacing: .04em; }
   .brand span { display: block; margin-top: 1px; color: #b9d1c6; font-size: 11px; letter-spacing: .16em; }
@@ -75,18 +69,36 @@ const ogHtml = `<!doctype html>
     border-radius: 20px;
     background: rgba(250,248,243,.07);
   }
-  .panel-title { margin: 0 0 14px; color: #cfe0d7; font-size: 11px; letter-spacing: .16em; }
-  .method { display: flex; align-items: baseline; gap: 11px; padding: 13px 0; border-top: 1px solid rgba(250,248,243,.13); }
+  .panel-avatar {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 16px;
+    padding-bottom: 14px;
+    border-bottom: 1px solid rgba(250,248,243,.15);
+  }
+  .panel-avatar img {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid rgba(250,248,243,.45);
+    background: #FAF8F3;
+  }
+  .panel-avatar div strong { display: block; font-size: 15px; color: #faf8f3; }
+  .panel-avatar div span { display: block; font-size: 11px; color: #c7dcd1; margin-top: 2px; }
+  .panel-title { margin: 0 0 12px; color: #cfe0d7; font-size: 11px; letter-spacing: .16em; }
+  .method { display: flex; align-items: baseline; gap: 11px; padding: 11px 0; border-top: 1px solid rgba(250,248,243,.13); }
   .method:first-of-type { border-top: 0; padding-top: 0; }
   .method b { color: #8fb7a7; font-size: 11px; font-weight: 700; letter-spacing: .08em; }
-  .method span { font-family: "Yu Mincho", "Hiragino Mincho ProN", serif; font-size: 19px; }
+  .method span { font-family: "Yu Mincho", "Hiragino Mincho ProN", serif; font-size: 18px; }
   .footer { position: absolute; left: 68px; bottom: 38px; display: flex; gap: 22px; color: #9dbbb0; font-size: 11px; letter-spacing: .05em; }
   .footer span::before { content: "·"; margin-right: 8px; color: #6f998a; }
 </style>
 </head>
 <body>
   <div>
-    <div class="brand">${mark}<p><strong>保育士リトリート</strong><span>LABOR UNION OPERATED</span></p></div>
+    <div class="brand"><img class="mark" src="${iconDataUrl}" alt=""><p><strong>保育士リトリート</strong><span>LABOR UNION OPERATED</span></p></div>
     <div class="copy">
       <p class="eyebrow">保育士の退職相談・退職代行</p>
       <h1>保育士の退職代行。<br><em>保育の悩みから、<br>相談できる。</em></h1>
@@ -94,30 +106,46 @@ const ogHtml = `<!doctype html>
     </div>
   </div>
   <aside class="panel">
+    <div class="panel-avatar">
+      <img src="${iconDataUrl}" alt="">
+      <div>
+        <strong>元保育士・女性カウンセラー</strong>
+        <span>24時間受付・相談料0円</span>
+      </div>
+    </div>
     <p class="panel-title">CONTACT / 3 WAYS</p>
-    <div class="method"><b>01</b><span>保育特化AIチャット</span></div>
-    <div class="method"><b>02</b><span>元保育士にLINE相談</span></div>
-    <div class="method"><b>03</b><span>元保育士に電話相談</span></div>
+    <div class="method"><b>01</b><span>元保育士にLINE相談</span></div>
+    <div class="method"><b>02</b><span>元保育士に電話相談</span></div>
+    <div class="method"><b>03</b><span>保育特化AIチャット</span></div>
   </aside>
   <div class="footer"><span>労働組合運営</span><span>AI・LINE・電話相談</span></div>
 </body>
 </html>`;
+}
 
-const iconHtml = `<!doctype html>
-<html lang="ja">
-<head><meta charset="utf-8"><style>
-  html, body { margin: 0; width: 180px; height: 180px; overflow: hidden; }
-  body { display: grid; place-items: center; background: #1D6258; }
-  svg { width: 180px; height: 180px; }
-</style></head>
-<body>
-<svg viewBox="0 0 64 64" aria-hidden="true">
-  <rect width="64" height="64" fill="#1D6258"/>
-  <path d="M18 48V36a14 14 0 0 1 28 0v12" fill="none" stroke="#FAF8F3" stroke-width="2.4" stroke-linecap="round"/>
-  <path d="M25.4 48V38.8a6.6 6.6 0 0 1 13.2 0V48" fill="none" stroke="#FAF8F3" stroke-width="1.8" stroke-linecap="round" opacity=".6"/>
-  <circle cx="32" cy="14.6" r="2.4" fill="#FAF8F3"/>
-</svg>
-</body></html>`;
+function buildIcoBuffer(images) {
+  const headerSize = 6 + images.length * 16;
+  const totalSize = headerSize + images.reduce((acc, img) => acc + img.data.length, 0);
+  const ico = Buffer.alloc(totalSize);
+  ico.writeUInt16LE(0, 0);
+  ico.writeUInt16LE(1, 2);
+  ico.writeUInt16LE(images.length, 4);
+  let offset = headerSize;
+  images.forEach((img, idx) => {
+    const dirOffset = 6 + idx * 16;
+    ico.writeUInt8(img.width, dirOffset);
+    ico.writeUInt8(img.height, dirOffset + 1);
+    ico.writeUInt8(0, dirOffset + 2);
+    ico.writeUInt8(0, dirOffset + 3);
+    ico.writeUInt16LE(1, dirOffset + 4);
+    ico.writeUInt16LE(32, dirOffset + 6);
+    ico.writeUInt32LE(img.data.length, dirOffset + 8);
+    ico.writeUInt32LE(offset, dirOffset + 12);
+    img.data.copy(ico, offset);
+    offset += img.data.length;
+  });
+  return ico;
+}
 
 function screenshot(chrome, htmlFile, output, width, height) {
   const profile = path.join(TMP, `profile-${width}x${height}`);
@@ -149,20 +177,33 @@ async function main() {
   await rm(TMP, { recursive: true, force: true });
   await mkdir(TMP, { recursive: true });
 
+  const brandIconBuf = await readFile(path.join(ASSETS, "brand-icon.png"));
+  const iconDataUrl = `data:image/png;base64,${brandIconBuf.toString("base64")}`;
+
   const ogHtmlPath = path.join(TMP, "og.html");
-  const iconHtmlPath = path.join(TMP, "icon.html");
   const ogPath = path.join(ASSETS, "og-image.png");
   const iconPath = path.join(ASSETS, "apple-touch-icon.png");
 
-  await writeFile(ogHtmlPath, ogHtml, "utf8");
-  await writeFile(iconHtmlPath, iconHtml, "utf8");
-
+  await writeFile(ogHtmlPath, buildOgHtml(iconDataUrl), "utf8");
   screenshot(chrome, ogHtmlPath, ogPath, 1200, 630);
-  screenshot(chrome, iconHtmlPath, iconPath, 180, 180);
 
-  for (const output of [ogPath, iconPath]) {
+  // Build favicon.ico and favicon.svg from the resized PNG icons
+  const png32 = await readFile(path.join(ASSETS, "favicon-32.png"));
+  const png48 = await readFile(path.join(ASSETS, "favicon-48.png"));
+  const png96 = await readFile(path.join(ASSETS, "favicon-96.png"));
+
+  const icoBuf = buildIcoBuffer([
+    { width: 32, height: 32, data: png32 },
+    { width: 48, height: 48, data: png48 },
+  ]);
+  await writeFile(path.join(ASSETS, "favicon.ico"), icoBuf);
+
+  const svgContent = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-label="保育士リトリート">\n  <image href="data:image/png;base64,${png96.toString("base64")}" width="96" height="96"/>\n</svg>\n`;
+  await writeFile(path.join(ASSETS, "favicon.svg"), svgContent, "utf8");
+
+  for (const output of [ogPath, iconPath, path.join(ASSETS, "favicon.ico"), path.join(ASSETS, "favicon.svg")]) {
     const info = await stat(output);
-    if (info.size < 2000) throw new Error(`Generated file looks empty: ${output}`);
+    if (info.size < 500) throw new Error(`Generated file looks empty: ${output}`);
     console.log(`${path.relative(ROOT, output)}: ${(info.size / 1024).toFixed(1)} KB`);
   }
 

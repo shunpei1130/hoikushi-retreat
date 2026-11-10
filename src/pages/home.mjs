@@ -400,7 +400,7 @@ export function renderHome({ config, mode }) {
         <div class="talk-visual">
           <div class="talk-phone" role="img" aria-label="LINE相談のやり取りイメージ。相談者の『園長が怖くて、辞めたいって言えません…』に、カウンセラーが『よく話してくれました。それはとても苦しかったですね』と返信しています。">
             <div class="talk-phone__head">
-              <span class="talk-phone__avatar">保</span>
+              <img class="talk-phone__avatar" src="/assets/favicon-96.png" alt="" width="38" height="38" loading="lazy" decoding="async">
               <div class="talk-phone__title">
                 <strong>保育士リトリート</strong>
                 <span class="talk-phone__sub">元保育士・女性カウンセラー</span>
